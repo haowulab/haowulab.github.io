@@ -33,7 +33,7 @@ keywords: statistics, biostatistics, biometrics,
         </div>
 
         <div class="span5">
-            <h3>Hao Wu</h3><br/>
+            <h4>Hao Wu</h4><br/>
             <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
             <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
             <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
@@ -57,7 +57,7 @@ keywords: statistics, biostatistics, biometrics,
 
 
 
-<p>I am an assistant professor at the Department of Biostatatstics and Bioinformatics.
+<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics.
 My researches have been mainly focused on bioinformatics and computational biology.
 I'm particularly interested in developing statistical methods and computational
 tools for interpreting large scale genomic data from high-throughput
@@ -72,9 +72,9 @@ I joined the department in 2010 after obtaining my Ph.D.
 degree in Biostatistics from
 <a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>,
 under the guidances of professors
-<a href="http://rafalab.jhsph.edu">Rafael Irizarry</a> and
+<a href="http://rafalab.github.io/">Rafael Irizarry</a> and
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
-Before that I worked as a software engineer at several different organizations.
+I become an associate professor (with tenure) in September 2016.
 <p>
 [ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="../assets/wu-cv.pdf">CV in pdf</a> ]
 
