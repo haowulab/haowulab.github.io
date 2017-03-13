@@ -26,25 +26,28 @@ keywords: statistics, biostatistics, biometrics,
 
 
 <div class="container">
-<TABLE height=1 cellSpacing=0 cellPadding=5 border=0>
-<TBODY>
-<TR>
-<TD vAlign=center width=150 height=200>
-<P><IMG alt=photo hspace=10
-src="../assets/pics/wu_small.png"  align=left></P></TD>
-<TD vAlign=center height=200>
-<h3>Hao Wu, Ph.D.</h3>
-<P><a href="http://www.sph.emory.edu/cms/departments_centers/bios/index.html">
-Department of Biostatistics and Bioinformatics</a> <br>
-<a href="http://www.sph.emory.edu/cms/index.html">Rollins School of Public Health</a><br>
-<a href="http://www.emory.edu">Emory University</a><p>
-1518 Clifton Rd., NE<br>
-Atlanta, GA 30322<br>
-Email: hao.wu AT emory DOT edu <br>
-Phone: (404)727-8633<br>
-Fax: (404)727-1370<br>
-</TD></TR>
-</TBODY></TABLE>
+
+    <div class="row-fluid">
+        <div class="span5">
+            <h4>Hao Wu Ph.D</h4>
+            <P><a href="http://www.sph.emory.edu/cms/departments_centers/bios/index.html">
+			Department of Biostatistics and Bioinformatics</a> <br>
+			<a href="http://www.sph.emory.edu/cms/index.html">Rollins School of Public Health</a><br>
+			<a href="http://www.emory.edu">Emory University</a><p>
+			1518 Clifton Rd., NE<br>
+			Atlanta, GA 30322<br>
+			Email: hao.wu AT emory DOT edu <br>
+			Phone: (404)727-8633<br>
+			Fax: (404)727-1370<br>
+        </div>
+
+        <div class="span2">
+            <img src="../assets/pics/wu_small.png"/>
+        </div>
+    </div>
+
+</div>
+
 
 
 <p>I am an assistant professor at the Department of Biostatatstics and Bioinformatics.
@@ -68,16 +71,6 @@ Before that I worked as a software engineer at several different organizations.
 <p>
 [ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="wu-cv-2010.pdf">CV in pdf</a> ]
 
-
-        </div>
-    </div>
-</div>
-
-
-
-
-
-</div>
 
 
 
