@@ -76,7 +76,7 @@ under the guidances of professors
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
 I become an associate professor (with tenure) in September 2016.
 <p>
-[ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="../assets/wu-cv.pdf">CV in pdf</a> ]
+[ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
 
 
 
