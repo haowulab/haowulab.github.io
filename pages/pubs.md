@@ -10,7 +10,7 @@ or
 <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/hao.wu.5/bibliography/47862678/public/?sort=date&direction=descending">PubMed bibliography</a>.
 
 
-### Selected peer reviewed publications
+#### Selected peer reviewed publications
 - **RNA-seq**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23001152">Differential expression </a> [<a href="http://bioconductor.org/packages/release/bioc/html/DSS.html">Link to DSS</a>].
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25273110">Power evaluation</a> [<a href="http://bioconductor.org/packages/release/bioc/html/PROPER.html">Link to PROPER</a>]
@@ -32,7 +32,7 @@ DMR for single replicate data</a>.
 		- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25722376">Predicting protein binding from BS-seq</a>
 [<a href="https://github.com/benliemory/Methylphet">Link to Methylphet</a>]
 
-- Cancer heterogeneity:
+- **Cancer heterogeneity**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Predicting+tumor+purity+from+methylation+microarray+data">
 Predicting tumor purity from Infinium 450k data</a>
 	- <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1143-5">
@@ -40,7 +40,7 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 		- <a href="https://zenodo.org/record/253193#.WMC8-3iZ6bk">Link to TCGA tumor purities estimated from InfiniumPurify</a>
 		- <a href="https://cran.r-project.org/web/packages/InfiniumPurify/index.html">InfiniumPurify R package on CRAN</a>
 
-- Epigenetics:
+- **Epigenetics**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/19151716">H3K9me2 LOCK</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/20212320">HMM CpG islands</a>.
 [<a href="http://web1.sph.emory.edu/users/hwu30/software/makeCGI/index.html">Link to model based CGIs</a>]
@@ -49,7 +49,7 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23685628">Aberrant 5hmC hotspot in iPSC</a>
 
 
-### Book Chapters
+#### Book Chapters
 - **Wu H**, Kerr K and Churchill GA (2002), MAANOVA:
  A Software Package for the Analysis of Spotted cDNA Microarray Experiments, 
     Chapter of <i><b> The analysis of gene expression data: methods and software</i></b>, Springer.
@@ -60,7 +60,7 @@ Chapter of <i><b>Next Generation Microarray Bioinformatics, Methods Mol Biol</b>
 - Wu Z, <b>Wu H</b> (2016) Experimental Design and Power Calculation for RNA-seq Experiments.
 To appear in <b><i>Methods in Statistical Genomics, Methods Mol Biol</i></b>. Humana Press, Springer.
 
-### Thesis
+#### Thesis
 - <b> Wu H</b> (2010), Three Novel Statistical Applications in Genomics: Redefining CpG Island,
   Peak Detection from Multiple ChIP-chip Experiments, and Data Pre-Processing for ABI/SOLiD
   Second Generation Sequencing Technology, Ph.D. thesis, Johns Hopkins University.
