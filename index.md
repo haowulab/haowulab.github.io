@@ -28,24 +28,25 @@ keywords: statistics, biostatistics, biometrics,
 <div class="container">
 
     <div class="row-fluid">
-        <div class="span5">
-            <h4>Hao Wu Ph.D</h4>
-            <P><a href="http://www.sph.emory.edu/cms/departments_centers/bios/index.html">
-			Department of Biostatistics and Bioinformatics</a> <br>
-			<a href="http://www.sph.emory.edu/cms/index.html">Rollins School of Public Health</a><br>
-			<a href="http://www.emory.edu">Emory University</a><p>
-			1518 Clifton Rd., NE<br>
-			Atlanta, GA 30322<br>
-			Email: hao.wu AT emory DOT edu <br>
-			Phone: (404)727-8633<br>
-			Fax: (404)727-1370<br>
-        </div>
-
         <div class="span2">
             <img src="../assets/pics/wu_small.png"/>
         </div>
-    </div>
 
+        <div class="span5">
+            <h4>Hao Wu Ph.D</h4>
+            <P><a href="http://www.sph.emory.edu/cms/departments_centers/bios/index.html">
+Department of Biostatistics and Bioinformatics</a> <br>
+<a href="http://www.sph.emory.edu/cms/index.html">Rollins School of Public Health</a><br>
+<a href="http://www.emory.edu">Emory University</a><p>
+1518 Clifton Rd., NE<br>
+Atlanta, GA 30322<br>
+Email: hao.wu AT emory DOT edu <br>
+Phone: (404)727-8633<br>
+Fax: (404)727-1370<br>
+           
+        </div>
+
+    </div>
 </div>
 
 
@@ -69,7 +70,7 @@ under the guidances of professors
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
 Before that I worked as a software engineer at several different organizations.
 <p>
-[ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="wu-cv-2010.pdf">CV in pdf</a> ]
+[ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="../assets/wu-cv.pdf">CV in pdf</a> ]
 
 
 
