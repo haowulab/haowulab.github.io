@@ -27,7 +27,7 @@ keywords: statistics, biostatistics, biometrics,
 <div class="container">
 
     <div class="row-fluid">
-        <div class="span3">
+        <div class="span2">
             <img src="../assets/pics/wu_small.png"
                   title="Hao Wu" alt="Hao Wu"/>
         </div>
@@ -59,13 +59,13 @@ keywords: statistics, biostatistics, biometrics,
 
 
 <p>I am an associate professor at the Department of Biostatatstics and Bioinformatics.
-My researches have been mainly focused on bioinformatics and computational biology.
+My research has been mainly focused on bioinformatics and computational biology.
 I'm particularly interested in developing statistical methods and computational
 tools for interpreting large scale genomic data from high-throughput
 technologies such as microarrays and second generation sequencing.
 <p>
 I am also interested in general machine learning, pattern recognition and
-large scale data mining methods with applications to biological and medical data.
+large scale data mining methods with applications to biomedical data.
 I collaborate closely with researchers working on epigenetics to characterize
 DNA and different types of histone methylations.
 <p>
