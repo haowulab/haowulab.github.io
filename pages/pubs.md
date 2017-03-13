@@ -12,7 +12,7 @@ or
 
 
 
-#### Selected peer reviewed publications
+### Selected peer reviewed publications
 - **RNA-seq**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23001152">Differential expression </a> [<a href="http://bioconductor.org/packages/release/bioc/html/DSS.html">Link to DSS</a>].
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25273110">Power evaluation</a> [<a href="http://bioconductor.org/packages/release/bioc/html/PROPER.html">Link to PROPER</a>]
