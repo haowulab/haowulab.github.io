@@ -16,7 +16,6 @@ or
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25273110">Power evaluation</a> [<a href="http://bioconductor.org/packages/release/bioc/html/PROPER.html">Link to PROPER</a>]
 
 - ChIP-seq:
-
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/24608116">Peak calling</a>
 [<a href="http://web1.sph.emory.edu/users/hwu30/software/polyaPeak.html">Link to polyaPeak</a>]
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25682068">Differential peak</a>
@@ -61,7 +60,7 @@ Chapter of <i><b>Next Generation Microarray Bioinformatics, Methods Mol Biol</b>
 - Wu Z, <b>Wu H</b> (2016) Experimental Design and Power Calculation for RNA-seq Experiments.
 To appear in <b><i>Methods in Statistical Genomics, Methods Mol Biol</i></b>. Humana Press, Springer.
 
-###Thesis
+### Thesis
 - <b> Wu H</b> (2010), Three Novel Statistical Applications in Genomics: Redefining CpG Island,
   Peak Detection from Multiple ChIP-chip Experiments, and Data Pre-Processing for ABI/SOLiD
   Second Generation Sequencing Technology, Ph.D. thesis, Johns Hopkins University.
