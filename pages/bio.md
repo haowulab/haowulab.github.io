@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Short bio
+title: Biography of Hao Wu
 description: Hao Wu's Short bio
 ---
 
-## Biography of Hao Wu 
 I was born in Beijing and grew up in Tianjin, China. 
 I graduated from the <a href="http://www.nkzx.cn/">Tianjin Nankai High School</a>, 
 which produced two Chinese prime ministers and numuerous scientists. 
@@ -42,13 +41,17 @@ My major career goal at that time was to find an
 academic position and conduct independent research on
 biostatistics/bioinformatics/computational biology. 
 <p>
-After 5 Ph.D. years full of struggles, depression
-and sleepless nights I obtained my degree in 2010 and found 
-a tenure track position. Now I can fully enjoy the academic freedoms 
-and intellectual challenges, and work on problems I'm interested in.
+My five-year Ph.D. study was full of struggle, depression, sleepless nights, 
+as well as enjoyment. I obtained my degree in 2010 and found a tenure track position. 
+Since then I have been fully enjoying the academic freedom and 
+intellectual challenges, and working on problems I'm interested in.
+
+
 <p>
 In my leisure time I listen to music and participate
-different sports including swimming, soccer and tennis.
-I especially enjoy playing soccer with my
-two boys and <a href="http://www.youtube.com/watch?v=8qjc7uzjPmc">watching them play games</a>.
+different sports including running, swimming, soccer and tennis.
+I especially enjoy playing soccer and tennis with my
+two boys and watching them play in the tournaments. 
+
+<!-- <a href="http://www.youtube.com/watch?v=8qjc7uzjPmc">watching them play games</a>. -->
 
