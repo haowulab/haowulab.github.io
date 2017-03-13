@@ -49,6 +49,8 @@ Fax: (404)727-1370<br>
     </div>
 </div>
 
+<hr />
+
 
 
 <p>I am an assistant professor at the Department of Biostatatstics and Bioinformatics.
