@@ -12,15 +12,14 @@ At this moment, I spent most of my time on developing methods and tools for
 analyzing data from various types of second generation sequencing experiments,
 including:
 
-- RNA-seq (http://en.wikipedia.org/wiki/RNA-Seq): differential expression, 
+- [RNA-seq] (http://en.wikipedia.org/wiki/RNA-Seq/): differential expression, 
 power and sample size calculation, 
 single cell RNA-seq. 
 
-- <a href="http://en.wikipedia.org/wiki/ChIP-sequencing">ChIP-seq</a>:
+- [ChIP-seq](http://en.wikipedia.org/wiki/ChIP-sequencing):
 peak calling, differential binding.
 
-- <a href="http://en.wikipedia.org/wiki/Bisulfite_sequencing">BS-seq</a>:
-differential methylation analysis.
+- [BS-seq](http://en.wikipedia.org/wiki/Bisulfite_sequencing): differential methylation.
 
 
 On the application side, I'm very interested in epigenetic regulation of
