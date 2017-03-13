@@ -10,7 +10,7 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<p><img alt="Hao "Harry" Feng" align="left" src="../assets/pics/HarryFeng.jpg" width="200" /><br />
+	<p><img src="../assets/pics/HarryFeng.jpg" width="200" />
   </div>
   
   <div class="span5">
