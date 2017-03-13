@@ -29,25 +29,26 @@ keywords: statistics, biostatistics, biometrics,
 <h4><a name="Contact"></a>Contact</h4>
 
     <div class="row-fluid">
+        <div class="span2">
+            <img src="../assets/pics/wu_small.png"
+                  title="Hao Wu" alt="Hao Wu"/>
+        </div>
+
         <div class="span5">
             Ben Li<br/>
             <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
             <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
             <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
             1518 Clifton Road<br/>
-            Atlanta, Georgia 30322<br/>
-            USA<br/><br/>
+            Atlanta, Georgia 30322, USA<br/>
+			Phone: (404)727-8633<br/>
 
             <div id="hide_email">
-            Email: <code>ben</code><b>I</b><code>.</code><b>don't</b><code>li</code><b>like</b><code>@emory</code><b>spam!
+            Email: <code>hao</code><b>I</b><code>.</code><b>don't</b><code>wu</code><b>like</b><code>@emory</code><b>spam!
             </b><code>.</code><b>So</b><code>edu</code><b>please</b><br/>
             </div>
         </div>
 
-        <div class="span2">
-            <img src="../assets/pics/wu_small.png"
-                  title="Ben Li" alt="Ben Li"/>
-        </div>
     </div>
 </div>
 
