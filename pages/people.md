@@ -10,7 +10,7 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<p><img src="../assets/pics/HarryFeng.jpg" width="200" />
+	<img src="../assets/pics/HarryFeng.jpg" width="200" />
   </div>
   
   <div class="span5">
@@ -25,7 +25,7 @@ description: People in Wu lab
    </div>
    
    
-</div>
+   </div>
 </div>
 
     
