@@ -26,7 +26,6 @@ keywords: statistics, biostatistics, biometrics,
 
 
 <div class="container">
-<h4><a name="Contact"></a>Contact</h4>
 
     <div class="row-fluid">
         <div class="span2">
@@ -35,7 +34,7 @@ keywords: statistics, biostatistics, biometrics,
         </div>
 
         <div class="span5">
-            <h4>Hao Wu</h4><br/>
+            ###Hao Wu<br/>
             <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
             <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
             <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
