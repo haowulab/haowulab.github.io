@@ -1,3 +1,9 @@
+---
+layout: page
+title: People
+description: People in Wu lab
+---
+
 <div class="row-fluid">
   <div class="span12">
     
