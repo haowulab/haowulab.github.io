@@ -1,11 +1,20 @@
 ---
 layout: frontpage
-title: Ben Li
-description: Ben Li is currently a Ph.D. candidate in the Department of Biostatistics and Bioinformatics at Emory University 
-keywords: Ben Li, Emory,  Bioinformatics, Bayesian Statistics, Machine Learning, NGS
+title: Hao Wu
+description: Hao Wu is currently an associate professor  in the Department of Biostatistics and Bioinformatics at Emory University 
+keywords: statistics, biostatistics, biometrics,
+   bioinformatics, informatics, genomics, genetics, statistical genetics,
+   human genetics,genetic epidemiology, QTL, jqtl, pseudomarker,
+   quantitative trait loci,
+   QTLs, complex traits, quantitative trait locus, genetic map,
+   recombination, crossover interference, linkage, genotyping error,
+   human, meiosis, gene mapping,
+   microarray, maanova, microarray analysis of variance, jmaanova,
+   second generation sequencing, chip-chip, tiling array, data integration, DSS
+
 
 ---
-
+<!--
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
@@ -13,18 +22,51 @@ keywords: Ben Li, Emory,  Bioinformatics, Bayesian Statistics, Machine Learning,
           <li><a href="https://github.com/benliemory">Github</a></li>
       </ul>
   </div>
-</div>
+-->
 
 
 <div class="container">
-<h4><a name="About"></a>About</h4>
+<TABLE height=1 cellSpacing=0 cellPadding=5 border=0>
+<TBODY>
+<TR>
+<TD vAlign=center width=150 height=200>
+<P><IMG alt=photo hspace=10
+src="../assets/pics/wu_small.png"  align=left></P></TD>
+<TD vAlign=center height=200>
+<h3>Hao Wu, Ph.D.</h3>
+<P><a href="http://www.sph.emory.edu/cms/departments_centers/bios/index.html">
+Department of Biostatistics and Bioinformatics</a> <br>
+<a href="http://www.sph.emory.edu/cms/index.html">Rollins School of Public Health</a><br>
+<a href="http://www.emory.edu">Emory University</a><p>
+1518 Clifton Rd., NE<br>
+Atlanta, GA 30322<br>
+Email: hao.wu AT emory DOT edu <br>
+Phone: (404)727-8633<br>
+Fax: (404)727-1370<br>
+</TD></TR>
+</TBODY></TABLE>
 
-    <div class="row-fluid">
-        <div class="span7">
-        
-<p>Ben Li is a Ph.D. candidate in the Department of Biostatistics and Bioinformatics at Emory University. </p>
-<p>His research mainly focuses on the development of statistical and computational methods for high-throughput genetics and genomics data. During his Ph.D. studies, he has published methodological papers on hierarchical models incorporating historical data to detect differentially expressed genes on microarray data (<a href="https://benliemory.github.io/pages/software.html"><strong>IPBT</strong></a>, <em><a href="{{ site.baseurl }}/pages/pubs.html">Bioinformatics, 2016</a></em>), detecting differentially methylated regions on 450K methylation array and bisulfite sequencing data (<a href="https://benliemory.github.io/pages/software.html"><strong>adaptiveHM</strong></a>, <em><a href="{{ site.baseurl }}/pages/pubs.html">Statistics in Biosciences, 2016</a></em>), novel supervised learning approach to predict TF–DNA interaction using bisulfite sequencing methylation data (<a href="https://benliemory.github.io/pages/software.html"><strong>Methylphet</strong></a>, <em><a href="{{ site.baseurl }}/pages/pubs.html">Nucleic acids research, 2015</a></em>). He is currently working on developing new statistical methods for detecting differentially expressed genes without replicates for both microarray and RNA-seq data. </p>
-<p>In addition, he has worked together with collaborators of different backgrounds and created computational tools to analyze different types of high-throughput data more efficiently. For example, he developed <a href="https://benliemory.github.io/pages/software.html"><strong>Binstrain</strong></a> for Chlamydia trachomatis Strains in Single and Mixed Infection Clinical Samples <em>(<a href="{{ site.baseurl }}/pages/pubs.html">PLoS one, 2014</a>)</em> and for detecting Staphylococcus aureus subtypes from metagenome shotgun sequence data <em>(<a href="{{ site.baseurl }}/pages/pubs.html">PeerJ, 2016</a>)</em>. His other collaborative projects include analyses of bisulfite sequencing data <em>(<a href="{{ site.baseurl }}/pages/pubs.html">Nucleic acids research, 2016</a>)</em>, Hi-C data <em>(<a href="{{ site.baseurl }}/pages/pubs.html">Statistics in Biosciences, 2016</a>)</em>, single cell RNA-seq data, and ChIP-seq data. </p>
+
+<p>I am an assistant professor at the Department of Biostatatstics and Bioinformatics.
+My researches have been mainly focused on bioinformatics and computational biology.
+I'm particularly interested in developing statistical methods and computational
+tools for interpreting large scale genomic data from high-throughput
+technologies such as microarrays and second generation sequencing.
+<p>
+I am also interested in general machine learning, pattern recognition and
+large scale data mining methods with applications to biological and medical data.
+I collaborate closely with researchers working on epigenetics to characterize
+DNA and different types of histone methylations.
+<p>
+I joined the department in 2010 after obtaining my Ph.D.
+degree in Biostatistics from
+<a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>,
+under the guidances of professors
+<a href="http://rafalab.jhsph.edu">Rafael Irizarry</a> and
+<a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
+Before that I worked as a software engineer at several different organizations.
+<p>
+[ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="wu-cv-2010.pdf">CV in pdf</a> ]
 
 
         </div>
@@ -35,30 +77,6 @@ keywords: Ben Li, Emory,  Bioinformatics, Bayesian Statistics, Machine Learning,
 
 
 
-<div class="container">
-<h4><a name="Contact"></a>Contact</h4>
-
-    <div class="row-fluid">
-        <div class="span5">
-            Ben Li<br/>
-            <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
-            <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
-            <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
-            1518 Clifton Road<br/>
-            Atlanta, Georgia 30322<br/>
-            USA<br/><br/>
-
-            <div id="hide_email">
-            Email: <code>ben</code><b>I</b><code>.</code><b>don't</b><code>li</code><b>like</b><code>@emory</code><b>spam!
-            </b><code>.</code><b>So</b><code>edu</code><b>please</b><br/>
-            </div>
-        </div>
-
-        <div class="span2">
-            <img src="../assets/pics/citations.jpg"
-                  title="Ben Li" alt="Ben Li"/>
-        </div>
-    </div>
 </div>
 
 
