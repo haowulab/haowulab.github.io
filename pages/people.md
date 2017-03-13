@@ -10,11 +10,11 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/HarryFeng.jpg" width="200" />
+	<img src="../assets/pics/HarryFeng.jpg" width="200" /><br />
   </div>
   
   <div class="span5">
-   Hao "Harry" Feng
+   <h4>Hao "Harry" Feng</h4>
    Ph.D. student<br />
    Department of Biostatistics and Bioinformatics<br />
    Emory University<br /><br />
