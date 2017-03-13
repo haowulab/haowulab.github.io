@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+   <title>Hao Wu, assistant professor @ Emory Biostat</title>
+   <link rel="stylesheet" type="text/css" 
+	href="hwu_main.css">
+   <meta name="description" content="Home page of Hao Wu, 
+   assistant professor of Biostatistics and Bioinformatics at  Emory University">
+   <meta name="keywords" content="statistics, biostatistics, biometrics,
+   bioinformatics, informatics, genomics, genetics, statistical genetics,
+   human genetics,genetic epidemiology, QTL, jqtl, pseudomarker,
+   quantitative trait loci, 
+   QTLs, complex traits, quantitative trait locus, genetic map,
+   recombination, crossover interference, linkage, genotyping error,
+   human, meiosis, gene mapping,  
+   microarray, maanova, microarray analysis of variance, jmaanova,
+   second generation sequencing, chip-chip, tiling array, data integration">
+</head>
+
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Home</a>
+  <li><a href="bio.html">Short Bio</a>
+  <li><a href="wu-cv-current.pdf">CV [pdf]</a>
+  <li><a href="research.html">Research</a>
+  <li><a href="publications.html">Publications</a>
+  <li><a href="software.html">Software</a>
+  <li><a href="computing.html">Computing tips</a>
+  <li><a href="links.html">My Links</a>
+</ul>
+
+
+<body>
+<h2>Software</h2>
+Here is a list of software I developed or
+co-developed. 
+
+<p>
+<hr>
+<strong>Second-generation sequencing data analysis</strong><br>
+<ul>
+<li><a href="#Rsolid">Rsolid</a></li>
+</ul>
+
+<strong>Tiling array analysis</strong><br>
+<ul>
+<li><a href="#jamie">JAMIE</a></li>
+</ul>
+
+<strong>Sequence analysis</strong><br>
+<ul>
+<li><a href="#makecgi">makeCGI</a></li>
+</ul>
+
+<strong>QTL mapping</strong><br>
+<ul>
+<li><a href="#pm">Pseudomarker</a></li>
+<li><a href="#rqtl">R/qtl</a></li>
+<li><a href="#jqtl">J/qtl</a></li> 
+<li><a href="#rbim">R/bim</a></li>
+</ul>
+<strong>Gene Expression</strong><br>
+<ul>
+<li><a href="#rmaanova">R/maanova</a></li>
+<li><a href="#maanova">MAANOVA (for Matlab)</a></li>
+<li><A HREF="#jmaanova">J/maanova</A>
+</ul>
+
+<hr>
+<a name="Rsolid"><h3>Rsolid</h3></a>
+Rsolid is a R package for normalizing fluorescent intensity data from
+ABI/SOLiD second generation sequencing platform. It has been observed
+that the color-calls provided by factory software contain technical artifacts,
+where the proportions of colors called are extremely variable 
+across sequencing cycles. Rsolid implements a version of quantile normalization algorithm,
+which transform the intensity values before calling colors. 
+Results show that after normalization, the total number of mappable
+reads increases by around 5%, and number of perfectly mapped reads 
+increases by 10%. Moreover a 2-5% reduction in overall error rates is observed,
+with a 2-6% reduction in the rate of valid adjacent color reads.
+
+<p>
+For more information or download the software, 
+please visit <a href="http://rafalab.jhsph.edu/Rsolid/">Rsolid software page</a>.
+<p>
+
+<hr>
+<a name="jamie"><h3>JAMIE</h3></a>
+JAMIE stands for  <u>J</u>oint <u>A</u>nalysis of <u>M</u>ultiple <u>I</u>P <u>E</u>xperiments.
+It is a R package for analyzing ChIP-chip data from multiple experiments. 
+When the experimental conditions are similar, e.g., 
+the transcription factors tend to bind at similar locations, 
+pooling data and analyzing them jointly can improve the sensitivity 
+and specificity of peak finding. JAMIE uses a hierarchical mixture 
+model to capture the locational correlations among data sets and detect 
+peaks from a joint model. 
+<p>
+For more information or download the software, please visit <a href="http://www.biostat.jhsph.edu/~hji/jamie/">
+JAMIE software page</a>.
+<p>
+
+<hr>
+<a name="makecgi"><h3>makeCGI</h3></a>
+makeCGI is a R package for finding
+<a href="http://en.wikipedia.org/wiki/CpG_island">CpG islands</a> (CGIs)
+from DNA sequences. Basically it fits two HMMs on GC-content and observed to
+expected CpG counts (O/E), then annotate CGIs based on the posterior probabilities.
+The main advantages of this approach over the existing methods
+are (1) the parameters are estimated from data, so that users don't need
+to provide arbitrary cut-offs (for example, GC-content>50%, O/E>0.6
+in current definition); and (2) length of CGI list can be controlled
+by varying posterior probability cut-off.
+Results showed that the result from our approach are closer gene promoters
+and known epigentic marks compared to current definitions.
+
+<p>
+For more information or download the software,
+please visit <a href="makeCGI">makeCGI software page</a>.
+
+<hr>
+<a name="pm"><h3>Pseudomarker</h3></a>
+PSEUDOMARKER is a set of programs written in 
+<a href="http://www.mathworks.com">MATLAB</a>
+for the analysis of QTL data from inbred line crosses. 
+It was originally written by <a href="http://www.biostat.ucsf.edu/sen/">
+Saunak Sen</a>. I made extensive changes on the codes, rewrote some of the
+engines in C and wrote a software manual. Some C engine
+functions were borrowed from Karl Broman's 
+<a href="http://www.biostat.jhsph.edu/~kbroman/qtl/">
+R/qtl</a> package.
+<p>
+PSEUDOMARKER provides a complete workflow for QTL data analysis
+including data import/export, data quality checking and visualization,
+genome scans with permutation test, etc. 
+Pseudomarker provides a rich collection of genome scan functions
+including one, two or multiple QTL genome scans
+with possible continous or categorical covariates.
+LOD score threshold may be obtained through permutatin tests
+(Churchill and Doerge, 1994). One-QTL
+genome scan can be done under normal or binary model, using
+EM algorithm (Lander and Botstein, 1989), Haley-Knott regression
+(Haley and Knott, 1992) and multiple imputation (Sen and Churchill,
+2001). Two-QTL can be performed either in exhaustive search
+(scan all pairs of loci on genome) or using DIRECT method
+(Lundberg, 2003).
+<p>
+Among the numerous computer programs for QTL mapping,
+Pseudomarker excels in analyzing date set with a large number of
+phenotypes. The regression based genome scan algorithm
+makes the computations on multiple phenotypes very efficient.
+That makes the analysis on eQTL (expression QTL) data accessible.
+<p>
+For more information on PSEUDOMARKER or to download the software,
+please visit <a href="http://churchill.jax.org/software/archive/pseudomarker.shtml">
+Here</a>.
+
+<hr>
+
+<a name="rqtl"><h3>R/qtl</h3></a>
+R/qtl is the R version of PSEUDOMARKER (or 
+PSEUDOMARKER is the Matlab version of R/qtl).
+They basically provide the same functions 
+and share a lot of C codes. R/qtl is mainly written
+by <a href="http://www.biostat.jhsph.edu/~kbroman">Karl Broman</a>. 
+I joined Karl since late 2001 on the development of R/qtl
+and wrote a part of it (mainly on genome scans using 
+multiple imputation method, genome scan permutation tests
+and some visualization functions). 
+<p>
+For more details please visit Karl's 
+<a href="http://www.rqtl.org/">
+R/qtl</a> page.
+<hr>
+
+<a href="jqtl"><h3>J/qtl</h3></a>
+J/qtl is a Java GUI for R/qtl.  It provides a 
+flexible and powerful working environment for 
+users to perform a variety of tasks. 
+<p>
+Although R/qtl is a powerful data analysis software package, 
+it requires some programming skill in R. I developed 
+J/qtl to help the people without programming skill to 
+analyze their data. The software works in such a way 
+that people do their job through the point click interface. 
+The software translates the users' actions into R command, 
+run the command in R, get the result back and display them. 
+So R and R/qtl are the actual work horses. 
+J/qtl uses a third party software 
+<a href="http://stats.math.uni-augsburg.de/Rserve/">Rserve</a>
+as the middleman between Java and R.
+<p>
+I wrote the software and the manual. Some Java codes
+were borrowed from 
+<a href="http://www.tm4.org/mev.html">TIGR's MeV</a> software. 
+For more details on J/qtl, please visit the 
+<a href="http://churchill.jax.org/software/jqtl.shtml">
+J/qtl page</a> in Gary Churchill's group.
+
+<hr>
+
+<a name="rbim"><h3>R/bim</h3></a>
+R/bim is a software for Bayesian Interval Mapping. 
+It takes an MCMC approach to detect QTL's in inbred crosses.
+R/bim is a product from <a href="http://www.stat.wisc.edu/~yandell/">
+Brian Yandell</a>'s group in Univ. of Wisconsin, Madison. 
+<p>
+I'm a little embarassed to list it here because I did 
+so few thing about it. I just wrote a couple R and C wrapper
+functions to link the R code and the C engine functions 
+together. But Brian kindly listed me as an author of the software
+and I will take that. Thanks Brian!
+<p>
+For more information about R/bim, please visit 
+<a href="http://www.stat.wisc.edu/~yandell/qtl/software/Bmapqtl/">
+Here</a>.
+
+<hr>
+<a name="rmaanova"><h3>R/maanova</h3></a>
+R/maanova is the first R package I've ever written.
+It turned out to be a success. 
+<a href="http://www.biostat.washington.edu/people/faculty.php?netid=katiek">
+Katie Kerr</a> and Gary Churchill came up with the idea of 
+analyzing microarray data using an ANOVA approach.
+They wrote some Matlab scripts and functions to do the calculation.
+I rewrote those functions and made a R package then wrote the 
+software manual. It's pretty widely used. We have over 2000 unique
+downloads from our website alone and a very stable user group.
+<p>
+maanova stands for MicroArray ANalysis Of VAriance. 
+It provides a complete work flow for microarray data analysis including:
+<ul>
+<li>Data quality checks and visualization 
+<li>Data transformation 
+<li>ANOVA model fitting for both fixed and mixed effects models 
+<li>Statistical tests including permutation 
+<li>Confidence interval with bootstrapping 
+<li>Cluster analysis
+</ul>
+R/maanova can be applied to any microarray data 
+but it is specially tailored for multiple factor 
+experimental designs. Mixed effects models are 
+implemented to estimate variance components and 
+perform F and t tests for differential expressions.
+<p>
+R/maanova is available under CRAN in 
+<a href="http://cran.r-project.org/web/packages/maanova/index.html">
+here</a>. It's also a part of bioConductor.
+For detailed information such like installation notes,
+screen shots, software manual, please
+visit the <a href="http://churchill.jax.org/software/rmaanova.shtml">
+R/maanova page</a> in Gary Churchill's group
+homepage.
+<hr>
+<a name="maanova"><h3>MAANOVA (for Matlab)</h3></a>
+MAANOVA is the Matlab version of R/maanova. 
+As my former boss Gary Churchill is a big fan of Matlab,
+I always need to write a Matlab vesion of everything.
+<p>
+For more details, please visit
+<a href="http://churchill.jax.org/software/archive/maanova.shtml">
+here</a>.
+
+<hr>
+<h3><A NAME="jmaanova">J/maanova</A></h3>
+J/maanova is the Java GUI for R/maanova. It works as the same
+fashion as J/qtl. I learnt Java programming through doing this project. 
+J/maanova has close to 50,000 lines of Java code. After that
+I start to claim myself as an experienced Java programmer. 
+<p>
+We didn't get a lot of use in J/maanova. It's quite disappointed.
+I feel we didn't do a good job in promoting our software.
+Gary recently hired a couple new software engineers.
+Hopefully they can do a better job in attracting users.
+<p>
+For more details on J/maanova, please visit the
+<a href="http://churchill.jax.org/software/jmaanova.shtml">
+J/maanova page</a> in Gary Churchill's group homepage.
+
+</body>
+</html>
+
