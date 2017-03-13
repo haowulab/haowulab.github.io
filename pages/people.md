@@ -14,7 +14,7 @@ description: People in Wu lab
   </div>
   
   <div class="span5">
-  <h4>Hao "Harry" Feng</h4>
+   Hao "Harry" Feng
    Ph.D. student<br />
    Department of Biostatistics and Bioinformatics<br />
    Emory University<br /><br />
@@ -83,6 +83,25 @@ description: People in Wu lab
    </div>
 
 </div>
+
+<!-- Haonan -->
+<div class="row-fluid">
+
+  <div class="span2">
+	<img src="../assets/pics/haonan.jpg" width="200" />
+  </div>
+  
+  <div class="span5">
+  <h4>Haonan "Horace" Feng</h4>
+   MSPH student <br />
+   Department of Biostatistics and Bioinformatics<br />
+   Emory University<br /><br />
+   
+<br /><br /><br /><br />
+   </div>
+
+</div>
+
 
 </div>
 
