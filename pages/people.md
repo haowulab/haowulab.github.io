@@ -16,16 +16,36 @@ description: People in Wu lab
   <div class="span5">
   <h4>Hao "Harry" Feng</h4>
    Ph.D. student<br />
-   Department of Biostatistics and Bioinformatics</a><br />
+   Department of Biostatistics and Bioinformatics<br />
    Emory University<br /><br />
    
 	<a href="https://sites.google.com/site/haoharryfeng/">Web</a>, 
  <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&hl=en">Google scholar</a> 
-<br /><br /><br /><br /></p>
+<br /><br /><br /><br />
    </div>
-   
-   
+
+</div>
+
+<!-- Hao Feng -->
+<div class="row-fluid">
+
+  <div class="span2">
+	<img src="../assets/pics/HarryFeng.jpg" width="200" />
+  </div>
+  
+  <div class="span5">
+  <h4>Hao "Harry" Feng</h4>
+   Ph.D. student<br />
+   Department of Biostatistics and Bioinformatics<br />
+   Emory University<br /><br />
+   
+	<a href="https://sites.google.com/site/haoharryfeng/">Web</a>, 
+ <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&hl=en">Google scholar</a> 
+<br /><br /><br /><br />
    </div>
+
+</div>
+
 </div>
 
     
