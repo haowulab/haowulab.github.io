@@ -19,6 +19,6 @@ Here is a list of software packages I developed or co-developed.
 <br>
 #### Other non-bioconductor software
 - [JAMIE](http://www.biostat.jhsph.edu/~hji/jamie/) (**J**oint **A**nalysis of **M**ultiple **I**P **E**xperiments).
-- [makeCGI](): finding [CpG islands] (http://en.wikipedia.org/wiki/CpG_island) (CGIs) from DNA sequences.
+- [makeCGI](../software/makeCGI/index.html): finding [CpG islands] (http://en.wikipedia.org/wiki/CpG_island) (CGIs) from DNA sequences.
 - [R/qtl](http://www.rqtl.org): mapping quantitative trait loci (QTL) in experimental crosses. 
 - [J/qtl](http://churchill.jax.org/software/jqtl.shtml): a Java graphical user interface (GUI) for R/qtl. 
