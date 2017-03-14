@@ -10,6 +10,11 @@ or
 <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/hao.wu.5/bibliography/47862678/public/?sort=date&direction=descending">PubMed bibliography</a>.
 <p><p>
 
+## <a name="articles"></a>Peer-reviewed Journal Articles
+
+\* Co-first author  
+
+**Li B**, Li Y, Qin Z. (2016) Improving hierarchical models using historical data with applications in high throughput genomics data analysis. *Statistics in Biosciences*. 1-18.  
 
 
 #### Selected peer reviewed publications
