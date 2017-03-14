@@ -21,7 +21,7 @@ description: People in Wu lab
    </div>
 
 </div>
-
+<hr>
 
 <h3>Ph.D. students</h3>
 
@@ -122,6 +122,7 @@ description: People in Wu lab
 
 </div>
 
+<hr>
 <h3>Other students</h3>
 
 
