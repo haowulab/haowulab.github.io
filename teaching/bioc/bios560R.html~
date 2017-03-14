@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <style type="text/css">
+  ADDRESS {font-family: Arial, Helvetica;}
+  BODY {margin-top:5%; margin-left:10%;margin-right:10%;margin-bottom:10%;
+  font-family: Arial, Helvetica; line-height:130%}
+  H1{line-height:120%}
+  TD {font-family: Arial, Helvetica;}
+  P {font-family: Arial, Helvetica; text-align: justify;}
+  A:link {text-decoration:none;}
+  A:vlink {text-decoration:none;}
+  </style>
+  
+  
+  <title>BIOS 560R: High-throughput data analysis using R and bioConductor</title>
+  </head>
+<body width="80%">
+<a name="Outline"></a>
+<h1><center>BIOS 560R: High-throughput data analysis using R and bioConductor</h1>
+
+
+<!--
+<br><hr size="5" width="100%"><br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <th width="20%"><a href="#info">Class Info</a></th>
+      <th width="20%"><a href="#announcements">Reading materials</a></th>
+      <th width="20%"><a href="#projects">Projects</a></th>
+      <th width="20%"><a href="#class">Class notes</a></th>
+    </tr>
+  </tbody>
+</table>
+<br><hr size="5" width="100%"><br>
+
+-->
+<br><hr size="5" width="100%">
+<a name="info"><h3>Class Information</h3>
+</a>
+<ul>
+  <li>Instructor: <a href="http://userwww.service.emory.edu/~hwu30/">Hao Wu</a>. 
+    Email: hao.wu at emory dot edu.
+  </li><li>TA: Qian An</a>.  Email: qan2 at emory dot edu.
+  </li><li>Class/Lab: Monday and Wednesday 3-4:50PM at GCR 115.
+  </li><li>TA office hour: Drop by, make appointment, or email question
+  </li><li> Grading: homeworks, class participation and final project. </li>
+</ul>
+
+<center><hr size="5" width="100%"></center>
+
+<a name="info"><h3>Summary</h3>
+This course covers the basics of high-throughput
+(microarray and second-generation sequencing) data analysis.
+Topics include the biological movitations, experimental procedures
+and statistical methods for different technologies. 
+Usage of existing software packages (mainly in R/BioConductor) 
+for analyzing various genomic data will be introduced.
+<p>
+This class put more emphases on applications instead of 
+statisical theories. Upon completion of the class, students 
+are expected to be able to:
+<ol>
+<li>Understand the biological motivations and technological procedures of 
+high-throughput experiments including different types of microarrays and second generation sequencing.
+<li>Understand statistical challenges and existing methods for analyzing the data 
+generated from high-throughput experiments.
+<li>Analyze high-throughput data using R/BioConductor and other open source software.
+</ol>
+
+<b>Prerequisite</b>:
+BIOS 501 or equivalents. Basic programming experiences in R. 
+Some experience in command line driven OS (DOS or Linux).
+<p>
+
+<b>Grading</b>:
+Four sets of homework, each worth 15%. Final project 30%. Class participate 10%.
+<p>
+
+<b>Lab</b>: Bring laptop to the labs.
+
+<center><hr size="5" width="100%"></center>
+
+<!-- announcements -->
+<a name="announcements"><h3>Reading Materials:</h3> </a><p>
+Here are some reading materials related to the class. It is NOT required  
+to read them all, but it'll help you get better understanding of certain materials. 
+<ol>
+<li>R programming: <a href="http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf">
+R for beginners</a> is highly recommended. 
+<li>Bioconductor. There are several books listed on the Bioconductor website at 
+<a href="http://www.bioconductor.org/help/publications/">here</a>, but they are 
+pretty outdated. The best way to learn is to read the manual or "vignette"
+for each package. 
+<li>Important papers:
+  <ul>
+    <li>Gene expression microarray: 
+      <a href="http://www.nature.com/nrg/journal/v7/n1/full/nrg1749.html">A nice review article</a>,
+      <a href="rma.pdf">RMA</a>, 
+      <a href="gcrma.pdf">GCRMA</a>, <a href="sam.pdf">SAM t-test</a>,
+      <a href="limma.pdf">limma</a>.
+    <li>Second generation sequencing:
+      <a href="sgseq-review.pdf">A review article by Shendure and Ji</a>,
+      <a href="http://genomebiology.com/2009/10/3/R25">bowtie paper</a>, 
+    <li>RNA-seq: 
+      <a href="http://genomebiology.com/2010/11/10/R106">DEseq</a>, 
+      <a href="http://bioinformatics.oxfordjournals.org/content/23/21/2881.abstract">edgeR</a>,
+      <a href="http://bioinformatics.oxfordjournals.org/content/25/8/1026.abstract">Jiang et al. for isoform expression</a>, 
+      <a href="http://www.nature.com/nbt/journal/v28/n5/full/nbt.1621.html">cufflink</a>,
+      <a href="http://bioinformatics.oxfordjournals.org/content/25/9/1105.abstract">Tophat</a>.
+    <li>ChIP-seq: <a href="http://genomebiology.com/2008/9/9/R137">MACS</a>, 
+      <a href="http://www.nature.com/nbt/journal/v26/n11/abs/nbt.1505.html">CisGenome</a>, 
+      <a href="http://www.nature.com/nbt/journal/v27/n1/abs/nbt.1518.html">PeakSeq</a>,
+      <a href="http://www.nature.com/nmeth/journal/v5/n9/full/nmeth.1246.html">QuEST</a>.
+</ol>
+
+
+<center><hr size="5" width="100%"></center>
+<p><a name="projects"><h3>Final project:</h3></a><p>
+The final project could be (but not limited to) exploratory analysis,
+statistical modeling, or analytical software development for 
+any type of genomic data. Some ideas of projects include:
+<ul>
+<li>Exploring the relationship of histone modifications and gene expression.
+<li>Comparing gene expression microarrays and RNA-seq.
+<li>A new statistical method for data normalization or differential expression detection for RNA-seq.
+<li>Developing an R function to characterize a list of genomic intervals. 
+<li>Study the sequence composition (e.g., GC content and dinucleotide frequencies) 
+of different species. 
+</ul>
+Talk to instructor and/or TA for ideas or for helps in getting proper dataset.<p>
+Students need to submit a short report for the final project, as well as related programs.
+The report should NOT exceed 6 pages (single spacing, 11 point, 1 inch margin) with figures. 
+There is no minimum page requirement. 
+
+<p>
+<p>
+<center><hr size="5" width="100%"></center>
+
+
+<p><a name="class"><h3>Class schedule</h3> </a>
+<table cellpadding=3 cellspacing=3 border=1>
+<tr>
+<td>Date</td>
+<td>Lecture Title</td>
+<td>Description</td>
+<td>Homework</td>
+<td>Suggested Reading</td>
+</tr>
+
+<tr>
+<td>8/29 (Wed)</td>
+<td><b>Lecture 1: Introduction</b> [<a href="intro.pdf">PDF</a>]</td>
+<td>Brief introduction of molecular biology, high-throughput experiments,
+R and Bioconductor.</td>
+<td></td>
+<td>Wikipedia pages for gene, genome, microarray and sequencing.</td> 
+</tr>
+
+<td>9/3 (Mon)</td>
+<td>Labor day, no class</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<td>9/5 (Wed)</td>
+<td><b>Lab 1: Simple genomic analysis using R</b> 
+[<a href="lab-intro.pdf">PDF</a>, <a href="lab-intro.R">R</a>]
+<td>Exploratory analysis of human refseq genes.</td>
+<td><a href="homework1.pdf">Homework1</a></td>
+<td></td>
+</tr>
+
+
+<td>9/10 (Mon)</td>
+<td><b>Lecture 2: Gene expression microarray I</b>
+[<a href="GE1.pdf">PDF</a>]</td>
+<td>Experimental procedures and data pre-processing methods
+for Gene expression microarrays.</td>
+<td></td>
+<td>The microarray review article, RMA and GCRMA papers.</td>
+</tr>
+
+<td>9/12 (Wed)</td>
+<td><b>Lecture 3: Gene expression microarray II, other types of microarrays.</b>
+[<a href="GE2.pdf">PDF</a>]</td>
+<td>Differential expression from GE arrays.
+Introduction to tiling arrays.</td>
+<td></td>
+<td>SAM and Limma papers.</td>
+</tr>
+
+<td>9/17 (Mon)</td>
+<td><b>Lab 2: Analyzing gene expression array data from MAQC.</b>
+[<a href="lab-GE.pdf">PDF</a>, <a href="lab-GE.R">R</a>]</td>
+<td>Using gene expression microarrays generated by MAQC project,
+we will explore data produced from different array designs and
+compare to the gold standard. The gold standard Taqman data can be
+found at <a href="Taqman_expr.txt">here</a>.</td>
+<td><a href="GE-homework.pdf">Homework2</a></td>
+<td></td>
+</tr>
+
+<td>9/19 (Wed)</td>
+<td><b>Lecture 4: Handling genome data using Bioconductor I</b>
+[<a href="biostrings.pdf">PDF</a>, <a href="biostrings.R">R</a>]</td>
+<td>Introduce Biostrings and BSgenome Bioconductor packages.</td>
+<td></td>
+<td>Package Vignettes for Biostrings and BSgenome.</td>
+</tr>
+
+<td>9/24 (Mon)</td>
+<td><b>Lecture 5: Handling genome data using Bioconductor II</b>
+[<a href="genomicRanges.pdf">PDF</a>, <a href="GenomicRanges.R">R</a>]</td>
+<td>Introduce GenomicRanges and GenomicFeatures Bioconductor packages.</td>
+<td></td>
+<td>Package Vignettes for GenomicRanges and GenomicFeatures.</td>
+</tr>
+
+<td>9/26 (Wed) </td>
+<td><b>Lab 3: Analyzing human genome</b>
+[<a href="lab-biostrings.pdf">PDF</a>, <a href="lab3.R">R</a>]</td></td>
+<td>Study the sequence composition of human genome. Look at overlaps of CpG islands and gene promoters. 
+CpG island for hg18 can be download at <a href="hg18CGI.txt">here</a>.</td>
+<td><a href="homework3.pdf">Homework3</a></td>
+<td></td>
+</tr>
+
+<td>10/1 (Mon)</td>
+<td><b>Lecture 6: Introduction to second generation sequencing</b>
+[<a href="sgseq.pdf">PDF</a>]</td>
+<td>Introduce second generation sequencing technologies, statistical challenges,
+and software tools for alignment, variant calling and visualization.</td>
+<td></td>
+<td></td>
+</tr>
+
+<td>10/3 (Wed)</td>
+<td><b>Lecture 7: RNA-seq</b>
+[<a href="RNAseq.pdf">PDF</a>]</td>
+<td>Experimental procedure and data analysis for RNA-seq data. 
+Normalization and differential expression detection. 
+DEseq and edgeR Bioconductor package.</td>
+<td></td>
+<td></td>
+</tr>
+
+<td>10/8 (Mon)</td>
+<td><b>Lecture 8: ChIP-seq</b> [<a href="ChIPseq.pdf">PDF</a>]</td>
+<td>Experimental procedure of ChIP-seq.
+Peak calling methods. Joint analysis of multiple ChIP-seq.
+Joint analysis of ChIP-seq and RNA-seq.</td>
+<td></td>
+<td></td>
+</tr>
+
+
+<td>10/10 (Wed)</td>
+<td><b>Lab 4: Handling second generation sequencing data, RNA- and ChIP-seq analyses</b>
+[<a href="sgseq-lab.pdf">PDF</a>, <a hre</td>
+<td>This lab will practice the materials covered in three lectures. 
+(1) sequence alignment with bowtie and manipulation with samtools and Rsamtools.
+(2) Joint analysis of ChIP-seq and RNA-seq.
+(3) RNA-seq DE analysis using Bioconductor packages. 
+Data can be dowload <a href="sgseq-lab.zip">here</a>. </td>
+<td>Homework4</td>
+<td></td>
+</tr>
+
+<td>10/15 (Mon)</td>
+<td>Fall break, no class</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<td>10/17 (Wed)</td>
+<td><b>Lecture 9: Other types of sequencing data</b></td>
+<td>Briefly introduce other types of sequencing experiments:  
+Bisulfite sequencing, CLiP-seq, GRO-seq, etc. </td>
+<td></td>
+<td></td>
+</tr>
+
+
+
+
+</body></html>

@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Hao Wu, associate professor @ Emory Biostatistics and Bioinformatics
+title: Hao Wu @ Emory Biostat
 description: Hao Wu is currently an associate professor  in the Department of Biostatistics and Bioinformatics at Emory University 
 keywords: statistics, biostatistics, biometrics,
    bioinformatics, informatics, genomics, genetics, statistical genetics,
