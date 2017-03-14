@@ -78,7 +78,7 @@ description: People in Wu lab
    Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
    Department of Mathematics and Computer Science<br />
    Emory University<br /><br />
-   
+    <a href="https://scholar.google.com/citations?user=xCzIYMwAAAAJ&hl=en">Google scholar</a>
 <br /><br /><br /><br />
    </div>
 
