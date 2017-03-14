@@ -58,7 +58,7 @@ keywords: statistics, biostatistics, biometrics,
 
 
 
-<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics.
+<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics, Emory University.
 My research has been mainly focused on bioinformatics and computational biology.
 I'm particularly interested in developing statistical methods and computational
 tools for interpreting large scale genomic data from high-throughput
