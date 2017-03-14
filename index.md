@@ -27,13 +27,15 @@ keywords: statistics, biostatistics, biometrics,
 <div class="container">
 
     <div class="row-fluid">
+        
         <div class="span2">
+            <a href="assets/pics/wu.png">
             <img src="assets/pics/wu_small.png"
-                  title="Hao Wu" alt="Hao Wu"  width="200"/>
+                  title="Hao Wu" alt="Hao Wu"  width="300"/></a>
         </div>
 
         <div class="span5">
-            <h4>Hao Wu</h4>
+            <h3>Hao Wu</h3>
             Associate Professor <br/>
             <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
             <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
