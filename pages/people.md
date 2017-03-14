@@ -79,7 +79,7 @@ description: People in Wu lab
    Department of Mathematics and Computer Science<br />
    Emory University<br /><br />
     <a href="https://scholar.google.com/citations?user=xCzIYMwAAAAJ&hl=en">Google scholar</a>
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
    </div>
 
 </div>
