@@ -6,11 +6,10 @@ description: People in Wu lab
 
 <div class="container">
 
-<h2>PI</h2>
+<h3>PI</h3>
 <div class="row-fluid">
         <div class="span2">
-            <img src="../assets/pics/wu_small.png"
-                  title="Hao Wu" alt="Hao Wu"  width="200"/>
+            <img src="../assets/pics/wu_small.png" width="200"/>
         </div>
 
         <div class="span5">
@@ -25,7 +24,7 @@ description: People in Wu lab
 </div>
 
 
-<h2>Ph.D. students</h2>
+<h3>Ph.D. students</h3>
 
 <!-- Hao Feng -->
 <div class="row-fluid">
@@ -106,7 +105,7 @@ description: People in Wu lab
 </div>
 <hr>
 
-<h2>Master students</h2>
+<h3>Master students</h3>
 <!-- Haonan -->
 <div class="row-fluid">
 
@@ -125,7 +124,7 @@ description: People in Wu lab
 
 </div>
 
-<h2>Other students</h2>
+<h3>Other students</h3>
 
 
 </div>
