@@ -8,19 +8,18 @@ description: People in Wu lab
 
 <h3>PI</h3>
 <div class="row-fluid">
-        <div class="span2">
-            <img src="../assets/pics/wu_small.png" width="200"/>
-        </div>
 
-        <div class="span5">
-            <h4>Hao Wu</h4>
-            Associate Professor <br/>
-            Department of Biostatistics and Bioinformatics<br/>
-            Emory University<br/>
-        </div>
-		<br /><br /><br /><br />
-	
-    </div>
+  <div class="span2">
+	<img src="../assets/pics/wu_small.png" width="200" /><br />
+  </div>
+  
+  <div class="span5">
+   <h4>Hao Wu</h4>
+   Associate Professor<br />
+   Department of Biostatistics and Bioinformatics<br />
+   Emory University<br /><br /><br /><br /><br /><br />
+   </div>
+
 </div>
 
 
@@ -38,7 +37,6 @@ description: People in Wu lab
    Ph.D. student<br />
    Department of Biostatistics and Bioinformatics<br />
    Emory University<br /><br />
-   
 	<a href="https://sites.google.com/site/haoharryfeng/">Web</a>, 
  <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&hl=en">Google scholar</a> 
 <br /><br /><br /><br />
