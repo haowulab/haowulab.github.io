@@ -6,6 +6,27 @@ description: People in Wu lab
 
 <div class="container">
 
+<h2>PI</h2>
+<div class="row-fluid">
+        <div class="span2">
+            <img src="../assets/pics/wu_small.png"
+                  title="Hao Wu" alt="Hao Wu"  width="200"/>
+        </div>
+
+        <div class="span5">
+            <h4>Hao Wu</h4>
+            Associate Professor <br/>
+            Department of Biostatistics and Bioinformatics<br/>
+            Emory University<br/>
+        </div>
+		<br /><br /><br /><br />
+	
+    </div>
+</div>
+
+
+<h2>Ph.D. students</h2>
+
 <!-- Hao Feng -->
 <div class="row-fluid">
 
@@ -61,7 +82,7 @@ description: People in Wu lab
    Department of Mathematics and Computer Science<br />
    Emory University<br /><br />
    
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
    </div>
 
 </div>
@@ -83,7 +104,9 @@ description: People in Wu lab
    </div>
 
 </div>
+<hr>
 
+<h2>Master students</h2>
 <!-- Haonan -->
 <div class="row-fluid">
 
@@ -101,6 +124,8 @@ description: People in Wu lab
    </div>
 
 </div>
+
+<h2>Other students</h2>
 
 
 </div>
