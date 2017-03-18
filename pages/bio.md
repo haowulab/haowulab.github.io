@@ -24,7 +24,7 @@ found a job in Maine. I quitted my job and moved with her.
 From July 2001 to August 2005,
 I worked as a scientific software engineer 
 at <a href="http://www.jax.org">The Jackson Laboratory</a>
-in <a href="http://research.jax.org/faculty/churchill/index.html">
+in <a href="https://www.jax.org/research-and-faculty/research-labs/the-churchill-lab">
 Dr. Gary Churchill's statistical genetics group</a>. 
 I learnt a lot in those four
 years through my work and was exposed to the fancinating

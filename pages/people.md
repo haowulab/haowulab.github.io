@@ -76,8 +76,8 @@ description: People in Wu lab
   <h4>Li Chen</h4>
   Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
   Department of Mathematics and Computer Science<br />
-  Emory University<br /><br />
-   
+  Emory University<br />
+  <a href="https://scholar.google.com/citations?user=Nk-yRrcAAAAJ&hl=en">Google scholar</a> 
 <br /><br /><br /><br /><br /><br />
    </div>
 
