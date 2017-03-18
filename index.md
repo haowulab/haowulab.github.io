@@ -68,8 +68,9 @@ technologies such as microarrays and second generation sequencing.
 <p>
 I am also interested in general machine learning, pattern recognition and
 large scale data mining methods with applications to biomedical data.
-I collaborate closely with researchers working on epigenetics to characterize
-DNA and different types of histone methylations.
+I collaborate closely with researchers working on epigenetics to characterize 
+different types of DNA methylation and histone modifications.
+
 <p>
 I joined the department in 2010 after obtaining my Ph.D.
 degree in Biostatistics from

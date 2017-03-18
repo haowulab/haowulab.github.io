@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Hao Wu, associate professor @ Emory Biostatistics and Bioinformatics
+title: Hao Wu @ Emory Biostat
 description: Hao Wu is currently an associate professor  in the Department of Biostatistics and Bioinformatics at Emory University 
 keywords: statistics, biostatistics, biometrics,
    bioinformatics, informatics, genomics, genetics, statistical genetics,
@@ -27,13 +27,16 @@ keywords: statistics, biostatistics, biometrics,
 <div class="container">
 
     <div class="row-fluid">
+        
         <div class="span2">
-            <img src="../assets/pics/wu_small.png"
-                  title="Hao Wu" alt="Hao Wu"/>
+            <a href="assets/pics/wu.png">
+            <img src="assets/pics/wu_small.png"
+                  title="Hao Wu" alt="Hao Wu"  width="300"/></a>
         </div>
 
         <div class="span5">
-            <h4>Hao Wu</h4><br/>
+            <h3>Hao Wu</h3>
+            Associate Professor <br/>
             <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
             <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
             <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
@@ -57,14 +60,14 @@ keywords: statistics, biostatistics, biometrics,
 
 
 
-<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics.
-My researches have been mainly focused on bioinformatics and computational biology.
+<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics, Emory University.
+My research has been mainly focused on bioinformatics and computational biology.
 I'm particularly interested in developing statistical methods and computational
 tools for interpreting large scale genomic data from high-throughput
 technologies such as microarrays and second generation sequencing.
 <p>
 I am also interested in general machine learning, pattern recognition and
-large scale data mining methods with applications to biological and medical data.
+large scale data mining methods with applications to biomedical data.
 I collaborate closely with researchers working on epigenetics to characterize
 DNA and different types of histone methylations.
 <p>
@@ -76,7 +79,8 @@ under the guidances of professors
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
 I become an associate professor (with tenure) in September 2016.
 <p>
-[ <a href="bio.html">Hao Wu's short biography</a> ]  [ <a href="../assets/wu-cv.pdf">CV in pdf</a> ]
+[ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
+[ <a href="https://www.sph.emory.edu/faculty/profile/#!HWU30">My official Emory RSPH page</a>]
 
 
 
