@@ -18,7 +18,7 @@ In early 2000 I started to work in a branch of
 as an engineer. I was in a team to develop and customize software
 for power system controls and optimizations. 
 The everyday work was C and Fortran programming. 
-In mid 2001, my wife got her Ph.D. in biology and
+In mid 2001, my wife got her Ph.D. in genetics and
 found a job in Maine. I quitted my job and moved with her.
 <p>
 From July 2001 to August 2005,
@@ -27,14 +27,14 @@ at <a href="http://www.jax.org">The Jackson Laboratory</a>
 in <a href="https://www.jax.org/research-and-faculty/research-labs/the-churchill-lab">
 Dr. Gary Churchill's statistical genetics group</a>. 
 I learnt a lot in those four
-years through my work and was exposed to the fancinating
-world of genetic and genomic researches. 
+years through my work, and was exposed to the fancinating
+world of genetic and genomic research. 
 I developed and co-developed
 several software packages for QTL mapping and gene expression microarray
 data analysis. See <a href="software.html">Software page</a> for details.
 <p>
 I became a senior software engineer in early
-2005 and felt the learning curve was saturated as a programmer.
+2005 and felt the learning curve was saturated as a scientific programmer.
 I had an urge to go back to graduate school and
 study math/statistics and biology in a systematical and rigorous way. 
 My major career goal at that time was to find an 
@@ -42,16 +42,16 @@ academic position and conduct independent research on
 biostatistics/bioinformatics/computational biology. 
 <p>
 My five-year Ph.D. study was full of struggle, depression, sleepless nights, 
-as well as enjoyment. I obtained my degree in 2010 and found a tenure track position. 
+as well as enjoyment. I obtained my degree in 2010, and fortunately found a tenure track faculty position at Emory. 
 Since then I have been fully enjoying the academic freedom and 
 intellectual challenges, and working on problems I'm interested in.
 
 
 <p>
-In my leisure time I listen to music and participate
+In my leisure time I listen to music and participate in
 different sports including running, swimming, soccer and tennis.
 I especially enjoy playing soccer and tennis with my
-two boys and watching them play in the tournaments. 
+two boys (both are very good athletes), and watching them play in the tournaments. 
 
 <!-- <a href="http://www.youtube.com/watch?v=8qjc7uzjPmc">watching them play games</a>. -->
 

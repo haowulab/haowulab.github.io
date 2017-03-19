@@ -60,7 +60,7 @@ keywords: statistics, biostatistics, biometrics,
 
 
 
-<p>I am an associate professor at the Department of Biostatatstics and Bioinformatics, Emory University.
+<p>I am an associate professor in the Department of Biostatatstics and Bioinformatics at Emory University.
 My research has been mainly focused on bioinformatics and computational biology.
 I'm particularly interested in developing statistical methods and computational
 tools for interpreting large scale genomic data from high-throughput
@@ -78,7 +78,7 @@ degree in Biostatistics from
 under the guidances of professors
 <a href="http://rafalab.github.io/">Rafael Irizarry</a> and
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
-I become an associate professor (with tenure) in September 2016.
+I became an associate professor (with tenure) in September 2016.
 <p>
 [ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
 [ <a href="https://www.sph.emory.edu/faculty/profile/#!HWU30">My official Emory RSPH page</a>]
