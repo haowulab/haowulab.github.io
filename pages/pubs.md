@@ -13,23 +13,22 @@ or [PubMed bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/hao.wu.5/bibli
 #### Selected peer reviewed publications
 
 - **RNA-seq**:
-	- <a href="https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxs033">
-	Differential expression </a> [<a href="http://bioconductor.org/packages/release/bioc/html/DSS.html">Link to DSS</a>].
-	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25273110">Power evaluation</a> [<a href="http://bioconductor.org/packages/release/bioc/html/PROPER.html">Link to PROPER</a>]
+	- [Differential expression](https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxs033). 
+	[[Link to DSS]](http://bioconductor.org/packages/release/bioc/html/DSS.html)
+	- [Power evaluation](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu640)[[link to PROPER]](https://bioconductor.org/packages/release/bioc/html/PROPER.html)
+
 - **ChIP-seq**:
-	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/24608116">Peak calling</a>
+	- [Peak calling](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089694).
 [<a href="http://web1.sph.emory.edu/users/hwu30/software/polyaPeak.html">Link to polyaPeak</a>]
-	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25682068">Differential peak</a>
-[<a href="http://bioconductor.org/packages/devel/bioc/html/ChIPComp.html">Link to ChIPComp</a>]
+	- [Differential peak](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv094). [<a href="http://bioconductor.org/packages/devel/bioc/html/ChIPComp.html">Link to ChIPComp</a>]
 - **BS-seq**:
-	- Differential methylation: 
-		- <a href="http://nar.oxfordjournals.org/lookup/pmid?view=long&pmid=24561809">DML for two-group</a>,
+	- Differential methylation (all methods implemented in [DSS](http://bioconductor.org/packages/release/bioc/html/DSS.html)): 
+		- [DML for two-group comparison](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gku154).
 		- <a href="http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw026.abstract">
-DML for general design</a>,
+DML for general design</a>.
 		- <a href="http://nar.oxfordjournals.org/content/early/2015/07/15/nar.gkv715.abstract">
 DMR for single replicate data</a>.
- [<a href="http://bioconductor.org/packages/release/bioc/html/DSS.html">Link to DSS</a>].
-		- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25722376">Predicting protein binding from BS-seq</a>
+	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25722376">Predicting protein binding from BS-seq</a>
 [<a href="https://github.com/benliemory/Methylphet">Link to Methylphet</a>]
 - **Cancer heterogeneity**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Predicting+tumor+purity+from+methylation+microarray+data">
