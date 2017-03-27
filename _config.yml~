@@ -8,14 +8,14 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Ben Li 
+title : Hao Wu
 author :
-  name : Ben Li
-  email : ben.li@emory.edu
-  github : benliemory
+  name : Hao Wu
+  email : hao.wu@emory.edu
+  github : haowulab
   feedburner : nil
 
-production_url : http://benliemory.github.io
+production_url : https://haowulab.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
@@ -48,6 +48,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
+  BASE_PATH : https://haowulab.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
