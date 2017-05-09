@@ -6,7 +6,7 @@ description: Hao Wu's publications
 
 A full list of publications can be found at my
 [Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en)
-or [PubMed bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/hao.wu.5/bibliography/47862678/public/?sort=date&direction=descending).
+or [PubMed bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51292197/?sort=date&direction=descending).
 
 
 <br>
