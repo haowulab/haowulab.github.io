@@ -37,6 +37,8 @@ Predicting tumor purity from Infinium 450k data</a>
 Estimating and accounting for tumor purity in methylation data analysis</a>.
 		- <a href="https://zenodo.org/record/253193#.WMC8-3iZ6bk">Link to TCGA tumor purities estimated from InfiniumPurify</a>
 		- <a href="https://cran.r-project.org/web/packages/InfiniumPurify/index.html">InfiniumPurify R package on CRAN</a>
+	- [Cancer sample clustering with consideration of tumor purity](https://www.ncbi.nlm.nih.gov/pubmed/28472248)
+		
 - **Epigenetics**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/19151716">H3K9me2 LOCK</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/20212320">HMM CpG islands</a>.
