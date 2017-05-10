@@ -31,12 +31,11 @@ DMR for single replicate data</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25722376">Predicting protein binding from BS-seq</a>
 [<a href="https://github.com/benliemory/Methylphet">Link to Methylphet</a>]
 - **Cancer heterogeneity**:
+all methods implemented in [InfiniumPurify](https://cran.r-project.org/web/packages/InfiniumPurify/index.html). TCGA tumor purities estimated from InfiniumPurify are [available here](https://zenodo.org/record/253193#.WMC8-3iZ6bk).
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Predicting+tumor+purity+from+methylation+microarray+data">
 Predicting tumor purity from Infinium 450k data</a>
 	- <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1143-5">
 Estimating and accounting for tumor purity in methylation data analysis</a>.
-		- <a href="https://zenodo.org/record/253193#.WMC8-3iZ6bk">Link to TCGA tumor purities estimated from InfiniumPurify</a>
-		- <a href="https://cran.r-project.org/web/packages/InfiniumPurify/index.html">InfiniumPurify R package on CRAN</a>
 	- [Cancer sample clustering with consideration of tumor purity](https://www.ncbi.nlm.nih.gov/pubmed/28472248)
 		
 - **Epigenetics**:
