@@ -10,7 +10,7 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/wu_small.png" width="200" /><br />
+	<img src="../assets/pics/wu_small.jpg" width="200" /><br />
   </div>
   
   <div class="span5">
@@ -136,6 +136,7 @@ description: People in Wu lab
    
 <br /><br />
    </div>
+</div>
 
 <!-- Tianyi Xu -->
 <div class="row-fluid">
@@ -152,6 +153,7 @@ description: People in Wu lab
    
 <br /><br /><br /><br />
    </div>
+</div>
 
 <hr>
 

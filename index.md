@@ -29,8 +29,8 @@ keywords: statistics, biostatistics, biometrics,
     <div class="row-fluid">
         
         <div class="span2">
-            <a href="assets/pics/wu.png">
-            <img src="assets/pics/wu_small.png"
+            <a href="assets/pics/wu.jpg">
+            <img src="assets/pics/wu_small.jpg"
                   title="Hao Wu" alt="Hao Wu"  width="300"/></a>
         </div>
 
