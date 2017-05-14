@@ -78,7 +78,7 @@ description: People in Wu lab
   Department of Mathematics and Computer Science<br />
   Emory University<br />
   <a href="https://scholar.google.com/citations?user=Nk-yRrcAAAAJ&hl=en">Google scholar</a> 
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br />
    </div>
 
 </div>
@@ -96,7 +96,7 @@ description: People in Wu lab
   Department of Mathematics and Computer Science<br />
   Emory University<br />
   <a href="https://scholar.google.com/citations?user=xCzIYMwAAAAJ&hl=en">Google scholar</a>
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br />
    </div>
 
 </div>
@@ -115,13 +115,64 @@ description: People in Wu lab
   MSPH student <br />
   Department of Biostatistics and Bioinformatics<br />
   Emory University<br /><br />
-   
-<br /><br /><br /><br />
+
+<br /><br /><br />
    </div>
 
 </div>
 
+<!-- Luxiao Chen -->
+<div class="row-fluid">
 
+  <div class="span2">
+    <img src="../assets/pics/LuxiaoChen.jpg" width="200" />
+  </div>
+
+  <div class="span5">
+  <h4>Luxiao Chen</h4>
+  MSPH student <br />
+  Department of Biostatistics and Bioinformatics<br />
+  Emory University<br /><br />
+   
+<br /><br />
+   </div>
+
+<!-- Tianyi Xu -->
+<div class="row-fluid">
+
+  <div class="span2">
+    <img src="../assets/pics/TianyiXu.jpg" width="200" />
+  </div>
+
+  <div class="span5">
+  <h4> Tianyi Xu </h4>
+  MSPH student <br />
+  Department of Biostatistics and Bioinformatics<br />
+  Emory University<br /><br />
+   
+<br /><br /><br /><br />
+   </div>
+
+<hr>
+
+<h3>Research Assistant</h3>
+<br />
+
+<!-- Ziyi Li -->
+<div class="row-fluid">
+
+  <div class="span2">
+    <img src="../assets/pics/ZiyiLi.jpg" width="200" />
+  </div>
+
+  <div class="span5">
+  <h4> Ziyi Li </h4>
+  Ph.D. student <br />
+  Department of Biostatistics and Bioinformatics<br />
+  Emory University<br /><br />
+   
+<br /><br /><br /><br />
+   </div>
 
 </div>
 
