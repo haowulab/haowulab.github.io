@@ -65,24 +65,6 @@ description: People in Wu lab
 </div>
 
 
-<!-- Li Chen -->
-<div class="row-fluid">
-
-  <div class="span2">
-	<img src="../assets/pics/LiChen.jpg" width="200" />
-  </div>
-  
-  <div class="span5">
-  <h4>Li Chen</h4>
-  Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
-  Department of Mathematics and Computer Science<br />
-  Emory University<br />
-  <a href="https://scholar.google.com/citations?user=Nk-yRrcAAAAJ&hl=en">Google scholar</a> 
-<br /><br /><br /><br />
-   </div>
-
-</div>
-
 <!-- Tianlei -->
 <div class="row-fluid">
 
@@ -103,23 +85,6 @@ description: People in Wu lab
 <hr>
 
 <h3>Master students</h3>
-<!-- Haonan -->
-<div class="row-fluid">
-
-  <div class="span2">
-	<img src="../assets/pics/haonan.jpg" width="200" />
-  </div>
-  
-  <div class="span5">
-  <h4>Haonan "Horace" Feng</h4>
-  MSPH student <br />
-  Department of Biostatistics and Bioinformatics<br />
-  Emory University<br /><br />
-
-<br /><br /><br />
-   </div>
-
-</div>
 
 <!-- Luxiao Chen -->
 <div class="row-fluid">
@@ -173,9 +138,15 @@ description: People in Wu lab
   Department of Biostatistics and Bioinformatics<br />
   Emory University<br /><br />
    
-<br /><br /><br /><br />
+<br /><br />
    </div>
 
 </div>
+
+<hr>
+<h3> Former group members </h3>
+* **Li Chen**, Ph.D. in Computer Science, 2017. **Current position**: Assistant Professor, Auburn University. 
+* **Haonan Feng**, MSPH in Biostatistics, 2017. **Current position**: data sicentist at Shunfeng Express, Shen Zhen, China. 
+
 
     
