@@ -147,7 +147,6 @@ description: People in Wu lab
 <h3> Former group members </h3>
 
 - **Li Chen**, Ph.D. in Computer Science, 2017. **Current position**: Assistant Professor, Auburn University. 
-
 - **Haonan Feng**, MSPH in Biostatistics, 2017. **Current position**: Data sicentist at Shunfeng Express, Shen Zhen, China. 
 
 
