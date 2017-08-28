@@ -55,6 +55,6 @@ chrlen=c(247249719,242951149,199501827,191273063,180857866,170899992,158821424,
   88827254,78774742,76117153,63811651,62435964,46944323,49691432,154913754,57772954)
 names(chrlen)=paste("chr",c(1:22,"X","Y"),sep="")
 
-## number of genes per Mega basepairs on each chromosome
+## number of genes per Mega basepairs on each chromosome -- write your own
 
 
