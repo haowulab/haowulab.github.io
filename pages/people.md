@@ -44,16 +44,16 @@ description: People in Wu lab
 
 </div>
 
-%<!-- Ben Li -->
-%<div class="row-fluid">
-%
-%  <div class="span2">
-%	<img src="../assets/pics/BenLi.jpg" width="200" />
-%  </div>
-%  
-%  <div class="span5">
-%  <h4>Ben Li</h4>
-%  Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
+<!-- Ben Li -->
+<div class="row-fluid">
+
+  <div class="span2">
+	<img src="../assets/pics/BenLi.jpg" width="200" />
+  </div>
+  
+  <div class="span5">
+  <h4>Ben Li</h4>
+  Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
 %  Department of Biostatistics and Bioinformatics<br />
 %  Emory University<br />
 %  <a href="https://benliemory.github.io/">Web</a>, 
