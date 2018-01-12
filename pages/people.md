@@ -44,7 +44,7 @@ description: People in Wu lab
 
 </div>
 
-<!-- Ben Li -->
+<!-- Ben Li 
 <div class="row-fluid">
 
   <div class="span2">
@@ -54,16 +54,16 @@ description: People in Wu lab
   <div class="span5">
   <h4>Ben Li</h4>
   Ph.D. student (Joint advisee with <a href="https://sph.emory.edu/faculty/profile/#!ZQIN4">Steve Qin</a>)<br />
-%  Department of Biostatistics and Bioinformatics<br />
-%  Emory University<br />
-%  <a href="https://benliemory.github.io/">Web</a>, 
-% <a href="https://scholar.google.com/citations?user=nDSGBakAAAAJ&hl=en">Google scholar</a>, 
-% <a href="https://github.com/benliemory">github</a>
-%<br /><br /><br /><br />
-%   </div>
-%
-%</div>
+  Department of Biostatistics and Bioinformatics<br />
+  Emory University<br />
+  <a href="https://benliemory.github.io/">Web</a>, 
+ <a href="https://scholar.google.com/citations?user=nDSGBakAAAAJ&hl=en">Google scholar</a>, 
+ <a href="https://github.com/benliemory">github</a>
+<br /><br /><br /><br />
+   </div>
 
+</div>
+-->
 
 <!-- Tianlei -->
 <div class="row-fluid">
@@ -103,22 +103,6 @@ description: People in Wu lab
    </div>
 </div>
 
-<!-- Tianyi Xu -->
-<div class="row-fluid">
-
-  <div class="span2">
-    <img src="../assets/pics/TianyiXu.jpg" width="200" />
-  </div>
-
-  <div class="span5">
-  <h4> Tianyi Xu </h4>
-  MSPH student <br />
-  Department of Biostatistics and Bioinformatics<br />
-  Emory University<br /><br />
-   
-<br /><br /><br /><br />
-   </div>
-</div>
 
 <hr>
 
