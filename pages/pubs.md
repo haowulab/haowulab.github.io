@@ -5,7 +5,8 @@ description: Hao Wu's publications
 ---
 
 A full list of publications can be found at my
-[Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en)
+[Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en),
+[Microsoft Academic page](https://academic.microsoft.com/#/detail/2708669200),
 or [PubMed bibliography](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51292197/?sort=date&direction=descending).
 
 
