@@ -21,7 +21,7 @@ description: People in Wu lab
    </div>
 
 </div>
-<hr>
+<hr />
 
 <h3>Postdoc</h3>
 <br />
@@ -37,14 +37,15 @@ description: People in Wu lab
   <h4> Ziyi Li, Ph.D. </h4>
   Department of Biostatistics and Bioinformatics<br />
   Emory University<br /><br />
-  <a href="https://sites.google.com/site/ziyiliemory/Home">Web</a>, 
- <a href="https://scholar.google.com/citations?hl=en&user=dJsYA04AAAAJ&view_op=list_works&gmla=AJsN-F7rkvgRcXTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQJzSu6an_zGxuWWCaJyJxI1sB2A">Google scholar</a> 
- 
-<br /><br /><br /><br />
-   </div>
-   </div>
+  <a href="https://sites.google.com/site/ziyiliemory/Home">Web</a>,
+ <a href="https://scholar.google.com/citations?hl=en&amp;user=dJsYA04AAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F7rkvgRc
+XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQJzSu6an_zGxuWWCaJyJxI1sB2A">Google scholar</a>
+  </div>
 
-<hr>
+</div>
+<br>
+
+<hr />
 
 
 <h3>Ph.D. students</h3>
@@ -53,35 +54,36 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/HarryFeng.jpg" width="200" /><br />
+    <img src="../assets/pics/HarryFeng.jpg" width="200" /><br />
   </div>
-  
+
   <div class="span5">
    <h4>Hao "Harry" Feng</h4>
    Ph.D. student<br />
    Department of Biostatistics and Bioinformatics<br />
    Emory University<br />
-	<a href="https://sites.google.com/site/haoharryfeng/">Web</a>, 
- <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&hl=en">Google scholar</a> 
-<br /><br /><br /><br />
+   <a href="https://sites.google.com/site/haoharryfeng/">Web</a>,
+   <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&amp;hl=en">Google scholar</a>
+  </div>
 </div>
-</div>
+<br>
 
 <!-- Kenong Su -->
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/Kenong.jpg" width="200" /><br />
+    <img src="../assets/pics/Kenong.jpg" width="200" /><br />
   </div>
-  
+
   <div class="span5">
-   <h4>Kenong Su</h4>
-   Ph.D. student<br />
-   Department of Computer Science<br />
+    <h4>Kenong Su</h4>
+    Ph.D. student<br />
+    Department of Computer Science<br />
    Emory University<br />
-<br /><br /><br /><br /><br /><br />
+  </div>
+
 </div>
-</div>
+<br>
 
 
 
@@ -89,38 +91,40 @@ description: People in Wu lab
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/Zhenxing.jpg" width="200" /><br />
+    <img src="../assets/pics/Zhenxing.jpg" width="200" /><br />
   </div>
-  
-  <div class="span5">
-   <h4> Zhenxing Guo</h4>
-   Ph.D. student<br />
-   Department of Biostatistics and Bioinformatics <br />
-   Emory University<br />
-<br /><br /><br /><br />
-</div>
-</div>
 
-<hr>
+  <div class="span5">
+    <h4> Zhenxing Guo</h4>
+    Ph.D. student<br />
+    Department of Biostatistics and Bioinformatics <br />
+    Emory University<br />
+  </div>
+
+</div>
+<br>
+
+<hr />
+
 <h3>Master students</h3>
 
 <!-- Xisha Weng -->
 <div class="row-fluid">
 
   <div class="span2">
-	<img src="../assets/pics/Xisha.jpg" width="200" /><br />
+    <img src="../assets/pics/Xisha.jpg" width="200" /><br />
   </div>
-  
-  <div class="span5">
-   <h4> Xisha Weng </h4>
-   MSPH student<br />
-   Department of Biostatistics and Bioinformatics <br />
-   Emory University<br />
-<br /><br />
-</div>
-</div>
 
-<hr>
+  <div class="span5">
+    <h4> Xisha Weng </h4>
+    MSPH student<br />
+    Department of Biostatistics and Bioinformatics <br />
+    Emory University<br />
+  </div>
+</div>
+<br>
+
+<hr />
 
 
 <h3> Former group members </h3>
