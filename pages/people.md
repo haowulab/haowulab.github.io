@@ -64,8 +64,6 @@ description: People in Wu lab
 	<a href="https://sites.google.com/site/haoharryfeng/">Web</a>, 
  <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&hl=en">Google scholar</a> 
 <br /><br /><br /><br />
-   </div>
-
 </div>
 </div>
 
@@ -82,8 +80,6 @@ description: People in Wu lab
    Department of Computer Science<br />
    Emory University<br />
 <br /><br /><br /><br />
-   </div>
-
 </div>
 </div>
 
@@ -100,8 +96,6 @@ description: People in Wu lab
    Department of Biostatistics and Bioinformatics <br />
    Emory University<br />
 <br /><br /><br /><br />
-   </div>
-
 </div>
 </div>
 
@@ -121,8 +115,6 @@ description: People in Wu lab
    Department of Biostatistics and Bioinformatics <br />
    Emory University<br />
 <br /><br />
-   </div>
-
 </div>
 </div>
 
