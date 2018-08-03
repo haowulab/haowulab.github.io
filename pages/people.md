@@ -37,8 +37,11 @@ description: People in Wu lab
   <h4> Ziyi Li, Ph.D. </h4>
   Department of Biostatistics and Bioinformatics<br />
   Emory University<br /><br />
-   
+  <a href="https://sites.google.com/site/ziyiliemory/Home">Web</a>, 
+ <a href="https://scholar.google.com/citations?hl=en&user=dJsYA04AAAAJ&view_op=list_works&gmla=AJsN-F7rkvgRcXTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQJzSu6an_zGxuWWCaJyJxI1sB2A">Google scholar</a> 
+ 
 <br /><br /><br /><br />
+   </div>
    </div>
 
 <hr>
