@@ -79,7 +79,7 @@ description: People in Wu lab
    Ph.D. student<br />
    Department of Computer Science<br />
    Emory University<br />
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
 </div>
 </div>
 
@@ -141,7 +141,5 @@ description: People in Wu lab
 
 <li> <strong>Luxiao Chen</strong>, MSPH in Biostatistics, 2018. 
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Bioinformatics, Emory University. 
-
-</ul>
 
     
