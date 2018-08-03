@@ -38,7 +38,7 @@ description: People in Wu lab
   Department of Biostatistics and Bioinformatics<br />
   Emory University<br /><br />
    
-<br /><br />
+<br /><br /><br /><br />
    </div>
 
 <hr>
@@ -78,7 +78,7 @@ description: People in Wu lab
    Ph.D. student<br />
    Department of Computer Science<br />
    Emory University<br />
-<br /><br />
+<br /><br /><br /><br />
    </div>
 
 </div>
@@ -96,7 +96,7 @@ description: People in Wu lab
    Ph.D. student<br />
    Department of Biostatistics and Bioinformatics <br />
    Emory University<br />
-<br /><br />
+<br /><br /><br /><br />
    </div>
 
 </div>
