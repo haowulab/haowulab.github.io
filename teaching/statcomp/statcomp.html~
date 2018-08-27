@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -19,7 +18,7 @@
   </head>
 <body width="80%">
 <a name="Outline"></a>
-<h1><center>Advanced Statistical Computing</h1>
+<h1><center>BIOS731: Advanced Statistical Computing</h1>
 
 <br><hr size="5" width="100%">
 <!--
@@ -41,27 +40,33 @@
 </a>
 <ul>
   <li><b>Course title</b>: Advanced Statistical Computing</li>
-  <li><b>Instructors</b>: <a href="http://www.sph.emory.edu/faculty/YHU30">Yijuan Hu</a> (yijuan.hu at emory dot edu), 
-    <a href="http://userwww.service.emory.edu/~zqin4/">Zhaohui Qin</a> (zhaohui.qin at emory dot edu),
-    <a href="http://userwww.service.emory.edu/~hwu30/">Hao Wu</a> (hao.wu at emory dot edu),
-    <a href="http://userwww.service.emory.edu/~tyu8/">Tianwei Yu</a> (hao.wu at emory dot edu).
-  </li><li><b>Class</b>: Tuesday & Thursday 4-5:50PM at GCR L45
-  </li><li><b>Office hour</b>: By appointment.
+  <li><b>Instructors</b>: 
+    <a href="http://web1.sph.emory.edu/users/hwu30/">Hao Wu</a> (hao.wu at emory dot edu),
+    <a href="http://web1.sph.emory.edu/users/jkang30/">Zhaohui Steve Qin</a> (zhaohui.qin at emory dot edu).
+  <li><b>TA</b>: Harry Feng (hfeng5 AT emory DOT edu)
+  </li><li><b>Class</b>: Tuesday & Thursday 4-5:50PM at GCR P41
+  </li><li><b>Office hour and location</b>: Wednesday 12-1 PM, GCR 351
+
 </ul>
 
 <center><hr size="5" width="100%"></center>
 <h3>Summary</h3>
-This course covers the methods and applications of some common statistical computing methods. 
-Topics include Markov chain Monte Carlo (MCMC), hidden Markov model (HMM), 
-Expectation-Maximization (EM) and Minorization-Maximization (MM), 
-and linear/quadratic programming. The class has two main goals for students: 
+This course is designed for Ph.D. level biostatistics students.
+It covers the methods and applications of some common statistical computing methods. 
+Topics include random number generation, permutation and bootstrap,
+optimization methods, Expectation-Maximization (EM), Minorization-Maximization (MM),
+linear/quadratic programming, hidden Markov model (HMM), and
+Markov chain Monte Carlo (MCMC). 
+<p>
+The class has two main goals for students: 
 (1) learn the general theory and algorithmic procedures of several widely 
 used statistical models; (2) develop fluency in statistical programming skills. 
-The class puts more emphasis on implementation instead of statistical theories. 
+The class puts more emphasis on implementation instead of statistical theories,
+although a non-trivial amount of theories will be taught in the class.
 Students will gain computational skills and practical experiences on simulations and statistical modeling. 
 <p>
 This course requires significant amount of programming. Each set of homework involves 
-the analysis of a real dataset and implementation of certain algorithms 
+the analysis of real dataset or implementation of certain algorithms 
 using high-level programming language (Matlab/R/perl/python). 
 <p>
 Upon successfully completing this course, students will be able to:
@@ -74,10 +79,10 @@ Upon successfully completing this course, students will be able to:
 The <b>target audiences</b> of the class include Biostatistics and Bioinformatics Ph.D. students, 
 or other graduate students who works on highly quantitative fields. 
 <p>
-<b>Prerequisites</b>: BIOS 510 or equivalent. BIOS 560R “Introduction to R programming” or 
+<b>Prerequisites</b>: BIOS 510 or equivalent. BIOS 545 “Introduction to R programming” or 
 prior programming experiences in one or more high-level programming languages (Matlab/R/perl/python).
 <p>
-<b>Grading</b>: Four sets of homework, each worth 25%. 
+<b>Grading</b>: Three sets of homework, each worth 30%. Class attendence and participation, 10%.
 
 
 <center><hr size="5" width="100%"></center>
@@ -103,135 +108,160 @@ prior programming experiences in one or more high-level programming languages (M
 </tr>
 
 <tr>
-<td>8/30</td>
-<td><b>Lecture 1: MCMC I</b> (Qin) 
-[<a href="560R.Fall12.lecture1.pdf">Notes</a>]</td>
+<td>8/25 (Thur)</td>
+<td><b>Lecture 1: Random number generation, permutation and bootstrap</b> (Wu) 
+[<a href="Notes/lecture1.pdf">Notes</a>]</td>
 <td>Course information. 
-Monte Carlo methods, random variate generation. </td>
-<td></td>
-</tr>
-
-<td>9/4</td>
-<td><b>Lecture 2: MCMC II</b> (Qin)
-[<a href="560R.Fall12.lecture2.pdf">Notes</a>, 
-<a href="mcmc_Rcodes1.pdf">Example R codes</a>]</td>
-<td>Metropolis-Hasting algorithm. Gibbs sampler. </td>
-<td></td>
-</tr>
-
-<td>9/6</td>
-<td><b>Lecture 3: MCMC III</b> (Qin)
-[<a href="560R.Fall12.lecture3.pdf">Notes</a>,
-<a href="MCMCconverge.doc">Example R codes</a>]</td>
-<td>Check for convergence, techniques to accelerate Markov chain mixing.</td>
-<td></td>
-</tr>
-
-<td>9/11</td>
-<td><b>Lecture 4: MCMC IV</b> (Qin) 
-[<a href="560R.Fall12.lecture4.ppt">Notes</a>,
-<a href="MCMCexample.ppt">Example</a>]</td>
+Random number generation. permutation and bootstrap.
 </td>
-<td>Implementation of MCMC, examples of MCMC applications.</td>
-<td><a href="homework1.pdf">Homework1</a></td>
-</tr>
-
-<td>9/13</td>
-<td><b>Lecture 5: Optimization</b> (Hu) 
-[<a href="optimization.pdf">Notes</a>]</td>
-<td>Optimization Algorithms, Newton-Raphson, Quasi-Newton-Raphson, Iteratively Re-weighted Least Squares for Generalized Linear Regression</td>
 <td></td>
 </tr>
 
-<td>9/18</td>
-<td><b>Lecture 6: EM I</b> (Hu) </a>
-[<a href="EM1.pdf">Notes</a>]</td>
-<td>EM algorithm and applications</td>
+<td>8/30 (Tues)</td>
+<td><b>Lecture 2: Optimization methods</b> (Wu)
+[<a href="Notes/lecture2-optimization.pdf">Notes</a>]
+<td>Optimization Algorithms: Newton-Raphson, Quasi-Newton-Raphson, 
+Iteratively Re-weighted Least Squares for Generalized Linear Regression</td>
 <td></td>
 </tr>
 
-<td>9/20</td>
-<td><b>Lecture 7: EM II</b> (Hu) 
-[<a href="EM2.pdf">Notes</a>]</td>
-<td>EM algorithm extensions, SEM algorithm, EM gradient algorithm, ECM algorithm</td>
+<td>9/1 (Thur)</td>
+<td><b>Lecture 3: EM algorithm I</b> (Wu)
+[<a href="Notes/Lecture3_EM.pdf">Notes</a>]
+<td>EM algorithm and applications.</td>
+<td></td>
+</tr>
+
+<td>9/6 (Tues)</td>
+<td><b>Lecture 4: EM algorithm II</b> (Wu) 
+[<a href="Notes/Lecture4_EMextension.pdf">Notes</a>]
+</td>
+<td>EM algorithm extensions, SEM algorithm, EM gradient algorithm, ECM algorithm.</td>
+<td></td>
+</tr>
+
+<td>9/8 (Thur)</td>
+<td><b>Lecture 5: MM algorithm</b> (Wu) 
+[<a href="Notes/Lecture5_MM.pdf">Notes</a>]</td>
+<td>MM algorithm and applications</td>
+<td><a href="homework/homework1.pdf">homework1</a></td>
+</tr>
+
+<td>9/13 (Tues)</td>
+<td><b>Lecture 6: HMM I</b> (Wu)
+[<a href="Notes/Lecture6_HMM1.pdf">Notes</a>]</td>
+<td>Introduction to HMM. Forward-backward algorithm.</td>
+<td></td>
+</tr>
+
+<td>9/15 (Thur)</td>
+<td><b>Lecture 7: HMM II</b> (Wu) 
+[<a href="Notes/Lecture7_HMM2.pdf">Notes</a>]</td>
+<td>Viterbi algorithm.</a>
 <td></td>
 <tr>
 
 
-<td>9/25</td>
-<td><b>Lecture 8: MM</b> (Hu) 
-[<a href="MM.pdf">Notes</a>]</td>
-<td>MM algorithm and applications</td>
-<td><a href="homework2.pdf">Homework2</a></td>
-</tr>
-
-<td>9/27</td>
-<td><b>Lecture 9: HMM I</b> (Yu) [<a href="HMM1.pdf">Notes</a>]</td>
-<td>Introduction.  Viterbi algorithm. </td>
+<td>9/20 (Tues)</td>
+<td><b>Lecture 8: Linear programming I</b> (Wu) 
+[<a href="Notes/Lecture8_lp1.pdf">Notes</a>]</td>
+<td>Introduction. Simplex algorithm. Duality. </td>
 <td></td>
 </tr>
 
-<td>10/2</td>
-<td><b>Lecture 10: HMM II</b> (Yu) [<a href="HMM2.pdf">Notes</a>]</td>
-<td>Forward-backward algorith. Applications of HMM. </td>
-<td><a href="homework3.pdf">Homework3</a>, <a href="price.txt">data</a> </td>
-</tr>
-
-<td>10/4</td>
-<td><b>Lecture 11: Linear programming</b> (Wu) 
-[<a href="lp1.pdf">Notes</a>]</td>
-<td>Introduction. Simplex algorithm.</td>
+<td>9/22 (Thur)</td>
+<td><b>Lecture 9: Linear programming II</b> (Wu) 
+[<a href="Notes/Lecture9_lp2.pdf">Notes</a>]</td>
+<td>Interior point method. Quadratic programming. Applications of LP: quantile regression.</td>
 <td></td>
 </tr>
 
-<td>10/9</td>
-<td><b>Lecture 12: Linear programming</b> (Wu) 
-[<a href="lp2.pdf">Notes</a>]</td>
-<td>Duality. Interior point method.</td>
+<td>9/27 (Tues)</td>
+<td><b>Lecture 10: Linear programming III</b> (Wu) 
+[<a href="Notes/Lecture10_lp3.pdf">Notes</a>]</td>
+<td>Applications of LP: LASSO, Support vector machine.</td>
+<td><a href="homework/homework2.pdf">homework2</a>, 
+<a href="price.txt">Data for questions 1</a></td>
+</tr>
+
+<td>9/29 (Thur)</td>
+<td><b>Lecture 11: MCMC I </b> (Qin) 
+[<a href="Notes/Lecture11_MCMC1.pdf">Notes</a>]</td>
+<td>Introduction, Approximation method (Normal approximation and Laplace’s method).</td>
 <td></td>
 </tr>
 
-<td>10/11</td>
-<td><b>Lecture 13: Linear programming</b> (Wu) 
-[<a href="lp3.pdf">Notes</a>]</td>
-<td>Applications of LP: quantile regression, LASSO. </td>
+<td>10/4 (Tues)</td>
+<td><b>Lecture 12: MCMC II</b> (Qin) 
+[<a href="Notes/Lecture12_MCMC2.ppt">Notes</a>]</td>
+<td>General Monte Carlo Methods (direct sampling, importance sampling, 
+rejection sampling and weighted bootstrap). </td>
 <td></td>
 </tr>
 
-<td>10/18</td>
-<td><b>Lecture 14:  (Wu)
-[<a href="lp4.pdf">Notes</a>]</td>
-<td>Support vector machine </td>
+<td>10/6 (Thur)</td>
+<td><b>Lecture 13:  MCMC III </b>(Qin)
+[<a href="Notes/Lecture13_MCMC3.ppt">Notes</a>]</td>
+<td>Markov chain Monte Carlo (Metropolis-Hastings algorithm, Gibbs sampling, 
+Convergence monitoring and diagnosis)</td>
 <td></td>
 </tr>
 
-</table>
-<p>
+<td>10/11 (Tues)</td>
+<td>Fall break, no class</td>
+<td></td>
+<td></td>
+</tr>
+
+<td>10/13 (Thur)</td>
+<td><b>Lecture 14:  MCMC IV </b>(Qin)
+[<a href="Notes/Lecture14_MCMC4.pdf">Notes</a>]</td>
+<td>Advanced Topics (Slice Sampling, SMCMC, RJMCMC and MALA). </td>
+<td><a href="homework/homework3.pdf">homework3</a></td>
+</tr>
+
+<td>10/18 (Tues)</td>
+<td><b>Lecture 15:  Introduction to deep learning </b>
+[<a href="Notes/Lecture15_DL.pdf">Notes</a>]</td>
+<td>Perceptron, neural network, deep architect, convolutional neural network.</td>
 <center><hr size="5" width="100%"></center>
 
+</table>
 
 <h3>Additinal readings and resource:</h3><p>
 <ul><b>Papers</b>:
 <ol>
-<li>MCMC: 
+<li>Bootstrap:
 <ul>
-<li><a href="ramaley.Buffon.69.pdf">Buffon's Needle Problem</a>
-<li><a href="MCMCHistory.pdf">Short history of MCMC</a>
-<li><a href="diaconis.pdf">The MCMC revolution</a>
-<li><a href="casellaGeorgeGibbs.pdf">Explaining the Gibbs Sampler</a>
-<li><a href="chibGreenbergMH.pdf">Understanding the Metropolis-Hastings Algorithm</a>
+<li><a href="papers/Efron1979_bootstrap.pdf">Efron boostrap AOS 1979</a>
+</ul>
+<le>MCMC: 
+<ul>
+<li><a href="papers/ramaley.Buffon.69.pdf">Buffon's Needle Problem</a>
+<li><a href="papers/MCMCHistory.pdf">Short history of MCMC</a>
+<li><a href="papers/diaconis.pdf">The MCMC revolution</a>
+<li><a href="papers/casellaGeorgeGibbs.pdf">Explaining the Gibbs Sampler</a>
+<li><a href="papers/chibGreenbergMH.pdf">Understanding the Metropolis-Hastings Algorithm</a>
 </ul>
 <li>EM and MM:
 <ul>
-<li><a href="DLR_EM.pdf">The DLR paper</a>, 
-<li><a href="EM-mixtureModel.pdf">A tutorial paper on EM algorithm</a>,
-<li><a href="EM_converge.pdf">EM convergence</a>.
-<li><a href="mmtutorial.pdf">A tutorial on MM algorithm</a>
-<li><a href="MM_applications.pdf">MM applications</a>.
+<li><a href="papers/DLR_EM.pdf">The DLR paper</a>, 
+<li><a href="papers/EM-mixtureModel.pdf">A tutorial paper on EM algorithm</a>,
+<li><a href="papers/EM_converge.pdf">EM convergence</a>.
+<li><a href="papers/mmtutorial.pdf">A tutorial on MM algorithm</a>
+<li><a href="papers/MM_applications.pdf">MM applications</a>.
 </ul>
 <li>HMM: 
 <ul>
-<li><a href="hmm-tutorial-rabiner.pdf">A tutorial on HMM</a>. 
+<li><a href="papers/hmm-tutorial-rabiner.pdf">A tutorial on HMM</a>. 
+</ul>
+
+<li>Neural network and deep learning:
+<ul>
+<li><a href="papers/fastnc.pdf">A fast learning algorithm for deep belief nets</a>.
+<li><a href="papers/BengioNips2006All.pdf">Greedy Layer-Wise Training of Deep Networks</a>.
+<li><a href="papers/DL_review_nature2015.pdf">A DL review paper on Nature</a>.
+
 </ul>
 </ol>
 </ul>
@@ -242,10 +272,13 @@ Monte Carlo methods, random variate generation. </td>
 R for beginners</a> is highly recommended. 
 <li><a href="http://cran.us.r-project.org/">CRAN R archive</a>.
 <li><a href="http://cran.us.r-project.org/doc/FAQ/R-FAQ.html">R FAQ</a>.
-<li><a href="http://big-at-emory.wikispaces.com/SPHcluster">Tips of using RSPH cluster</a>.
-<li><a href="http://big-at-emory.wikispaces.com/linuxcmd">Some basic linux commands</a>.
+<!--<li><a href="http://big-at-emory.wikispaces.com/SPHcluster">Tips of using RSPH cluster</a>.
+<li><a href="http://big-at-emory.wikispaces.com/linuxcmd">Some basic linux commands</a>. -->
 <li><a href="http://luc.devroye.org/rng.html">Luc Devroye’s website on random number generation</a>.
 <li>Devroye L., <a href="http://luc.devroye.org/rnbookindex.html">Non-Uniform Random Variate Generation</a>.
+<li><a href="papers/SVM_R.pdf">Support Vector Machines in R</a>.
+<li><a href="http://web1.sph.emory.edu/users/hwu30/computing.html">Some useful computing tips, including 
+using RSPH cluster, basic linux commands, etc.</a>
 </ol>
 </ul>
 
