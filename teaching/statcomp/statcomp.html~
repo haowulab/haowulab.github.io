@@ -236,16 +236,8 @@ Convergence monitoring and diagnosis)</td>
 <ul>
 <li><a href="papers/Efron1979_bootstrap.pdf">Efron boostrap AOS 1979</a>
 <li><a href="papers/BLB.pdf">Bag of little bootstraps JRSSB 2014</a>
+</ul>
 
-</ul>
-<le>MCMC: 
-<ul>
-<li><a href="papers/ramaley.Buffon.69.pdf">Buffon's Needle Problem</a>
-<li><a href="papers/MCMCHistory.pdf">Short history of MCMC</a>
-<li><a href="papers/diaconis.pdf">The MCMC revolution</a>
-<li><a href="papers/casellaGeorgeGibbs.pdf">Explaining the Gibbs Sampler</a>
-<li><a href="papers/chibGreenbergMH.pdf">Understanding the Metropolis-Hastings Algorithm</a>
-</ul>
 <li>EM and MM:
 <ul>
 <li><a href="papers/DLR_EM.pdf">The DLR paper</a>, 
@@ -257,6 +249,15 @@ Convergence monitoring and diagnosis)</td>
 <li>HMM: 
 <ul>
 <li><a href="papers/hmm-tutorial-rabiner.pdf">A tutorial on HMM</a>. 
+</ul>
+
+<li>MCMC: 
+<ul>
+<li><a href="papers/ramaley.Buffon.69.pdf">Buffon's Needle Problem</a>
+<li><a href="papers/MCMCHistory.pdf">Short history of MCMC</a>
+<li><a href="papers/diaconis.pdf">The MCMC revolution</a>
+<li><a href="papers/casellaGeorgeGibbs.pdf">Explaining the Gibbs Sampler</a>
+<li><a href="papers/chibGreenbergMH.pdf">Understanding the Metropolis-Hastings Algorithm</a>
 </ul>
 
 <li>Neural network and deep learning:
