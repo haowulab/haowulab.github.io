@@ -52,10 +52,11 @@ plot(lfc1, lfc2, pch=".", xlab="U133A", ylab="U133 plus2", main="Comparison of l
 abline(0,1, lwd=2, lty=2, col="red")
 
 ## The affymetrix gene names are some IDs such as 1007_s_at, 1053_at, etc.
-## find the corresponding gene names. Note getNetAffx is not working for this somehow.
+## find the corresponding gene names (I'm using gene acronyms).
 ## We will use the db packages hgu133plus2.db and hgu133a.db
 library(hgu133a.db)
-geneAcc <- as.character(hgu133aACCNUM[commonGenes])
+geneNames <- as.character(hgu133aACCNUM[commonGenes])
+head(geneNames)
 
 ######## now compare it to the gold standard Taqman data:
 ## read in taqman data
@@ -65,7 +66,7 @@ lfc.taqman=data.frame(gene=taqman$txname, lfc.taqman=log(rowMeans(taqman[,2:5]))
 head(lfc.taqman)
 
 ## make a data frame for microarray log fold changes
-lfc.microarray=data.frame(gene=geneAcc, lfc.u133a=lfc1, lfc.u133plus2=lfc2)
+lfc.microarray=data.frame(gene=geneNames, lfc.u133a=lfc1, lfc.u133plus2=lfc2)
 head(lfc.microarray)
 
 ## use merge function to combine log fold changes from different platforms on common genes.
@@ -106,7 +107,7 @@ plot(pval1, pval2, pch=".", log="xy") ## okay
 ### two platforms using ROC curves.
 ###########################################################################
 ## merge pvalues with taqman results
-pval.microarray=data.frame(gene=geneAcc, pval.u133a=pval1, pval.u133plus2=pval2)
+pval.microarray=data.frame(gene=geneNames, pval.u133a=pval1, pval.u133plus2=pval2)
 all.pval=merge(lfc.taqman, pval.microarray, by="gene")
 ngenes=nrow(all.pval)
 
