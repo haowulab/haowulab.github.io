@@ -156,20 +156,24 @@ mm=matchPattern("CG", Hsapiens$chr1)
 length(mm)
 mm
 
-### masking
-library(BSgenome.Hsapiens.UCSC.hg18)
-Hsapiens[["chr1"]]
-Hsapiens$chr1
 
 
-
-## SNPs
+###### SNPs
 available.SNPs()
 installed.SNPs()
 library(BSgenome.Hsapiens.UCSC.hg19)
-SnpHsapiens <- injectSNPs(Hsapiens, "SNPlocs.Hsapiens.dbSNP.20120608")
+library(SNPlocs.Hsapiens.dbSNP144.GRCh37)
+
+## inject SNPs into reference genome
+SnpHsapiens <- injectSNPs(Hsapiens, "SNPlocs.Hsapiens.dbSNP144.GRCh37")
 SnpHsapiens
 
-snpcount(SnpHsapiens)
-head(snplocs(SnpHsapiens, "chr1"))
-IUPAC_CODE_MAP
+## number of SNPs
+snps <- SNPlocs.Hsapiens.dbSNP144.GRCh37
+snpcount(snps)
+
+## SNP locations on chr22
+snpsBySeqname(snps, "22")
+
+## get SNPs by overlap
+snpsByOverlaps(snps, "22:33.63e6-33.64e6")
