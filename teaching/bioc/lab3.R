@@ -50,7 +50,7 @@ hist(obsExp,100) ## see a long tail, those are CpG islands
 ## and their overlaps with CpG island.
 ## first obtain genes from UCSC using GenomicFeatures functions
 library(GenomicFeatures)
-txdb=makeTxDbFromUCSC(genom="hg18",tablename="refGene") ## this is slow, take a few minutes.
+txdb=makeTxDbFromUCSC(genom="hg18",tablename="knownGene") ## this is slow, take a few minutes.
 genes.hg18 = genes(txdb)
 
 ## get transcriptional start site.
