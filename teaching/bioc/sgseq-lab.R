@@ -4,10 +4,10 @@ library(GenomicFeatures)
 library(Rsamtools)
 
 ## first get gene information from UCSC. This will take 2 minutes or so.
-## Or if you have these saved you can load them in using: refGene.hg18=loadDb("refGene.hg18.GR.sqlite")
-refGene.hg18=makeTxDbFromUCSC(genom="hg18",tablename="refGene")
-tx=transcripts(refGene.hg18)
-tx.chr22=tx[seqnames(tx)=="chr22"] ## genes on  chr 22
+## Or if you have these saved you can load them in using: gene.hg18=loadDb("gene.hg18.GR.sqlite")
+gene.hg18=makeTxDbFromUCSC(genom="hg18",tablename="knownGene")
+allgenes=genes(gene.hg18)
+allgenes.chr22=allgenes[seqnames(allgenes)=="chr22"] ## genes on  chr 22
 
 ## Read in RNA-seq bam file
 what=c("rname", "strand", "pos", "qwidth")
@@ -19,16 +19,16 @@ IRange.reads=GRanges(seqnames=Rle(bam$rname),
 
 ## get RNA-seq counts within gene bodies -
 ## should obtain exon counts and sum up. I'm approximating the process here.
-counts.RNAseq=countOverlaps(tx.chr22, IRange.reads)
+counts.RNAseq=countOverlaps(allgenes.chr22, IRange.reads)
 
 ## get Cmyc binding around TSS
 ## first get region around TSS (+/- 1000 bp). This is a little tricky, be careful in strands directions.
-strands=strand(tx.chr22)
+strands=strand(allgenes.chr22)
 ix.gene.minus=which(strands=="-")
-TSS=start(tx.chr22)
-TSS[ix.gene.minus]=end(tx.chr22)[ix.gene.minus]
+TSS=start(allgenes.chr22)
+TSS[ix.gene.minus]=end(allgenes.chr22)[ix.gene.minus]
 ext=1000
-TSS.GRanges=GRanges(seqnames=Rle("chr22", length(tx.chr22)),
+TSS.GRanges=GRanges(seqnames=Rle("chr22", length(allgenes.chr22)),
                     ranges=IRanges(start=TSS-ext, end=TSS+ext))
 bam=scanBam("K562Cmyc_chr22.bam", param=param)[[1]]
 IRange.reads=GRanges(seqnames=Rle(bam$rname),
@@ -46,7 +46,7 @@ ext=1000
 winsize=50
 allss=sapply(TSS, function(x) seq(x-ext, x+ext-1, by=winsize))
 ## create GRanges
-allchrs=as.character(seqnames(tx.chr22))
+allchrs=as.character(seqnames(allgenes.chr22))
 allseq=Rle(allchrs,rep(ext/winsize*2,length(allchrs)))
 allrange=IRanges(start=allss, end=allss+winsize-1)
 TSS.GRanges=GRanges(seqnames=allseq, ranges=allrange)
