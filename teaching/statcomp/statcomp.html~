@@ -215,8 +215,8 @@ Iteratively Re-weighted Least Squares for Generalized Linear Regression</td>
 
 <td>10/18 (Thur)</td>
 <td><b>Lecture 14:  Dimension reduction </b>(Wu)
-[<a href="">Notes</a>]</td>
-<td>Introduce two dimension reduction methods non-negative matrix factorization (NMF),
+[<a href="DimensionReduction.pdf">Notes</a>]</td>
+<td>Introduce two dimension reduction methods: non-negative matrix factorization (NMF),
 and local Dirichlet allocation (LDA). </td>
 <td></td>
 </tr>
