@@ -75,14 +75,14 @@ you can pick one your like. Within the program some useful commands are:
 	- `b`: go one page up.
 	- `/pattern`: search for <tt>pattern</tt> in the text file.
 	- `q`: quit to the shell.
-
+	
 
 - **head/tail**: to show the start or end a few lines of a text file. 
 For example "<tt>head -5 file.txt</tt>" shows the first 5 lines of file.txt.
 
 - **wc**: counting number of words and lines of a file. 
 For example if "<tt>wc file.txt</tt>" returns 
-<ul><tt>25700  777244 8974608 file.txt</tt></ul>
+```25700  777244 8974608 file.txt```
 It means file.txt has 25700 lines, 777244 words and 8974608 bytes.
 
 - **zip/unzip**: To compress/expand files. 
