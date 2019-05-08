@@ -71,12 +71,10 @@ To delete a directory with contents use "<tt>rm -r</tt>".
 large text files for that they don't open and load the whole file into memory,
 which makes it very fast. <tt>more</tt> and <tt>less</tt> are pretty similar, 
 you can pick one your like. Within the program some useful commands are:
-<ul>
-<li>space: go one page down.
-<li><tt>b</tt>: go one page up.
-<li><tt>/pattern</tt>: search for <tt>pattern</tt> in the text file.
-<li><tt>q</tt>: quit to the shell.
-</ul>
+	- space: go one page down.
+	- `b`: go one page up.
+	- `/pattern`: search for <tt>pattern</tt> in the text file.
+	- `q`: quit to the shell.
 
 
 - **head/tail**: to show the start or end a few lines of a text file. 
@@ -132,6 +130,7 @@ find . -name "*.R"
 
 
 ### Other useful tips on a linux system
+
 - Press "TAB" key to complete the name of a command, a file or a directory when typing. 
 For example is there is a file called "reallylongfilename.txt". You can type in "really"
 (or the first a few letters) then press TAB, and the file name will be completed automatically.
