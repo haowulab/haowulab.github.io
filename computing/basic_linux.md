@@ -87,8 +87,7 @@ It means file.txt has 25700 lines, 777244 words and 8974608 bytes.
 
 - **zip/unzip**: To compress/expand files. 
 Typical usage is 
-<ul><tt>zip target.zip *.txt</tt>,</ul> 
-which compresses all txt files into one zip file called <tt>target.zip</tt>.
+`zip target.zip *.txt`. This compresses all txt files into one zip file called <tt>target.zip</tt>.
 To extract them type <tt>unzip target.zip</tt>.
 
 - **gzip/gunzip**: To compress/expand files. 
@@ -155,6 +154,5 @@ which means the output from one process becomes the input of another one.
 <a href="http://lh3lh3.users.sourceforge.net/biounix.shtml">here</a>.
 
 That's it! I suggest you buy a 
-<a href="http://www.thinkgeek.com/tshirts-apparel/xkcd/dabb/">
-Linux cheat shirt</a>, which will greatly help memorizing these commands.
+[Linux cheat shirt](https://store.xkcd.com/products/linux-cheat-shirt), which will greatly help memorizing these commands.
 
