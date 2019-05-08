@@ -32,25 +32,26 @@ which list files in long format and sorted by size with the largest file at the 
 `cp source_dir/source_file target_dir/target_file`.
 An frequently used option is `-r`, which copies 
 directories. For example, 
-`cp -r * target_dir/</tt>` copies all contents including 
+```cp -r * target_dir/</tt>``` copies all contents including 
 sub directories into folder named `target_dir`.
 
 
 - **scp**: secure copy files from/to a remote file system (such as the cluster).
 For example, 
-``scp source_file hwu30@cluster.sph.emory.edu:~``
+```scp source_file hwu30@cluster.sph.emory.edu:~```
 copies `source_file` to the home directory of user `hwu30` at 
 `cluster.sph.emory.edu`. Conversely, 
 ``scp -r hwu30@cluster.sph.emory.edu:~/* target_dir``
-copies everything in <tt>hwu30</tt>'s home directory at 
-<tt>cluster.sph.emory.edu</tt> to local directory <tt>target_dir</tt>.
-Note that <tt>scp</tt> and <tt>cp</tt> share many parameters.
+copies everything in `hwu30`'s home directory at 
+`cluster.sph.emory.edu`
+to local directory `target_dir`.
+Note that `scp` and `cp` share many parameters.
 
-<li><b><tt>mv</tt></b>: move/rename files. 
+- **mv**: move/rename files. 
 Typical usage is 
-<ul><tt>mv source_dir/source_file target_dir/target_file</tt></ul>
-Differences between cp and mv are (1) after "<tt>mv</tt>" the source file will 
-be deleted, and (2) time stamp for the source file will be perserved 
+``mv source_dir/source_file target_dir/target_file``
+Differences between `cp` and `mv` are (1) after `mv` the source file will 
+be deleted; and (2) time stamp for the source file will be perserved 
 in the target file.
 
 <li><b><tt>rm</tt></b>: remove (delete) files. <tt>rm target_dir/target_file</tt>.
