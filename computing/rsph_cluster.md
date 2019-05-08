@@ -18,7 +18,7 @@ ssh -X userid@hpc4.sph.emory.edu
 
 Here ``userid`` needs to be replaced by your login. 
 
-I usually create an alias by adding the following line to my .bash_profile 
+I usually create an alias by adding the following line to my ``.bash_profile``:
 
 ```
 alias cluster="ssh -X hwu30@hpc4.sph.emory.edu"

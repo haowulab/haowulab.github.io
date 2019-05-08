@@ -1,4 +1,8 @@
-### Basic Linux commands
+---
+layout: page
+title: Basic Linux commands
+description: Basic Linux commands
+---
 
 Using the computer clusters requires familiarity with basic Linux commmands. 
 After logging into your cluster account, you are facing a 
@@ -12,26 +16,24 @@ most of the tasks. Here is a list of them with VERY brief explanations.
 Each of these commands takes tons of options, but only
 a few of them are frequently used. For more detailed 
 explanations please refer to the manual pages. 
-<ol>
 
-<li><b><tt>man</tt></b>: to get help for a command. This is short for "<tt>manual</tt>".
-For example to get the complete help page for "<tt>ls</tt>" command, type
-"<tt>man ls</tt>" at the command line. 
+- **man**: to get help for a command. This is short for `manual`.
+For example to get the complete help page for `ls` command, type
+`man ls` at the command line. 
 
-<li><b><tt>ls</tt></b>: get a list of the directory contents. This is the synonym of DOS's "<tt>dir</tt>"
-commands. Most common option is "<tt>-l</tt>", which list the contents in long format 
+- **ls**: get a list of the directory contents. Most common option is `ls -l`, which list the contents in long format 
 (one line per item showing file modes, owner, time accessed, size, etc). 
-Other options I often use are "<tt>ls -rtl</tt>", which list files in 
+Other options I often use are `ls -rtl`, which list files in 
 long format and sorted by time 
-with the latest file at the bottom, and "<tt>ls -rSl</tt>", 
+with the latest file at the bottom, and `ls -rSl`, 
 which list files in long format and sorted by size with the largest file at the bottom. 
 
-<li><b><tt>cp</tt></b>: copy files. Typical usage is 
-<ul><tt>cp source_dir/source_file target_dir/target_file</tt></ul>
-An frequently used option is "<tt>-r</tt>", which copies 
-directories. For example 
-"<tt>cp -r * target_dir/</tt>" copies all contents including 
-sub directories into folder named <tt>target_dir</tt>.
+- **cp**: copy files. Typical usage is 
+`cp source_dir/source_file target_dir/target_file`.
+An frequently used option is `-r`, which copies 
+directories. For example, 
+`cp -r * target_dir/</tt>` copies all contents including 
+sub directories into folder named `target_dir`.
 
 
 <li><b><tt>scp</tt></b>: secure copy files from/to a remote file system (such as the cluster).
@@ -74,6 +76,7 @@ you can pick one your like. Within the program some useful commands are:
 <li><tt>/pattern</tt>: search for <tt>pattern</tt> in the text file.
 <li><tt>q</tt>: quit to the shell.
 </ul>
+
 
 <li><b><tt>head/tail</tt></b>: to show the start or end a few lines of a text file. 
 For example "<tt>head -5 file.txt</tt>" shows the first 5 lines of file.txt.
@@ -126,8 +129,8 @@ regular expression</a>.
 find . -name "*.R"
 ``
 
-
 </ol>
+
 
 ### Other useful tips on a linux system
 <ul>
