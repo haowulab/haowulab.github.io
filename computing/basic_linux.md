@@ -36,12 +36,12 @@ directories. For example,
 sub directories into folder named `target_dir`.
 
 
-<li><b><tt>scp</tt></b>: secure copy files from/to a remote file system (such as the cluster).
-For example, <br>
-<ul><tt>scp source_file hwu30@cluster.sph.emory.edu:~/</tt><br></ul>
-copies <tt>source_file</tt> to the home directory of user <tt>hwu30</tt> at 
-<tt>cluster.sph.emory.edu</tt>. Conversely, 
-<ul><tt>scp -r hwu30@cluster.sph.emory.edu:~/* target_dir</tt> </ul>
+- **scp**: secure copy files from/to a remote file system (such as the cluster).
+For example, 
+``scp source_file hwu30@cluster.sph.emory.edu:~``
+copies `source_file` to the home directory of user `hwu30` at 
+`cluster.sph.emory.edu`. Conversely, 
+``scp -r hwu30@cluster.sph.emory.edu:~/* target_dir``
 copies everything in <tt>hwu30</tt>'s home directory at 
 <tt>cluster.sph.emory.edu</tt> to local directory <tt>target_dir</tt>.
 Note that <tt>scp</tt> and <tt>cp</tt> share many parameters.
