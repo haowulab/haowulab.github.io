@@ -1,9 +1,13 @@
-#Using git with Bioconductor
+---
+layout: page
+title: Using git with Bioconductor
+description: Using git with Bioconductor
+---
 
-Detailed description is provided [here](https://www.bioconductor.org/developers/how-to/git/). 
+Here I provide a brief description of using git to manage Bioconductor packages. A detailed description is provided [here](https://www.bioconductor.org/developers/how-to/git/). 
 
 
-## Create a new repository: 
+### Create a new repository: 
 
 Assuming:
 
@@ -15,18 +19,22 @@ Assuming:
 
 
 2. Clone the empty repo to my local machine:
+
 ```
 git clone https://github.com/haowulab/mypkg.git
 ```
+
 Note after this step, the GitHub repo is the **origin** of my local repo. 
 
 3. Add a remote to the cloned (local) repository (needs to be done in `mypkg` directory):
+4. 
 ```
 git remote add upstream git@git.bioconductor.org:packages/mypkg.git
 ```
 This makes  `git.bioconductor.org` to be the **upstream** of my local repo. 
 
 4. Fetch content from remote upstream. 
+5. 
 ```
 git fetch upstream
 ```
@@ -38,12 +46,11 @@ git merge upstream/master
 
 6. Push changes to your origin master (this updates the content on GitHub): `git push origin master`. 
 
-7. Push changes to the upstream master (updates the content on Bioconductor).  
-` git push upstream master`.
+7. Push changes to the upstream master (updates the content on Bioconductor):  ``` git push upstream master```.
 In order for this step to be successful, Bioconductor must grant you the access. Need to submit public SSH key [here](https://docs.google.com/forms/d/e/1FAIpQLSdlTbNjsQJDp0BA480vo4tNufs0ziNyNmexegNZgNieIovbAA/viewform). 
 
 
-## View existing remote 
+### View existing remote 
 
 In the local git repo, do `git remote -v`. I see following: 
 
@@ -54,7 +61,7 @@ upstream	git@git.bioconductor.org:packages/DSS.git (fetch)
 upstream	git@git.bioconductor.org:packages/DSS.git (push)
 ```
 
-## Make and commit changes to existing 
+### Make and commit changes to existing 
 
 - After making changes, run `git commit -a -m "some msg"` to commit all changes at once. 
 - `git add` adds a new file to the repo. 
@@ -66,10 +73,13 @@ git push -u origin master
 git push -u upstream master
 ```
 
-## Resolve conflicts
-Sometimes `git push -u upstream master` will fail with a warning message like `failed to push some refs to 'git@git.bioconductor.org:packages/DSS.git'.`. 
-`Updates were rejected because the remote contains work that you do
-not have locally.` 
+### Resolve conflicts
+Sometimes `git push -u upstream master` will fail with a warning message like 
+
+```
+failed to push some refs to 'git@git.bioconductor.org:packages/DSS.git'. 
+Updates were rejected because the remote contains work that you do not have locally.
+``` 
 
 This is usually caused by conflicts in files between local and upstream (bioconductor). Most likely, in the `DESCRIPTION` file becasue bioconductor modify the version number in new release. To resolve this, first run 
 

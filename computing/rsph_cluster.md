@@ -1,11 +1,25 @@
+---
+layout: page
+title: Using the RSPH cluster
+description: Using the RSPH cluster
+---
+
+
 All following tips are based on using terminal on Mac OS. I believe it will work for any linux system. For Windows, one needs to install some type of Unix-like systems, such as [Cygwin](https://www.cygwin.com).
 
 ### RSPH cluster
 
 Address for the RSPH cluster is ``hpc4.sph.emory.edu``. 
-Login commmand is ``ssh -X userid@hpc4.sph.emory.edu``. ``userid`` needs to be replaced by your login. 
+Login commmand is 
+
+```
+ssh -X userid@hpc4.sph.emory.edu
+``` 
+
+Here ``userid`` needs to be replaced by your login. 
 
 I usually create an alias by adding the following line to my .bash_profile 
+
 ``
 alias cluster="ssh -X hwu30@hpc4.sph.emory.edu"
 ``
