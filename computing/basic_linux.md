@@ -49,7 +49,7 @@ Note that `scp` and `cp` share many parameters.
 
 - **mv**: move/rename files. 
 Typical usage is 
-``mv source_dir/source_file target_dir/target_file``
+<code>mv source_dir/source_file target_dir/target_file</code>
 Differences between `cp` and `mv` are (1) after `mv` the source file will 
 be deleted; and (2) time stamp for the source file will be perserved 
 in the target file.
