@@ -19,22 +19,18 @@ Assuming:
 
 
 2. Clone the empty repo to my local machine:
-
 ```
 git clone https://github.com/haowulab/mypkg.git
 ```
-
 Note after this step, the GitHub repo is the **origin** of my local repo. 
 
 3. Add a remote to the cloned (local) repository (needs to be done in `mypkg` directory):
-4. 
 ```
 git remote add upstream git@git.bioconductor.org:packages/mypkg.git
 ```
 This makes  `git.bioconductor.org` to be the **upstream** of my local repo. 
 
 4. Fetch content from remote upstream. 
-5. 
 ```
 git fetch upstream
 ```
