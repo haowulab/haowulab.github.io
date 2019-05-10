@@ -13,3 +13,6 @@ The main purpose of this page is to provide some useful computing tips for BIOS 
 [Basic Linux commands](../computing/basic_linux.html)
 
 [Bioconductor on github](../computing/bioc-git_notes.md)
+
+[Call C from R](../computing/CfromR/callCfromR.html)
+
