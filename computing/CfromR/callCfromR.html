@@ -9,7 +9,6 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Hao Wu (hao.wu@emory.edu)" />
 
 
 <title>Calling C from R</title>
@@ -185,7 +184,6 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Calling C from R</h1>
-<h4 class="author"><em>Hao Wu (<a href="mailto:hao.wu@emory.edu">hao.wu@emory.edu</a>)</em></h4>
 
 </div>
 
@@ -222,6 +220,8 @@ pre { /* Code block - determines code spacing between lines */
         font-size: 14px;
 }
 </style>
+<p>This document provide instruction for calling C from R using two old-fashion interfaces: <code>.C</code> and <code>.Call</code>. <code>Rcpp</code> is a relatively newer mechanism for calling C/C++ from R, which provides easier and cleaner interface. <a href="http://adv-r.had.co.nz/Rcpp.html">This chapter from Advanced R</a> provides a wonderful and comprehensive description of Rcpp, so I don’t want to retype what they described.</p>
+<p>I did some comparison for using <code>Rcpp</code>, <code>.C</code>, and <code>.Call</code>. I found that in general <code>Rcpp</code> has the best performance, <code>.Call</code> is comparable to <code>Rcpp</code>, and <code>.C</code> is the slowest by a rather large margin. <a href="comparison.html">This page</a> shows some examples and codes to compare these interfaces.</p>
 <hr />
 <div id="prerequisite" class="section level3">
 <h3>Prerequisite</h3>
@@ -573,13 +573,6 @@ X = matrix(rnorm(10), nrow=5)
 Y = matrix(rnorm(8), nrow=2)
 result = .Call(&quot;matmult&quot;, X, Y)
 X %*% Y ## gives the same result</code></pre>
-<hr />
-</div>
-<div id="use-rcpp" class="section level3">
-<h3>Use Rcpp</h3>
-<p>Rcpp is a relatively newer mechanism for calling C/C++ from R, which provides much easier and cleaner interface. This chapter from <a href="http://adv-r.had.co.nz/Rcpp.html">Advanced R</a> provides a wonderful and comprehensive description of Rcpp, so I don’t want to retype what they described.</p>
-<p>I did some comparison for using <code>Rcpp</code>, <code>.C</code>, and <code>.Call</code>. I found that in general <code>.Call</code> has the best performance, and <code>Rcpp</code> is the worst. <code>.Call</code> can be 10 times faster than <code>Rcpp</code>. I guess that’s the price to pay for easier programming.</p>
-<p><a href="comparison.html">This page</a> shows some examples and codes to compare these interfaces.</p>
 </div>
 
 

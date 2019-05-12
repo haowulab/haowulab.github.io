@@ -16,3 +16,5 @@ The main purpose of this page is to provide some useful computing tips for BIOS 
 
 [Call C from R](../computing/CfromR/callCfromR.html)
 
+[Comparing different interfaces for calling C from R](../computing/CfromR/comparison.html)
+
