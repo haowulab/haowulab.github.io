@@ -229,7 +229,7 @@ pre { /* Code block - determines code spacing between lines */
 </ul>
 <div id="rowsums-example" class="section level3">
 <h3>rowSums example</h3>
-<p>In this example we want to compute the row sums of a double matrix, mimicing the <code>rowSums</code> function in R.</p>
+<p>In this example I want to compute the row sums of a double matrix, mimicing the <code>rowSums</code> function in R.</p>
 <p>Here is the C function <a href="myRowSum.c" class="uri">myRowSum.c</a> for using <code>.C</code> and <code>.Call</code>. There are two functions: <code>myRowSum_C</code> is to use <code>.C</code>, and <code>myRowSum_Call</code> uses <code>.Call</code>.</p>
 <pre class="r"><code>#include &lt;stdio.h&gt;
 #include &lt;R.h&gt;
@@ -267,7 +267,7 @@ SEXP myRowSum_Call(SEXP X) {
         return(result);
 }</code></pre>
 <p>I compiled the above file outside R using <code>R CMD SHLIB myRowSum.c</code>, which generates share library <code>myRowSum.so</code>.</p>
-<p>Here is the C function <a href="myRowSum_Rcpp.cpp" class="uri">myRowSum_Rcpp.cpp</a> for using <code>Rcpp</code>. This function will be compared in R using <code>sourceCpp</code> R funtion.</p>
+<p>Here is the cpp function <a href="myRowSum_Rcpp.cpp" class="uri">myRowSum_Rcpp.cpp</a> for using <code>Rcpp</code>. This function will be compiled in R using <code>sourceCpp</code> R funtion.</p>
 <pre class="r"><code>#include &lt;Rcpp.h&gt;
 using namespace Rcpp;
 
@@ -286,7 +286,7 @@ NumericVector myRowSum_Rcpp( NumericMatrix x ) {
     }
     return(result);
 }</code></pre>
-<p>Below are the R codes for comparison. 1. First load in necessary packages, shared libray, and compare the Rcpp code.</p>
+<p>Below are the R codes for comparison. 1. First load in necessary packages, shared libray, and compile the Rcpp code.</p>
 <pre class="r"><code>library(Rcpp)
 library(microbenchmark)
 dyn.load(&quot;myRowSum.so&quot;)
@@ -302,26 +302,26 @@ myRowSum_Call &lt;- function(X) {
     .Call(&quot;myRowSum_Call&quot;, X)
 }</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>I create a random matrix with 1 million rows and 10 columns, and benchmark the three functions. As a benchmark, the <code>rowSums</code> R function is also being compared</li>
+<li>I create a random matrix with 1 million rows and 10 columns, and benchmark the three functions. As a baseline, the <code>rowSums</code> R function is also being compared.</li>
 </ol>
 <pre class="r"><code>X = matrix(rnorm(1e7,sd=5), ncol=10)
 microbenchmark(myRowSum_C(X), myRowSum_Call(X), myRowSum_Rcpp(X), rowSums(X), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
 ##              expr        min        lq      mean    median        uq
-##     myRowSum_C(X)  34.346864  41.10419  53.42677  50.75219  59.08467
-##  myRowSum_Call(X)   8.568474  10.36041  12.08887  11.03709  12.49862
-##  myRowSum_Rcpp(X) 126.142229 136.52009 142.22183 141.53130 146.23092
-##        rowSums(X)  21.802728  26.76371  30.06784  29.11547  31.53493
+##     myRowSum_C(X)  33.232425  40.03513  51.36216  47.34533  56.65384
+##  myRowSum_Call(X)   8.227523  10.20349  13.01894  11.18837  12.94208
+##  myRowSum_Rcpp(X) 126.972614 134.45375 140.82313 138.78690 145.64825
+##        rowSums(X)  20.846855  24.47927  29.80946  27.61348  32.81077
 ##        max neval  cld
-##   98.78990   100   c 
-##   32.45344   100 a   
-##  176.67853   100    d
-##   71.72382   100  b</code></pre>
+##  112.45966   100   c 
+##   60.66398   100 a   
+##  167.96796   100    d
+##   84.13169   100  b</code></pre>
 <p>It can be seen that on average, <code>myRowSum_Call</code> takes about 13 milliseconds, but <code>myRowSum_Rcpp</code> takes around 140 milliseconds, more than 10 times slower. <code>myRowSum_C</code> is in the middle. The discrepency is so big that it is suprising. As a benchmark, the <code>rowSums</code> function in R takes ~25 milliseconds. Of course that function has some other error checking machenism, which slows it down.</p>
 </div>
 <div id="a-linear-kernel-smoothing-example" class="section level3">
 <h3>A linear kernel smoothing example</h3>
-<p>The above example only tests the opertaions on loop and sum. Now we want to add multiplication. In this example, we implement the linear kernel smoothing procedure, mimicing the <code>filter</code> function in R. This time I will just compare using <code>.Call</code> and <code>Rcpp</code>.</p>
+<p>The above example only tests the opertaions on loop and sum. Now I want to throw in multiplication. In this example, I implement the linear kernel smoothing procedure, mimicing the <code>filter</code> function in R. This time I will just compare <code>.Call</code> and <code>Rcpp</code>.</p>
 <p>Here is the C funnction using <code>.Call</code> <a href="myFilter_Call.c" class="uri">myFilter_Call.c</a>:</p>
 <pre class="r"><code>#include &lt;R.h&gt;
 #include &lt;Rinternals.h&gt;
@@ -346,7 +346,7 @@ SEXP myFilter_Call( SEXP x, SEXP f ) {
     UNPROTECT(1);
     return(result);
 }</code></pre>
-<p>Here is the C funnction using <code>Rcpp</code> <a href="myFilter_Rcpp.cpp" class="uri">myFilter_Rcpp.cpp</a>:</p>
+<p>Here is the cpp funnction using <code>Rcpp</code> <a href="myFilter_Rcpp.cpp" class="uri">myFilter_Rcpp.cpp</a>:</p>
 <pre class="r"><code>#include &lt;Rcpp.h&gt;
 using namespace Rcpp;
 
@@ -382,12 +382,12 @@ f = dnorm(qnorm(seq(0.1, 0.9, by=0.1)))
 f = f/sum(f) ## Gaussian kernel       
 microbenchmark( myFilter_Call(X,f), myFilter_Rcpp(X,f), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
-##                 expr        min         lq      mean     median        uq
-##  myFilter_Call(X, f)   5.909924   7.003412  10.05441   9.832182  11.29702
-##  myFilter_Rcpp(X, f) 108.948734 114.521995 118.86413 117.614934 121.30570
+##                 expr        min         lq       mean    median        uq
+##  myFilter_Call(X, f)   6.003236   7.073423   9.139108   9.26157  10.23942
+##  myFilter_Rcpp(X, f) 105.879887 113.527896 118.718483 116.31746 121.87490
 ##        max neval cld
-##   30.54539   100  a 
-##  150.06233   100   b</code></pre>
+##   21.79127   100  a 
+##  215.57511   100   b</code></pre>
 <p>Again, using <code>.Call</code> is more than 10 times faster.</p>
 </div>
 <div id="conclusion" class="section level3">
