@@ -307,17 +307,17 @@ myRowSum_Call &lt;- function(X) {
 <pre class="r"><code>X = matrix(rnorm(1e7,sd=5), ncol=10)
 microbenchmark(myRowSum_C(X), myRowSum_Call(X), myRowSum_Rcpp(X), rowSums(X), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
-##              expr        min        lq      mean    median        uq
-##     myRowSum_C(X)  33.232425  40.03513  51.36216  47.34533  56.65384
-##  myRowSum_Call(X)   8.227523  10.20349  13.01894  11.18837  12.94208
-##  myRowSum_Rcpp(X) 126.972614 134.45375 140.82313 138.78690 145.64825
-##        rowSums(X)  20.846855  24.47927  29.80946  27.61348  32.81077
-##        max neval  cld
-##  112.45966   100   c 
-##   60.66398   100 a   
-##  167.96796   100    d
-##   84.13169   100  b</code></pre>
-<p>It can be seen that on average, <code>myRowSum_Call</code> takes about 13 milliseconds, but <code>myRowSum_Rcpp</code> takes around 140 milliseconds, more than 10 times slower. <code>myRowSum_C</code> is in the middle. The discrepency is so big that it is suprising. As a benchmark, the <code>rowSums</code> function in R takes ~25 milliseconds. Of course that function has some other error checking machenism, which slows it down.</p>
+##              expr       min        lq      mean    median        uq
+##     myRowSum_C(X) 33.618934 39.547585 50.615149 46.838690 55.334390
+##  myRowSum_Call(X)  8.022451  9.591825 11.692959 10.305188 12.143728
+##  myRowSum_Rcpp(X)  5.884247  7.369254  9.580274  8.200964  9.453613
+##        rowSums(X) 23.288751 25.007887 29.334679 27.468234 30.897620
+##        max neval cld
+##  116.05325   100   c
+##   31.60609   100 a  
+##   25.33447   100 a  
+##   58.41985   100  b</code></pre>
+<p>It can be seen that on average, <code>myRowSum_Call</code> takes about 13 milliseconds, but <code>myRowSum_Rcpp</code> takes around 10 milliseconds, and <code>myRowSum_C</code> is in the slowest taking 55 milliseconds. As a benchmark, the <code>rowSums</code> function in R takes ~28 milliseconds. Of course that function has some other error checking machenism, which slows it down. These numbers will vary from run to run, but it appears <code>Rcpp</code> is the fastest, followed by <code>.Call</code>. <code>.C</code> is the slowest by a large margin. The discrepency is so big that it is suprising.</p>
 </div>
 <div id="a-linear-kernel-smoothing-example" class="section level3">
 <h3>A linear kernel smoothing example</h3>
@@ -382,17 +382,17 @@ f = dnorm(qnorm(seq(0.1, 0.9, by=0.1)))
 f = f/sum(f) ## Gaussian kernel       
 microbenchmark( myFilter_Call(X,f), myFilter_Rcpp(X,f), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
-##                 expr        min         lq       mean    median        uq
-##  myFilter_Call(X, f)   6.003236   7.073423   9.139108   9.26157  10.23942
-##  myFilter_Rcpp(X, f) 105.879887 113.527896 118.718483 116.31746 121.87490
-##        max neval cld
-##   21.79127   100  a 
-##  215.57511   100   b</code></pre>
-<p>Again, using <code>.Call</code> is more than 10 times faster.</p>
+##                 expr      min       lq      mean   median       uq
+##  myFilter_Call(X, f) 5.328045 6.786385  9.661941 9.367134 10.50744
+##  myFilter_Rcpp(X, f) 6.422510 7.762425 10.420926 9.694676 10.73079
+##       max neval cld
+##  43.85907   100   a
+##  34.45560   100   a</code></pre>
+<p>Again, <code>Rcpp</code> and <code>.Call</code> have comparable performances.</p>
 </div>
 <div id="conclusion" class="section level3">
 <h3>Conclusion</h3>
-<p>Based on the comparisons above, <code>.Call</code> as an old-fashion way to interface with C code is significantly faster than <code>Rcpp</code>. Of course, <code>.Call</code> requires a little bit more programming in manipulating the input/output objects (the main contents will be pretty much the same). I feel the computational gains worth the efforts.</p>
+<p>Based on the comparisons above, <code>.Call</code> as an old-fashion way to interface with C code provides similar performance as <code>Rcpp</code>. However, <code>Rcpp</code> has the easiest interface, whereas <code>.Call</code> requires a little bit more programming in manipulating the input/output objects. Thus, <code>Rcpp</code> seems to be the best interface to C from R.</p>
 </div>
 
 
