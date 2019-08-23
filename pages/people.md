@@ -94,7 +94,7 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
   </div>
 
   <div class="span5">
-    <h4> Lucxiao Chen </h4>
+    <h4> Luxiao Chen </h4>
     Ph.D. student<br />
     Department of Biostatistics and Bioinformatics <br />
     Emory University<br />
