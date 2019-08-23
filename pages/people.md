@@ -110,14 +110,11 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 <h4> Ph.D. students </h4>
 
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
-
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Assistant Professor, Auburn University. 
-
 <li><strong>Tianlei Xu</strong>, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Senior Data Scientist, KSQ therapeutics. 
-
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
