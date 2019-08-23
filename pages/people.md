@@ -108,6 +108,7 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 
 <h3> Former group members </h3>
 <h4> Ph.D. students </h4>
+
 <ul>
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 
@@ -120,12 +121,10 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China. 
-
 </ul>
 
 <h4> Master's students </h4>
 <ul>
-
 <li> <strong>Yuchen Yan,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Siyi Geng,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Xiaoran Meng,</strong>, MSPH in Biostatistics, 2019. 
@@ -136,7 +135,5 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <li> <strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. 
 <strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
 <li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. 
-
-
 </ul>
     
