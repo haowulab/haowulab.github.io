@@ -120,7 +120,7 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>Current position</strong>: Senior Data Scientist, KSQ therapeutics. 
 
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China. 
+<strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 </ul>
 
 <h4> Master's students </h4>
@@ -136,4 +136,3 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
 <li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. 
 </ul>
-    
