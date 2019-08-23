@@ -121,6 +121,8 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China. 
 
+</ul>
+
 <h4> Master's students </h4>
 <ul>
 
