@@ -86,11 +86,11 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 </div>
 <br>
 
-<!-- Xisha Weng -->
+<!-- Luxiao Chen -->
 <div class="row-fluid">
 
   <div class="span2">
-    <img src="" width="200" /><br />
+    <img src="../assets/pics/LuxiaoChen.jpg" width="200" /><br />
   </div>
 
   <div class="span5">
@@ -108,10 +108,10 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 
 <h3> Former group members </h3>
 <h4> Ph.D. students </h4>
-- [Hao "Harry" Feng](https://sites.google.com/site/haoharryfeng), Ph.D. in Biostatistics, 2019. 
-<strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 
-- **Li Chen**, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
+- **[Hao "Harry" Feng](https://sites.google.com/site/haoharryfeng)**, Ph.D. in Biostatistics, 2019. **Current position**: Assistant Professor, Case Western Reserve University. 
+
+- **[Li Chen](https://lichen-lab.github.io)**, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
 **Current position**: Assistant Professor, Auburn University. 
 
 - **Tianlei Xu**, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
