@@ -50,24 +50,6 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 
 <h3>Ph.D. students</h3>
 
-<!-- Hao Feng -->
-<div class="row-fluid">
-
-  <div class="span2">
-    <img src="../assets/pics/HarryFeng.jpg" width="200" /><br />
-  </div>
-
-  <div class="span5">
-   <h4>Hao "Harry" Feng</h4>
-   Ph.D. student<br />
-   Department of Biostatistics and Bioinformatics<br />
-   Emory University<br />
-   <a href="https://sites.google.com/site/haoharryfeng/">Web</a>,
-   <a href="https://scholar.google.com/citations?user=YGFvJjwAAAAJ&amp;hl=en">Google scholar</a>
-  </div>
-</div>
-<br>
-
 <!-- Kenong Su -->
 <div class="row-fluid">
 
@@ -104,20 +86,16 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 </div>
 <br>
 
-<hr />
-
-<h3>Master students</h3>
-
 <!-- Xisha Weng -->
 <div class="row-fluid">
 
   <div class="span2">
-    <img src="../assets/pics/Xisha.jpg" width="200" /><br />
+    <img src="" width="200" /><br />
   </div>
 
   <div class="span5">
-    <h4> Xisha Weng </h4>
-    MSPH student<br />
+    <h4> Lucxiao Chen </h4>
+    Ph.D. student<br />
     Department of Biostatistics and Bioinformatics <br />
     Emory University<br />
   </div>
@@ -126,24 +104,36 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 
 <hr />
 
+<!-- <h3>Master students</h3> -->
 
 <h3> Former group members </h3>
+<h4> Ph.D. students </h4>
+- [Hao "Harry" Feng](https://sites.google.com/site/haoharryfeng), Ph.D. in Biostatistics, 2019. 
+<strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
+
+- **Li Chen**, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
+**Current position**: Assistant Professor, Auburn University. 
+
+- **Tianlei Xu**, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
+**Current position**: Senior Data Scientist, KSQ therapeutics. 
+
+- **Ben Li**, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
+**Current position**: Biostatistician at Merck Research Laboratories, Beijing, China. 
+
+<h4> Master's students </h4>
 <ul>
 
-<li><strong>Tianlei Xu</strong>, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Senior Data Scientist, KSQ therapeutics. 
-
-<li><strong>Li Chen</strong>, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Assistant Professor, Auburn University. 
-
-
-<li> <strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Biostatistician at Merck Research Laboratories, Beijing, China. 
-
-<li> <strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. 
-<strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
-
+<li> <strong>Yuchen Yan,</strong>, MSPH in Biostatistics, 2019. 
+<li> <strong>Siyi Geng,</strong>, MSPH in Biostatistics, 2019. 
+<li> <strong>Xiaoran Meng,</strong>, MSPH in Biostatistics, 2019. 
+<li> <strong>Xisha Weng</strong>, MSPH in Biostatistics, 2019. 
+<strong>Current position</strong>: Statistical analyst, Medpace, Cincinnati, Ohio.
 <li> <strong>Luxiao Chen</strong>, MSPH in Biostatistics, 2018. 
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Bioinformatics, Emory University. 
+<li> <strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. 
+<strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
+<li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. 
 
+
+</ul>
     
