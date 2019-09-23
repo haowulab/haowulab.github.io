@@ -1,7 +1,7 @@
 
 library(BSgenome)
 available.genomes()
-library(BSgenome.Hsapiens.UCSC.hg18)
+library(BSgenome.Hsapiens.UCSC.hg19)
 
 #####################################################
 ## 1. explore sequence composition of human genome
@@ -50,17 +50,22 @@ hist(obsExp,100) ## see a long tail, those are CpG islands
 ## and their overlaps with CpG island.
 ## first obtain genes from UCSC using GenomicFeatures functions
 library(GenomicFeatures)
-txdb=makeTxDbFromUCSC(genom="hg18",tablename="knownGene") ## this is slow, take a few minutes.
-genes.hg18 = genes(txdb)
+txdb=makeTxDbFromUCSC(genom="hg19",tablename="knownGene") ## this is slow, take a few minutes.
+
+## If the above command fails, obtain the sqlite file from class webpage, and load in:
+# txdb = loadDb("hg19_knownGenes.sqlite")
+
+## get genes from the database
+genes.hg19 = genes(txdb)
 
 ## get transcriptional start site.
 ## Note that txEnd is the start site for genes on "-" strand
-tss=start(genes.hg18)
-idx=which(strand(genes.hg18)=="-")
-tss[idx]=end(genes.hg18)[idx]
+tss=start(genes.hg19)
+idx=which(strand(genes.hg19)=="-")
+tss[idx]=end(genes.hg19)[idx]
 
 ## create GRanges object for the TSS, remove random and hap chromosomes
-allchrs = as.character(seqnames(genes.hg18))
+allchrs = as.character(seqnames(genes.hg19))
 idx=c(grep("random", allchrs),grep("hap", allchrs))
 ## create ranges with TSS +/- 500 bp
 TSS=GRanges(seqnames=Rle(allchrs[-idx]), ranges=IRanges(tss[-idx]-500,tss[-idx]+500))
@@ -94,8 +99,8 @@ legend("topright", legend=c("Genome", "TSS"), lwd=2, col=c("black", "red"))
 #####################################################################
 ## 3.  Overlaps of  CpG island and TSS
 #####################################################################
-## Read in CpG island file, create GRanges object and
-## compute the percentage of TSS covered by CGI.
+## Read in CpG island file on class website (hg19_CGI.txt),
+## create GRanges object and compute the percentage of TSS covered by CGI.
 ## This part is to be finished by students.
 
 
