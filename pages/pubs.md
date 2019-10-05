@@ -41,7 +41,7 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- [Cancer sample clustering with consideration of tumor purity](https://www.ncbi.nlm.nih.gov/pubmed/28472248)
 
 - **Analysis of omics data from complex, heterogeneous tissue**: all methods are implemented in [TOAST](http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html).
-	- [Reference fee signal deconvolution](https://link.springer.com/article/10.1186/s13059-019-1778-0)
+	- [Reference free signal deconvolution](https://link.springer.com/article/10.1186/s13059-019-1778-0)
 	- [Cell type specific differential analysis](https://www.ncbi.nlm.nih.gov/pubmed/30903684)
 
 - **Epigenetics**:
