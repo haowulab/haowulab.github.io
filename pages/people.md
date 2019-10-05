@@ -112,7 +112,7 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Assistant Professor, Auburn University. 
+<strong>Current position</strong>: Assistant Professor, Indiana University School of Medicine. 
 <li><strong>Tianlei Xu</strong>, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Senior Data Scientist, KSQ therapeutics. 
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
@@ -128,4 +128,4 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Bioinformatics, Emory University. 
 <li> <strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. 
 <strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
-<li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. 
+<li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University.
