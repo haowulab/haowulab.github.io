@@ -6,7 +6,7 @@ description: Hao Wu's research
 
 I am a computational biologist/bioinformatician with formal training in biostatistics.
 My research has been mainly focused on developing statistical methods and computational tools
-for analyzing and interpreting biological or clinical data.
+for analyzing and interpreting large-scale biological or clinical data, in particlar the high-throughput omics data.
 <br>
 
 At this moment, I spent most of my time on developing methods and tools for
@@ -24,4 +24,4 @@ peak calling, differential binding.
 On the application side, I'm very interested in epigenetic regulation of
 gene expressions and their associations with  different types
 of diseases. I closely collaborate with basic scientists and clinicians
-to study different types of DNA methylation and histone modifications.
+to study different types of DNA/RNA methylation and histone modifications.

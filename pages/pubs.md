@@ -31,14 +31,19 @@ DML for general design</a>.
 DMR for single replicate data</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/25722376">Predicting protein binding from BS-seq</a>
 [<a href="https://github.com/benliemory/Methylphet">Link to Methylphet</a>]
-- **Cancer heterogeneity**:
+
+- **Estimating and accounting for tumor purity**:
 all methods implemented in [InfiniumPurify](https://cran.r-project.org/web/packages/InfiniumPurify/index.html). TCGA tumor purities estimated from InfiniumPurify are [available here](https://zenodo.org/record/253193#.WMC8-3iZ6bk).
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Predicting+tumor+purity+from+methylation+microarray+data">
 Predicting tumor purity from Infinium 450k data</a>
 	- <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1143-5">
 Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- [Cancer sample clustering with consideration of tumor purity](https://www.ncbi.nlm.nih.gov/pubmed/28472248)
-		
+
+- **Analysis of omics data from complex, heterogeneous tissue**:
+	- [Reference fee signal deconvolution](https://link.springer.com/article/10.1186/s13059-019-1778-0)
+	- [Cell type specific differential analysis](https://www.ncbi.nlm.nih.gov/pubmed/30903684)
+
 - **Epigenetics**:
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/19151716">H3K9me2 LOCK</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/20212320">HMM CpG islands</a>.
@@ -46,6 +51,8 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/21725293">Epigenetic reprogramming during EMT.</a>
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23102236">Euchromatic islands</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23685628">Aberrant 5hmC hotspot in iPSC</a>
+	- [6mA demethylation in Neurons](https://www.ncbi.nlm.nih.gov/pubmed/30078725)
+	- 
 
 <br>
 #### Book Chapters
