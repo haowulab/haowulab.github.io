@@ -52,7 +52,6 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23102236">Euchromatic islands</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23685628">Aberrant 5hmC hotspot in iPSC</a>
 	- [6mA demethylation in Neurons](https://www.ncbi.nlm.nih.gov/pubmed/30078725)
-	- 
 
 <br>
 #### Book Chapters
