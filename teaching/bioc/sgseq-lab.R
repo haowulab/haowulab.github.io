@@ -83,15 +83,15 @@ nreps=ncol(X)/2
 
 ## DESeq2
 library(DESeq2)
-condition <- as.factor(c(rep(0,nreps),rep(1,nreps)))
-dds <- DESeqDataSetFromMatrix(X, DataFrame(condition), ~ condition)
+condition <- c(rep(0,nreps),rep(1,nreps))
+dds <- DESeqDataSetFromMatrix(X, DataFrame(condition), ~ as.factor(condition) )
 dds <- DESeq(dds)
 res <- results(dds)
 pval.DEseq <- res$pvalue
 
 ## edgeR
 library(edgeR)
-d=DGEList(counts=X, group=conds)
+d=DGEList(counts=X, group=condition)
 d <- calcNormFactors(d)
 d=estimateCommonDisp(d)
 d=estimateTagwiseDisp(d)
@@ -100,7 +100,7 @@ pval.edgeR <- fit.edgeR$table$PValue
 
 ## DSS
 library(DSS)
-seqData=newSeqCountSet(X, conds)
+seqData=newSeqCountSet(X, condition)
 seqData=estNormFactors(seqData)
 seqData=estDispersion(seqData)
 result=waldTest(seqData, 0, 1, equal.var=FALSE)
@@ -128,5 +128,4 @@ xlim=c(0,1)
 plot(roc.DEseq, xlim=xlim)
 plot(roc.edgeR, add=TRUE, col="red", lty=1)
 plot(roc.DSS, add=TRUE, col="blue", lty=1)
-
 legend("bottomright", legend=c("DEseq", "edgeR", "DSS"),col=c("black","red", "blue"), lty=1)
