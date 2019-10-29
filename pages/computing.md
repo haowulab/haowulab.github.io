@@ -14,7 +14,9 @@ The main purpose of this page is to provide some useful computing tips for BIOS 
 
 [Bioconductor on github](../computing/bioc-git_notes.md)
 
-[Call C from R](../computing/CfromR/callCfromR.html)
+[Call C from R using .C or .Call](../computing/CfromR/callCfromR.html)
+
+[Call C from R using Rcpp](../computing/CfromR/Rcpp.html)
 
 [Comparing different interfaces for calling C from R](../computing/CfromR/comparison.html)
 
