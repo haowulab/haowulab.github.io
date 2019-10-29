@@ -7,9 +7,9 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Hao Wu" />
 
 
 <title>Comparison of .C, .Call, and Rcpp</title>
@@ -70,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -86,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -103,8 +100,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -162,20 +157,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -185,7 +177,6 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Comparison of .C, .Call, and Rcpp</h1>
-<h4 class="author"><em>Hao Wu</em></h4>
 
 </div>
 
@@ -225,7 +216,8 @@ pre { /* Code block - determines code spacing between lines */
 <p>This document provides some comparisons of three methods to call C from R: <code>.C</code>, <code>.Call</code>, and Rcpp. Here are descriptions for these methods:</p>
 <ul>
 <li><a href="callCfromR.html">Description of using <code>.C</code> and <code>.Call</code></a></li>
-<li><a href="http://adv-r.had.co.nz/Rcpp.html">Description of Rcpp</a></li>
+<li><a href="Rcpp.html">My description of using Rcpp</a></li>
+<li><a href="http://adv-r.had.co.nz/Rcpp.html">Description of Rcpp in “Advanced R”</a></li>
 </ul>
 <div id="rowsums-example" class="section level3">
 <h3>rowSums example</h3>
@@ -308,16 +300,16 @@ myRowSum_Call &lt;- function(X) {
 microbenchmark(myRowSum_C(X), myRowSum_Call(X), myRowSum_Rcpp(X), rowSums(X), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
 ##              expr       min        lq      mean    median        uq
-##     myRowSum_C(X) 33.618934 39.547585 50.615149 46.838690 55.334390
-##  myRowSum_Call(X)  8.022451  9.591825 11.692959 10.305188 12.143728
-##  myRowSum_Rcpp(X)  5.884247  7.369254  9.580274  8.200964  9.453613
-##        rowSums(X) 23.288751 25.007887 29.334679 27.468234 30.897620
-##        max neval cld
-##  116.05325   100   c
-##   31.60609   100 a  
-##   25.33447   100 a  
-##   58.41985   100  b</code></pre>
-<p>It can be seen that on average, <code>myRowSum_Call</code> takes about 13 milliseconds, but <code>myRowSum_Rcpp</code> takes around 10 milliseconds, and <code>myRowSum_C</code> is in the slowest taking 55 milliseconds. As a benchmark, the <code>rowSums</code> function in R takes ~28 milliseconds. Of course that function has some other error checking machenism, which slows it down. These numbers will vary from run to run, but it appears <code>Rcpp</code> is the fastest, followed by <code>.Call</code>. <code>.C</code> is the slowest by a large margin. The discrepency is so big that it is suprising.</p>
+##     myRowSum_C(X) 34.848010 40.890005 50.549986 48.308802 54.529563
+##  myRowSum_Call(X)  8.314495  9.923796 12.303820 10.662178 11.869721
+##  myRowSum_Rcpp(X)  6.197581  7.396726  9.964185  8.096877  9.242808
+##        rowSums(X) 21.238879 24.793712 27.591730 26.218080 28.845653
+##       max neval cld
+##  98.69287   100   c
+##  40.09937   100 a  
+##  66.39647   100 a  
+##  52.33727   100  b</code></pre>
+<p>It can be seen that on average, <code>myRowSum_Call</code> takes about 12 milliseconds, <code>myRowSum_Rcpp</code> takes around 10 milliseconds, and <code>myRowSum_C</code> is in the slowest taking 50 milliseconds. As a benchmark, the <code>rowSums</code> function in R takes ~29 milliseconds. Of course that function has some other error checking machenism, which slows it down. These numbers will vary from run to run, but it appears <code>Rcpp</code> is the fastest, followed by <code>.Call</code>. <code>.C</code> is the slowest by a large margin. The discrepency is so big that it is suprising.</p>
 </div>
 <div id="a-linear-kernel-smoothing-example" class="section level3">
 <h3>A linear kernel smoothing example</h3>
@@ -383,11 +375,11 @@ f = f/sum(f) ## Gaussian kernel
 microbenchmark( myFilter_Call(X,f), myFilter_Rcpp(X,f), times=100)</code></pre>
 <pre><code>## Unit: milliseconds
 ##                 expr      min       lq      mean   median       uq
-##  myFilter_Call(X, f) 5.328045 6.786385  9.661941 9.367134 10.50744
-##  myFilter_Rcpp(X, f) 6.422510 7.762425 10.420926 9.694676 10.73079
+##  myFilter_Call(X, f) 5.382100 6.465250  9.372279 8.658638  9.99313
+##  myFilter_Rcpp(X, f) 6.311626 7.809008 10.110947 9.800286 10.41113
 ##       max neval cld
-##  43.85907   100   a
-##  34.45560   100   a</code></pre>
+##  38.76324   100   a
+##  34.25049   100   a</code></pre>
 <p>Again, <code>Rcpp</code> and <code>.Call</code> have comparable performances.</p>
 </div>
 <div id="conclusion" class="section level3">
@@ -412,6 +404,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
