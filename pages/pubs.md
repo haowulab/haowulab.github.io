@@ -5,10 +5,11 @@ description: Hao Wu's publications
 ---
 
 A full list of publications can be found at my
-[Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en),
-#[Microsoft Academic page](https://academic.microsoft.com/#/detail/2708669200),
+[Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en)
 or [PubMed bibliography](https://www.ncbi.nlm.nih.gov/myncbi/hao.wu.6/bibliography/public/).
-#https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51292197/?sort=date&direction=descending).
+
+<!-- [Microsoft Academic page](https://academic.microsoft.com/#/detail/2708669200) -->
+<!--https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51292197/?sort=date&direction=descending).-->
 
 
 <br>
