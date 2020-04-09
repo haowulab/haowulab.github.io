@@ -1,6 +1,6 @@
-## My guitar playing chronicles
+# My guitar playing chronicles
 
-### Background
+## Background
 
 * I played a couple years of guitar in college (1992-1994 or so). Mostly folk songs on acoustic, a little bit classic (like Romance and B minor sonata by sor). 
 * I know the simple chords, like the majors, minors, 7th, some barre chords, on low fret. 
@@ -11,7 +11,7 @@ Now (early 2020) after 26 years, I come back to guitar playing and really want t
 
 I think I'm physically pretty untalented, with short and thick fingers. But my music sense is reasonably good, with very good rhythm, and pretty good ears. 
 
-### Equipment
+## Equipment
 
 As of April 2020, I have:
 
@@ -21,24 +21,22 @@ As of April 2020, I have:
 * Amp: Ibanez 40W. I don't pay attention to the model number. Get it for $100 or so used on Craig's list. It has a mic input so I can sing with it :-)
 
 
-### Chronicles
-Here are the main contents. 
 
-#### April 2020
+## April 2020
 Now we are at home quarantined for COVID-19, so I have a lot of time to play. For the past month, I played about 3-4 hours everyday, 80% time on electric. 
 
-***My usual routines are***
+### My usual routines
 
 
 * Fundamental practices, including spider walks, scales, arpeggios, string bending, vibrato, legato, etc. Usually for 1-2 hours. 
 * Learn and practice new songs. Mostly on YouTube. Usually for 1-2 hours. 
 * Free playing. One hour or so. 
 
-***My speed***
+### My speed
 
 All speed measures are on the electric guitar. All numbers are measured on after warming up (for 15-20 minutes) 
 
-* **Potential picking speed (PPS)**. I hold on, say, 9th fret on 2nd string, no fret finger change. About 180 bpm 1/16 notes (4 notes per beat). 
+* **Potential picking speed (PPS)**. I hold on, say, 9th fret on 2nd string, no fret finger change, and pick as fast as I can. About 180 bpm 1/16 notes (4 notes per beat). 
 * **Simplest spider walks** (like 1234 on one string, not string change): about 200 bpm 1/8 notes (2 notes per beat).
 * **Simple spider walks** (like 1234, 4321 on all strings): about 180 bpm 1/8 notes (2 notes per beat).
 * **Harder spider walks** (like 1324, 4231, 1243, 4312, on all strings): about 160 bpm 1/8 notes (2 notes per beat).
@@ -47,7 +45,8 @@ All speed measures are on the electric guitar. All numbers are measured on after
 *  **Pantatonic scales (all 5 shapes)**:
 *  **String skip**, such as the intro in Sweet child o'mine: 
 
-***What I can play***
+
+### What I can play
 
 * November rain solo (not the outro).  Played reasonably well because it's slow (78 bpm). 
 * Hotel california intro solo (from Hell freeze over). I play this reasonably well on acoustic. 
@@ -56,7 +55,7 @@ All speed measures are on the electric guitar. All numbers are measured on after
 * Some famous licks, like Stairways to heaven, wonderful tonight, etc. 
 
 
-***Some random thoughts***
+### Some random thoughts
 
 * My bottleneck for playing more solos is the speed. I need to be patient on fundamentals, not to jump into things like Eruption. 
 * I play too much electric, and it seems my acoustic skills are getting worse. Electric is too easy to fret, not good for my acoustic fretting. I need to play more acoustic to keep up my finger strength. Maybe run the spider walks and scales on acoustic. 
