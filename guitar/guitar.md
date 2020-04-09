@@ -1,4 +1,8 @@
-## My guitar playing chronicles
+---
+layout: page
+title: My guitar playing chronicles
+description: My guitar playing chronicles
+---
 
 ### Background
 
