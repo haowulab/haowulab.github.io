@@ -62,6 +62,7 @@ All speed measures are on the electric guitar. All numbers are measured on after
 * I should learn more licks to build up my music library. 
 * Probably should play a little more finger style on acoustic. 
 * Now I completely abandoned classic. 
+* I really like Slash. Like his music, for example Godfather theme or Anastasia. Also really like Sultan of swings by Dire Straight. Wish I can play these some day. I kind of like Jimmy Page. Not a huge fan of Eric Clapton, for his music is kind of bluesy.  
 
 
 
