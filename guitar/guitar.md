@@ -6,12 +6,12 @@ description: My guitar playing chronicles
 
 ### Background
 
-* I played a couple years of guitar in college (1992-1994 or so). Mostly folk songs on acoustic, a little bit classic (like Romance and B minor sonata by sor). 
-* I know the simple chords, like the majors, minors, 7th, some barre chords, on low fret. 
+* I played a couple years of guitar in college (1992-1994 or so). Mostly folk songs on acoustic, a little bit classic (like Romance and B minor sonata by Sor). 
+* I know most simple chords, like the majors, minors, 7th, some barre chords, on low fret. 
 * Understand basic music theory. Can read tabs and simple staff. 
 * Can play diatonic scales in C and G major, again on low frets. 
 
-Now (early 2020) after 26 years, I come back to guitar playing and really want to improve my skills. I'm dedicated, displined, and patient. This document is to chronicle my guitar playing endeavor.  
+Now (early 2020) after 25+ years, I come back to guitar playing and really want to improve my skills. I'm dedicated, displined, and patient. This document is to chronicle my guitar playing endeavor.  
 
 I think I'm physically pretty untalented, with short and thick fingers. But my music sense is reasonably good, with very good rhythm, and pretty good ears. 
 
@@ -38,15 +38,15 @@ Now we are at home quarantined for COVID-19, so I have a lot of time to play. Fo
 
 #### My speed
 
-All speed measures are on the electric guitar. All numbers are measured on after warming up (for 15-20 minutes) 
+All speed measures are on the electric guitar. They are significantly slower for acoustic. All numbers are measured on after warming up for 15-20 minutes.
 
 * **Potential picking speed (PPS)**. I hold on, say, 9th fret on 2nd string, no fret finger change, and pick as fast as I can. About 180 bpm 1/16 notes (4 notes per beat). 
-* **Simplest spider walks** (like 1234 on one string, not string change): about 200 bpm 1/8 notes (2 notes per beat).
+* **Simplest spider walks** (like 1234 on one string, no string change): about 200 bpm 1/8 notes (2 notes per beat).
 * **Simple spider walks** (like 1234, 4321 on all strings): about 180 bpm 1/8 notes (2 notes per beat).
 * **Harder spider walks** (like 1324, 4231, 1243, 4312, on all strings): about 160 bpm 1/8 notes (2 notes per beat).
 *  **Even harder spider walks** (like 1324 on different strings) 
-*  **Diatonic scales**: 
-*  **Pantatonic scales (all 5 shapes)**:
+*  **Pantatonic scales (all 5 shapes)**: 150-160bpm. I play G- and D-shape better than others. 
+*  **Diatonic scales**: 140bpm or so. It's slower than pantatonic scales because sometimes I need to pick 3 notes on one string, which messes up the alternative picking pattern and slows me down.
 *  **String skip**, such as the intro in Sweet child o'mine: 
 
 
@@ -58,6 +58,14 @@ All speed measures are on the electric guitar. All numbers are measured on after
 * Part of some other solos, like Sweet child o'mine, Smoke on the water, etc. I can play the slow parts.
 * Some famous licks, like Stairways to heaven, wonderful tonight, etc. 
 
+#### Weakness I indentified
+* Speed, speed, speed!
+* My thumb tend to be under the neck, from my habit of playing classic guitar. This creates some problem in bending strings. 
+* Pinky is not good. 
+* Hammer on is fine, pull off is not very clean. 
+* Have trouble on low strings (5th and 6th). Fingers are too short. Also, if I have to reach for low strings, I will twist my wrist and put thumb under the neck more. 
+* Barre chords are okay, but changes between barre chords are not very good. For example, from F to Cm. 
+* 
 
 #### Some random thoughts
 
