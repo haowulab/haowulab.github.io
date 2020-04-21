@@ -87,6 +87,6 @@ I became an associate professor (with tenure) in September 2016.
 <p>
 
 
-<img src="HaoWuQR.png" width="100">
+<img src="assets/pics/HaoWuQR.png" width="100">
 
 
