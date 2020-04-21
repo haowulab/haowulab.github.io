@@ -82,6 +82,11 @@ I became an associate professor (with tenure) in September 2016.
 <p>
 [ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
 [ <a href="https://www.sph.emory.edu/faculty/profile/#!HWU30">My official Emory RSPH page</a>]
+<p>
+<p>
+<p>
 
+
+<img src="HaoWuQR.png" width="100">
 
 
