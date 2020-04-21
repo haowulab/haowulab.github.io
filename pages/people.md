@@ -50,6 +50,23 @@ XTeTw3EC4wsNWD0dOyfoUvqNZe4oZamzss72X-OaJOHW4EHecV8c068i9U6G5jYDKvjmZkjrpwsA9FYQ
 
 <h3>Ph.D. students</h3>
 
+<!-- Andrea Lane -->
+<div class="row-fluid">
+
+  <div class="span2">
+    <img src="../assets/pics/AndreaLane.JPG" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4> Andrea Lane </h4>
+    Ph.D. student<br />
+    Department of Biostatistics and Bioinformatics <br />
+    Emory University<br />
+  </div>
+
+</div>
+<br>
+
 <!-- Kenong Su -->
 <div class="row-fluid">
 
