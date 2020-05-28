@@ -1,9 +1,18 @@
+---
+layout: page
+title: Data science for high schooler
+---
+
 ## Data science for high schooler
 
 This is a detailed learning plan for a high schooler (sophomore and above) during an 8-week period. Students are expected to have basic knowledge about programming and statistics. The workload is 2-3 hours per day during the weekday. 
 
+***
+
 ### Learning objective
 To develop essential skills for data analysis, including visualization, summarization, basic statistical inference, and generating report. 
+
+***
 
 ### Content
 
@@ -35,6 +44,8 @@ To develop essential skills for data analysis, including visualization, summariz
 - Analyze a dataset for COVID-19. 
 - Write a final report in the standard format of a scientific paper. 
 
+***
+
 ### Materials
 
 - R
@@ -57,7 +68,9 @@ To develop essential skills for data analysis, including visualization, summariz
 	- [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
 	- [R Markdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 
-### Detaied learning schedule
+***
+
+### Schedule
 
 Click the link for each week for more detailed learning schedule and plan. I will assign homework for each week. All homework need to be written in markdown or Rmarkdown, and submitted as a single pdf document. 
 

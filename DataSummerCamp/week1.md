@@ -1,3 +1,8 @@
+---
+layout: page
+title: Schedule for week 1
+---
+
 ### Homework
 
 I will list the homework at the begining of each weekly schedule, so that you have a better idea of what you need to do. 
@@ -21,11 +26,14 @@ In **homework1.R**:
 	- Create two vectors, each with 3 elements, combine them into one vector of 6 elements. 
 	- Create two vectors, each with 3 elements, (1) combine them into a 2x3 matrix; (2) combine them into a 3x2 matrix.
 	
+***
 
 ### Day 1: R and R studio
 - Read [https://www.guru99.com/r-programming-introduction-basics.html](https://www.guru99.com/r-programming-introduction-basics.html). 
 - Install R and Rstuido, following [http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming](http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming). And watch [https://www.youtube.com/watch?v=lVKMsaWju8w](https://www.youtube.com/watch?v=lVKMsaWju8w). 
 - Play with Rstudio to get to know the menu items. 
+
+***
 
 ### Day 2: Markdown day
 - Install a Markdown editor. I use MacDown on Mac, not sure about on Windows. Do some search, try different ones, and pick the one your like. 
@@ -33,10 +41,14 @@ In **homework1.R**:
 - Start to learn markdown at [https://www.markdowntutorial.com/](https://www.markdowntutorial.com/). 
 - Write a simple markdown document. 
 
+***
+
 ### Day 3: R and R studio
 - Understand the "directory" on computer. Setup your R working directory by reading [http://www.sthda.com/english/wiki/running-rstudio-and-setting-up-your-working-directory-easy-r-programming](http://www.sthda.com/english/wiki/running-rstudio-and-setting-up-your-working-directory-easy-r-programming). 
 - Start to learn R programming language: [https://www.guru99.com/r-data-types-operator.html](https://www.guru99.com/r-data-types-operator.html). Play the examples in R by copying/pasting the command into R and see the results. 
 - Learn how to get function helps in R by reading [http://www.sthda.com/english/wiki/getting-help-with-functions-in-r-programming](http://www.sthda.com/english/wiki/getting-help-with-functions-in-r-programming). 
+
+***
 
 ### Day 4: R programming 
 - Review basic R programming: read [http://www.sthda.com/english/wiki/easy-r-programming-basics](http://www.sthda.com/english/wiki/easy-r-programming-basics), the first 5 sections (up to **Vectors**). Play with the examples.
@@ -45,6 +57,7 @@ In **homework1.R**:
 - Watch the first quarter of [https://www.youtube.com/watch?v=lL0s1coNtRk](https://www.youtube.com/watch?v=lL0s1coNtRk). 
 
 
+***
 
 
 ### Day 5: Review and homework
