@@ -3,8 +3,6 @@ layout: page
 title: Data science for high schooler
 ---
 
-## Data science for high schooler
-
 This is a detailed learning plan for a high schooler (sophomore and above) during an 8-week period. Students are expected to have basic knowledge about programming and statistics. The workload is 2-3 hours per day during the weekday. 
 
 ***
