@@ -42,13 +42,13 @@ Write R program to do the following. _NOTE: if you haven't learned, the function
 
 	```
 	set.seed(222)
-	x <- floor(rnorm(300, 200, 90))
+	x = floor(rnorm(300, 200, 90))
 	```
 11. Given the following vector provide a one line command that computes the sum of all element values that are within 5 of the maximum number of this vector. The correct answer is 599.0835. You must present a one line R statement that issues this response. Hint, using the absolute function will be useful.
 
 	```
 	set.seed(123)
-	x <- rnorm(100, 100, 10)
+	x = rnorm(100, 100, 10)
 	```
 ***
 
