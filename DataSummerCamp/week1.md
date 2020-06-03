@@ -32,7 +32,7 @@ In **homework1.R**:
 		- Take out the first two words in the string. 
 		- Replace `This` by `That` in the string. 
 		- Remove all spaces in the string. 
-	- Run following code to create a vector of strings `sample(c("car", "truck", "plane"), 100, replace=TRUE)`. 
+	- Run following code to create a vector of strings `sample(c("car", "truck", "plane"), 100, replace=TRUE)` 
 		- Convert the string vector to factors. 
 		- How many levels are there in the factor? 
 		- How many items are there for each level? 
