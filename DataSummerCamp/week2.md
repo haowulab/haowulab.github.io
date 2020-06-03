@@ -9,6 +9,7 @@ For the homework, you need to submit two files: a markdown file named homework2.
 
 In **homework2.md**, answer following questions: 
 
+- Describe the meaning of median and variance, using your own word. 
 - Show the R codes and figures you generated for histogram, boxplot, barplot, and scatter plot. 
 - Provide a brief summary of the COVID-19 data set. 
 	- What information does it contain? 
@@ -19,8 +20,17 @@ In **homework2.md**, answer following questions:
 
 In **homework2.R**:
 
-- compute the mean, variance, and standard deviation of integers from 1 to 10.
-- Create a list with a vector and a matrix. Give each element in the list a name. Use different ways to take the elements out of the list.  
+- Compute the mean, variance, and standard deviation of integers from 1 to 10.
+- Run following code to create a list 
+```
+family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
+		agesofkids=c(8,11,14))
+```
+	- How many fields are there in the list?
+	- What are the names of the fields?
+	- Take out the `agesofkids` field from the list, using at least 2 different methods. 
+	- Produce a vector out of the list, using `unlist` function.
+                
 - Make up some exmples to generate histogram, boxplot, barplot, and scatter plot. Save the figures as pdf. 
 - Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. 
 - Briefly summarize the data to get the number of countries and days included in the data set. You might need the ``table`` or ``unique`` functions. Read their function helps. 
