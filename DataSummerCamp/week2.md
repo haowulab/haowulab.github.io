@@ -21,20 +21,29 @@ In **homework2.md**, answer following questions:
 
 In **homework2.R**:
 
-- Compute the mean, variance, and standard deviation of integers from 1 to 10.
-- Run following code to create a list 
-```
-family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
-				  agesofkids=c(8,11,14))
-```
+1. Compute the mean, variance, and standard deviation of integers from 1 to 10.
+2. Run following code to create a list 
+
+	```
+	family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
+					agesofkids=c(8,11,14))
+	```
 	- How many fields are there in the list?
 	- What are the names of the fields?
 	- Take out the `agesofkids` field from the list, using at least 2 different methods. 
 	- Produce a vector out of the list, using `unlist` function.
-	- Add the following two new fields to the list: `numofcar=2`, `ageofcar=c(5, 10)`. Note you cannot recreate the list, rather you need to append these fields to the existing list. 
-                
-- Make up some exmples to generate histogram, boxplot, barplot, and scatter plot. Save the figures as pdf. 
-- Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. Conduct explorative analysis of the data, and answer questions listed for homework2.md. 
+	- Add the following two new fields to the list: `numofcar=2`, `ageofcar=c(5, 10)`. Note you cannot recreate the list, rather you need to append these fields to the existing list.               
+	
+4. Practice using R base graphics to generate histogram, boxplot, barplot, and scatter plot. We will use the `mtcars` data in R for these tasks. 
+	- Take a look at the `mtcars` data. Just type `mtcars` in R. Type `?mtcars` in R to read the description of the data. 
+	- Make histogram for horsepowers for all cars. Use different numbers of breaks to see the difference in appearences. Use a meaningful figure title.
+	- Make side-by-side boxplot for horsepowers vs. number of cylinders. 
+	- Make side-by-side boxplot for mpg vs. number of cylinders. 
+	- Compute the number of cars with different number of cylinders. Hint: you need to use the `table` function. Use barplot to show the results. 
+	- Make scatterplot between mpg and horsepowers. Use meaningful figure title and x-/y-axis labels. Try to play with different styles of figures by changing point types, colors, etc. 
+	- Save all figures you made in pdf of size 5x5 inches. 
+	
+5. Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. Conduct explorative analysis of the data, and answer questions listed for homework2.md. 
 
 
 ***
@@ -85,3 +94,12 @@ family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
 - Learn to save R plots in files: [http://www.sthda.com/english/wiki/creating-and-saving-graphs-r-base-graphs](http://www.sthda.com/english/wiki/creating-and-saving-graphs-r-base-graphs). 
 - Understand the meaning of each figure. Read the function helps for these functions, and play with the examples. Have a rough idea of the function parameters (what you can control for the figures).
 - Browse [https://www.r-graph-gallery.com](https://www.r-graph-gallery.com) to see what type of figures R can generate. 
+- Play with the plot functions by looking at the examples. Run following in R to see what R can plot:
+
+	```
+	example(plot)
+	example(barplot)
+	example(hist)
+	example(points)
+	```
+

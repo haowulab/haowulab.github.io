@@ -16,30 +16,40 @@ In **homework1.md**, answer following questions:
 
 In **homework1.R**:
 
-1. Provide all the R code you tried this week. 
-2. Write R program to do the following. _NOTE: if you haven't learned, the functions for computing sum and mean of vector/matrix is ``sum`` and ``mean``. Look at their function helps if needed._ 
-	- Compute the sum and mean of integers from 1 to 10.
-	- Create a vector of 5 elements, you can put in some random numbers in the vector. Take out the 2nd **to** 4th elements, and compute their sum and mean. 
-	- Create a vector of 5 elements, you can put in some random numbers in the vector. Take out the 2nd **and** 4th elements, and compute their sum and mean. 
-	- Create a 3x3 matrix, you can put in some random numbers in the matrix. Compute the sum and mean of each row and column.
-	- Create two vectors, each with 3 elements. Compute the sum and difference of each element in the vector.
-	- Create two vectors, each with 3 elements, combine them into one vector of 6 elements. 
-	- Create two vectors, each with 3 elements, (1) combine them into a 2x3 matrix; (2) combine them into a 3x2 matrix.
-	- Run following code to create a string: `string = "This is a string"`
-		- how many characters are there in the string? 
-		- Take out the first 10 characters in the string.
-		- how many words are there in the string?
-		- Take out the first two words in the string. 
-		- Replace `This` by `That` in the string. 
-		- Remove all spaces in the string. 
-	- Run following code to create a vector of strings `sample(c("car", "truck", "plane"), 100, replace=TRUE)` 
-		- Convert the string vector to factors. 
-		- How many levels are there in the factor? 
-		- How many items are there for each level? 
-		- Replace all `car` by `bike` in the vector, by changing the level of the factor. 
-		- After above step, change the factor back to string vector. See what you get. 
-	
-	
+Write R program to do the following. _NOTE: if you haven't learned, the functions for computing sum and mean of vector/matrix is ``sum`` and ``mean``. Look at their function helps if needed._ 
+
+1. Compute the sum and mean of integers from 1 to 10.
+- Create a vector of 5 elements, you can put in some random numbers in the vector. Take out the 2nd **to** 4th elements, and compute their sum and mean. 
+- Create a vector of 5 elements, you can put in some random numbers in the vector. Take out the 2nd **and** 4th elements, and compute their sum and mean. 
+- Create a 3x3 matrix, you can put in some random numbers in the matrix. Compute the sum and mean of each row and column.
+- Create two vectors, each with 3 elements. Compute the sum and difference of each element in the vector.
+- Create two vectors, each with 3 elements, combine them into one vector of 6 elements. 
+- Create two vectors, each with 3 elements, (1) combine them into a 2x3 matrix; (2) combine them into a 3x2 matrix.
+- Run following code to create a string: `string = "This is a string"`
+	- how many characters are there in the string? 
+	- Take out the first 10 characters in the string.
+	- how many words are there in the string?
+	- Take out the first two words in the string. 
+	- Replace `This` by `That` in the string. 
+	- Remove all spaces in the string. 
+- Run following code to create a vector of strings `sample(c("car", "truck", "plane"), 100, replace=TRUE)` 
+	- Convert the string vector to factors. 
+	- How many levels are there in the factor? 
+	- How many items are there for each level? 
+	- Replace all `car` by `bike` in the vector, by changing the level of the factor. 
+	- After above step, change the factor back to string vector. See what you get. 	
+- Initialize the vector x using the following commands. Present a one line R statement that will count the total numbers that are evenly divisible by 15 and 25. The answer will be a single number.
+
+	```
+	set.seed(222)
+	x <- floor(rnorm(300, 200, 90))
+	```
+- Given the following vector provide a one line command that computes the sum of all element values that are within 5 of the maximum number of this vector. The correct answer is 599.0835. You must present a one line R statement that issues this response. Hint, using the absolute function will be useful.
+
+	```
+	set.seed(123)
+	x <- rnorm(100, 100, 10)
+	```
 ***
 
 ### Day 1: R and R studio
