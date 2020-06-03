@@ -10,6 +10,7 @@ For the homework, you need to submit two files: a markdown file named homework2.
 In **homework2.md**, answer following questions: 
 
 - Describe the meaning of median and variance, using your own word. 
+- What's the difference between list and data frame in R?
 - Show the R codes and figures you generated for histogram, boxplot, barplot, and scatter plot. 
 - Provide a brief summary of the COVID-19 data set. 
 	- What information does it contain? 
@@ -24,16 +25,17 @@ In **homework2.R**:
 - Run following code to create a list 
 ```
 family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
-		agesofkids=c(8,11,14))
+				  agesofkids=c(8,11,14))
 ```
 	- How many fields are there in the list?
 	- What are the names of the fields?
 	- Take out the `agesofkids` field from the list, using at least 2 different methods. 
 	- Produce a vector out of the list, using `unlist` function.
+	- Add the following two new fields to the list: `numofcar=2`, `ageofcar=c(5, 10)`. Note you cannot recreate the list, rather you need to append these fields to the existing list. 
                 
 - Make up some exmples to generate histogram, boxplot, barplot, and scatter plot. Save the figures as pdf. 
-- Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. 
-- Briefly summarize the data to get the number of countries and days included in the data set. You might need the ``table`` or ``unique`` functions. Read their function helps. 
+- Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. Conduct explorative analysis of the data, and answer questions listed for homework2.md. 
+
 
 ***
 
@@ -48,7 +50,9 @@ family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
 
 ### Day 2: R package, and markdown
 - Read [https://www.datacamp.com/community/tutorials/r-packages-guide](https://www.datacamp.com/community/tutorials/r-packages-guide).
-- Install following packages in your R: **ggplot2**, **vioplot**.
+- Install following packages in your R: **ggplot2**, **vioplot**, **dplyr**, **data.table**.
+- Check what packages have vignette, by using the `vignette()` function. 
+- Open some vignette to take a look, by using `browseVignettes` and `vignette` functions. For example, do `browseVignettes("dplyr")` and `vignette("dplyr")`. Remember, a package "vignette" is the package manual. You'll learn how to write one later using Rmarkdown. 
 - Review how to insert figure in markdown [https://www.markdowntutorial.com/lesson/4/](https://www.markdowntutorial.com/lesson/4/). 
 
 ***
@@ -67,9 +71,11 @@ family1 = list(husband="Fred", wife="Wilma", numofchildren=3,
 ***
 
 ### Day 4: R file I/O
+
 - Understand the tab-delimited and csv file format: read [https://en.wikipedia.org/wiki/Delimiter-separated_values](https://en.wikipedia.org/wiki/Delimiter-separated_values). 
 - Learn to read in files to R: [https://www.guru99.com/r-import-data.html](https://www.guru99.com/r-import-data.html). 
 - Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R. 
+- Learn to save and load objects in R [http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata). 
 
 ***
 
