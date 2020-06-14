@@ -8,7 +8,8 @@ title: Schedule for week 3
 - **homework3.tex**: 
 	- Make a latex document with subsections and subsection. Put in some random text. 
 	- Type up the following equations in the tex file:
-	<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+	
+		<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
 	
@@ -24,6 +25,7 @@ title: Schedule for week 3
 		- For the `legend` function, I used `"topright"` as location instead of giving the x and y coordinates. I think it's easier. You can try other similar options, such as `"bottomleft"`. 
 	
 		I expect to see a figure similar to the following: 
+		
 			![](mtcars-scatter.pdf)
 	
 	

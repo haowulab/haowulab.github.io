@@ -92,14 +92,22 @@ Click the link for each week for more detailed learning schedule and plan. I wil
 
 
 - [Week 3](week3.md)
-	- Learn R programming control statement: loops, if-else. 
-	- R graphics: plot with the color, line types, point types, etc. 
-	- Start to learn Rmarkdown. Create a simple R markdown in Rstudio. 
+	- R programming control statement: loops, if-else. 
+	- R graphics: plot with the color, line types, point types, legend, etc. 
+	- Basic Latex. 
+	- R markdown. 
 	
 - [Week 4](week4.md)
-	- R graphics: overlay lines on scatterplot. Multiple panels in one figure. Control figure margins. 
-	- Statistics: relationships among more than one variables (continuous and/or categorical). Understand the concept of corrleation, contingency table. 
-	- Use scatterplot and boxplot to explore relationships among more than one variables. 
+	- More advanced R graphics: 
+		- overlay lines on scatterplot. 
+		- Multiple panels in one figure. 
+		- Control figure margins. 
+	- Write R function
+	- Basic statistics: 
+		- Concept of random variable and probability distribution.
+		- Concept of corrleation, contingency table.
+		- Relationships among more than one variables (continuous and/or categorical).  Use scatterplot and boxplot to explore relationships among more than one variables. 
+
 	
 - [Week 5](week5.md)
 	- R: 
