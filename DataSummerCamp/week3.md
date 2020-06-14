@@ -43,6 +43,7 @@ title: Schedule for week 3
 
 - Create an **example.Rmd** to reproduce everything in [http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html](http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html), follow the same style. You can just copy/paste the text so that you don't have to retype them. What you need to do is to correctly format it. 
 
+***
 
 ### Day 1: Review on file I/O, data frame, list, and R base graphics
 
