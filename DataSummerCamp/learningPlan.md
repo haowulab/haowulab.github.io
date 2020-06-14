@@ -81,19 +81,19 @@ Click the link for each week for more detailed learning schedule and plan. I wil
 - [Week 2](week2.md)
 	- Understand the concept of R packages. Learn to install packages. 
 	- R data frame and list. 
-	- R file I/O (input/output): how to read in a text file into R, and write the results out to a text file. How to save and load R objects.
+	- R file I/O (input/output): Understand tab-delimited and csv files. How to read those files into R, and write the results out to a text file.  
+	- How to save and load R objects.
 	- Statistics: 
 		- understand mean, median, variance, standard deviation, etc. Learn to use R to compute these values. 
 		- understand the concept of continuous and categorical data, and their data distribution. understand the meaning of histogram, boxplot, barplot.
 	- Basic R graphics. Understand the meaning of different type of plots. Use R to generate the plots. 
+	- Learn to save the figures from R session to pdf/jpg/png/etc. 
 	- Markdown: play with different type of fonts, ordered and unordered list, including figures. Write a complete markdown document. 
 
 
 - [Week 3](week3.md)
-	- Understand tab-delimited and csv files. Read those files into R as a data frame. 
 	- Learn R programming control statement: loops, if-else. 
 	- R graphics: plot with the color, line types, point types, etc. 
-	- Learn to save the figures from R session to pdf/jpg/png/etc. 
 	- Start to learn Rmarkdown. Create a simple R markdown in Rstudio. 
 	
 - [Week 4](week4.md)
