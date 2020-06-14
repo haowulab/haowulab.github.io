@@ -9,8 +9,8 @@ title: Schedule for week 3
 	- Make a latex document with subsections and subsection. Put in some random text. 
 	- Type up the following equations in the tex file:
 	
-		<img src="quad-root.png", style="width:200px;"/>
-	
+		<img src="quad-root.png" style="width:200px;"/>
+
 - Create an R markdown file **homework3.Rmd**, and answer following questions. Pay attention to the format. 
 
 	1. Make scatterplot between mpg and horsepowers for `mtcars` data, using the `plot` function. For the figure, please:

@@ -107,6 +107,7 @@ Click the link for each week for more detailed learning schedule and plan. I wil
 		- Concept of random variable and probability distribution.
 		- Concept of corrleation, contingency table.
 		- Relationships among more than one variables (continuous and/or categorical).  Use scatterplot and boxplot to explore relationships among more than one variables. 
+	- Basic Linux system and commands.
 
 	
 - [Week 5](week5.md)
