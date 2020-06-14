@@ -5,15 +5,13 @@ title: Schedule for week 3
 
 ### Homework
 
-- **homework3.tex**: 
+- Create a Latex file **homework3.tex**: 
 	- Make a latex document with subsections and subsection. Put in some random text. 
 	- Type up the following equations in the tex file:
 	
-		<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-
-
+		<img src="quad-root.png", style="width:200px;"/>
 	
-- **homework3.Rmd**, answer following questions: 
+- Create an R markdown file **homework3.Rmd**, and answer following questions. Pay attention to the format. 
 
 	1. Make scatterplot between mpg and horsepowers for `mtcars` data, using the `plot` function. For the figure, please:
 		- Use different colors and point types for cars with differnt number of cylinders. 
@@ -26,7 +24,7 @@ title: Schedule for week 3
 	
 		I expect to see a figure similar to the following: 
 		
-			![](mtcars-scatter.pdf)
+		![](mtcars-scatter.pdf)
 	
 	
 	2. Create a random matrix with 3 rows and 4 columns.
