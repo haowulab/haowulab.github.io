@@ -19,6 +19,8 @@ To develop essential skills for data analysis, including visualization, summariz
 - Understand concept of data distribution. 
 - Summary statistics: mean, meian, variance, standard deviation, proportions.
 - Understand concept of data visualization and their relationship with data distribution and summary statistics: boxplot, histogram, scatter plot, bar plot.
+- Concept of correlation and contingency table. 
+- Basic statistical inference: two group t- and z-test, simple linear regression.
 
 
 #### Programming language
@@ -46,6 +48,8 @@ To develop essential skills for data analysis, including visualization, summariz
 
 ### Materials
 
+Below are some selected materials, websites, and videos. I'll also use other materials, detailed in the weekly schedules.
+
 - R
 	- [R Tutorial for Beginners](https://www.guru99.com/r-tutorial.html)
 	- [R Basics: Quick and Easy](http://www.sthda.com/english/wiki/r-basics-quick-and-easy)
@@ -68,9 +72,9 @@ To develop essential skills for data analysis, including visualization, summariz
 
 ***
 
-### Schedule
+### Weekly schedules
 
-Click the link for each week for more detailed learning schedule and plan. I will assign homework for each week. All homework need to be written in markdown or Rmarkdown, and submitted as a single pdf document. 
+Click the link for each week for detailed learning schedule and homework. All homework need to be written in R, markdown, or Rmarkdown.  
 
 - [Week 1](week1.md): 
 	- Install R and R studio. 
@@ -98,20 +102,25 @@ Click the link for each week for more detailed learning schedule and plan. I wil
 	- R markdown. 
 	
 - [Week 4](week4.md)
+	- Random number generator in R.
 	- More advanced R graphics: 
 		- overlay lines on scatterplot. 
 		- Multiple panels in one figure. 
-		- Control figure margins. 
-	- Write R function
+		- Colors in R.
+		- Figure margins. 
 	- Basic statistics: 
 		- Concept of random variable and probability distribution.
-		- Concept of corrleation, contingency table.
-		- Relationships among more than one variables (continuous and/or categorical).  Use scatterplot and boxplot to explore relationships among more than one variables. 
-	- Basic Linux system and commands.
 
 	
 - [Week 5](week5.md)
+	- Basic statistics
+		- Concept of corrleation, contingency table. Relationships among more than one variables (continuous and/or categorical). 
+
 	- R: 
+		- R functions
+		- Use scatterplot and boxplot to explore relationships among more than one variables. 
+	- Basic Linux system and commands.
+
 	- Start to analyze the COVID-19 data. Read the files into R. Compute basic statistics. Generate descriptive plots. 
 	- Start to write data analysis report in Rmarkdown. 
 	- Learn Latex math symbols. Insert latex equations in Rmarkdown. 

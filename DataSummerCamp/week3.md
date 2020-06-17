@@ -37,7 +37,7 @@ title: Schedule for week 3
 		
 	4. Include the equation required for homework3.tex in homework3.Rmd. 
 	
-	5. Type up the distribution density function for normal distribution (the oft-seen bell-shaped curve) in homework3.Rmd. The density function is
+	5. Type up the distribution density function for normal distribution (the oft-seen bell-shaped curve) in **homework3.Rmd**. The density function is
 	
 		<img src="normal-pdf.png" alt="drawing" style="width:200px;"/>
 
@@ -73,7 +73,7 @@ to put them together. From now on, I want a homework submitted in Rmarkdown form
 
 - Read [https://rmarkdown.rstudio.com/authoring_quick_tour.html](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Since you already know markdown syntax, pay special attention to the parts to include R codes with markdown. 
 - Learn to include equations in Rmarkdown. The equation syntax is exactly the same as in Latex: [https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html). 
-- Start to put your homework in Rmd format. 
+- Work on **example.Rmd** as listed in the homework. 
 
 
 ### Day 5: More latex and Rmarkdown
