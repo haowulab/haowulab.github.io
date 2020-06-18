@@ -34,6 +34,27 @@ title: Schedule for week 4
 
 	![](mtcars-scatter-4panel.pdf)
 
+7. Put math expression in figures. Generate a figure for power function
+<img src="https://latex.codecogs.com/svg.latex?f(x; k) = x^k"  />. Show the curves for k=0.5, 1, 1.5 in the same figure. In the figure, You should: 
+	- show all 3 lines with different colors. You can check out the `matplot` function to draw multiple lines together.  
+	- Use log scale for y-axis. Hint: this can be achieved by specifying `log="y"` in the `plot`. 
+	- Use math expression as axis labels. 
+	- Provide legend for lines.
+
+	The following codes will get you started. But you need to 
+modify the parameters in the `matplot` function. 
+
+	```
+	x = 1:100
+	y1 = x^0.5
+	y2 = x^1
+	y3 = x^1.5
+	matplot(x, cbind(y1, y2, y3), type="l", lty=1, log="y", lwd=2)
+	```
+	I expect to see a figure like the following:
+	
+	![](power-curve.pdf)
+	
 
 
 ***
@@ -69,7 +90,8 @@ title: Schedule for week 4
 - Plotting multiple lines in a figure: 
 [http://www.sthda.com/english/wiki/line-plots-r-base-graphs](http://www.sthda.com/english/wiki/line-plots-r-base-graphs).
 - Control colors in R: [https://bookdown.org/rdpeng/exdata/plotting-and-color-in-r.html](https://bookdown.org/rdpeng/exdata/plotting-and-color-in-r.html). 
-- Do question 6.
+- Learn to use [mathematical expression in R plots](http://www.haowulab.org/computing/Rtips/plotmath.html).
+- Do question 6 and 7.
 
 
 ### Day 5: Review
