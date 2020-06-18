@@ -22,5 +22,6 @@ The main purpose of this page is to provide some useful computing tips for BIOS 
 
 * [Comparing different parallel computing interfaces in R](../computing/parallel-comparison.html)
 
+* [Mathematical expression in R plots](../computing/Rtips/plotmath.html)
 
 <!-- * [My lecture slides in efficient R programming](../computing/EfficientR.html) -->
