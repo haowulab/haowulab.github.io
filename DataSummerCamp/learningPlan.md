@@ -114,26 +114,21 @@ Click the link for each week for detailed learning schedule and homework. All ho
 
 	
 - [Week 5](week5.md)
-	- Basic statistics
-		- Concept of corrleation, contingency table. Relationships among more than one variables (continuous and/or categorical). 
-		- Use scatterplot and boxplot to explore relationships among more than one variables. 
+	- Concept of corrleation, contingency table. Relationships among more than one variables (continuous and/or categorical). 
+	- Use scatterplot and boxplot to explore relationships among more than one variables. 
+	- Understand the concept of simple linear regression.
+	- Use R to do linear regression. 
+	- Write R function.		
 
-	- R: 
-		- R functions
-		
+- [Week 6](week6.md)
 	- Basic Linux system and commands.
 
 	- Start to analyze the COVID-19 data. Read the files into R. Compute basic statistics. Generate descriptive plots. 
 	- Start to write data analysis report in Rmarkdown. 
-
-- [Week 6](week6.md)
-	- R: learn to write R function. 
 	- Continue to analyze the COVID-19 data
 
 	
 - [Week 7](week7.md)
-	- Understand the concept of simple linear regression.
-	- Use R to do linear regression. 
 	- Continue to analyze the COVID-19 data
 	
 - [Week 8](week8.md)
