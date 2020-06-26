@@ -110,20 +110,21 @@ Click the link for each week for detailed learning schedule and homework. All ho
 		- Figure margins. 
 	- Basic statistics: 
 		- Concept of random variable and probability distribution.
+	- Learn Latex math symbols. Insert latex equations in Rmarkdown. 
 
 	
 - [Week 5](week5.md)
 	- Basic statistics
 		- Concept of corrleation, contingency table. Relationships among more than one variables (continuous and/or categorical). 
+		- Use scatterplot and boxplot to explore relationships among more than one variables. 
 
 	- R: 
 		- R functions
-		- Use scatterplot and boxplot to explore relationships among more than one variables. 
+		
 	- Basic Linux system and commands.
 
 	- Start to analyze the COVID-19 data. Read the files into R. Compute basic statistics. Generate descriptive plots. 
 	- Start to write data analysis report in Rmarkdown. 
-	- Learn Latex math symbols. Insert latex equations in Rmarkdown. 
 
 - [Week 6](week6.md)
 	- R: learn to write R function. 
