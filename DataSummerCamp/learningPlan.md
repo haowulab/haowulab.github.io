@@ -121,11 +121,8 @@ Click the link for each week for detailed learning schedule and homework. All ho
 	- Write R function.		
 
 - [Week 6](week6.md)
-	- Basic Linux system and commands.
-
-	- Start to analyze the COVID-19 data. Read the files into R. Compute basic statistics. Generate descriptive plots. 
-	- Start to write data analysis report in Rmarkdown. 
-	- Continue to analyze the COVID-19 data
+	- Linux system and commands.
+	- R graphics, including base and ggplot2. 
 
 	
 - [Week 7](week7.md)
