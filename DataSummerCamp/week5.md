@@ -35,7 +35,7 @@ Prepare a single file homework5.Rmd, which should include all answers, R codes, 
 
 	- Explain your observations from the table and figure, using plain language. 
 
-	- **Bonus point**: Compute the **odds ratio** of the two variables. Can you explain the meaning of the odds ratio? 
+	- **Bonus point**: Compute the **odds ratio** of `am` and `cyl` between cars with 4 and 8 cylinders. Can you explain the meaning of the odds ratio? 
 
 3. This question explores the relationship among continuous and categorical variables. 
 	- For `mtcars`, write a loop to compute the mean `hp` for cars with different `am`. 
