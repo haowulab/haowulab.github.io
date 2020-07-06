@@ -8,11 +8,15 @@ title: Schedule for week 6
 Submit a single file **homework6.Rmd** for all questions. 
 
 1. Basic Linux command and operation.  Perform following operations (all using Linux command in the Linux shell), answer questions and provide Linux commands used for these operations.
-	- When you start the Linux shell window, how to get the current directory (provide the Linux command used)? What is it on your computer?
-	- Create a folder at your favoriate location, for example, `C:\`.  Provide the command. 
+	- When you start the Linux shell window, how to get the current directory (provide the Linux command used)?
+	- Create a folder at your root directory, provide the command. 
 	- Change directory to the folder you just created. Provide the command. 
-	- You have downloaded the [COVID-19 file](http://www.haowulab.org/DataSummerCamp/data/covid_19_clean_complete.csv) in Week 2. If you can't find it, download again. Where is that file? Provide the command and the full path to the file. 
-	- Copy the COVID-19 file to the folder you just created, in Linux. Provide the Linux command for that. 
+	- You have downloaded the [COVID-19 file](http://www.haowulab.org/DataSummerCamp/data/covid_19_clean_complete.csv) in Week 2. If you can't find it, download again. Copy the COVID-19 file to the folder you just created in Linux. Provide the Linux command for that. **For Windows user**: I'm not sure how the the file system works for WSL. You can try the following command to download the file in Linux. If it doesn't work, talk to me and we'll  figure out. 
+		
+		``` 
+		wget http://www.haowulab.org/DataSummerCamp/data/covid_19_clean_complete.csv
+		```
+	
 	- How many lines, words, and bytes are there for the COVID-19 file? Provide the command. 
 	- Look at the first 10 lines of the COVID-19 file in the Linux shell. Provide the command.
 	- Look at the bottom 10 lines of the COVID-19 file in the Linux shell. Provide the command.
@@ -53,11 +57,14 @@ Linux is cool. The oft-used commands in `Linux shell` or `Terminal` are fundamen
 Today, we will learn some basic linux operation and commands.
 
 - Read [Introduction to Linux system](https://www.guru99.com/introduction-linux.html), and watch [https://www.youtube.com/watch?v=I8ik8pDTgJE](https://www.youtube.com/watch?v=I8ik8pDTgJE). It is **important to note** that we are not going to learn the whole Linux system, but only focus on Linux **shell commands**. 
-- Read [Introduction to Linux Shell and Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/).
+- Read [Introduction to Linux Shell and Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/). **Note**: read this to get the general concepts of kernel and shell. You don't have to read the **Shell Scripting** section.  
 - Get Linux system on your computer. Most likely, you are not using a computer running linux system. 
 	- If you are using Mac, Linux kernel is available on MacOS by default. Search and start the `Terminal`, which is an Linux shell interface. 
 	-  If you are using Windows, Microsoft has a **Windows Subsystem for Linux (WSL)** to simulate the Linux environment. This needs to be installed. See [WSL installation page](https://docs.microsoft.com/en-us/windows/wsl/install-win10) for more details. 
--  Once you have the Linux system setup, start the terminal, and customize the font/color to make it look comfortable. 
+-  Once you have the Linux system setup, start the terminal. Optionally you can customize the font/color to make it look comfortable. This can be important if you use the terminal a lot. For example, the Mac Terminal on my laptop looks like the following. These are the colors and fonts I feel comfortable with. 
+
+	![](myTerminal.png)
+	
 -  Watch [Introduction to Linux and Basic Linux Commands for Beginners](https://www.youtube.com/watch?v=IVquJh3DXUA), and try them in your own shell window. 
 -  Read my summary of [a list of oft-used Linux command](http://www.haowulab.org//computing/basic_linux.html). Try them in your shell window. 
 -  Read [https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners). 
@@ -84,15 +91,12 @@ Today we will learn some more advanced Linux commands, including Linux piping an
 
 ***
 
-### Day 3: R Date, R base graphics
+### Day 3: R base graphics
 
-Today we will first  learn the `Date` class in R: 
-
-- [https://www.statmethods.net/input/dates.html)](https://www.statmethods.net/input/dates.html), [https://riptutorial.com/r/topic/9015/the-date-class](https://riptutorial.com/r/topic/9015/the-date-class). 
 
 You have learned some R base graphics before. Today, we'll do a more systematic and comprehensive review of the R base graphics functionalities. Read the following two lecture notes. They are for a Master's level R programming class at Emory. If you understand all these, congratulation, because you are as good as a Biostatistics MS student. 
 
-- [An overview of R graphics](R_Plot-intro.html) 
+- [A high-level overview of R graphics](R_Plot-intro.html) 
 - [R base graphics](R_base_graphics.html)
 
 Do homework question 3. 

@@ -126,6 +126,7 @@ Click the link for each week for detailed learning schedule and homework. All ho
 
 	
 - [Week 7](week7.md)
+	- Miscellaneous R functions
 	- R animation
 	- Continue to analyze the COVID-19 data
 	
