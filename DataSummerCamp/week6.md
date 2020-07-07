@@ -42,10 +42,13 @@ and `wc`.
 3. Read in the COVID-19 data, provide R codes and results for the following questions: 
 	- What is the range of date for the data? 
 	- How many days are there in the data? 
-	- Take the data for US only, and plot the number of confirmed and death cases along the date. Generate two panels in the same figure, one uses original scale and one uses logrithm scale for the number of cases. Use proper axis labels and legends. I expect to see a figure similar to the following: 
+	- Take the data for US only, and plot the number of confirmed and death cases along the date. Generate two panels in the same figure, one uses original scale and one uses logrithm scale for the number of cases. Use proper axis labels and legends. I expect to see a figure similar to the following. **Hint 1**: use the `matplot` function. **Hint 2**: look at the `log` parameters in `plot` function to plot data in logrithm scale. 
 	
 		![](covid19_1.pdf)
 		
+	- Take the data for the US, compute the numbers for new confirmed and death cases for each day (using the `diff` function). Visualize the results in a figure similar to the above. 
+	
+	
 4. Here is a [set of homework for the R programming class at Emory University](bios545_homework_3.pdf). Do the questions as much as you can. 
 	
 ***
@@ -91,10 +94,15 @@ Today we will learn some more advanced Linux commands, including Linux piping an
 
 ***
 
-### Day 3: R base graphics
+### Day 3: Miscellaneous R functions, R base graphics
 
+Today we will first learn some R functions useful for the analysis of COVID-19 data.
 
-You have learned some R base graphics before. Today, we'll do a more systematic and comprehensive review of the R base graphics functionalities. Read the following two lecture notes. They are for a Master's level R programming class at Emory. If you understand all these, congratulation, because you are as good as a Biostatistics MS student. 
+- The `Date` class in R: [https://www.statmethods.net/input/dates.html)](https://www.statmethods.net/input/dates.html), [https://riptutorial.com/r/topic/9015/the-date-class](https://riptutorial.com/r/topic/9015/the-date-class). 
+- The `diff` function: read the function help and play with the examples. In the meantime, you can also play with the `cumsum` function.
+- The `matplot` function. You have used this before. Read the function help and play with the examples to reinforce the memory. 
+
+Next, we will do a systematic and comprehensive review of the R base graphics functionalities, even though you have learned and used some of them before.  Read the following two lecture notes. They are for a Master's level R programming class at Emory. If you understand all these, congratulation, because you are as good as a Biostatistics MS student. 
 
 - [A high-level overview of R graphics](R_Plot-intro.html) 
 - [R base graphics](R_base_graphics.html)
@@ -111,4 +119,4 @@ Some of the content can be difficult. Do what you can.
 
 - [Introduction to R graphics: ggplot2](R_graphics_GGplot.pdf)
 
-Do homework question 4. Note, this is the real homework set for the R programming class. Talk to me if some of the questions are difficult. 
+Do homework question 4. This is a real homework set for the R programming class. Talk to me if some of the questions are difficult. 
