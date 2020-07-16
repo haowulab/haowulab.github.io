@@ -113,9 +113,10 @@ Do homework question 3.
 
 ### Day 4 & 5: R graphics: ggplot2 
 
-We learned R base graphics yesterday. A new R graphics system, ggplot2, is more advanced and powerful. For today and tomorrow, we'll learn ggplot2. Below is, again, the lecture notes for the Master's level R programming class at Emory. 
-
+We learned R base graphics yesterday. A new R graphics system, ggplot2, is more advanced and powerful. For today and tomorrow, we'll learn ggplot2. Below is, again, the lecture notes for the Master's level R programming class at Emory. Read the slides and play with the codes. 
+Skip the contents for maps (`ggmap`, the last 20 or so pages). 
 Some of the content can be difficult. Do what you can. 
+
 
 - [Introduction to R graphics: ggplot2](R_graphics_GGplot.pdf)
 

@@ -24,7 +24,7 @@ title: Schedule for week 3
 	
 		I expect to see a figure similar to the following: 
 		
-		![](mtcars-scatter.pdf)
+		![](./mtcars-scatter.pdf)
 	
 	
 	2. Create a random matrix with 3 rows and 4 columns.
