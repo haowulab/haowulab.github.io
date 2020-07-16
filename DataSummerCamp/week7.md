@@ -7,11 +7,12 @@ title: Schedule for week 7
 
 1. Read in the COVID-19 data, provide R codes and results for the following questions: 
 		
-	- Generate an animated figure to show the number of confirmed and death cases in the US by date. I expect to see a figure similar to the following: 
-
-	![](covid19-US.gif)
+	- Generate an animated figure to show the total number of confirmed and death cases in the US by date. I expect to see a figure similar to the following: 
+	
+	<img src="covid19-US.gif" style="width:400px;"/>
 
 	- Do the same (animated figure) for daily new confirmed and death cases in the US. 
+	
 ***
 
 

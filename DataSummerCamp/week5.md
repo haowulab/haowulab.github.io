@@ -25,13 +25,14 @@ Prepare a single file homework5.Rmd, which should include all answers, R codes, 
 	- Generate the pairwise scatter plot, using `pairs` function, for the `mpg`, `hp`, and `wt` variables in the `mtcars` data frame. Also compute the pairwise correlation among these 3 variables. Explain what you see in the figure, and the meanings of the numbers. 
 	- For the above pairwise scatter plot, use different colors for cars with different `cyl`. **Hint**: you need to adjust the `bg` parameters in the function. Look at the first example for the `paris` function. I expect to see a figure similar to the following: 
 
-	![](mtcars-pairs.pdf)
+	<img src="mtcars-pairs.pdf">
 	
 2. This question explores the relationship among multiple categorical variables. 
 	- For the `mtcars` data frame, generate the contingency table between transmission type (`am`) and number of cylinders (`cyl`). 
 	- Generate a barplot to visualize the contingency table. I expect to see something like the the figure below: 
 
-		![](mtcars-bar1.pdf)
+	<img src="mtcars-bar1.pdf">
+		
 
 	- Explain your observations from the table and figure, using plain language. 
 

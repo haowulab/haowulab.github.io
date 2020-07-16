@@ -24,15 +24,15 @@ title: Schedule for week 4
 6. Based on the `mtcars` data frame, 
 	- Generate one figure with 2 panels for mpg vs hp and mpg vs wt. I expect to see a figure like the following
 	
-	![](mtcars-scatter-2panel.pdf)
+	<img src="mtcars-scatter-2panel.pdf" style="width:400px;"/>
 	
 	- Use different colors in the above figure for cars with different numbers of cyl. I want you to play with different color options, but finally use some transparent color in solid points (hint, the point type is `pch=19`). I expect to see something like the following (colors don't have to be exactly the same): 
 	
-	![](mtcars-scatter-2panel-color.pdf)
-
+	<img src="mtcars-scatter-2panel-color.pdf" style="width:400px;"/>
+	
 	- Generate a figure with 4 panels in a 2x2 layout. I expect to see a figure like the following: 
 
-	![](mtcars-scatter-4panel.pdf)
+	<img src="mtcars-scatter-4panel.pdf" style="width:400px;"/>
 
 7. Put math expression in figures. Generate a figure for power function
 <img src="https://latex.codecogs.com/svg.latex?f(x; k) = x^k"  />. Show the curves for k=0.5, 1, 1.5 in the same figure. In the figure, You should: 
@@ -53,7 +53,7 @@ modify the parameters in the `matplot` function.
 	```
 	I expect to see a figure like the following:
 	
-	![](power-curve.pdf)
+	<img src="power-curve.pdf" style="width:300px;"/>
 	
 
 

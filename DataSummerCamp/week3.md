@@ -24,7 +24,7 @@ title: Schedule for week 3
 	
 		I expect to see a figure similar to the following: 
 		
-		![](./mtcars-scatter.pdf)
+		<img src="mtcars-scatter.pdf" alt="">
 	
 	
 	2. Create a random matrix with 3 rows and 4 columns.
@@ -39,7 +39,7 @@ title: Schedule for week 3
 	
 	5. Type up the distribution density function for normal distribution (the oft-seen bell-shaped curve) in **homework3.Rmd**. The density function is
 	
-		<img src="normal-pdf.png" alt="drawing" style="width:200px;"/>
+		<img src="normal-pdf.png" alt="" style="width:200px;"/>
 
 - Create an **example.Rmd** to reproduce everything in [http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html](http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html), follow the same style. You can just copy/paste the text so that you don't have to retype them. What you need to do is to correctly format it. 
 

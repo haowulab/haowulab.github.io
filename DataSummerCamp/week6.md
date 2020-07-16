@@ -44,8 +44,8 @@ and `wc`.
 	- How many days are there in the data? 
 	- Take the data for US only, and plot the number of confirmed and death cases along the date. Generate two panels in the same figure, one uses original scale and one uses logrithm scale for the number of cases. Use proper axis labels and legends. I expect to see a figure similar to the following. **Hint 1**: use the `matplot` function. **Hint 2**: look at the `log` parameters in `plot` function to plot data in logrithm scale. 
 	
-		![](covid19_1.pdf)
-		
+		<img src="covid19_1.pdf" style="width:500px;"/>
+				
 	- Take the data for the US, compute the numbers for new confirmed and death cases for each day (using the `diff` function). Visualize the results in a figure similar to the above. 
 	
 	
@@ -66,7 +66,7 @@ Today, we will learn some basic linux operation and commands.
 	-  If you are using Windows, Microsoft has a **Windows Subsystem for Linux (WSL)** to simulate the Linux environment. This needs to be installed. See [WSL installation page](https://docs.microsoft.com/en-us/windows/wsl/install-win10) for more details. 
 -  Once you have the Linux system setup, start the terminal. Optionally you can customize the font/color to make it look comfortable. This can be important if you use the terminal a lot. For example, the Mac Terminal on my laptop looks like the following. These are the colors and fonts I feel comfortable with. 
 
-	![](myTerminal.png)
+	<img src="myTerminal.png">
 	
 -  Watch [Introduction to Linux and Basic Linux Commands for Beginners](https://www.youtube.com/watch?v=IVquJh3DXUA), and try them in your own shell window. 
 -  Read my summary of [a list of oft-used Linux command](http://www.haowulab.org//computing/basic_linux.html). Try them in your shell window. 
