@@ -44,7 +44,7 @@ and `wc`.
 	- How many days are there in the data? 
 	- Take the data for US only, and plot the number of confirmed and death cases along the date. Generate two panels in the same figure, one uses original scale and one uses logrithm scale for the number of cases. Use proper axis labels and legends. I expect to see a figure similar to the following. **Hint 1**: use the `matplot` function. **Hint 2**: look at the `log` parameters in `plot` function to plot data in logrithm scale. 
 	
-		<img src="covid19_1.pdf" style="width:500px;"/>
+		<img src="covid19_1.png" style="width:500px;"/>
 				
 	- Take the data for the US, compute the numbers for new confirmed and death cases for each day (using the `diff` function). Visualize the results in a figure similar to the above. 
 	
