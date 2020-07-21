@@ -126,10 +126,10 @@ Click the link for each week for detailed learning schedule and homework. All ho
 
 	
 - [Week 7](week7.md)
-	- Miscellaneous R functions
 	- R animation
-	- Continue to analyze the COVID-19 data
-	
+	- Review some earlier contents. 
+
 - [Week 8](week8.md)
-	- Wrap up the COVID-19 data anaysis. Finalize the report. 
+	- Write a review for the whole course. 
+	- COVID-19 data anaysis. Write a report. 
 
