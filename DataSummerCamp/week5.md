@@ -20,7 +20,7 @@ Prepare a single file homework5.Rmd, which should include all answers, R codes, 
 
 		```
 		x = rnorm(100)
-		y = x^2	+ rnorm(100, sd=0.5)
+		y = x^2 + rnorm(100, sd=0.5)
 		```
 	- Generate the pairwise scatter plot, using `pairs` function, for the `mpg`, `hp`, and `wt` variables in the `mtcars` data frame. Also compute the pairwise correlation among these 3 variables. Explain what you see in the figure, and the meanings of the numbers. 
 	- For the above pairwise scatter plot, use different colors for cars with different `cyl`. **Hint**: you need to adjust the `bg` parameters in the function. Look at the first example for the `paris` function. I expect to see a figure similar to the following: 
