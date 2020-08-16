@@ -23,7 +23,11 @@ Here is a list of software packages developed by our lab.
 - [POWSC](https://github.com/suke18/POWSC): power evaluation and sample size estimation in single cell RNA-seq. 
 
 - [Wind](https://github.com/haowulab/Wind): weighted indexes for evaluating clustering results. 
+
 - [SC2P](https://github.com/haowulab/SC2P): two-phase differential expression for single-cell RNA-seq.
+
 - [JAMIE](http://www.biostat.jhsph.edu/~hji/jamie/): **J**oint **A**nalysis of **M**ultiple **I**P **E**xperiments.
+
 - [makeCGI](../software/makeCGI/index.html): finding [CpG islands](http://en.wikipedia.org/wiki/CpG_island) (CGIs) from DNA sequences.
+
 - [R/qtl](http://www.rqtl.org): mapping quantitative trait loci (QTL) in experimental crosses. This package is mainly develope by [Karl Broman](https://kbroman.org). I helped him and wrote several core functions with C engines when I worked as a software developer at The Jackson Lab. 
