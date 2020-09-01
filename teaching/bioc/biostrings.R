@@ -99,29 +99,26 @@ a2
 a2[[1]]
 alphabetFrequency(a2, baseOnly=TRUE)
 
-###### Operations only allowed for StringSet but not StringViews
+## Operations  for StringSet 
 a=DNAString("ACGTACGTACTC")
 a1=DNAStringSet(a, start=c(1,5,9), end=c(4,8,12))
 a1
 unique(a1)
-a2=Views(a, start=c(1,5,9), end=c(4,8,12))
-unique(a2)
 
-
-a1=Views(a, start=c(1,9), end=c(4,12))
-a1
-a2=Views(a, start=c(1), end=c(4))
-a2
-setdiff(a1,a2) ## this will generate error
-union(a1, a2)
-
-### set operations are allowed for StringSet
 a1=DNAStringSet(a, start=c(1,9), end=c(4,12))
 a1
 a2=DNAStringSet(a, start=c(1), end=c(4))
 a2
 setdiff(a1,a2)
 union(a1,a2)
+
+a1=Views(a, start=c(1,9), end=c(4,12))
+a1
+a2=Views(a, start=c(1), end=c(4))
+a2
+setdiff(a1,a2) 
+union(a1, a2)
+
 
 
 ####### matching for multiple strings
