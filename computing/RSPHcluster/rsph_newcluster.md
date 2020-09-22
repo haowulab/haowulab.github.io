@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Using the RSPH cluster
+title: Using the new RSPH cluster (September 2020)
 description: Using the new RSPH cluster
 ---
 
@@ -9,7 +9,7 @@ All following tips are based on using terminal on Mac OS. I believe it will work
 
 ### Basic information 
 
-Here is the [HPC Getting Started Guide]("HPC Getting Started Guide.pdf") provided by the RSPH IT. Read it carefully because the system uses a new job scheduler. 
+Here is the [HPC Getting Started Guide](HPCGuide.pdf) provided by the RSPH IT. Read it carefully because the system uses a new job scheduler. 
 
 If you want to access the cluster from outside the School of Public Health (this includes using laptop through Emory wifi), you will need connect through the Emory VPN.  
 
@@ -130,9 +130,15 @@ You can add following line to your `.bash_profile` (in the home directory), so t
 
 #### Using R
 - As of September 2020, The latest R (version 4.0) and Bioconductor (version 3.11) are installed. 
+
 - Note that R cannot run on the head node directly. You must first run ``module load R`` to load the R module, and then run R. Read the [HPC Getting Started Guide]("HPC Getting Started Guide.pdf") for details. 
-- The R library directory for the group is at `projects/compbio/Rlib`. You need to setup R libraray directory by adding the following line in your `.Rprofile` file. Note: it's a hidden text file in your home directory. If you don't have it, just create one: ```.libPaths( c("projects/compbio/Rlib",  .libPaths()) )```
-After this, run `.libPaths()` in R to make sure you have the correct path. 
+
+- The R library directory for the group is at `projects/compbio/Rlib`. You need to setup R libraray directory by adding the following line in your `.Rprofile` file. Note: it's a hidden text file in your home directory. If you don't have it, just create one: 
+
+	```.libPaths( c("projects/compbio/Rlib",  .libPaths()) )```
+
+	After this, run `.libPaths()` in R to make sure you have the correct path. 
+	
 - To submit an R job to the scheduler, you need to create a `.sh` and put in some commands. The description in the guide is not accurate. The shell script should look like (assuming you want to submit `run.R`): 
 		
 	```
