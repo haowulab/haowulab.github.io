@@ -7,6 +7,7 @@ description: Computing tip
 The main purpose of this page is to provide some useful computing tips for BIOS students and faculty members at Emory, as well as serving as notes for myself. 
 
 
+* [Use the new RSPH cluster](../computing/RSPHcluster/rsph_newcluster.html)
 
 * [Use the RSPH cluster](../computing/rsph_cluster.html)
 
