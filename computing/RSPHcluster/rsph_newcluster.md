@@ -13,7 +13,7 @@ Here is the [HPC Getting Started Guide](HPCGuide.pdf) provided by the RSPH IT. R
 
 If you want to access the cluster from outside the School of Public Health (this includes using laptop through Emory wifi), you will need connect through the Emory VPN.  
 
-
+--
 ### Login to the RSPH cluster
 
 Address for the RSPH cluster is ``clogin01.sph.emory.edu``. 
@@ -33,6 +33,7 @@ alias cluster="ssh -X hwu30@clogin01.sph.emory.edu"
 
 So I can login to the cluster by typing ``cluster`` in the terminal. 
 
+--
 ### Password-less logins using SSH
 
 It's annoying to have to type in password every time  login or scp to/from the cluster. Fortunately there is a solution. Follow the steps to setup a password-less login.
@@ -48,6 +49,24 @@ Now login to the cluster and cd to the ``.ssh`` directory. Add the public key fr
 	chmod 600 authorized_keys
 	```
 
+--
+### Transfer data from the old cluster to the new one
+
+Use the `scp` commands to copy files over. For example, I can use the following commands to copy a whole directory over. If the file sizes are large, you can also submit a job for file transferring. 
+
+```
+#!/bin/bash
+#SBATCH --partition=day-long-cpu
+scp -r hwu30@hpc4.sph.emory.edu:SourceDir TargetDir 
+```
+
+In order for this to run succesfully, you also need to setup the password-less login between the new and old cluster (adding the `id_rsa.pub` line in the new cluster to the `authorized_keys` file in the old cluster). Otherwise, the system will prompt for password, and the submitted job cannot run. 
+
+This is also a good opportunity to reorganize your files. 
+
+
+
+--
 ### The job scheduler on the new cluster
 
 The new clusters uses SLURM as job scheduler, instead of Sun Grid Engine (SGE) on the old clusters. A few basic SGE commands and 
@@ -61,6 +80,7 @@ and their corresponding SLURM commands are
 For a more comprehensive list, please see this 
 [SGE to SLURM conversion page](https://srcc.stanford.edu/sge-slurm-conversion).
 
+--
 ### Environment for bioinformatics group members
 
 
@@ -96,21 +116,6 @@ ln -s  /projects/compbio/users/hwu30 projects
 	
 	It creates a directory `project` in my home, which is in fact `/projects/compbio/users/hwu30`. 
 * Try to be organized in managing your projects. Create directories and sub-directories. 
-
-#### Transfer data from the old cluster to the new one
-
-Use the `scp` commands to copy files over. For example, I can use the following commands to copy a whole directory over. If the file sizes are large, you can also submit a job for file transferring. 
-
-```
-#!/bin/bash
-#SBATCH --partition=day-long-cpu
-scp -r hwu30@hpc4.sph.emory.edu:SourceDir TargetDir 
-```
-
-In order for this to run succesfully, you also need to setup the password-less login between the new and old cluster (adding the `id_rsa.pub` line in the new cluster to the `authorized_keys` file in the old cluster). Otherwise, the system will prompt for password, and the submitted job cannot run. 
-
-This is also a good opportunity to reorganize your files. 
-
 
 
 
