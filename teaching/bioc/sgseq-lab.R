@@ -1,4 +1,4 @@
-#### example scripts for BIOS555 lab3, updated 10/9/2019
+#### example scripts for BIOS555 lab4, updated 9/22/2020
 
 ##############################################
 ## using Rsubread for sequence alignment
@@ -128,4 +128,4 @@ xlim=c(0,1)
 plot(roc.DEseq, xlim=xlim)
 plot(roc.edgeR, add=TRUE, col="red", lty=1)
 plot(roc.DSS, add=TRUE, col="blue", lty=1)
-legend("bottomright", legend=c("DEseq", "edgeR", "DSS"),col=c("black","red", "blue"), lty=1)
+legend("bottomright", legend=c("DEseq2", "edgeR", "DSS"),col=c("black","red", "blue"), lty=1)
