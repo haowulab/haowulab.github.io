@@ -139,6 +139,12 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
+<li> <strong> Can Li,</strong>, MSPH in Biostatistics, 2020. 
+<strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
+<li> <strong> Chunhui Gu,</strong>, MSPH in Biostatistics, 2020. 
+<strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
+<li> <strong> Jinjing He,</strong>, MSPH in Biostatistics, 2020. 
+<li> <strong> Hanyi Zheng,</strong>, MSPH in Biostatistics, 2020. 
 <li> <strong>Yuchen Yan,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Siyi Geng,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Xiaoran Meng,</strong>, MSPH in Biostatistics, 2019. 
