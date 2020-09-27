@@ -9,7 +9,12 @@ All following tips are based on using terminal on Mac OS. I believe it will work
 
 ### Basic information 
 
-Here is the [HPC Getting Started Guide](HPCGuide.pdf) provided by the RSPH IT. Read it carefully because the system uses a new job scheduler. 
+Here are some information provided by the RSPH IT:
+
+- The [HPC Getting Started Guide](HPCGuide.pdf). 
+- [A more detailed description](https://scholarblogs.emory.edu/rsph-hpc/). 
+
+Read it carefully because the system uses a new job scheduler. 
 
 If you want to access the cluster from outside the School of Public Health (this includes using laptop through Emory wifi), you will need connect through the Emory VPN.  
 
