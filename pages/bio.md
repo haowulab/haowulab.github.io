@@ -24,15 +24,11 @@ From July 2001 to August 2005,
 I worked as a scientific software engineer 
 at The Jackson Laboratory](http://www.jax.org). 
 in [Dr. Gary Churchill's statistical genetics group](https://www.jax.org/research-and-faculty/research-labs/the-churchill-lab). 
-
-
 I learnt a lot in those four
-years through my work, and was exposed to the fancinating
-world of genetic and genomic research. 
+years through my work, and was exposed to the fancinating world of genetic and genomic research. 
 I developed and co-developed
 several software packages for QTL mapping and gene expression microarray
-data analysis. See <a href="software.html">Software page</a> for details.
-
+data analysis during that time. See <a href="software.html">Software page</a> for details.
 I became a senior software engineer in early
 2005 and felt the learning curve was saturated as a scientific programmer.
 I had an urge to go back to graduate school and
@@ -47,9 +43,9 @@ Since then I have been fully enjoying the academic freedom and
 intellectual challenges, and working on problems I'm interested in.
 
 
-In my leisure time I listen to music and [play a little guitar](https://soundcloud.com/user-240749812/hotel-california-42420-1059-pm). My favorite guitarist is Slash, so of course my favoriate band is G&R. I'm trying to learn many Slash's solos. I like sports and enjoy watching American football (both college and NFL). I enjoy running (trying to run 30-40 miles a week if I have time), and go to gym regularly. I also play soccer and tennis a few times a week. Above all these, 
-I especially enjoy playing soccer and tennis with my
-two boys (both are very good athletes and way better than me), and watching them play in the tournaments. 
+In my leisure time I listen to music and [play a little guitar](https://soundcloud.com/user-240749812/hotel-california-42420-1059-pm). My favorite guitarist is Slash, so of course my favoriate band is G&R. I'm trying to learn many Slash's solos. I like sports and enjoy watching American football (both college and the NFL). I enjoy running (trying to run 30-40 miles a week if I have time), and go to gym regularly. I also play soccer and tennis a few times a week. Above all these, 
+I especially enjoy playing tennis with my
+two boys (both are good athletes and way better than me), and watching them play in the tournaments. 
 
 <!-- <a href="http://www.youtube.com/watch?v=8qjc7uzjPmc">watching them play games</a>. -->
 
