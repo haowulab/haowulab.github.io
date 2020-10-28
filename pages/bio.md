@@ -8,13 +8,12 @@ I was born in Beijing and grew up in Tianjin, China.
 I graduated from the <a href="http://www.nkzx.cn/">Tianjin Nankai High School</a>, 
 which produced two Chinese prime ministers and numuerous scientists. 
 I received my BS degree from 
-<a href="http://www.tsinghua.edu.cn/eng/index.html">Tsinghua University</a>,
-Department of Electrical Engineering in 1996 and MS degree
-from <A href="http://www.iastate.edu/">Iowa State University</A>,
+[Tsinghua University](https://www.tsinghua.edu.cn),
+Department of Electrical Engineering in 1996 and MS degree from [Iowa State University](http://www.iastate.edu)
 Department of Electrical Engineering in 2000.
 
 In early 2000 I started to work in a branch of 
-<a href="http://www.gepower.com/">GE Energy</a>
+[GE Energy](http://www.gepower.com)
 as an engineer. I was in a team to develop and customize software
 for power system controls and optimizations. 
 The everyday work was C and Fortran programming. 
@@ -23,9 +22,10 @@ found a job in Maine. I quitted my job and moved with her.
 
 From July 2001 to August 2005,
 I worked as a scientific software engineer 
-at <a href="http://www.jax.org">The Jackson Laboratory</a>
-in <a href="https://www.jax.org/research-and-faculty/research-labs/the-churchill-lab">
-Dr. Gary Churchill's statistical genetics group</a>. 
+at The Jackson Laboratory](http://www.jax.org). 
+in [Dr. Gary Churchill's statistical genetics group](https://www.jax.org/research-and-faculty/research-labs/the-churchill-lab). 
+
+
 I learnt a lot in those four
 years through my work, and was exposed to the fancinating
 world of genetic and genomic research. 
