@@ -48,10 +48,9 @@ intellectual challenges, and working on problems I'm interested in.
 
 
 <p>
-In my leisure time I listen to music and participate in
-different sports including running, swimming, soccer and tennis.
+In my leisure time I listen to music and [play a little guitar](https://soundcloud.com/user-240749812/hotel-california-42420-1059-pm). My favorite guitarist is Slash, so of course my favoriate band is G&R. I'm trying to learn many Slash's solos. I like sports and enjoy watching American football (both college and NFL). I enjoy running (trying to run 30-40 miles a week if I have time), and go to gym regularly. I also play soccer and tennis a few times a week. Above all these, 
 I especially enjoy playing soccer and tennis with my
-two boys (both are very good athletes), and watching them play in the tournaments. 
+two boys (both are very good athletes and way better than me), and watching them play in the tournaments. 
 
 <!-- <a href="http://www.youtube.com/watch?v=8qjc7uzjPmc">watching them play games</a>. -->
 

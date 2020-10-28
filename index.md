@@ -58,22 +58,20 @@ keywords: statistics, biostatistics, biometrics,
 
 <hr />
 
+I am an associate professor in the Department of Biostatatstics and Bioinformatics at Emory University.
+My research has mainly focused on bioinformatics and computational biology.
+Our research group develop statistical methods and computational
+tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Genome Research, and Genome Biology. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
 
 
-<p>I am an associate professor in the Department of Biostatatstics and Bioinformatics at Emory University.
-My research has been mainly focused on bioinformatics and computational biology.
-I'm particularly interested in developing statistical methods and computational
-tools for analyzing large scale genomic data from high-throughput
-technologies such as microarrays and second generation sequencing.
-<p>
-I am also interested in general machine learning, pattern recognition and
-large scale data mining methods with applications to biomedical data.
-I collaborate closely with researchers working on epigenetics to characterize 
-different types of DNA methylation and histone modifications.
+In recent a couple years, I also started to work on other types of biomedical big data from electronic health record (EHR) and mobile device. We are developing methods for disease prediction and individulized treatment design. 
+
+We collaborate closely with clinicians and scientists to characterize different types of genomics and epigenomics modifications in human diseases (including cancer, Alzheimer's disease, Fragile X syndrome, HIV), in order to discover diagnostic biomarkers and therapeutic targets. 
+
 
 <p>
 I joined the department in 2010 after obtaining my Ph.D.
-degree in Biostatistics from
+degree in Biostatistics from the
 <a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>,
 under the guidances of professors
 <a href="http://rafalab.github.io/">Rafael Irizarry</a> and

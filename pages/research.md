@@ -6,8 +6,10 @@ description: Hao Wu's research
 
 I am a computational biologist/bioinformatician with formal training in biostatistics.
 My research has been mainly focused on developing statistical methods and computational tools
-for analyzing and interpreting large-scale biological or clinical data, in particlar the high-throughput omics data.
-<br>
+for analyzing and interpreting large-scale biomedical, in particlar the high-throughput omics data.
+
+
+
 
 At this moment, I spent most of my time on developing methods and tools for
 analyzing data from various types of second generation sequencing experiments,
