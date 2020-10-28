@@ -106,7 +106,7 @@ description: People in Wu lab
 <h3> Former group members </h3>
 
 <h4> Postdoc </h4>
-<li> <a href="https://sites.google.com/site/ziyiliemory">Ziyi Li</a>, 2018-2020. 
+<li> <a href="https://sites.google.com/site/ziyiliemory"><strong>Ziyi Li</strong></a>, 2018-2020. 
 <strong>Current position</strong>:
 Assistant Professor, MD Anderson Cancer Center. 
 
