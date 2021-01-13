@@ -15,11 +15,14 @@ Here is a list of software packages developed by our lab.
 
 - [PROPER](https://bioconductor.org/packages/release/bioc/html/PROPER.html) (**PRO**spective **P**ower **E**valuation for **R**NAseq): simulation based methods for evaluating the statistical power in differential expression analysis from RNA-seq data. 
 
-- [ChIPComp](https://bioconductor.org/packages/release/bioc/html/ChIPComp.html): Differntial protein binding analysis for ChIP-seq data. The package can potentially be used for differntial analyses from other capture sequencing data with controls such as m6A capture or Ribo-seq data. 
-- [maanova](https://bioconductor.org/packages/release/bioc/html/maanova.html): Differntial expression analysis of N-dye microarray experiments using mixed model effect. 
+- [ChIPComp](https://bioconductor.org/packages/release/bioc/html/ChIPComp.html): Differential protein binding analysis for ChIP-seq data. The package can potentially be used for Differential analyses from other capture sequencing data with controls such as m6A capture or Ribo-seq data. 
+- [maanova](https://bioconductor.org/packages/release/bioc/html/maanova.html): Differential expression analysis of N-dye microarray experiments using mixed model effect. 
 
 <br>
 #### Other non-bioconductor software
+
+- [FEAST](https://github.com/suke18/FEAST): Feature selection for scRNA-seq clustering.
+
 - [POWSC](https://github.com/suke18/POWSC): power evaluation and sample size estimation in single cell RNA-seq. 
 
 - [Wind](https://github.com/haowulab/Wind): weighted indexes for evaluating clustering results. 
