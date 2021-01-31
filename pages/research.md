@@ -1,10 +1,11 @@
 ---
 layout: page
-title: My research interests
+title: My research
 description: Hao Wu's research 
 ---
 
 The ultimate goal of our research is to advance biomedical sciences and clinical practices through the development of rigorus and efficient tools. We aim to tackle the challenges provided by the modern biomedical "big data", including high-dimensionality, heterogeneity, technical artifacts, reproducibility, etc. Over the last decade, we have developed a number of important statistical methods and widely used software packages for analyzing large-scale biomedical data, in particular high-throughput omics data. Below I provide a brief description of the research in our lab. 
+
 
 <hr>
 
@@ -12,7 +13,7 @@ The ultimate goal of our research is to advance biomedical sciences and clinical
 
 #### _Bulk sequencing_
 
-<img src="RNAseq_DSS.jpg" width=0.7\textwidth>
+<img src="RNAseq_DSS.jpg" width="600"> 
 
 We have developed methods and tools for a variety of bulk sequencing data, including 
 
@@ -31,7 +32,7 @@ We have developed a number of methods, including sample size calculation, differ
 <hr>
 ### Estimating and accounting for sample heterogeneity
 
-<img src="TOAST_PRF.jpg" width=0.7\textwidth>
+<img src="TOAST_PRF.jpg" width="600">
 
 The bulk high-throughput experiments are often conducted on complex tissue samples, which are mixtures of different cell types. The mixture brings complication to data analysis, and will lead to biased results if not properly accounted for. We developed a number of methods for properly analyzing the high-throughput omics data from complex tissues, mainly in two directions: 
 
@@ -43,4 +44,3 @@ These works result in several method papers and two software packages: [Infinium
 We also developed method for signal deconvolution and disease prediction from cell free DNA (cfDNA) methylation. The cfDNA is a mixture of DNA segment from different tissues. We perform signal deconvolution to estimate the mixing proportions, which can accurately predict disease status. The cfDNA study represents a novel and exciting direction known as “liquid biopsy”, which has great potential in early disease diagnosis. 
 
 
-## 
