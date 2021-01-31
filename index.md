@@ -11,8 +11,6 @@ keywords: statistics, biostatistics, biometrics,
    human, meiosis, gene mapping,
    microarray, maanova, microarray analysis of variance, jmaanova,
    second generation sequencing, chip-chip, tiling array, data integration, DSS
-
-
 ---
 <!--
 <div class="navbar">
