@@ -6,12 +6,13 @@ description: Hao Wu's research
 
 The ultimate goal of our research is to advance biomedical sciences and clinical practices through the development of rigorus and efficient tools. We aim to tackle the challenges provided by the modern biomedical "big data", including high-dimensionality, heterogeneity, technical artifacts, reproducibility, etc. Over the last decade, we have developed a number of important statistical methods and widely used software packages for analyzing large-scale biomedical data, in particular high-throughput omics data. Below I provide a brief description of the research in our lab. 
 
---
-## Methods for second-generation sequencing data 
+<hr>
+
+### Methods for second-generation sequencing data 
 
 #### _Bulk sequencing_
 
-![](RNAseq_DSS.jpg)
+<img src="RNAseq_DSS.jpg" width=0.7\textwidth>
 
 We have developed methods and tools for a variety of bulk sequencing data, including 
 
@@ -27,13 +28,14 @@ In particular, we published three important papers for detecting differential me
 
 We have developed a number of methods, including sample size calculation, differential expression, feature selection for improved cell clustering, and new metrics for evaluating cell clustering results. Our differential expression method SC2P uses a mixture of zero-inflated Poisson and lognormal-Poisson distributions to characterize the sparse count data from scRNA-seq, and provides flexible inferences in differential expression. Our new feature selection method FEAST significantly improves the cell clustering results. All methods are implemented as software packages freely available on Github or Bioconductor. See [Software page](http://www.haowulab.org//pages/software.html) for more details. 
 
---
-## Estimating and accounting for sample heterogeneity
-![](TOAST_PRF.jpg)
+<hr>
+### Estimating and accounting for sample heterogeneity
+
+<img src="TOAST_PRF.jpg" width=0.7\textwidth>
 
 The bulk high-throughput experiments are often conducted on complex tissue samples, which are mixtures of different cell types. The mixture brings complication to data analysis, and will lead to biased results if not properly accounted for. We developed a number of methods for properly analyzing the high-throughput omics data from complex tissues, mainly in two directions: 
 
-- “Signal deconvolution” methods to estimate the cell type mixing proportions and pure cell type profiles; 
+- “Signal deconvolution” methods to estimate the cell type mixing proportions and pure cell type profiles.
 - Methods to account for cell type mixture in various analyses, including cell type specific differential expression/methylation and sample clustering.
 
 These works result in several method papers and two software packages: [InfiniumPurity](https://cran.r-project.org/web/packages/InfiniumPurify/index.html) and [TOAST](http://www.bioconductor.org/packages/release/bioc/html/DSS.html).
