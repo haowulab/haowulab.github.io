@@ -56,7 +56,7 @@ keywords: statistics, biostatistics, biometrics,
 
 <hr />
 
-I am an associate professor in the Department of Biostatatstics and Bioinformatics at Emory University.
+I am an associate professor in the Department of Biostatistics  and Bioinformatics at Emory University.
 My research has mainly focused on bioinformatics and computational biology.
 Our research group develop statistical methods and computational
 tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Genome Research, and Genome Biology. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
