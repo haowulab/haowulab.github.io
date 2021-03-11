@@ -33,4 +33,7 @@ Here is a list of software packages developed by our lab.
 
 - [makeCGI](../software/makeCGI/index.html): finding [CpG islands](http://en.wikipedia.org/wiki/CpG_island) (CGIs) from DNA sequences.
 
+- [polyaPeak](../software/polyaPeak.html): ranking ChIP-seq peaks with shape information.
+
+
 - [R/qtl](http://www.rqtl.org): mapping quantitative trait loci (QTL) in experimental crosses. This package is mainly develope by [Karl Broman](https://kbroman.org). I helped him and wrote several core functions with C engines when I worked as a software developer at The Jackson Lab. 
