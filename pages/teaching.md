@@ -23,4 +23,4 @@ description: Teaching
 	- [DNA methylation and BS-seq](../teaching/DNAm.pdf)
 	- [Lab materials](../teaching/ENAR2014_NGS_lab.zip)
 
-	
+- [ENAR 2021 short course for single cell RNA-seq](../teaching/ENAR2021/scRNAseq.html)
