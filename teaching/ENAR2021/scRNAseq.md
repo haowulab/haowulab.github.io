@@ -17,15 +17,15 @@ This short course will introduce participants to a number of scRNA-seq analysis 
  
 ### Course materials
 
-Click the links below to obtain lecture slides. All lab materials (several RData and R files) are [here as a single zip file]().
+Click the links below to obtain lecture slides. All lab materials (several RData and R files) are [here as a single zip file](ENAR2021_scRNA-seq_labs.zip).
 
 - [Lecture 1: Intro and data preprocessing](ENAR2021_scRNA-seq_lecture1.pdf).
 - Lab 1 : preprocessing and visualization.
 - [Lecture 2: Normalization, batch effect, imputation, DE, simulator](ENAR2021_scRNA-seq_lecture2.pdf).
 - Lab 2 : Normalization, batch effect, imputation, DE, simulator 
-- [Lecture 3: Clustering and pseudotime construction]().
+- [Lecture 3: Clustering and pseudotime construction](ENAR2021_scRNA-seq_lecture3.pdf).
 - Lab 3: Clustering and pseudotime construction 
-- [Lecture 4: Supervised cell typing & related single cell data sources]().
+- [Lecture 4: Supervised cell typing & related single cell data sources](ENAR2021_scRNA-seq_lecture4.pdf).
 - Lab 4: supervised cell typing.  
-- [Lecture 5: scRNA-seq in cancer]().
+- [Lecture 5: scRNA-seq in cancer](ENAR2021_scRNA-seq_lecture5.pdf).
 
