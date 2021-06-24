@@ -101,7 +101,6 @@ What you read in is a `data frame`, similar to a matrix. We will learn it next w
 
 
 
-<p><p><p>
 	
 ***
 
