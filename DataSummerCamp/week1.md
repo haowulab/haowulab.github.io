@@ -87,8 +87,18 @@ Use a combination of comparison and indexing can extract uesful information from
 a large dataset. Here let's do something a little interesting. I obtained the career regular season statistics for Shaquille O'Neal. You can read them into R using
 
 ```
+shaqStat = read.csv("http://www.haowulab.org/DataSummerCamp/data/shaqStat.csv")
+```
 
-shaq = read.csv("shaqStat.csv")
+What you read in is a `data frame`, similar to a matrix. We will learn it next week. Take a look at `shaqStat` in R. Let's do some simple practice
+
+- Return the statistics for Shaq when he played at ORL.
+- Return the following statistics for Shaq when he plays at ORL: G, FG, FGA
+- Can you compute the overall FG% when Shaq played at Orlando?
+- Repeat the above, but only for the statsitics when Shaq played at LAL. 
+
+
+
 
 
 	
