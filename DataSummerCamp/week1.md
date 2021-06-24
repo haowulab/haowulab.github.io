@@ -26,10 +26,10 @@ Write R program to do the following. _NOTE: if you haven't learned, the function
 6. Create two vectors, each with 3 elements, combine them into one vector of 6 elements. 
 7. Create two vectors, each with 3 elements, (1) combine them into a 2x3 matrix; (2) combine them into a 3x2 matrix.
 8. Run following code to create a string: `string = "This is a string"`
-	- how many characters are there in the string? 
-	- Take out the first 10 characters in the string.
+	- How many characters are there in the string? 
+	- Return the first 10 characters in the string.
 	- how many words are there in the string?
-	- Take out the first two words in the string. 
+	- Return the first two words in the string. 
 	- Replace `This` by `That` in the string. 
 	- Remove all spaces in the string. 
 9. Run following code to create a vector of strings `sample(c("car", "truck", "plane"), 100, replace=TRUE)` 
@@ -51,6 +51,49 @@ Write R program to do the following. _NOTE: if you haven't learned, the function
 	x = rnorm(100, 100, 10)
 	```
 ***
+
+
+### Extra practices
+
+#### Vector and matrix indexing
+1. Create a 4x3 matrix, you can put in some random numbers in the matrix (for example, simply use 1 to 12). 
+	- Return the first and third row
+	- Return the first and second column
+	- Return a submatrix containing the first and third row and the first and second column.
+2. `seq` is a useful function to create a sequence of numbers in a vector. Read the function help for `seq`.
+	- Create a sequence of even numbers from 1 to 50.  
+	- Create a sequence of add numbers from 1 to 50.  
+
+
+#### Comparison
+
+Read the section for logical operators again at [https://www.guru99.com/r-data-types-operator.html#5](https://www.guru99.com/r-data-types-operator.html#5). Note, R has ability to compare a vector or matrix to a single element. In that case, each elemenet in the vector or matrix will be compared to the single element, and the return will be a logical vector/matrix. 
+
+1. How many numbers in 1:100 can be evenly divided by 3? 
+2. The comparison can be performed on characters too. Run following code to create a vector of strings 
+	```
+	sample(c("car", "truck", "plane"), 100, replace=TRUE)
+	```
+	
+	- How many items are "car" in this vector of string? 
+	- How many items are **NOT** "truck" in this vector of string? 
+
+3. How many numbers in 1:100 are greater than 20?
+4. How many numbers in 1:100 are greater than 20 **AND** smaller than 50? 
+5. How many numbers in 1:100 are smaller than 20 **OR** or greater than 50? 
+
+#### Combination of comparison and indexing
+Use a combination of comparison and indexing can extract uesful information from 
+a large dataset. Here let's do something a little interesting. I obtained the career regular season statistics for Shaquille O'Neal. You can read them into R using
+
+```
+
+shaq = read.csv("shaqStat.csv")
+
+
+	
+	
+
 
 ### Day 1: R and R studio
 - Read [https://www.guru99.com/r-programming-introduction-basics.html](https://www.guru99.com/r-programming-introduction-basics.html). 
