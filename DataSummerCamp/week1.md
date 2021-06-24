@@ -104,7 +104,6 @@ What you read in is a `data frame`, similar to a matrix. We will learn it next w
 	
 ***
 
-
 ### Day 1: R and R studio
 - Read [https://www.guru99.com/r-programming-introduction-basics.html](https://www.guru99.com/r-programming-introduction-basics.html). 
 - Install R and Rstuido, following [http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming](http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming). And watch [https://www.youtube.com/watch?v=lVKMsaWju8w](https://www.youtube.com/watch?v=lVKMsaWju8w). 
