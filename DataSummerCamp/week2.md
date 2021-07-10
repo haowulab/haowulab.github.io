@@ -52,6 +52,35 @@ In **homework2.R**:
 	
 5. Read the [COVID-19 data](data/covid_19_clean_complete.csv) into R as a data frame. Conduct explorative analysis of the data, and answer questions listed for homework2.md. 
 
+***
+
+### A small project - to analyze the match results for the "Big three" tennis players
+
+
+The Wimbledon final will be played tomorrow (July 11, 2021). Novak Djokovic will chase his 20th Grand Slam title, tying Rafeal Nadal and Roger Federer. With the continous debate on who's the GOAT tennis player, we will analyze the career tennis match results from these big three. 
+
+First, obtain the career match results for the three players from the links below. These are csv files I downloaded from [https://www.ultimatetennisstatistics.com](https://www.ultimatetennisstatistics.com). These are results until July 7, 2021.
+
+- [Federer career results](data/Federer_career_results.csv)
+- [Nadal career results](data/Nadal_career_results.csv)
+- [Djokovic career results](data/Djokovic_career_results.csv)
+
+Secondly, read these files into R as data frames (using the `read.csv` function). Carefully examine the data frame to get familiar with the content of the data, such as the column names and their meanings. 
+
+Write codes to answer following questions, from easy to difficult
+
+1. Compute the career winning percentage for each player. 
+2. Compute the career winning percentage for each player at the grand slams. **Note**: you need to first extract the rows for grand slam matches.
+3. Compute the career winning percentage for each player at the grand slams for each year. **Note**: This can be tricky. You can do it for each year seperately (the lazy approach), or write a loop (a little better). More advanced and cleaner way is to use functions in `dplyr` package. You can google `conditional means dplyr` for that if interested.  
+4. Compute the head-to-head winning percentage among the big three. 
+5. Compute the head-to-head winning percentage among the big three in each year. There might be years that they don't play each other. Maybe a better way to do this is to compute their head-to-head winning percentage at every 5-year interval.
+6. Compute the head-to-head winning percentage among the big three in grand slams. 
+7. Compute the head-to-head winning percentage among the big three in grand slams at every 5-year interval. 
+8. I'm also interested in their records against other players.  Summarize and compare that in some interesting and intuitive way. For example, by some manual search on atptour.com, I found that against Stan Wawarinka, Nadal is 19-3, Federer is 23-3, Djokovic is 19-6. You can generate these numbers for all their opponents. 
+
+
+After obtaining all these results, interpret them in an intuitive way. Present the results using tables, figures, and language. Write an article about your analyses. 
+
 
 ***
 
