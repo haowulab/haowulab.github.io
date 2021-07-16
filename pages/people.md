@@ -47,22 +47,6 @@ description: People in Wu lab
 </div>
 <br>
 
-<!-- Kenong Su -->
-<div class="row-fluid">
-
-  <div class="span2">
-    <img src="../assets/pics/Kenong.jpg" width="200" /><br />
-  </div>
-
-  <div class="span5">
-    <h4>Kenong Su</h4>
-    Ph.D. student<br />
-    Department of Computer Science<br />
-   Emory University<br />
-  </div>
-
-</div>
-<br>
 
 
 
@@ -99,6 +83,27 @@ description: People in Wu lab
 </div>
 <br>
 
+
+<!-- Wenjing Ma -->
+<div class="row-fluid">
+
+  <div class="span2">
+    <img src="../assets/pics/Wenjing.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Wenjing Ma</h4>
+    Ph.D. student<br />
+    Department of Computer Science<br />
+   Emory University<br />
+   <a href="https://marvinquiet.github.io/">Web</a>, 
+    <a href="https://scholar.google.com/citations?user=yQOhaRAAAAAJ&hl=zh-CN">Google scholar</a>
+  </div>
+
+</div>
+<br>
+
+
 <hr />
 
 <!-- <h3>Master students</h3> -->
@@ -111,7 +116,7 @@ description: People in Wu lab
 Assistant Professor, MD Anderson Cancer Center. 
 
 <h4> Ph.D. students </h4>
-
+<li><a href="https://transgen.med.upenn.edu/people/kenong-su/"><strong>Kenong Su</strong></a>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Postdoc at University of Pennsylvania.
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
