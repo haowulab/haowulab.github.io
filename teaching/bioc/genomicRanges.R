@@ -111,7 +111,7 @@ c(gr[1], gr[3])
 coverage(gr)
 reduce(gr)
 disjoin(gr)
-flank(gr)
+flank(gr, 2)
 gaps(gr)
 
 ## set operations
@@ -130,6 +130,7 @@ gr1 %over% gr2
 
 ##### GRangesList
 glist=GRangesList(gr1, gr2)
+glist
 glist[[1]]
 lapply(glist, length)
 sapply(glist, length)
@@ -141,7 +142,7 @@ sapply(glist, length)
 library(GenomicFeatures)
 ## from UCSC
 supportedUCSCtables()
-txdb=makeTxDbFromUCSC(genome="hg19",tablename="knownGene")
+txdb = makeTxDbFromUCSC(genome="hg19",tablename="knownGene")
 txdb
 
 ## save and load
@@ -161,9 +162,12 @@ exons(txdb)
 
 transcriptsBy(txdb, by="gene")
 exonsBy(txdb, by="gene")
+exonsBy(txdb, by="tx")
+
 intronsByTranscript(txdb)
 fiveUTRsByTranscript(txdb)
 threeUTRsByTranscript(txdb)
+
 
 ## by overlap
 gr=GRanges(seqnames = Rle("chr1", 2),
