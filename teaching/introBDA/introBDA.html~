@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <style type="text/css">
+  ADDRESS {font-family: Arial, Helvetica;}
+  BODY {margin-top:5%; margin-left:10%;margin-right:10%;margin-bottom:10%;
+  font-family: Arial, Helvetica; line-height:130%}
+  H1{line-height:120%}
+  TD {font-family: Arial, Helvetica;}
+  P {font-family: Arial, Helvetica; text-align: justify;}
+  A:link {text-decoration:none;}
+  A:vlink {text-decoration:none;}
+  </style>
+  
+  
+  <title>Introduction to Large-Scale Biomedical Data Analysis</title>
+
+  </head>
+<body width="80%">
+<a name="Outline"></a>
+<h1><center>Introduction to Large-Scale Biomedical Data Analysis</h1>
+
+<br><hr size="5" width="100%">
+<!--
+<table width="100%">
+  <tbody>
+    <tr>
+      <th width="20%"><a href="#info">Class Info</a></th>
+      <th width="20%"><a href="#announcements">Reading materials</a></th>
+      <th width="20%"><a href="#class">Class schedule and notes</a></th>
+    </tr>
+  </tbody>
+</table>
+
+<br><hr size="5" width="100%"><br>
+<a name="info">
+-->
+
+<h3>Class Information</h3>
+</a>
+<ul>
+  <li><b>Course title</b>: Introduction to Large-Scale Biomedical Data Analysis</li>
+  <li><b>Instructors</b>: Ying Guo, Suprateek Kundu, Yijuan Hu, Zhaohui Qin, Ben Risk, Hao Wu, Tianwei Yu.
+	Questions and concerns please address to 
+	Hao Wu (hao.wu at emory dot edu),
+  </li><li><b>Class</b>:  Thursday 5-6:50PM at GCR 115
+  </li><li><b>Office hour</b>: By appointment.
+</ul>
+
+<center><hr size="5" width="100%"></center>
+<h3>Summary</h3>
+This is an overview course for the Bioinformatics, Imaging and Genetics (BIG) concentration 
+in the PhD program of the Department of Biostatistics and Bioinformatics. 
+It aims to introduce students to modern high-dimensional biomedical data, 
+including data in bioinformatics and computational biology, biomedical imaging, and statistical genetics. 
+<p>
+This course will be co-taught by several BIG core faculty members, 
+with each faculty member giving one or two lectures.  The focus of 
+the course will be on the data characteristics, opportunities 
+and challenges for statisticians, as well as current developments and active areas of the research 
+fields of bioinformatics, biomedical imaging and statistical genetics.
+
+<p>
+<b>Prerequisites</b>: BIOS 501 or equivalent, or permission from the instructor.
+
+<p>
+<b>Evaluation</b>: 
+<ul>
+<li>Participation (10%). The students are expected to attend all classes and actively 
+participate in in-class discussions on various topics of biomedical research. 
+<li>Reading assignments (90%). There are three reading assignments. In each reading assignment, 
+students will be given a methodology paper on related topics. 
+The students are required to write a two page report (1.5x line spacing, 1 inch margins) 
+to briefly summarize the main points of the paper.
+</ul>
+
+
+<!-- <center><hr size="5" width="100%"></center>
+
+announcements 
+<h3>Recommended books:</h3> </a><p>
+<ol>
+<li>Lange, K., <a href="http://www.amazon.com/Numerical-Analysis-Statisticians-Statistics-Computing/dp/1441959440/ref=sr_1_1?ie=UTF8&qid=1345654374&sr=8-1&keywords=Numerical+Analysis+for+Statisticians"><i>Numerical Analysis for Statisticians</i></a>.
+<li>Gilks W. R. et al., <a href="http://www.amazon.com/Markov-Practice-Chapman-Interdisciplinary-Statistics/dp/0412055511"><i>Markov chain Monte Carlo in Practice</i></a>.
+<li>Press WH, et al., <a href="http://www.nr.com/"><i>Numerical Recipes in C</i></a>. 
+<li>Durbin, R. et al., <a href="http://www.amazon.com/Biological-Sequence-Analysis-Probabilistic-Proteins/dp/0521629713/ref=sr_1_1?s=books&ie=UTF8&qid=1346348980&sr=1-1"><i>Biological sequence analysis</i></a>.
+</ol>
+
+-->
+
+<center><hr size="5" width="100%"></center>
+<p><a name="class"><h3>Class schedule and notes</h3> </a>
+<table cellpadding=3 cellspacing=3 border=1>
+<tr>
+<td>Date</td>
+<td>Lecture Title</td>
+<td>Description</td>
+<td>Homework</td>
+</tr>
+
+<tr>
+<td>8/29 (Thur)</td>
+<td><b>Lecture 1: Introduction to high-throughput data analysis </b> (Wu) 
+[<a href="IntroBDA_FeatureSelection.pdf">Notes</a>]</td>
+<td>Course information. 
+Introduction to high-throughput data. Feature selection from high-throughput data. 
+</td>
+<td></td>
+</tr>
+
+<td>9/5 (Thur)</td>
+<td><b>Lecture 2: Introduction to Proteomics and Metabolomics</b> (Yu)
+[<a href="metabolomics_proteomics.pptx">Notes</a>]
+<td>Basic concept of metabolomics and proteomics, LC/MS technology, 
+challenges in data processing.</td>
+<td></td>
+</tr>
+
+<td>9/12 (Thur)</td>
+<td><b>Lecture 3: Analyzing data from capture-based next generation sequencing assays</b> (Qin)
+[<a href="captureSeq.pdf">Notes</a>]
+<td>An overview of capture-based assays that use next generation sequencing technologies, including ChIP-seq, ATAC-seq and Hi-C, with examples of statistical methods for analyzing data produced from such experiments</td>
+<td>Reading assignment 1: (a) <a href="sgseq-review.pdf">NGS review</a>,
+(b) <a href="DESeq.pdf">DE detection with DESeq</a></td>
+</tr>
+
+<td>9/19 (Thur)</td>
+<td><b>Lecture 4: Basic concepts of molecular genetics and population genetics</b> (Hu)
+[<a href="BIOS516_StatGen.pdf">Notes</a>]
+<td>Brief introduction to the biological backgrounds needed for statistical genetics, 
+concepts from population genetics that are most relevant to association analysis.</td>
+<td></td>
+</tr>
+
+
+<td>9/26 (Thur)</td>
+<td><b>Lecture 5: Microbiome</b> (Hu)
+[<a href="BIOS516_Microbiome.pdf">Notes</a>]
+<td>Statistical method and data analysis for microbiome data.</td>
+<td>Reading assignment 2: <a href="Montana_2006_PopAssocReview.pdf">paper 1</a>, 
+<a href="Lin_2010_GenEpid_Meta-anal.pdf">paper 2</a>, <a href="Xia_2017_ScienceDirect_MicroStat.pdf">paper 3</a> </td>
+</tr>
+
+<td>10/3 (Thur)</td>
+<td><b>Lecture 6: Introduction to biomedical imaging</b> (Guo)
+[<a href="imaging1.pdf">Notes</a>]
+<td>Introduction of imaging techniques, various imaging modalities and data acquisition and structure.</td> 
+<!-- An overview of imaging techniques, acquisition methods and data structures/characteristics 
+for different imaging modalities. </td> -->
+<td></td>
+</tr>
+
+<td>10/10 (Thur)</td>
+<td><b>Lecture 7: Statistical Analysis of Neuroimaging Data</b> (Risk)
+[<a href="imaging2.pdf">Notes</a>]
+<td>An overview of the analysis of neuroimaging data with a focus on functional magnetic resonance imaging (fMRI),
+including experimental design, data processing, and statistical analysis. 
+We will also discuss accelerated acquisition techniques and the statistical implications. </td>
+<td></td>
+</tr>
+
+<td>10/17 (Thur)</td>
+<td><b>Lecture 8: Role of Brain Networks in Imaging Genetics</b> (Kundu)
+[<a href="imaging3.pdf">Notes</a>]
+<td>The importance of brain networks in differentiating between healthy and mentally ill subjects, 
+methods on how to estimate the brain network which may or may not rely on additional clinical, 
+demographic and genetic information.</td>
+<td>Reading assignment 3: <a href="Lindquist_StatisticalAnalysisfMRI_2008.pdf">paper 1</a>,
+<a href="Bowman_2014.pdf">paper 2</a>
+</td>
+</tr>
+
+</table>
+<p>
+<center><hr size="5" width="100%"></center>
+
+<!--
+<h3>Additinal readings and resource:</h3><p>
+<ul><b>Papers</b>:
+-->
+
+</body></html>
