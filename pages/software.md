@@ -13,6 +13,11 @@ Here is a list of software packages developed by our lab.
 
 - [TOAST](http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html) (**TO**ols for the **A**nalysis of heterogeneou**S** **T**issues): designed for the analyses of high-throughput data from heterogeneous tissues that are mixtures of different cell types. TOAST offers functions for detecting cell-type specific differential expression (csDE) or differential methylation (csDM), as well as improved reference-free deconvolution for mixing proportion estimation. 
 
+- [FEAST](http://bioconductor.org/packages/release/bioc/html/FEAST.html): (FEAture SelcTion (FEAST) for Single-cell clusterin): FEAST is an R package for selecting most representative features before performing the core of scRNA-seq clustering. It can be used as a plug-in for the etablished clustering algorithms such as SC3, TSCAN, SHARP, SIMLR, and Seurat. The core of FEAST algorithm includes three steps: 1. consensus clustering; 2. gene-level significance inference; 3. validation of an optimized feature set.
+
+- [POWSC](http://bioconductor.org/packages/release/bioc/html/POWSC.html): 
+Simulation, power evaluation, and sample size recommendation for single cell RNA-seq. POWSC is a simulation-based method to provide power evaluation and sample size recommendation for single-cell RNA sequencing differential expression analysis. POWSC consists of a data simulator that creates realistic expression data, and a power assessor that provides a comprehensive evaluation and visualization of the power and sample size relationship.
+
 - [PROPER](https://bioconductor.org/packages/release/bioc/html/PROPER.html) (**PRO**spective **P**ower **E**valuation for **R**NAseq): simulation based methods for evaluating the statistical power in differential expression analysis from RNA-seq data. 
 
 - [ChIPComp](https://bioconductor.org/packages/release/bioc/html/ChIPComp.html): Differential protein binding analysis for ChIP-seq data. The package can potentially be used for Differential analyses from other capture sequencing data with controls such as m6A capture or Ribo-seq data. 
@@ -20,10 +25,6 @@ Here is a list of software packages developed by our lab.
 
 <br>
 #### Other non-bioconductor software
-
-- [FEAST](https://github.com/suke18/FEAST): Feature selection for scRNA-seq clustering.
-
-- [POWSC](https://github.com/suke18/POWSC): power evaluation and sample size estimation in single cell RNA-seq. 
 
 - [Wind](https://github.com/haowulab/Wind): weighted indexes for evaluating clustering results. 
 
