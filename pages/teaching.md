@@ -24,3 +24,5 @@ description: Teaching
 	- [Lab materials](../teaching/ENAR2014_NGS_lab.zip)
 
 - [ENAR 2021 short course for single cell RNA-seq](../teaching/ENAR2021/scRNAseq.html)
+
+- [Data science summer course for high school student](../DataSummerCamp/learningPlan.html). 
