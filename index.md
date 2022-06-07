@@ -56,7 +56,7 @@ keywords: statistics, biostatistics, biometrics,
 
 <hr />
 
-I am an associate professor in the Department of Biostatistics  and Bioinformatics at Emory University.
+I am a professor in the Department of Biostatistics  and Bioinformatics at Emory University.
 My research has mainly focused on bioinformatics and computational biology.
 Our research group develop statistical methods and computational
 tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Genome Research, and Genome Biology. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
@@ -74,7 +74,10 @@ degree in Biostatistics from the
 under the guidances of professors
 <a href="http://rafalab.github.io/">Rafael Irizarry</a> and
 <a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
-I became an associate professor (with tenure) in September 2016.
+I was promoted to associate professor (with tenure) in September 2016,
+and full professor in May 2022.
+
+
 <p>
 [ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
 [ <a href="https://www.sph.emory.edu/faculty/profile/#!HWU30">My official Emory RSPH page</a>]

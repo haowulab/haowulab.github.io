@@ -9,8 +9,10 @@ A full list of publications can be found at my
 - [Google scholar page](http://scholar.google.com/citations?user=tZuI7loAAAAJ&hl=en)
 - [PubMed bibliography](https://www.ncbi.nlm.nih.gov/myncbi/hao.wu.6/bibliography/public/).
 - My ORCID: <itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-1269-7354" href="https://orcid.org/0000-0003-1269-7354" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-1269-7354</a>
-- [Publons page](https://publons.com/researcher/3449300/hao-wu/publications/) (with Web of Science citation)
 
+
+<!-- - [Publons page](https://publons.com/researcher/3449300/hao-wu/publications/) (with Web of Science citation)
+-->
 
 <!-- [Microsoft Academic page](https://academic.microsoft.com/#/detail/2708669200) -->
 <!--https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/51292197/?sort=date&direction=descending).-->
@@ -19,10 +21,10 @@ A full list of publications can be found at my
 <br>
 #### Selected peer reviewed publications
 
-- **RNA-seq**:
+- **Bulk RNA-seq**:
 	- [Differential expression](https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxs033). 
 	[[Link to DSS]](http://bioconductor.org/packages/release/bioc/html/DSS.html)
-	- [Power evaluation](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu640)[[link to PROPER]](https://bioconductor.org/packages/release/bioc/html/PROPER.html)
+	- [Power evaluation](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu640). [[link to PROPER]](https://bioconductor.org/packages/release/bioc/html/PROPER.html)
 
 - **ChIP-seq**:
 	- [Peak calling](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089694).
@@ -51,9 +53,9 @@ Estimating and accounting for tumor purity in methylation data analysis</a>.
 	- [Cell type specific differential analysis](https://www.ncbi.nlm.nih.gov/pubmed/30903684)
 
 - **Epigenetics**:
-	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/19151716">H3K9me2 LOCK</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/20212320">HMM CpG islands</a>.
 [<a href="http://web1.sph.emory.edu/users/hwu30/software/makeCGI/index.html">Link to model based CGIs</a>]
+	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/19151716">H3K9me2 LOCK</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/21725293">Epigenetic reprogramming during EMT.</a>
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23102236">Euchromatic islands</a>.
 	- <a href="http://www.ncbi.nlm.nih.gov/pubmed/23685628">Aberrant 5hmC hotspot in iPSC</a>
