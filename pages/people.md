@@ -15,7 +15,7 @@ description: People in Wu lab
   
   <div class="span5">
    <h4>Hao Wu</h4>
-   Associate Professor<br />
+   Professor<br />
    Department of Biostatistics and Bioinformatics<br />
    Emory University<br /><br /><br /><br /><br /><br />
    </div>
