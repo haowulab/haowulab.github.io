@@ -28,28 +28,6 @@ description: People in Wu lab
 <h3>Ph.D. students</h3>
 <br />
 
-<!-- Andrea Lane -->
-<div class="row-fluid">
-
-  <div class="span2">
-    <img src="../assets/pics/AndreaLane.JPG" width="200" /><br />
-  </div>
-
-  <div class="span5">
-    <h4> Andrea Lane </h4>
-    Ph.D. student<br />
-    Department of Biostatistics and Bioinformatics <br />
-    Emory University<br />
-    <a href="https://anlane611.github.io">Web</a>, 
-    <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5_ROGneHpF0E5CZdYHsbWKUnvne3F-EQEV8bUGPDII1X7ope_eoej0vTBZD_hTlD_XPH4agIWcAfeoW-huEBOzWMwE8A&user=V0I3dHYAAAAJ">Google scholar</a>
-  </div>
-
-</div>
-<br>
-
-
-
-
 <!-- Zhenxing Guo -->
 <div class="row-fluid">
 
@@ -116,6 +94,7 @@ description: People in Wu lab
 Assistant Professor, MD Anderson Cancer Center. 
 
 <h4> Ph.D. students </h4>
+<li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, Duke University. 
 <li><a href="https://transgen.med.upenn.edu/people/kenong-su/"><strong>Kenong Su</strong></a>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Postdoc at University of Pennsylvania.
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
@@ -127,6 +106,10 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
+<li> <strong> Xuan Li,</strong>, MSPH in Biostatistics, 2022. 
+<li> <strong> Feier Han,</strong>, MSPH in Biostatistics, 2022. 
+<li> <strong> Xin Wei,</strong>, MSPH in Biostatistics, 2021. 
+<strong>Current position</strong>: Ph.D. student in the Department of Biostatistics, Brown University.
 <li> <strong> Can Li,</strong>, MSPH in Biostatistics, 2020. 
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
 <li> <strong> Chunhui Gu,</strong>, MSPH in Biostatistics, 2020. 
