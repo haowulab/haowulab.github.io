@@ -94,8 +94,8 @@ description: People in Wu lab
 Assistant Professor, MD Anderson Cancer Center. 
 
 <h4> Ph.D. students </h4>
-<li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, Duke University. 
-<li><a href="https://transgen.med.upenn.edu/people/kenong-su/"><strong>Kenong Su</strong></a>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Postdoc at University of Pennsylvania.
+<li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor of the Practice, Duke University. 
+<li><strong>Kenong Su</strong></a>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
