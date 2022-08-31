@@ -10,7 +10,8 @@ keywords: statistics, biostatistics, biometrics,
    recombination, crossover interference, linkage, genotyping error,
    human, meiosis, gene mapping,
    microarray, maanova, microarray analysis of variance, jmaanova,
-   second generation sequencing, chip-chip, tiling array, data integration, DSS
+   second generation sequencing, chip-chip, tiling array, data integration, DSS,
+   single cell, single cell RNA-seq, ATAC-seq
 ---
 <!--
 <div class="navbar">
