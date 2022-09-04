@@ -28,23 +28,6 @@ description: People in Wu lab
 <h3>Ph.D. students</h3>
 <br />
 
-<!-- Zhenxing Guo -->
-<div class="row-fluid">
-
-  <div class="span2">
-    <img src="../assets/pics/Zhenxing.jpg" width="200" /><br />
-  </div>
-
-  <div class="span5">
-    <h4> Zhenxing Guo</h4>
-    Ph.D. student<br />
-    Department of Biostatistics and Bioinformatics <br />
-    Emory University<br />
-  </div>
-
-</div>
-<br>
-
 <!-- Luxiao Chen -->
 <div class="row-fluid">
 
@@ -94,8 +77,10 @@ description: People in Wu lab
 Assistant Professor, MD Anderson Cancer Center. 
 
 <h4> Ph.D. students </h4>
+
+<li><a href="http://zhenxingguo.org"><strong>Zhenxing Guo</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-SZ).
 <li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor of the Practice, Duke University. 
-<li><strong>Kenong Su</strong></a>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
+<li><strong>Kenong Su</strong>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
 <li><a href="https://sites.google.com/site/haoharryfeng"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
