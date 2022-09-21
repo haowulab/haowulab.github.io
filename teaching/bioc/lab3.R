@@ -53,7 +53,8 @@ library(GenomicFeatures)
 txdb=makeTxDbFromUCSC(genom="hg19",tablename="knownGene") ## this is slow, take a few minutes.
 
 ## If the above command fails, obtain the sqlite file from class webpage, and load in:
-# txdb = loadDb("hg19_knownGenes.sqlite")
+# 
+txdb = loadDb("hg19_knownGenes.sqlite")
 
 ## get genes from the database
 genes.hg19 = genes(txdb)
@@ -74,12 +75,12 @@ TSS=GRanges(seqnames=Rle(allchrs[-idx]), ranges=IRanges(tss[-idx]-500,tss[-idx]+
 idx.chr1=seqnames(TSS)=="chr1"
 Seq.set=DNAStringSet(Seq, start=start(TSS[idx.chr1]), end=end(TSS[idx.chr1]))
 ff=alphabetFrequency(Seq.set, baseOnly=TRUE)
-pCG.TSS=(ff[,"C"]+ff[,"G"])/rowSums(ff)
+pCG.TSS=(ff[,"C"]+ff[,"G"])/rowSums(ff[,1:4])
 hist(pCG.TSS,50)
 
 ## compare with genome wide distribution of GC content
-d1=density(pCG[pCG>0])
-d2=density(pCG.TSS)
+d1=density(pCG[pCG>0], na.rm=TRUE)
+d2=density(pCG.TSS, na.rm=TRUE)
 plot(d1, lwd=2)
 lines(d2, col="red",lwd=2)
 legend("topright", legend=c("Genome", "TSS"), lwd=2, col=c("black", "red"))
