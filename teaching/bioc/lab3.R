@@ -1,6 +1,6 @@
 
 library(BSgenome)
-available.genomes()
+## available.genomes()
 library(BSgenome.Hsapiens.UCSC.hg19)
 
 #####################################################
@@ -34,7 +34,7 @@ ss=seq(1, length(Seq), by=1000)
 ss=ss[-length(ss)] ## remove the last one
 Seq.set=DNAStringSet(Seq, start=ss, end=ss+999)
 ff=alphabetFrequency(Seq.set, baseOnly=TRUE)
-pCG=(ff[,"C"]+ff[,"G"])/rowSums(ff)
+pCG=(ff[,"C"]+ff[,"G"])/rowSums(ff[,1:4])
 hist(pCG[pCG>0],100)
 
 ## CG occurance
