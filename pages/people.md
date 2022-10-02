@@ -84,11 +84,11 @@ Assistant Professor, MD Anderson Cancer Center.
 <li><a href="https://hfenglab.org"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Assistant Professor, Indiana University School of Medicine. 
+<strong>Current position</strong>: Associate Professor, Department of Biostatistics, University of Florida. 
 <li><strong>Tianlei Xu</strong>, Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Senior Data Scientist, KSQ therapeutics. 
+<strong> First position</strong>: Senior Data Scientist, KSQ therapeutics. 
 <li><strong>Ben Li</strong>, Ph.D. in  Biostatistics, 2017 (joint with Steve Qin). 
-<strong>Current position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
+<strong>First position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
 <li> <strong> Xuan Li,</strong>, MSPH in Biostatistics, 2022. 
@@ -96,18 +96,18 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <li> <strong> Xin Wei,</strong>, MSPH in Biostatistics, 2021. 
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics, Brown University.
 <li> <strong> Can Li,</strong>, MSPH in Biostatistics, 2020. 
-<strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
+<strong> First position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
 <li> <strong> Chunhui Gu,</strong>, MSPH in Biostatistics, 2020. 
-<strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
+<strong> First position</strong>: Ph.D. student in the Department of Biostatistics and Data Science, University of Texas Health Science Center.
 <li> <strong> Jinjing He,</strong>, MSPH in Biostatistics, 2020. 
 <li> <strong> Hanyi Zheng,</strong>, MSPH in Biostatistics, 2020. 
 <li> <strong>Yuchen Yan,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Siyi Geng,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Xiaoran Meng,</strong>, MSPH in Biostatistics, 2019. 
 <li> <strong>Xisha Weng</strong>, MSPH in Biostatistics, 2019. 
-<strong>Current position</strong>: Statistical analyst, Medpace, Cincinnati, Ohio.
+<strong> First position</strong>: Statistical analyst, Medpace, Cincinnati, Ohio.
 <li> <strong>Luxiao Chen</strong>, MSPH in Biostatistics, 2018. 
 <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics and Bioinformatics, Emory University. 
 <li> <strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. 
-<strong>Current position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
+<strong> First position</strong>: Data sicentist at Shunfeng Express, Shen Zhen, China. 
 <li> <strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University.
