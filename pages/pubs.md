@@ -21,6 +21,12 @@ A full list of publications can be found at my
 <br>
 #### Selected peer reviewed publications
 
+- **Single cell RNA-seq**:
+	- [Benchmark for supervised scRNA-seq celltyping](https://link.springer.com/article/10.1186/s13059-021-02480-2).
+	- [Differential expression](https://academic.oup.com/bioinformatics/article-abstract/34/19/3340/4984507). [[Link to SC2P]](https://github.com/haowulab/SC2P).
+	- [Simulator and power evaluation](https://academic.oup.com/bioinformatics/article/36/19/4860/5866544). [[Link to POWSC]](http://bioconductor.org/packages/release/bioc/html/POWSC.html). 
+	- [New evaluation metric for clustering](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02027-x). [[Link to Wind]](https://github.com/haowulab/Wind).
+
 - **Bulk RNA-seq**:
 	- [Differential expression](https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxs033). 
 	[[Link to DSS]](http://bioconductor.org/packages/release/bioc/html/DSS.html)
