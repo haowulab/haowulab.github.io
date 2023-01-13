@@ -34,20 +34,28 @@ keywords: statistics, biostatistics, biometrics,
         </div>
 
         <div class="span5">
-            <h3>Hao Wu</h3>
-            Professor <br/>
-            <a href="https://www.sph.emory.edu/departments/bios/">Department of Biostatistics and Bioinformatics</a><br/>
-            <a href="https://www.sph.emory.edu/">Rollins School of Public Health</a><br/>
-            <a href="http://www.emory.edu/home/index.html">Emory University</a><br/>
-            1518 Clifton Road<br/>
-            Atlanta, Georgia 30322, USA<br/>
-			Phone: (404)727-8633<br/>
+            <h3>Hao Wu (吴浩)</h3>
+            Distinguished Professor<br/>
+            <a href="https://www.siat.ac.cn/college/jsjkz/xyjs/">
+            Faculty of Computer Science and Control Engineering</a><br/>
+            <a href="https://www.siat.ac.cn">Shenzhen Institute of Advanced Technology</a><br/>
+            Chinese Academy of Sciences<br/>
+            1068 Xueyuan Avenue <br/>
+            Shenzhen University Town<br/>
+            Shenzhen, P.R.China, 518055
+
+        </div>
+        <p>
+        杰出教授<br/>
+        深圳理工大学计算机科学与控制工程学院<br/>
+        深圳先进技术研究院先进计算与数字工程研究所<br/>
+        地址：深圳市南山区西丽深圳大学城学苑大道1068号 <br/>
+        邮编：518055
 
             <div id="hide_email">
-            Email: <code>hao</code><b>I</b><code>.</code><b>don't</b><code>wu</code><b>like</b><code>@emory</code><b>spam!
-            </b><code>.</code><b>So</b><code>edu</code><b>please</b><br/>
+            Email: <code>wuhao</code><b>I</b><b>don't</b><code>@siat</code><b>like</b><code>.ac</code><b>spam!
+            </b><code>.</code><b>So</b><code>cn</code><b>please</b><br/>
             </div>
-        </div>
 
     </div>
 </div>
@@ -57,31 +65,30 @@ keywords: statistics, biostatistics, biometrics,
 
 <hr />
 
-I am a professor in the Department of Biostatistics  and Bioinformatics at Emory University.
+I am a Distinguished Professor in the Faculty of Computer Science and Control Engineering, Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. 
 My research has mainly focused on bioinformatics and computational biology.
 Our research group develop statistical methods and computational
 tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Genome Research, and Genome Biology. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
 
 
-In recent a couple years, I also started to work on other types of biomedical big data from electronic health record (EHR) and mobile device. We are developing methods for disease prediction and individulized treatment design. 
+In recent years, I also started to work on other types of biomedical big data from electronic health record (EHR) and wearable devices. 
+We are developing methods for disease prediction and individulized treatment design. 
 
 We collaborate closely with clinicians and scientists to characterize different types of genomics and epigenomics modifications in human diseases (including cancer, Alzheimer's disease, Fragile X syndrome, HIV), in order to discover diagnostic biomarkers and therapeutic targets. 
 
 
 <p>
-I joined the department in 2010 after obtaining my Ph.D.
-degree in Biostatistics from the
-<a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>,
-under the guidances of professors
-<a href="http://rafalab.github.io/">Rafael Irizarry</a> and
-<a href="http://www.biostat.jhsph.edu/~hji">Hongkai Ji</a>.
-I was promoted to associate professor (with tenure) in September 2016,
-and full professor in May 2022.
+I obtained my Ph.D. in Biostatistics from the
+<a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>.
+After that, I joined the Department of Biostatistics and Bioinformatics
+at Emory University as an Assistant Professor. I spent 12 years at Emory and became a full professor in early 2022. I joined SIAT in 2023 as a Distinghuised Professor. 
+
 
 
 <p>
 [ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
-[ <a href="https://www.sph.emory.edu/faculty/profile/#!HWU30">My official Emory RSPH page</a>]
+[ <a href="https://www.siat.ac.cn/college/jsjkz/szdw/202212/t20221212_6578959.html">
+My official SIAT page (in Chinese)</a>]
 <p>
 <p>
 <p>
