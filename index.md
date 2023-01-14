@@ -1,7 +1,8 @@
 ---
 layout: frontpage
-title: Hao Wu @ Emory Biostat
-description: Hao Wu is currently a professor  in the Department of Biostatistics and Bioinformatics at Emory University 
+title: Hao Wu @ SIAT
+description: Hao Wu is currently a Distinguished professor 
+at Shenzhen Institute of Advanced Technology.
 keywords: statistics, biostatistics, biometrics,
    bioinformatics, informatics, genomics, genetics, statistical genetics,
    human genetics,genetic epidemiology, QTL, jqtl, pseudomarker,
