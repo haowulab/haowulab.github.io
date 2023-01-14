@@ -33,7 +33,6 @@ keywords: statistics, biostatistics, biometrics,
             <img src="assets/pics/wu_small.jpg"
                   title="Hao Wu" alt="Hao Wu"  width="300"/></a>
         </div>
-
         <div class="span5">
             <h3>Hao Wu (吴浩)</h3>
             Distinguished Professor<br/>
@@ -43,12 +42,12 @@ keywords: statistics, biostatistics, biometrics,
             Chinese Academy of Sciences<br/>
             1068 Xueyuan Avenue <br/>
             Shenzhen University Town<br/>
-            Shenzhen, P.R.China, 518055
+            Shenzhen, P.R.China, 518055<br/>
         </div>
-            <div id="hide_email">
+        <div id="hide_email">
             Email: <code>wuhao</code><b>I</b><b>don't</b><code>@siat</code><b>like</b><code>.ac</code><b>spam!
             </b><code>.</code><b>So</b><code>cn</code><b>please</b><br/>
-            </div>
+        </div>
 
     </div>
 </div>
