@@ -45,12 +45,6 @@ keywords: statistics, biostatistics, biometrics,
             Shenzhen, P.R.China, 518055
 
         </div>
-        <p>
-        杰出教授<br/>
-        深圳理工大学计算机科学与控制工程学院<br/>
-        深圳先进技术研究院先进计算与数字工程研究所<br/>
-        地址：深圳市南山区西丽深圳大学城学苑大道1068号 <br/>
-        邮编：518055
 
             <div id="hide_email">
             Email: <code>wuhao</code><b>I</b><b>don't</b><code>@siat</code><b>like</b><code>.ac</code><b>spam!
