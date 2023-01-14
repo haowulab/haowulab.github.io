@@ -44,9 +44,7 @@ keywords: statistics, biostatistics, biometrics,
             1068 Xueyuan Avenue <br/>
             Shenzhen University Town<br/>
             Shenzhen, P.R.China, 518055
-
         </div>
-
             <div id="hide_email">
             Email: <code>wuhao</code><b>I</b><b>don't</b><code>@siat</code><b>like</b><code>.ac</code><b>spam!
             </b><code>.</code><b>So</b><code>cn</code><b>please</b><br/>
