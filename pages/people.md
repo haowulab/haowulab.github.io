@@ -81,7 +81,7 @@ description: People in Wu lab
 <!-- Zhiwei Ye -->
 <div class="row-fluid">
   <div class="span2">
-    <img src="../assets/pics/YeZhiweijpg" width="200" /><br />
+    <img src="../assets/pics/YeZhiwei.jpg" width="200" /><br />
   </div>
 
   <div class="span5">
