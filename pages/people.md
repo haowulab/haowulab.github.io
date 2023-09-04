@@ -15,50 +15,60 @@ description: People in Wu lab
   
   <div class="span5">
    <h4>Hao Wu</h4>
-   Professor<br />
-   Department of Biostatistics and Bioinformatics<br />
-   Emory University<br /><br /><br /><br /><br /><br />
+   Distinguished Professor<br />
+   Faculty of Computer Science and Control Engineering<br />
+   Shenzhen Institute of Advanced Technology<br /><br /><br /><br />
    </div>
 
 </div>
 <hr />
 
-
-
-<h3>Ph.D. students</h3>
-<br />
-
-<!-- Luxiao Chen -->
+<h3>Postdocs</h3>
+<!-- Rulan Wang -->
 <div class="row-fluid">
 
   <div class="span2">
-    <img src="../assets/pics/LuxiaoChen.jpg" width="200" /><br />
+    <img src="../assets/pics/WangRulan.jpg" width="200" /><br />
   </div>
 
   <div class="span5">
-    <h4> Luxiao Chen </h4>
-    Ph.D. student<br />
-    Department of Biostatistics and Bioinformatics <br />
-    Emory University<br />
+    <h4> Rulan Wang (汪如蓝) </h4>
   </div>
 </div>
 <br>
 
+<hr />
+<h3>Ph.D. students</h3>
+<br />
 
-<!-- Wenjing Ma -->
+<!-- Tao Deng -->
 <div class="row-fluid">
 
   <div class="span2">
-    <img src="../assets/pics/Wenjing.jpg" width="200" /><br />
+    <img src="../assets/pics/DengTao.jpg" width="200" /><br />
   </div>
 
   <div class="span5">
-    <h4>Wenjing Ma</h4>
+    <h4> Tao Deng (邓韬) </h4>
     Ph.D. student<br />
-    Department of Computer Science<br />
-   Emory University<br />
-   <a href="https://marvinquiet.github.io/">Web</a>, 
-    <a href="https://scholar.google.com/citations?user=yQOhaRAAAAAJ&hl=zh-CN">Google scholar</a>
+    Joint with Chinese University of Hongkong (Shenzhen)<br />
+  </div>
+   <a href="https://torydeng.github.io/">Web</a>
+</div>
+<br><br><br>
+
+
+
+<!-- Runshu Wang -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/WangRunshu.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Runshu Wang (王润树)</h4>
+    Ph.D. student<br />
+    Joint with the Hongkong Polytech University<br/>
   </div>
 
 </div>
@@ -67,7 +77,54 @@ description: People in Wu lab
 
 <hr />
 
-<!-- <h3>Master students</h3> -->
+<h3>Master students</h3>
+<!-- Zhiwei Ye -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/YeZhiweijpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Zhiwei Ye (叶志伟)</h4>
+    MS student<br />
+    Joint with Southern University of Science and Technology<br/>
+  </div>
+
+</div>
+<br>
+
+<!-- Hu Jiaying -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/HuJiaying.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Jiaying Hu (胡甲英)</h4>
+    MS student<br />
+    Joint with Southern University of Science and Technology <br/>
+  </div>
+
+</div>
+<br>
+
+<!-- Yuhan Xu -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/XuYuhan.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Yuhan Xu (徐雨涵)</h4>
+    Visting MS student<br />
+    From Nankai University<br/>
+  </div>
+
+</div>
+<br>
+
+
+<hr />
 
 <h3> Former group members </h3>
 
@@ -78,6 +135,8 @@ Assistant Professor, MD Anderson Cancer Center.
 
 <h4> Ph.D. students </h4>
 
+<li><a href="https://marvinquiet.github.io/"><strong>Wenjing Ma</strong></a>, Ph.D. in Computer Science, 2023. <strong>Current position</strong>: postdoc, University of Michigan.
+<li><a href="https://marvinquiet.github.io/"><strong>Luxiao Chen</strong></a>, Ph.D. in Biostatistics, 2023. <strong>Current position</strong>: Senior biostatistician, Sanofi.
 <li><a href="http://zhenxingguo.org"><strong>Zhenxing Guo</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-SZ).
 <li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor of the Practice, Duke University. 
 <li><strong>Kenong Su</strong>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
@@ -91,6 +150,7 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>First position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
+<li> <strong> Jiahui Liu,</strong>, MSPH in Biostatistics, 2023. <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics, Indiana University.
 <li> <strong> Xuan Li,</strong>, MSPH in Biostatistics, 2022. 
 <li> <strong> Feier Han,</strong>, MSPH in Biostatistics, 2022. 
 <li> <strong> Xin Wei,</strong>, MSPH in Biostatistics, 2021. 
