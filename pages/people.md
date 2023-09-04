@@ -52,8 +52,8 @@ description: People in Wu lab
     <h4> Tao Deng (邓韬) </h4>
     Ph.D. student<br />
     Joint with Chinese University of Hongkong (Shenzhen)<br />
-  </div>
    <a href="https://torydeng.github.io/">Web</a>
+  </div>
 </div>
 <br><br><br>
 
