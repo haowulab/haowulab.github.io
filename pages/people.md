@@ -136,7 +136,8 @@ Assistant Professor, MD Anderson Cancer Center.
 <h4> Ph.D. students </h4>
 
 <li><a href="https://marvinquiet.github.io/"><strong>Wenjing Ma</strong></a>, Ph.D. in Computer Science, 2023. <strong>Current position</strong>: postdoc, University of Michigan.
-<li><a href="https://marvinquiet.github.io/"><strong>Luxiao Chen</strong></a>, Ph.D. in Biostatistics, 2023. <strong>Current position</strong>: Senior biostatistician, Sanofi.
+
+<li><strong>Luxiao Chen</strong>, Ph.D. in Biostatistics, 2023. <strong>Current position</strong>: Senior biostatistician, Sanofi.
 <li><a href="http://zhenxingguo.org"><strong>Zhenxing Guo</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-SZ).
 <li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor of the Practice, Duke University. 
 <li><strong>Kenong Su</strong>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
