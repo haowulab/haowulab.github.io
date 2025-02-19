@@ -36,15 +36,14 @@ keywords: statistics, biostatistics, biometrics,
         <div class="span5">
             <h3>Hao Wu (吴浩)</h3>
             Distinguished Professor<br/>
-            <a href="https://www.siat.ac.cn/college/jsjkz/xyjs/">
+            <a href="https://csce.suat-sz.edu.cn">
             Faculty of Computer Science and Control Engineering</a><br/>
-            <a href="https://www.siat.ac.cn">Shenzhen Institute of Advanced Technology</a><br/>
-            Chinese Academy of Sciences<br/>
-            1068 Xueyuan Avenue <br/>
-            Shenzhen University Town<br/>
-            Shenzhen, P.R.China, 518055<br/>
+            <a href="https://www.suat-sz.edu.cn">
+            Shenzhen University of Advanced Technology</a><br/>
+            No.1 Gongchang Road, Guangming District<br/>
+            Shenzhen, P.R.China<br/>
             <div id="hide_email">
-            Email: <code>wuhao</code><b>I</b><b>don't</b><code>@siat</code><b>like</b><code>.ac</code><b>spam!
+            Email: <code>wuhao</code><b>I</b><b>don't</b><code>@suat-sz</code><b>like</b><code>.edu</code><b>spam!
             </b><code>.</code><b>So</b><code>cn</code><b>please</b><br/>
             </div>
        </div>     
@@ -78,7 +77,7 @@ at Emory University as an Assistant Professor. I spent 12 years at Emory and bec
 
 
 <p>
-[ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
+[ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
 [ <a href="https://csce.suat-sz.edu.cn/info/1009/1022.htm">
 My official SUAT page (in Chinese)</a>]
 <p>
