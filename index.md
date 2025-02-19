@@ -57,10 +57,10 @@ keywords: statistics, biostatistics, biometrics,
 
 <hr />
 
-I am a Distinguished Professor in the Faculty of Computer Science and Control Engineering, Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. 
+I am a Distinguished Professor in the Faculty of Computer Science and Control Engineering, Shenzhen University of Advanced Technology (SUAT). 
 My research has mainly focused on bioinformatics and computational biology.
 Our research group develop statistical methods and computational
-tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Genome Research, and Genome Biology. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
+tools for analyzing large scale biomedical data, in particular high-throughput omics data. Our methodological contribution includes novel methods and tools for analyzing data from RNA-seq, ChIP-seq, bisulfite sequencing, cell-free DNA, and estimating and accounting for sample heterogeneity in high-throughput data. My work has been published on influential journals such as Nature Method, Nature Genetics, Nature Communications,  Genome Biology, NAR, etc. We developed a number of open source software tools. We have contributed several packages freely available on Bioconductor, with over 30,000 combined downloads annually. See [Publication](http://www.haowulab.org//pages/pubs.html) and [Software](http://www.haowulab.org//pages/software.html) pages for detail. 
 
 
 In recent years, I also started to work on other types of biomedical big data from electronic health record (EHR) and wearable devices. 
@@ -73,7 +73,7 @@ We collaborate closely with clinicians and scientists to characterize different 
 I obtained my Ph.D. in Biostatistics from the
 <a href="http://www.biostat.jhsph.edu">Johns Hopkins University</a>.
 After that, I joined the Department of Biostatistics and Bioinformatics
-at Emory University as an Assistant Professor. I spent 12 years at Emory and became a full professor in early 2022. I joined SIAT in 2023 as a Distinghuised Professor. 
+at Emory University as an Assistant Professor. I spent 12 years at Emory and became a full professor in early 2022. I joined SUAT in 2023 as a Distinghuised Professor. 
 
 
 
