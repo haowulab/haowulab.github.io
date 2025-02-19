@@ -17,7 +17,7 @@ description: People in Wu lab
    <h4>Hao Wu</h4>
    Distinguished Professor<br />
    Faculty of Computer Science and Control Engineering<br />
-   Shenzhen Institute of Advanced Technology<br /><br /><br /><br />
+   Shenzhen University of Advanced Technology<br /><br /><br /><br />
    </div>
 
 </div>
@@ -33,6 +33,19 @@ description: People in Wu lab
 
   <div class="span5">
     <h4> Rulan Wang (汪如蓝) </h4>
+  </div>
+</div>
+<br>
+
+<!-- Yuanyuan Yu -->
+<div class="row-fluid">
+
+  <div class="span2">
+    <img src="../assets/pics/YuYuanyuan.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4> Yuanyuan Yu (尉园园) </h4>
   </div>
 </div>
 <br>
@@ -74,6 +87,21 @@ description: People in Wu lab
 </div>
 <br>
 
+<!-- Xinghao Li -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/Lixinghao.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Xinghao Li (李兴昊)</h4>
+    Ph.D. student<br />
+    University of Chinese Academy of Sciences<br/>
+  </div>
+
+</div>
+<br>
+
 
 <hr />
 
@@ -108,22 +136,6 @@ description: People in Wu lab
 </div>
 <br>
 
-<!-- Yuhan Xu -->
-<div class="row-fluid">
-  <div class="span2">
-    <img src="../assets/pics/XuYuhan.jpg" width="200" /><br />
-  </div>
-
-  <div class="span5">
-    <h4>Yuhan Xu (徐雨涵)</h4>
-    Visting MS student<br />
-    From Nankai University<br/>
-  </div>
-
-</div>
-<br>
-
-
 <hr />
 
 <h3> Former group members </h3>
@@ -151,6 +163,7 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>First position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
+<li> <strong>Yuhan Xu (徐雨涵), MS in statistics, Nankai University, 2025. 
 <li> <strong> Jiahui Liu,</strong>, MSPH in Biostatistics, 2023. <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics, Indiana University.
 <li> <strong> Xuan Li,</strong>, MSPH in Biostatistics, 2022. 
 <li> <strong> Feier Han,</strong>, MSPH in Biostatistics, 2022. 
