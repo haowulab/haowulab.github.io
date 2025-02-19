@@ -1,8 +1,8 @@
 ---
 layout: frontpage
-title: Hao Wu @ SIAT
+title: Hao Wu @ SUAT
 description: Hao Wu is currently a Distinguished professor 
-at Shenzhen Institute of Advanced Technology.
+at Shenzhen University of Advanced Technology.
 keywords: statistics, biostatistics, biometrics,
    bioinformatics, informatics, genomics, genetics, statistical genetics,
    human genetics,genetic epidemiology, QTL, jqtl, pseudomarker,
@@ -12,7 +12,7 @@ keywords: statistics, biostatistics, biometrics,
    human, meiosis, gene mapping,
    microarray, maanova, microarray analysis of variance, jmaanova,
    second generation sequencing, chip-chip, tiling array, data integration, DSS,
-   single cell, single cell RNA-seq, ATAC-seq
+   single cell, single cell RNA-seq, ATAC-seq, spatial transcriptomics
 ---
 <!--
 <div class="navbar">
@@ -79,8 +79,8 @@ at Emory University as an Assistant Professor. I spent 12 years at Emory and bec
 
 <p>
 [ <a href="pages/bio.html">Hao Wu's short biography</a> ]  [ <a href="assets/wu-cv.pdf">CV in pdf</a> ]
-[ <a href="https://www.siat.ac.cn/college/jsjkz/szdw/202212/t20221212_6578959.html">
-My official SIAT page (in Chinese)</a>]
+[ <a href="https://csce.suat-sz.edu.cn/info/1009/1022.htm">
+My official SUAT page (in Chinese)</a>]
 <p>
 <p>
 <p>
