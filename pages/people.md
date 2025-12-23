@@ -202,7 +202,7 @@ Ph.D. in Computer Science, 2017 (joint with Steve Qin).
 <strong>First position</strong>: Senior Biostatistician at Merck Research Laboratories, Beijing, China.
 
 <h4> Master's students </h4>
-<li> <strong>Yuhan Xu (徐雨涵), MS in statistics, Nankai University, 2025. 
+<li> <strong>Yuhan Xu (徐雨涵),</strong>, MS in statistics, Nankai University, 2025. 
 <li> <strong> Jiahui Liu,</strong>, MSPH in Biostatistics, 2023. <strong>Current position</strong>: Ph.D. student in the Department of Biostatistics, Indiana University.
 <li> <strong> Xuan Li,</strong>, MSPH in Biostatistics, 2022. 
 <li> <strong> Feier Han,</strong>, MSPH in Biostatistics, 2022. 
