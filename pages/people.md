@@ -24,18 +24,7 @@ description: People in Wu lab
 <hr />
 
 <h3>Postdocs</h3>
-<!-- Rulan Wang -->
-<div class="row-fluid">
 
-  <div class="span2">
-    <img src="../assets/pics/WangRulan.jpg" width="200" /><br />
-  </div>
-
-  <div class="span5">
-    <h4> Rulan Wang (汪如蓝) </h4>
-  </div>
-</div>
-<br>
 
 <!-- Yuanyuan Yu -->
 <div class="row-fluid">
@@ -102,6 +91,24 @@ description: People in Wu lab
 </div>
 <br>
 
+<!-- Zhe Yu -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/ZheYu.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Zhe Yu (余哲)</h4>
+    Ph.D. student<br />
+    University of Chinese Academy of Sciences, Joint with Nanjing University<br/>
+    <a href="https://njtp111.github.io//">Web</a>, 
+    <a href="https://scholar.google.com/citations?user=mnuFSAQAAAAJ">Google Scholar</a>
+
+
+  </div>
+
+</div>
+<br>
 
 <hr />
 
@@ -136,24 +143,58 @@ description: People in Wu lab
 </div>
 <br>
 
+<!-- Wu Jiashan -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/JiashanWu.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Jiashan Wu (吴佳姗)</h4>
+    MS student<br />
+    Joint with Shenzhen University <br/>
+  </div>
+
+</div>
+<br>
+
+<hr />
+
+
+<h3>Research staff</h3>
+<!-- Jiacong Mi -->
+<div class="row-fluid">
+  <div class="span2">
+    <img src="../assets/pics/JiacongMi.jpg" width="200" /><br />
+  </div>
+
+  <div class="span5">
+    <h4>Jiacong Mi (宓家聪)</h4>
+    Research Assistant<br />
+  </div>
+</div>
+<br>
+
 <hr />
 
 <h3> Former group members </h3>
 
 <h4> Postdoc </h4>
+<li> <strong>Rulan Wang</strong>, 2023-2025. 
+<strong>Current position</strong>:
 <li> <a href="https://sites.google.com/site/ziyiliemory"><strong>Ziyi Li</strong></a>, 2018-2020. 
 <strong>Current position</strong>:
 Assistant Professor, MD Anderson Cancer Center. 
 
 <h4> Ph.D. students </h4>
 
-<li><a href="https://marvinquiet.github.io/"><strong>Wenjing Ma</strong></a>, Ph.D. in Computer Science, 2023. <strong>Current position</strong>: postdoc, University of Michigan.
-
+<li><a href="https://marvinquiet.github.io/"><strong>Wenjing Ma</strong></a>, Ph.D. in Computer Science, 2023. <strong>Current position</strong>:
+Assistant Professor, School of AI, Chinese University of Hong Kong, Shenzhen (CUHK-SZ).
 <li><strong>Luxiao Chen</strong>, Ph.D. in Biostatistics, 2023. <strong>Current position</strong>: Senior biostatistician, Sanofi.
 <li><a href="http://zhenxingguo.org"><strong>Zhenxing Guo</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor, School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-SZ).
 <li><a href="https://anlane611.github.io"><strong>Andrea Lane</strong></a>, Ph.D. in Biostatistics, 2022. <strong>Current position</strong>: Assistant Professor of the Practice, Duke University. 
 <li><strong>Kenong Su</strong>, Ph.D. in Computer Science, 2021. <strong>Current position</strong>: Bioinformatics and Data Scientist, GRAIL. 
-<li><a href="https://hfenglab.org"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Assistant Professor, Case Western Reserve University. 
+<li><a href="https://hfenglab.org"><strong>Hao "Harry" Feng</strong></a>, Ph.D. in Biostatistics, 2019. <strong>Current position</strong>: Associate Professor, Department of Biostatistics & Data Science, The University of Texas Health Science Center at Houston. 
 <li><a href="https://lichen-lab.github.io"><strong>Li Chen</strong></a>, 
 Ph.D. in Computer Science, 2017 (joint with Steve Qin). 
 <strong>Current position</strong>: Associate Professor, Department of Biostatistics, University of Florida. 
