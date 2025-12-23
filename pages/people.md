@@ -101,10 +101,6 @@ description: People in Wu lab
     <h4>Zhe Yu (余哲)</h4>
     Ph.D. student<br />
     University of Chinese Academy of Sciences, Joint with Nanjing University<br/>
-    <a href="https://njtp111.github.io//">Web</a>, 
-    <a href="https://scholar.google.com/citations?user=mnuFSAQAAAAJ">Google Scholar</a>
-
-
   </div>
 
 </div>
@@ -171,6 +167,8 @@ description: People in Wu lab
   <div class="span5">
     <h4>Jiacong Mi (宓家聪)</h4>
     Research Assistant<br />
+    <a href="https://njtp111.github.io//">Web</a>, 
+    <a href="https://scholar.google.com/citations?user=mnuFSAQAAAAJ">Google Scholar</a>
   </div>
 </div>
 <br>
