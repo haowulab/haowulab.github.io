@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research - Wu Lab at Shenzhen University of Advanced Technology">
+    <title>Research | Wu Lab - 吴浩实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Research page specific styles */
+        .research-hero {
+            padding: 4rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--white) 100%);
+        }
+        
+        .research-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(201, 162, 39, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(212, 165, 116, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .research-hero h1 {
+            font-family: 'Crimson Text', 'Noto Serif SC', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        
+        .research-hero p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+            position: relative;
+        }
+        
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-family: 'Crimson Text', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        /* Research Areas Container */
+        .research-areas-container {
+            padding: 2rem 5% 4rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        /* Research Area Card - Desktop */
+        .research-area {
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px var(--shadow);
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: flex-start;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            padding: 3rem 2rem;
+        }
+        
+        .research-area:hover {
+            box-shadow: 0 8px 30px var(--shadow);
+            transform: translateY(-2px);
+        }
+        
+        .area-image {
+            flex-shrink: 0;
+            width: 26%;
+            max-width: 195px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .area-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .area-content {
+            flex: 1;
+            padding-left: 2rem;
+        }
+        
+        .research-area h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+        
+        .research-area .description {
+            color: var(--text);
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+            font-size: 0.95rem;
+        }
+        
+        .research-area ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .research-area li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+        
+        .research-area li strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        /* Software mention */
+        .software-mention {
+            margin-top: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: var(--secondary);
+            border-radius: 8px;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .software-mention strong {
+            color: var(--primary);
+        }
+        
+        /* Related links */
+        .related-links {
+            padding: 4rem 5%;
+            background: var(--white);
+            text-align: center;
+            position: relative;
+        }
+        
+        .related-links::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+        }
+        
+        .related-links h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+        
+        .links-grid {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .link-card {
+            padding: 1.5rem 2rem;
+            background: var(--secondary);
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--text);
+            transition: var(--transition);
+            border: 1px solid var(--border);
+            min-width: 180px;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px var(--shadow);
+        }
+        
+        .link-card strong {
+            display: block;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+            font-size: 1.1rem;
+        }
+        
+        .link-card span {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        /* Mobile styles */
+        @media (max-width: 767px) {
+            .research-area {
+                display: block;
+                text-align: center;
+                padding: 2rem 1.5rem;
+            }
+            
+            .area-image {
+                width: 10%;
+                max-width: 18px;
+                margin: 0 auto 1.5rem;
+                padding: 0.5rem;
+            }
+            
+            .area-content {
+                padding-left: 0;
+                text-align: left;
+            }
+            
+            .research-area h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Research Hero -->
+    <section class="research-hero">
+        <h1>Research</h1>
+        <p>The ultimate goal of our research is to advance biomedical sciences and clinical practices through the development of rigorous and efficient tools. We aim to tackle the challenges presented by modern biomedical "big data", including high-dimensionality, heterogeneity, technical artifacts, and reproducibility, and make sense of the data.</p>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Core Directions</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Bioconductor Packages</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">30K+</div>
+                <div class="stat-label">Annual Downloads</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section class="research-areas-container">
+        
+        <!-- Area 1: Single-cell & Spatial Omics -->
+        <div class="research-area">
+            <div class="area-image">
+                <img src="assets/images/ST.png" alt="Single-cell & Spatial Omics">
+            </div>
+            <div class="area-content">
+                <h2>Single-cell & Spatial Omics Analysis</h2>
+                <p class="description">
+                    Single-cell RNA sequencing (scRNA-seq) enables the identification of rare cell types and cell type-specific gene expression patterns by measuring individual cells rather than population averages. We develop statistical methods for:
+                </p>
+                <ul>
+                    <li><strong>Cell type annotation and clustering</strong>: Cellcano for scATAC-seq cell typing, FEAST for feature selection, and WIND/CEMUSA for clustering evaluation.</li>
+                    <li><strong>Differential expression analysis</strong>: SC2P uses mixture models (zero-inflated Poisson and lognormal-Poisson) for flexible differential expression inference in sparse scRNA-seq data.</li>
+                    <li><strong>Spatial transcriptomics</strong>: SIGLE for spot-level representation learning, STAND for abnormality detection, and MicroMap for predicting spatial expression from H&E images.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Area 2: Signal Deconvolution -->
+        <div class="research-area">
+            <div class="area-image">
+                <img src="assets/images/deconvolution.png" alt="Signal Deconvolution">
+            </div>
+            <div class="area-content">
+                <h2>Signal Deconvolution for Bulk Omics Data</h2>
+                <p class="description">
+                    Bulk omics data remain the primary choice for population-level studies due to lower costs. We develop methods to extract cell type-specific information from bulk data—effectively "unmixing the smoothie":
+                </p>
+                <ul>
+                    <li><strong>Signal deconvolution</strong>: Estimating cell type proportions and reconstructing pure cell type profiles without single-cell reference data.</li>
+                    <li><strong>Cell type-specific inference</strong>: Accounting for cell type mixture in differential expression/methylation and sample clustering.</li>
+                </ul>
+                <div class="software-mention">
+                    <strong>Software:</strong> TOAST (reference-free deconvolution) and InfiniumPurity (tumor purity estimation).
+                </div>
+            </div>
+        </div>
+
+        <!-- Area 3: Differential Analysis -->
+        <div class="research-area">
+            <div class="area-image">
+                <img src="assets/images/differential.png" alt="Differential Analysis">
+            </div>
+            <div class="area-content">
+                <h2>Differential Analysis for Bulk Omics Data</h2>
+                <p class="description">
+                    We develop rigorous statistical methods for detecting differential signals in bulk sequencing data:
+                </p>
+                <ul>
+                    <li><strong>BS-seq</strong>: DSS uses hierarchical beta-binomial models for differential methylation analysis (20,000+ annual downloads).</li>
+                    <li><strong>RNA-seq</strong>: Methods accounting for overdispersion and small sample sizes.</li>
+                    <li><strong>ChIP-seq</strong>: Differential peak detection for protein-DNA binding sites.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Related Links -->
+    <section class="related-links">
+        <h2>Related Resources</h2>
+        <div class="links-grid">
+            <a href="publications.html" class="link-card">
+                <strong>All Publications</strong>
+                <span>Complete list of papers</span>
+            </a>
+            <a href="software.html" class="link-card">
+                <strong>Software</strong>
+                <span>Bioconductor packages</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=tZuI7loAAAAJ" class="link-card" target="_blank">
+                <strong>Google Scholar</strong>
+                <span>Citation metrics</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Single-cell</a></li>
+                    <li><a href="research.html">Spatial Omics</a></li>
+                    <li><a href="research.html">Epigenomics</a></li>
+                    <li><a href="software.html">Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+                    <li><a href="contact.html">Shenzhen, China</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
+                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        }
+
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

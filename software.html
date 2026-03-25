@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software - Wu Lab at Shenzhen University of Advanced Technology">
+    <title>Software | Wu Lab - 吴浩实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Software page specific styles */
+        .software-hero {
+            padding: 3rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--white) 100%);
+        }
+        
+        .software-hero h1 {
+            font-family: 'Crimson Text', 'Noto Serif SC', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .software-hero p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        /* Software container */
+        .software-container {
+            padding: 2rem 5% 3rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .software-section-title {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+        
+        .software-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        /* Software card - compact */
+        .software-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.25rem;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        
+        .software-card:hover {
+            box-shadow: 0 5px 15px var(--shadow);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        
+        .software-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .software-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+        
+        .software-card:nth-child(1) .software-icon { background: linear-gradient(135deg, #00d4aa, #00a8e8); }
+        .software-card:nth-child(2) .software-icon { background: linear-gradient(135deg, #7c3aed, #a855f7); }
+        .software-card:nth-child(3) .software-icon { background: linear-gradient(135deg, #dc2626, #f97316); }
+        .software-card:nth-child(4) .software-icon { background: linear-gradient(135deg, #0891b2, #06b6d4); }
+        .software-card:nth-child(5) .software-icon { background: linear-gradient(135deg, #059669, #10b981); }
+        .software-card:nth-child(6) .software-icon { background: linear-gradient(135deg, #c9a227, #d4a574); }
+        .software-card:nth-child(7) .software-icon { background: linear-gradient(135deg, #7c3aed, #a855f7); }
+        .software-card:nth-child(8) .software-icon { background: linear-gradient(135deg, #dc2626, #f97316); }
+        
+        .software-name {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        
+        .software-name a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .software-name a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        
+        .software-platform {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .software-description {
+            color: var(--text);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .software-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="software-hero">
+        <h1>Software</h1>
+        <p>Open-source computational tools for analyzing large-scale biomedical data. All software is freely available on Bioconductor, CRAN, or GitHub.</p>
+    </section>
+
+    <!-- Software Grid -->
+    <section class="software-container">
+        
+        <h2 class="software-section-title">Single-cell & Spatial Analysis</h2>
+        <div class="software-grid">
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🧬</div>
+                    <div>
+                        <div class="software-name"><a href="https://github.com/weix21/TORC" target="_blank">TORC</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Reference construction for supervised celltype in scRNA-seq.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🔬</div>
+                    <div>
+                        <div class="software-name"><a href="https://github.com/ToryDeng/scCTS" target="_blank">scCTS</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Single-cell cell type-specific analysis.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🎯</div>
+                    <div>
+                        <div class="software-name"><a href="https://marvinquiet.github.io/Cellcano/" target="_blank">Cellcano</a></div>
+                        <div class="software-platform">Python</div>
+                    </div>
+                </div>
+                <p class="software-description">Automated cell type classification for single-cell data.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🌐</div>
+                    <div>
+                        <div class="software-name"><a href="https://github.com/WLatSunLab/SIGEL" target="_blank">SIGLE</a></div>
+                        <div class="software-platform">Python</div>
+                    </div>
+                </div>
+                <p class="software-description">Spot level representation learning in spatial transcriptomics.</p>
+            </div>
+        </div>
+
+        <h2 class="software-section-title">Deconvolution & Heterogeneity</h2>
+        <div class="software-grid">
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">📊</div>
+                    <div>
+                        <div class="software-name"><a href="http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html" target="_blank">TOAST</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Reference-free cell type deconvolution for bulk omics data.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🧪</div>
+                    <div>
+                        <div class="software-name"><a href="https://github.com/luxiao10/CeDAR_reproduction" target="_blank">CeDAR</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Cell type specific differential analysis with cell type hierarchy.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">💊</div>
+                    <div>
+                        <div class="software-name"><a href="https://zenodo.org/record/200214" target="_blank">InfiniumPurify</a></div>
+                        <div class="software-platform">CRAN / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Tumor purity estimation from DNA methylation microarray data.</p>
+            </div>
+        </div>
+
+        <h2 class="software-section-title">Differential Analysis</h2>
+        <div class="software-grid">
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">📈</div>
+                    <div>
+                        <div class="software-name"><a href="http://www.bioconductor.org/packages/release/bioc/html/DSS.html" target="_blank">DSS</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Differential methylation analysis for BS-seq data.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">⚡</div>
+                    <div>
+                        <div class="software-name"><a href="https://bioconductor.org/packages/release/bioc/html/PROPER.html" target="_blank">PROPER</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Power analysis for RNA-seq experiments.</p>
+            </div>
+            
+            <div class="software-card">
+                <div class="software-header">
+                    <div class="software-icon">🔍</div>
+                    <div>
+                        <div class="software-name"><a href="http://bioconductor.org/packages/devel/bioc/html/ChIPComp.html" target="_blank">ChIPComp</a></div>
+                        <div class="software-platform">Bioconductor / R</div>
+                    </div>
+                </div>
+                <p class="software-description">Differential peak detection for ChIP-seq data.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Single-cell</a></li>
+                    <li><a href="research.html">Spatial Omics</a></li>
+                    <li><a href="research.html">Epigenomics</a></li>
+                    <li><a href="software.html">Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+                    <li><a href="contact.html">Shenzhen, China</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
+                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        }
+
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

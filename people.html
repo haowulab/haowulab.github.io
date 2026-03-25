@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="People - Wu Lab at Shenzhen University of Advanced Technology">
+    <title>People | Wu Lab - 吴浩实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* People page specific styles */
+        .people-section {
+            padding: 2rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .people-section.white-bg {
+            background: var(--white);
+        }
+        
+        .people-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+        
+        /* Person row layout - for PI and Postdocs */
+        .person-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            align-items: flex-start;
+        }
+        
+        /* Grid layout for PhD and Master students */
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+        
+        @media (max-width: 1024px) {
+            .people-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .people-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .person-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+            text-align: center;
+        }
+        
+        .person-card:hover {
+            box-shadow: 0 5px 20px var(--shadow);
+            border-color: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .person-card .person-photo {
+            width: 100px;
+            height: 120px;
+            margin: 0 auto 1rem;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        
+        .person-card .person-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .person-card .person-info .role {
+            font-size: 0.85rem;
+        }
+        
+        .person-card .person-info .affiliation {
+            font-size: 0.8rem;
+        }
+        
+        .person-photo {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+            background: linear-gradient(135deg, #e2e8f0, #cbd5e0);
+        }
+        
+        .person-info h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .person-info .chinese-name {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+        
+        .person-info .role {
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        
+        .person-info .affiliation {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .person-info .web-link {
+            font-size: 0.85rem;
+        }
+        
+        .person-info .web-link a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .person-info .web-link a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Compact alumni list */
+        .alumni-section {
+            padding: 2rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .alumni-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+        
+        .alumni-category {
+            margin-bottom: 1.5rem;
+        }
+        
+        .alumni-category h3 {
+            font-size: 1rem;
+            color: var(--text);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        .alumni-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .alumni-list li {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: var(--text);
+        }
+        
+        .alumni-list li strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .alumni-list li a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .alumni-list li a:hover {
+            text-decoration: underline;
+        }
+        
+        .alumni-list .position {
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .person-row {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .person-photo {
+                width: 150px;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>People</h1>
+        <p class="subtitle">Meet our research team</p>
+    </header>
+
+    <!-- PI -->
+    <section class="people-section white-bg">
+        <h2>PI</h2>
+        <div class="person-row">
+            <img src="assets/images/WuHao.jpg" alt="Hao Wu" class="person-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div style="width: 120px; height: 150px; background: linear-gradient(135deg, #e2e8f0, #cbd5e0); border-radius: 8px; display: none; align-items: center; justify-content: center; flex-shrink: 0;">
+                <span style="font-size: 3rem;">👤</span>
+            </div>
+            <div class="person-info">
+                <h3>Hao Wu <span class="chinese-name">吴浩</span></h3>
+                <p class="role">Distinguished Professor</p>
+                <p class="affiliation">Faculty of Computer Science and Artificial Intelligence<br>Shenzhen University of Advanced Technology</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Postdocs -->
+    <section class="people-section">
+        <h2>Postdocs</h2>
+        <div class="person-row">
+            <img src="assets/images/YuYuanyuan.jpg" alt="Yuanyuan Yu" class="person-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div style="width: 120px; height: 150px; background: linear-gradient(135deg, #e2e8f0, #cbd5e0); border-radius: 8px; display: none; align-items: center; justify-content: center; flex-shrink: 0;">
+                <span style="font-size: 3rem;">👤</span>
+            </div>
+            <div class="person-info">
+                <h3>Yuanyuan Yu <span class="chinese-name">尉园园</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ph.D. Students -->
+    <section class="people-section white-bg">
+        <h2>Ph.D. Students</h2>
+        <div class="people-grid">
+            <div class="person-card">
+                <img src="assets/images/DengTao.jpg" alt="Tao Deng" class="person-photo">
+                <div class="person-info">
+                    <h3>Tao Deng <span class="chinese-name">邓韬</span></h3>
+                    <p class="role">Ph.D. Student</p>
+                    <p class="affiliation">Joint with CUHK-Shenzhen</p>
+                    <p class="web-link"><a href="https://torydeng.github.io/" target="_blank">Web →</a></p>
+                </div>
+            </div>
+            
+            <div class="person-card">
+                <img src="assets/images/WangRunshu.jpg" alt="Runshu Wang" class="person-photo">
+                <div class="person-info">
+                    <h3>Runshu Wang <span class="chinese-name">王润树</span></h3>
+                    <p class="role">Ph.D. Student</p>
+                    <p class="affiliation">Joint with PolyU</p>
+                </div>
+            </div>
+            
+            <div class="person-card">
+                <img src="assets/images/Lixinghao.jpg" alt="Xinghao Li" class="person-photo">
+                <div class="person-info">
+                    <h3>Xinghao Li <span class="chinese-name">李兴昊</span></h3>
+                    <p class="role">Ph.D. Student</p>
+                    <p class="affiliation">UCAS</p>
+                </div>
+            </div>
+            
+            <div class="person-card">
+                <img src="assets/images/YuZhe.jpg" alt="Zhe Yu" class="person-photo">
+                <div class="person-info">
+                    <h3>Zhe Yu <span class="chinese-name">余哲</span></h3>
+                    <p class="role">Ph.D. Student</p>
+                    <p class="affiliation">UCAS / Nanjing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master Students -->
+    <section class="people-section">
+        <h2>Master Students</h2>
+        <div class="people-grid">
+            <div class="person-card">
+                <img src="assets/images/YeZhiwei.jpg" alt="Zhiwei Ye" class="person-photo">
+                <div class="person-info">
+                    <h3>Zhiwei Ye <span class="chinese-name">叶志伟</span></h3>
+                    <p class="role">MS Student</p>
+                    <p class="affiliation">Joint with SUSTech</p>
+                </div>
+            </div>
+            
+            <div class="person-card">
+                <img src="assets/images/HuJiaying.jpg" alt="Jiaying Hu" class="person-photo">
+                <div class="person-info">
+                    <h3>Jiaying Hu <span class="chinese-name">胡甲英</span></h3>
+                    <p class="role">MS Student</p>
+                    <p class="affiliation">Joint with SUSTech</p>
+                </div>
+            </div>
+            
+            <div class="person-card">
+            <img src="assets/images/WuJiashan.jpg" alt="Jiashan Wu" class="person-photo">
+            <div class="person-info">
+                <h3>Jiashan Wu <span class="chinese-name">吴佳姗</span></h3>
+                <p class="role">MS Student</p>
+                <p class="affiliation">Joint with Shenzhen University</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Staff -->
+    <section class="people-section white-bg">
+        <h2>Research Staff</h2>
+        <div class="person-row">
+            <img src="assets/images/MiJiacong.jpg" alt="Jiacong Mi" class="person-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div style="width: 120px; height: 150px; background: linear-gradient(135deg, #e2e8f0, #cbd5e0); border-radius: 8px; display: none; align-items: center; justify-content: center; flex-shrink: 0;">
+                <span style="font-size: 3rem;">👤</span>
+            </div>
+            <div class="person-info">
+                <h3>Jiacong Mi <span class="chinese-name">宓家聪</span></h3>
+                <p class="role">Research Assistant</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Former Group Members -->
+    <section class="alumni-section">
+        <h2>Former Group Members</h2>
+        
+        <div class="alumni-category">
+            <h3>Postdoc</h3>
+            <ul class="alumni-list">
+                <li><strong>Rulan Wang</strong>, 2023-2025. <span class="position">Current position:</span></li>
+                <li><strong><a href="https://sites.google.com/site/ziyiliemory" target="_blank">Ziyi Li</a></strong>, 2018-2020. <span class="position">Current position: Assistant Professor, MD Anderson Cancer Center.</span></li>
+            </ul>
+        </div>
+        
+        <div class="alumni-category">
+            <h3>Ph.D. students</h3>
+            <ul class="alumni-list">
+                <li><strong><a href="https://marvinquiet.github.io/" target="_blank">Wenjing Ma</a></strong>, Ph.D. in Computer Science, 2023. <span class="position">Current position: Assistant Professor, School of AI, CUHK-Shenzhen.</span></li>
+                <li><strong>Luxiao Chen</strong>, Ph.D. in Biostatistics, 2023. <span class="position">Current position: Senior biostatistician, Sanofi.</span></li>
+                <li><strong><a href="http://zhenxingguo.org" target="_blank">Zhenxing Guo</a></strong>, Ph.D. in Biostatistics, 2022. <span class="position">Current position: Assistant Professor, School of Data Science, CUHK-Shenzhen.</span></li>
+                <li><strong><a href="https://anlane611.github.io" target="_blank">Andrea Lane</a></strong>, Ph.D. in Biostatistics, 2022. <span class="position">Current position: Assistant Professor of the Practice, Duke University.</span></li>
+                <li><strong>Kenong Su</strong>, Ph.D. in Computer Science, 2021. <span class="position">Current position: Bioinformatics and Data Scientist, GRAIL.</span></li>
+                <li><strong><a href="https://hfenglab.org" target="_blank">Hao "Harry" Feng</a></strong>, Ph.D. in Biostatistics, 2019. <span class="position">Current position: Associate Professor, UTHealth Houston.</span></li>
+                <li><strong><a href="https://lichen-lab.github.io" target="_blank">Li Chen</a></strong>, Ph.D. in Computer Science, 2017. <span class="position">Current position: Associate Professor, University of Florida.</span></li>
+                <li><strong>Tianlei Xu</strong>, Ph.D. in Computer Science, 2017. <span class="position">First position: Senior Data Scientist, KSQ therapeutics.</span></li>
+                <li><strong>Ben Li</strong>, Ph.D. in Biostatistics, 2017. <span class="position">First position: Senior Biostatistician, Merck Research Laboratories.</span></li>
+            </ul>
+        </div>
+        
+        <div class="alumni-category">
+            <h3>Master's students</h3>
+            <ul class="alumni-list">
+                <li><strong>Yuhan Xu <span class="chinese-name" style="color: var(--text-light);">徐雨涵</span></strong>, MS in statistics, Nankai University, 2025.</li>
+                <li><strong>Jiahui Liu</strong>, MSPH in Biostatistics, 2023. <span class="position">Current position: Ph.D. student, Indiana University.</span></li>
+                <li><strong>Xuan Li</strong>, MSPH in Biostatistics, 2022.</li>
+                <li><strong>Feier Han</strong>, MSPH in Biostatistics, 2022.</li>
+                <li><strong>Xin Wei</strong>, MSPH in Biostatistics, 2021. <span class="position">Current position: Ph.D. student, Brown University.</span></li>
+                <li><strong>Can Li</strong>, MSPH in Biostatistics, 2020. <span class="position">First position: Ph.D. student, UTHealth Houston.</span></li>
+                <li><strong>Chunhui Gu</strong>, MSPH in Biostatistics, 2020. <span class="position">First position: Ph.D. student, UTHealth Houston.</span></li>
+                <li><strong>Jinjing He</strong>, MSPH in Biostatistics, 2020.</li>
+                <li><strong>Hanyi Zheng</strong>, MSPH in Biostatistics, 2020.</li>
+                <li><strong>Yuchen Yan</strong>, MSPH in Biostatistics, 2019.</li>
+                <li><strong>Siyi Geng</strong>, MSPH in Biostatistics, 2019.</li>
+                <li><strong>Xiaoran Meng</strong>, MSPH in Biostatistics, 2019.</li>
+                <li><strong>Xisha Weng</strong>, MSPH in Biostatistics, 2019. <span class="position">First position: Statistical analyst, Medpace.</span></li>
+                <li><strong>Luxiao Chen</strong>, MSPH in Biostatistics, 2018. <span class="position">Current position: Ph.D. student, Emory University.</span></li>
+                <li><strong>Haonan Feng</strong>, MSPH in Biostatistics, 2017. <span class="position">First position: Data scientist, SF Express.</span></li>
+                <li><strong>Hao "Harry" Feng</strong>, MSPH in Biostatistics, 2012. <span class="position">Current position: Associate Professor, UTHealth Houston.</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Join Us -->
+    <section class="content-section white-bg">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 class="section-title" style="font-size: 1.8rem; margin-bottom: 1rem;">Join Us</h2>
+            <p style="color: var(--text); margin-bottom: 2rem; line-height: 1.8;">
+                We are always looking for motivated students and postdocs interested in 
+                computational biology and bioinformatics. If you are interested in joining our lab, 
+                please send your CV and a brief statement of research interests to 
+                <a href="mailto:wuhao@suat-sz.edu.cn" style="color: var(--accent);">wuhao@suat-sz.edu.cn</a>.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="research.html" class="btn btn-outline">Learn About Research</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Single-cell</a></li>
+                    <li><a href="research.html">Spatial Omics</a></li>
+                    <li><a href="research.html">Epigenomics</a></li>
+                    <li><a href="software.html">Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+                    <li><a href="contact.html">Shenzhen, China</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
+                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        }
+
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+l>
+tml>
+e')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+l>
+tml>
+l>
+tml>

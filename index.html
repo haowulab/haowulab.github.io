@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wu Lab - Computational Biology and Bioinformatics research group at Shenzhen University of Advanced Technology, led by Professor Hao Wu">
+    <title>Wu Lab | 吴浩实验室 - Computational Biology & Bioinformatics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Additional styles for updated layout */
+        .pi-links {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .pi-link {
+            padding: 0.4rem 0.8rem;
+            background: var(--secondary);
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text);
+            text-decoration: none;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        
+        .pi-link:hover {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+        
+        .pi-link.highlight {
+            background: var(--accent);
+            color: var(--primary);
+            border-color: var(--accent);
+            font-weight: 500;
+        }
+        
+        .pi-link.highlight:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+        
+        /* Two card layout */
+        .hero-cards-two {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .profile-card-enhanced {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+        
+        .profile-card-enhanced .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .profile-card-enhanced .profile-avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e2e8f0, #cbd5e0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        
+        .profile-card-enhanced .profile-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .profile-card-enhanced .profile-info h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .profile-card-enhanced .profile-info .title {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .profile-card-enhanced .profile-info .dept {
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+        
+        .profile-bio-full {
+            font-size: 0.95rem;
+            color: var(--text);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .profile-bio-full .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .research-areas-compact {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 1.75rem;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+        
+        .research-areas-compact h4 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .area-tags-compact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+        
+        .area-tag-compact {
+            padding: 0.4rem 0.9rem;
+            background: var(--secondary);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text);
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        
+        .area-tag-compact:hover {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="breadcrumb">Computational Biology & Bioinformatics</div>
+                <h1>
+                    Wu Laboratory
+                    <span class="chinese">吴浩实验室</span>
+                </h1>
+                <p class="hero-subtitle">"Developing statistical methods for the era of biomedical big data"</p>
+                <p class="hero-description">
+			We develop innovative computational tools to decode complex biomedical big data. 
+			Our core research integrates multi-omics (bulk, single-cell, and spatial) and epigenomics 
+			to address challenges in oncology and neurology. Beyond omics, we leverage EHR and wearable 
+			sensor data to build predictive models for precision health and personalized treatment.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">30K+</div>
+                        <div class="stat-label">Downloads/Year</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Bioc Packages</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Years at Emory</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2022</div>
+                        <div class="stat-label">Joined SUAT</div>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <a href="publications.html" class="btn btn-primary">View Publications</a>
+                    <a href="software.html" class="btn btn-outline">Our Software</a>
+                </div>
+            </div>
+
+            <div class="hero-cards-two">
+                <!-- Profile Card -->
+                <div class="profile-card-enhanced">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <img src="assets/images/WuHao.jpg" alt="Hao Wu" onerror="this.style.display='none'; this.parentElement.innerHTML='👤';">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Hao Wu, Ph.D.</h3>
+                            <p class="title">Distinguished Professor & Associate Dean for Research</p>
+                            <p class="dept">Faculty of Computer Science and Artificial Intelligence</p>
+                        </div>
+                    </div>
+                    <p class="profile-bio-full">
+                        Ph.D. in Biostatistics from <span class="highlight">Johns Hopkins University</span> (2010). 
+                        Former Professor at Emory University (2010-2022). Currently Distinguished Professor and 
+                        Associate Dean for Research at Shenzhen University of Advanced Technology.
+                    </p>
+                    <div class="pi-links">
+                        <a href="https://csce.suat-sz.edu.cn/info/1009/1022.htm" class="pi-link highlight" target="_blank">SUAT Official Page</a>
+                        <a href="assets/pdf/wu-cv.pdf" class="pi-link">CV</a>
+                        <a href="https://scholar.google.com/citations?user=tZuI7loAAAAJ" class="pi-link" target="_blank">Google Scholar</a>
+                    </div>
+                </div>
+
+                <!-- Research Areas Card -->
+                <div class="research-areas-compact">
+                    <h4>Research Areas</h4>
+                    <div class="area-tags-compact">
+                        <span class="area-tag-compact">Biomedical AI</span>
+                        <span class="area-tag-compact">Single-cell RNA-seq</span>
+                        <span class="area-tag-compact">Spatial Omics</span>
+                        <span class="area-tag-compact">Bisulfite Sequencing</span>
+                        <span class="area-tag-compact">Cell-free DNA</span>
+                        <span class="area-tag-compact">Signal Deconvolution</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Single-cell</a></li>
+                    <li><a href="research.html">Spatial Omics</a></li>
+                    <li><a href="research.html">Epigenomics</a></li>
+                    <li><a href="software.html">Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+                    <li><a href="contact.html">Shenzhen, China</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
+                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+
+        // Close mobile menu on window resize (if going to desktop)
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

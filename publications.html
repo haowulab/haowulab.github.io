@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Wu Lab - 吴浩实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .pub-container {
+            padding: 2rem 5%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.3rem;
+        }
+        
+        h3 {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-weight: 600;
+            margin-top: 1rem;
+            margin-bottom: 0.3rem;
+        }
+        
+        ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.3rem;
+            line-height: 1.5;
+            color: var(--text);
+        }
+        
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .full-list {
+            margin-bottom: 2rem;
+            color: var(--text-light);
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar"></div>
+    
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="toggleMenu()">...</button>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="pub-container">
+        <h1>Publications</h1>
+        
+        <p class="full-list">
+            A full list of publications can be found at my 
+            <a href="https://scholar.google.com/citations?user=tZuI7loAAAAJ">Google Scholar</a> or
+            <a href="https://orcid.org/0000-0003-1269-7354">ORCID</a> pages.
+        </p>
+
+        <h2>1. Statistical Methods for Single-cell & Spatial Omics</h2>
+        
+        <h3>Single-cell RNA-seq Analysis</h3>
+        <ul>
+          <li>TORC: Reference construction for supervised celltype in scRNA-seq — <em>Genome Biology</em>, 2025
+		[<a href="https://link.springer.com/article/10.1186/s13059-025-03614-6">Paper</a>] [<a href="https://github.com/weix21/TORC">Software</a>]</li>
+          <li>scCTS: Single-cell cell type-specific analysis — <em>Genome Biology</em>, 2024 
+		[<a href="https://link.springer.com/article/10.1186/s13059-024-03410-8">Paper</a>] [<a href="https://github.com/ToryDeng/scCTS">Software</a>]</li>
+          <li>Cellcano: Automated cell type classification for single-cell data — <em>Nature Communications</em>, 2023 
+		[<a href=""https://www.nature.com/articles/s41467-023-37439-3>Paper</a>] [<a href="https://marvinquiet.github.io/Cellcano/">Software</a>]</li>
+          <li>SC2P: Differential expression for scRNA-seq using mixture models — <em>Bioinformatics</em>, 2018 
+		[<a href=""https://academic.oup.com/bioinformatics/article-abstract/34/19/3340/4984507>Paper</a>] [<a href="https://github.com/haowulab/SC2P">Software</a>]</li>
+            <li>FEAST: Feature selection for improved cell clustering — <em>Bioinformatics</em>, 2020 
+		[<a href="https://academic.oup.com/bib/article-abstract/22/5/bbab034/6145899">Paper</a>] [<a href="http://bioconductor.org/packages/release/bioc/html/FEAST.html">Software</a>]</li>
+            <li>WIND: New evaluation metric for cell clustering — <em>Genome Biology</em>, 2020 
+		[<a href="https://link.springer.com/article/10.1186/s13059-020-02027-x">Paper</a>] [<a href=""https://github.com/haowulab/Wind>Software</a>]</li>
+        </ul>
+
+        <h3>Spatial Transcriptomics</h3>
+        <ul>
+            <li>SIGLE: Spot level representation learning in spatial transcriptomics — <em>Genome Biology</em>, 2025 
+		[<a href="https://link.springer.com/article/10.1186/s13059-025-03748-7">Paper</a>] [<a href=" https://github.com/WLatSunLab/SIGEL">Software</a>]</li>
+            <li>MicroMap: Predicting spatial expression from H&E images — 2026+ 
+		[<a href="#">Paper</a>] [<a href="#">Code</a>]</li>
+        </ul>
+
+        <h2>2. Signal Deconvolution for Bulk Omics Data</h2>
+        
+        <h3>Cell Type-Specific Inference</h3>
+        <ul>
+            <li>CeDAR: Cell type specific differential analysis with cell type hierarchy — <em>Genome Biology</em>, 2023 
+		[<a href="https://link.springer.com/article/10.1186/s13059-023-02857-5">Paper</a>] [<a href="https://github.com/luxiao10/CeDAR_reproduction">Software</a>]</li>
+            <li>TOAST: Reference-free cell type deconvolution — <em>Genome Biology</em>, 2019 
+		[<a href="https://link.springer.com/article/10.1186/s13059-019-1778-0">Paper</a>] [<a href="http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html">Software</a>]</li>
+            <li>Cell type-specific differential analysis from bulk data — <em>Bioinformatics</em>, 2019 
+		[<a href="https://academic.oup.com/bioinformatics/article-abstract/35/20/3898/5418952">Paper</a>] [<a href="http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html">Software</a>]</li>
+        </ul>
+
+        <h3>Tumor Purity Estimation</h3>
+        <ul>
+            <li>InfiniumPurity: Tumor purity estimation from DNA methylation data — <em>Genome Biology</em>, 2016 
+		[<a href="ihttps://link.springer.com/article/10.1186/s13059-016-1143-5">Paper</a>] [<a href=" https://zenodo.org/record/200214">Software</a>]</li>
+        </ul>
+
+        <h2>3. Differential Analysis for Bulk Omics Data</h2>
+        
+        <h3>Differential Methylation (BS-seq)</h3>
+        <ul>
+            <li>DSS: Differential methylation for general experimental design — <em>Bioinformatics</em>, 2016 
+		[<a href="https://academic.oup.com/bioinformatics/article-abstract/32/10/1446/1743267">Paper</a>] [<a href="http://www.bioconductor.org/packages/release/bioc/html/DSS.html">Software</a>]</li>
+            <li>DSS: DMR detection for single replicate BS-seq data — <em>Nucleic Acids Research</em>, 2015 
+		[<a href="https://academic.oup.com/nar/article-abstract/43/21/e141/2468097">Paper</a>] [<a href="http://www.bioconductor.org/packages/release/bioc/html/DSS.html">Software</a>]</li>
+            <li>DSS: Differential methylation analysis for BS-seq data (two-group comparison) — <em>Nucleic Acids Research</em>, 2014 
+		[<a href="https://academic.oup.com/nar/article-abstract/42/8/e69/1074350">Paper</a>] [<a href="http://www.bioconductor.org/packages/release/bioc/html/DSS.html">Software</a>]</li>
+        </ul>
+
+        <h3>Differential Expression (RNA-seq)</h3>
+        <ul>
+            <li>A new shrinkage estimator for dispersion improves differential expression detection — <em>Biostatistics</em>, 2012 
+		[<a href="https://academic.oup.com/biostatistics/article-abstract/14/2/232/376433">Paper</a>] [<a href="#">Code</a>]</li>
+            <li>Sample size calculation for RNA-seq: Power evaluation and experimental design — <em>Bioinformatics</em>, 2015 
+		[<a href="https://academic.oup.com/bioinformatics/article-abstract/31/2/233/2366205">Paper</a>] [<a href="#https://bioconductor.org/packages/release/bioc/html/PROPER.html">Software</a>]</li>
+        </ul>
+
+        <h3>Differential Peak Analysis (ChIP-seq)</h3>
+        <ul>
+            <li>ChIPComp: Differential peak detection for ChIP-seq data — <em>Bioinformatics</em>, 2015 
+		[<a href=""https://academic.oup.com/bioinformatics/article-abstract/31/12/1889/214643>Paper</a>] [<a href="#">Software</a>]</li>
+        </ul>
+
+        <h2>Software Tools</h2>
+        
+        <h3>Bioconductor</h3>
+        <ul>
+            <li><a href="http://bioconductor.org/packages/release/bioc/html/DSS.html">DSS</a> — Differential methylation analysis for BS-seq data</li>
+            <li><a href="http://www.bioconductor.org/packages/devel/bioc/html/TOAST.html">TOAST</a> — Reference-free cell type deconvolution</li>
+            <li><a href="http://bioconductor.org/packages/devel/bioc/html/ChIPComp.html">ChIPComp</a> — Differential peak detection for ChIP-seq</li>
+            <li><a href="https://bioconductor.org/packages/release/bioc/html/PROPER.html">PROPER</a> — Power evaluation for RNA-seq</li>
+        </ul>
+
+        <h3>CRAN</h3>
+        <ul>
+            <li><a href="https://cran.r-project.org/web/packages/InfiniumPurify/index.html">InfiniumPurify</a> — Tumor purity estimation from DNA methylation data</li>
+        </ul>
+
+        <h3>GitHub</h3>
+        <ul>
+            <li><a href="https://github.com/haowulab/Cellcano">Cellcano</a> — Automated cell type classification</li>
+            <li><a href="https://github.com/haowulab/scCTS">scCTS</a> — Single-cell cell type-specific analysis</li>
+            <li><a href="https://github.com/haowulab/SIGLE">SIGLE</a> — Spot level representation learning in ST</li>
+            <li><a href="https://github.com/haowulab/TORC">TORC</a> — Reference construction for supervised celltype</li>
+            <li><a href="https://github.com/haowulab/CeDAR">CeDAR</a> — Cell type specific differential analysis</li>
+            <li><a href="https://github.com/haowulab/Wind">Wind</a> — Evaluation metric for cell clustering</li>
+            <li><a href="https://github.com/haowulab/FEAST">FEAST</a> — Feature selection for cell clustering</li>
+            <li><a href="https://github.com/haowulab/SC2P">SC2P</a> — Differential expression for scRNA-seq</li>
+        </ul>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="software.html">Software</a></li>
+                    <li><a href="people.html">People</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://github.com/haowulab">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobileNav').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

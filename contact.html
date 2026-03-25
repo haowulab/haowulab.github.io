@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact - Wu Lab at Shenzhen University of Advanced Technology">
+    <title>Contact | Wu Lab - 吴浩实验室</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-hero {
+            padding: 4rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--white) 100%);
+        }
+        
+        .contact-hero-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--accent), #d4a574);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 10px 30px rgba(201, 162, 39, 0.2);
+        }
+        
+        .contact-hero h1 {
+            font-family: 'Crimson Text', 'Noto Serif SC', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-hero p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        .contact-container {
+            padding: 3rem 5%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+        
+        .contact-info h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-item {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        
+        .contact-item h3 {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-item p {
+            color: var(--text);
+            font-size: 1rem;
+        }
+        
+        .contact-item a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+        
+        .join-section {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+        }
+        
+        .join-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .join-section p {
+            color: var(--text);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        
+        .join-section .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .join-section .btn:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="logo-mark">W</div>
+            <div class="logo-text">
+                <div class="main">吴浩实验室</div>
+                <div class="sub">Wu Lab | SUAT</div>
+            </div>
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html">Software</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="contact-hero">
+        <div class="contact-hero-icon">📧</div>
+        <h1>Contact</h1>
+        <p>Get in touch with us for research collaborations, student opportunities, or general inquiries.</p>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>
+                        Faculty of Computer Science and Artificial Intelligence<br>
+                        Shenzhen University of Advanced Technology (SUAT)<br>
+                        Shenzhen, Guangdong, China
+                    </p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Follow Us</h3>
+                    <p>
+                        <a href="https://github.com/haowulab" target="_blank">GitHub</a> • 
+                        <a href="https://scholar.google.com/citations?user=tZuI7loAAAAJ" target="_blank">Google Scholar</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="join-section">
+                <h2>Join Our Lab</h2>
+                <p>
+                    We are always looking for motivated students and postdocs interested in 
+                    computational biology and bioinformatics. Current openings include:
+                </p>
+                <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem; color: var(--text);">
+                    <li>PhD students (joint programs available)</li>
+                    <li>Master students</li>
+                    <li>Postdoctoral fellows</li>
+                    <li>Research assistants</li>
+                </ul>
+                <p style="margin-bottom: 1.5rem;">
+                    Please send your CV and a brief statement of research interests to 
+                    <a href="mailto:wuhao@suat-sz.edu.cn" style="color: var(--accent);">wuhao@suat-sz.edu.cn</a>.
+                </p>
+                <a href="people.html" class="btn">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-mark">W</div>
+                    <div class="logo-text">
+                        <div class="main">吴浩实验室</div>
+                        <div class="sub">Wu Lab | SUAT</div>
+                    </div>
+                </a>
+                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="research.html">Single-cell</a></li>
+                    <li><a href="research.html">Spatial Omics</a></li>
+                    <li><a href="research.html">Epigenomics</a></li>
+                    <li><a href="software.html">Software</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+                    <li><a href="contact.html">Shenzhen, China</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
+                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        }
+
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                if (mobileNav.classList.contains('active')) {
+                    toggleMenu();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
