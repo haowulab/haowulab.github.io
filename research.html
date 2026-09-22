@@ -151,6 +151,19 @@
             color: var(--text);
             line-height: 1.8;
         }
+        .foundation-sub {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin: 2.25rem 0 .5rem;
+        }
+        .foundation-note {
+            color: var(--text-light);
+            line-height: 1.75;
+            max-width: 850px;
+            margin: 0 0 .5rem;
+            font-size: .95rem;
+        }
         .related-links {
             padding: 4rem 5%;
             background: var(--white);
@@ -375,15 +388,42 @@
 <h2>Foundations in Statistical Genomics</h2>
 <p>
                 Our current work builds on a long-standing foundation in statistical genomics. Earlier research
-                established statistical frameworks for differential analysis, signal deconvolution, and modeling
+                established statistical frameworks for single-cell omics data analysis, differential analysis, signal deconvolution, and modeling
                 heterogeneous molecular data, providing methodological foundations for modern computational biology.
             </p>
+
+<h3 class="foundation-sub">DSS — Dispersion Shrinkage for Sequencing data</h3>
+<p class="foundation-note">
+                Our most widely used method series, built on empirical Bayes shrinkage of dispersion parameters.
+                The RNA-seq dispersion estimator was adopted by DESeq2, one of the most widely used differential
+                expression tools, and the framework was extended to BS-seq for differential methylation analysis
+                at both single-locus and region level.
+            </p>
 <div class="foundation-links">
-<a class="selected-pub" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8171293/" rel="noopener" target="_blank"><strong>DSS</strong> — Differential analysis of sequencing data</a>
+
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/23001152/" rel="noopener" target="_blank"><strong>2013, Biostatistics</strong> — A new shrinkage estimator for dispersion improves differential expression detection in RNA-seq data. The dispersion estimator was later adopted by DESeq2.</a>
+
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/24561809/" rel="noopener" target="_blank"><strong>2014, Nucleic Acids Research</strong> — A Bayesian hierarchical model to detect differentially methylated loci from single-nucleotide resolution sequencing data.</a>
+
+<a class="selected-pub" href="https://doi.org/10.1093/nar/gkv715" rel="noopener" target="_blank"><strong>2015, Nucleic Acids Research</strong> — Detection of differentially methylated regions from whole-genome bisulfite sequencing data without replicates.</a>
+
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/26819470/" rel="noopener" target="_blank"><strong>2016, Bioinformatics</strong> — Differential methylation analysis for BS-seq data under general experimental design.</a>
+
+</div>
+
+<h3 class="foundation-sub">Other foundation tools</h3>
+<div class="foundation-links">
+
+<a class="selected-pub" href="https://www.nature.com/articles/s41467-023-37439-3" rel="noopener" target="_blank"><strong>Cellcano</strong> — Cell type identification for scATAC-seq</a>
+
 <a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-019-1778-0" rel="noopener" target="_blank"><strong>TOAST</strong> — Cell-type-specific analysis of bulk omics data</a>
-<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25682068/" rel="noopener" target="_blank"><strong>ChIPComp</strong> — Statistical analysis of ChIP-seq data</a>
+
 <a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-016-1143-5" rel="noopener" target="_blank"><strong>InfiniumPurify</strong> — Cell-type deconvolution for DNA methylation data</a>
-<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25273110/" rel="noopener" target="_blank"><strong>PROPER</strong> — Benchmarking and evaluation of RNA-seq differential expression methods</a>
+
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25682068/" rel="noopener" target="_blank"><strong>ChIPComp</strong> — Statistical analysis of ChIP-seq data</a>
+
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25273110/" rel="noopener" target="_blank"><strong>PROPER</strong> — Comprehensive power evaluation for differential expression using RNA-seq</a>
+
 </div>
 </section>
 </section>
