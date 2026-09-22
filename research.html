@@ -1,209 +1,173 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Research - Wu Lab at Shenzhen University of Advanced Technology">
-    <title>Research | Wu Lab - 吴浩实验室</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* Research page specific styles */
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Research - Wu Lab at Shenzhen University of Advanced Technology" name="description"/>
+<title>Research | Wu Lab - 吴浩实验室</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;family=Noto+Serif+SC:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<style>
         .research-hero {
+            padding: 5.5rem 5% 4.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--white) 100%);
+        }
+        .research-hero h1 {
+            font-family: 'Crimson Text', 'Noto Serif SC', serif;
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+        }
+        .research-hero .lead {
+            color: var(--text);
+            font-size: 1.15rem;
+            max-width: 850px;
+            margin: 0 auto 1rem;
+            line-height: 1.9;
+        }
+        .research-hero .vision {
+            color: var(--text-light);
+            font-size: 1rem;
+            max-width: 760px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        .research-areas-container {
             padding: 4rem 5%;
             max-width: var(--max-width);
             margin: 0 auto;
-            text-align: center;
-            position: relative;
-            background: linear-gradient(135deg, var(--secondary) 0%, var(--white) 100%);
         }
-        
-        .research-hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: 
-                radial-gradient(circle at 20% 80%, rgba(201, 162, 39, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(212, 165, 116, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-        }
-        
-        .research-hero h1 {
-            font-family: 'Crimson Text', 'Noto Serif SC', serif;
-            font-size: 2.5rem;
-            color: var(--primary);
-            margin-bottom: 1rem;
-            position: relative;
-        }
-        
-        .research-hero p {
-            color: var(--text-light);
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.8;
-            position: relative;
-        }
-        
-        /* Stats bar */
-        .stats-bar {
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            margin-top: 2rem;
-            flex-wrap: wrap;
-            position: relative;
-        }
-        
-        .stat-item {
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-family: 'Crimson Text', serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent);
-        }
-        
-        .stat-label {
-            font-size: 0.85rem;
-            color: var(--text-light);
+        .section-kicker {
             text-transform: uppercase;
-            letter-spacing: 0.1em;
+            letter-spacing: .12em;
+            color: var(--accent);
+            font-size: .78rem;
+            font-weight: 600;
+            margin-bottom: .5rem;
         }
-        
-        /* Research Areas Container */
-        .research-areas-container {
-            padding: 2rem 5% 4rem;
-            max-width: var(--max-width);
-            margin: 0 auto;
-        }
-        
-        /* Research Area Card - Desktop */
-        .research-area {
+        .research-program {
             background: var(--white);
+            border: 1px solid var(--border);
             border-radius: 16px;
             box-shadow: 0 4px 20px var(--shadow);
-            border: 1px solid var(--border);
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: flex-start;
-            overflow: hidden;
+            padding: 2.8rem 3rem;
             margin-bottom: 2rem;
-            padding: 3rem 2rem;
         }
-        
-        .research-area:hover {
-            box-shadow: 0 8px 30px var(--shadow);
-            transform: translateY(-2px);
-        }
-        
-        .area-image {
-            flex-shrink: 0;
-            width: 26%;
-            max-width: 195px;
-            padding: 1rem;
+        .program-header {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            gap: 1.25rem;
+            align-items: flex-start;
+            margin-bottom: 1.25rem;
         }
-        
-        .area-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        
-        .area-content {
-            flex: 1;
-            padding-left: 2rem;
-        }
-        
-        .research-area h2 {
+        .program-number {
             font-family: 'Crimson Text', serif;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
+            color: var(--accent);
+            min-width: 2rem;
+        }
+        .research-program h2 {
+            font-family: 'Crimson Text', 'Noto Serif SC', serif;
             color: var(--primary);
-            margin-bottom: 1.25rem;
-            padding-bottom: 0.75rem;
-            border-bottom: 2px solid var(--accent);
-            display: inline-block;
+            font-size: 1.75rem;
+            margin: 0 0 .35rem;
         }
-        
-        .research-area .description {
+        .program-tagline {
+            color: var(--text-light);
+            font-size: 1rem;
+            font-style: italic;
+        }
+        .research-program .description {
             color: var(--text);
-            line-height: 1.8;
-            margin-bottom: 1.25rem;
-            font-size: 0.95rem;
+            line-height: 1.85;
+            max-width: 850px;
+            margin: 1.2rem 0 1.5rem 3.25rem;
         }
-        
-        .research-area ul {
-            margin: 0;
-            padding-left: 1.5rem;
+        .research-program ul {
+            margin: 0 0 0 3.25rem;
+            padding-left: 1.25rem;
         }
-        
-        .research-area li {
-            margin-bottom: 0.75rem;
+        .research-program li {
+            margin-bottom: .65rem;
             line-height: 1.7;
             color: var(--text);
         }
-        
-        .research-area li strong {
-            color: var(--primary);
-            font-weight: 600;
-        }
-        
-        /* Software mention */
-        .software-mention {
-            margin-top: 1.5rem;
-            padding: 1rem 1.25rem;
-            background: var(--secondary);
-            border-radius: 8px;
-            border-left: 3px solid var(--accent);
-        }
-        
-        .software-mention strong {
+        .research-program li strong {
             color: var(--primary);
         }
-        
-        /* Related links */
+        .future-section {
+            margin: 3.5rem 0;
+            padding: 4rem 3rem;
+            border-radius: 18px;
+            background: var(--primary);
+            color: var(--white);
+        }
+        .future-section .section-kicker { color: var(--accent); }
+        .future-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2.2rem;
+            margin: .4rem 0 1rem;
+        }
+        .future-section p {
+            max-width: 850px;
+            line-height: 1.9;
+            color: rgba(255,255,255,.9);
+            margin-bottom: 1rem;
+        }
+        .trajectory {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .75rem;
+            margin-top: 2rem;
+        }
+        .trajectory span {
+            border: 1px solid rgba(255,255,255,.25);
+            border-radius: 999px;
+            padding: .55rem 1rem;
+            font-size: .9rem;
+            color: rgba(255,255,255,.9);
+        }
+        .foundation-section {
+            padding: 1rem 0 2rem;
+        }
+        .foundation-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: .8rem;
+        }
+        .foundation-section p {
+            color: var(--text-light);
+            line-height: 1.85;
+            max-width: 850px;
+        }
+        .foundation-links {
+            margin-top: 1.25rem;
+            color: var(--text);
+            line-height: 1.8;
+        }
         .related-links {
             padding: 4rem 5%;
             background: var(--white);
             text-align: center;
-            position: relative;
         }
-        
-        .related-links::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 3px;
-            background: linear-gradient(90deg, transparent, var(--accent), transparent);
-        }
-        
         .related-links h2 {
             font-family: 'Crimson Text', serif;
             font-size: 1.5rem;
             color: var(--primary);
             margin-bottom: 2rem;
         }
-        
         .links-grid {
             display: flex;
             justify-content: center;
             gap: 1.5rem;
             flex-wrap: wrap;
         }
-        
         .link-card {
             padding: 1.5rem 2rem;
             background: var(--secondary);
@@ -214,244 +178,283 @@
             border: 1px solid var(--border);
             min-width: 180px;
         }
-        
         .link-card:hover {
             transform: translateY(-5px);
             border-color: var(--accent);
             box-shadow: 0 10px 30px var(--shadow);
         }
-        
-        .link-card strong {
-            display: block;
-            color: var(--primary);
-            margin-bottom: 0.25rem;
-            font-size: 1.1rem;
-        }
-        
-        .link-card span {
-            font-size: 0.85rem;
-            color: var(--text-light);
-        }
-        
-        /* Mobile styles */
+        .link-card strong { display:block; color:var(--primary); margin-bottom:.25rem; font-size:1.1rem; }
+        .link-card span { font-size:.85rem; color:var(--text-light); }
         @media (max-width: 767px) {
-            .research-area {
-                display: block;
-                text-align: center;
-                padding: 2rem 1.5rem;
-            }
-            
-            .area-image {
-                width: 10%;
-                max-width: 18px;
-                margin: 0 auto 1.5rem;
-                padding: 0.5rem;
-            }
-            
-            .area-content {
-                padding-left: 0;
-                text-align: left;
-            }
-            
-            .research-area h2 {
-                font-size: 1.3rem;
-            }
+            .research-hero h1 { font-size: 2.35rem; }
+            .research-program { padding: 2rem 1.5rem; }
+            .research-program .description,
+            .research-program ul { margin-left: 0; }
+            .future-section { padding: 2.5rem 1.5rem; }
         }
-    </style>
-</head>
-<body>
-    <!-- Top Bar -->
-    <div class="top-bar"></div>
+    
+    .selected-pubs { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(0,0,0,.10); }
+    .selected-pubs h4 { margin: 0 0 .75rem; font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; opacity: .65; }
+    .selected-pub { display: block; padding: .55rem 0; color: inherit; text-decoration: none; }
+    .selected-pub:hover .pub-title { text-decoration: underline; }
+    .pub-title { font-weight: 600; line-height: 1.35; }
+    .pub-meta { margin-top: .18rem; font-size: .86rem; opacity: .62; }
+    .pubs-note { margin: 0 0 1.5rem; max-width: 760px; opacity: .72; }
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html" class="logo">
-            <div class="logo-mark">W</div>
-            <div class="logo-text">
-                <div class="main">吴浩实验室</div>
-                <div class="sub">Wu Lab | SUAT</div>
-            </div>
-        </a>
-        
-        <ul class="nav-links">
-            <li><a href="research.html">Research</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="software.html">Software</a></li>
-            <li><a href="people.html">People</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-
-        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </nav>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav" id="mobileNav">
-        <button class="close-menu" onclick="toggleMenu()" aria-label="Close menu">×</button>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="software.html">Software</a>
-        <a href="people.html">People</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="contact.html">Contact</a>
-    </div>
-
-    <!-- Research Hero -->
-    <section class="research-hero">
-        <h1>Research</h1>
-        <p>The ultimate goal of our research is to advance biomedical sciences and clinical practices through the development of rigorous and efficient tools. We aim to tackle the challenges presented by modern biomedical "big data", including high-dimensionality, heterogeneity, technical artifacts, and reproducibility, and make sense of the data.</p>
-        
-        <div class="stats-bar">
-            <div class="stat-item">
-                <div class="stat-number">3</div>
-                <div class="stat-label">Core Directions</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">10+</div>
-                <div class="stat-label">Bioconductor Packages</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">30K+</div>
-                <div class="stat-label">Annual Downloads</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Areas -->
-    <section class="research-areas-container">
-        
-        <!-- Area 1: Single-cell & Spatial Omics -->
-        <div class="research-area">
-            <div class="area-image">
-                <img src="assets/images/ST.png" alt="Single-cell & Spatial Omics">
-            </div>
-            <div class="area-content">
-                <h2>Single-cell & Spatial Omics Analysis</h2>
-                <p class="description">
-                    Single-cell RNA sequencing (scRNA-seq) enables the identification of rare cell types and cell type-specific gene expression patterns by measuring individual cells rather than population averages. We develop statistical methods for:
-                </p>
-                <ul>
-                    <li><strong>Cell type annotation and clustering</strong>: Cellcano for scATAC-seq cell typing, FEAST for feature selection, and WIND/CEMUSA for clustering evaluation.</li>
-                    <li><strong>Differential expression analysis</strong>: SC2P uses mixture models (zero-inflated Poisson and lognormal-Poisson) for flexible differential expression inference in sparse scRNA-seq data.</li>
-                    <li><strong>Spatial transcriptomics</strong>: SIGLE for spot-level representation learning, STAND for abnormality detection, and MicroMap for predicting spatial expression from H&E images.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Area 2: Signal Deconvolution -->
-        <div class="research-area">
-            <div class="area-image">
-                <img src="assets/images/deconvolution.png" alt="Signal Deconvolution">
-            </div>
-            <div class="area-content">
-                <h2>Signal Deconvolution for Bulk Omics Data</h2>
-                <p class="description">
-                    Bulk omics data remain the primary choice for population-level studies due to lower costs. We develop methods to extract cell type-specific information from bulk data—effectively "unmixing the smoothie":
-                </p>
-                <ul>
-                    <li><strong>Signal deconvolution</strong>: Estimating cell type proportions and reconstructing pure cell type profiles without single-cell reference data.</li>
-                    <li><strong>Cell type-specific inference</strong>: Accounting for cell type mixture in differential expression/methylation and sample clustering.</li>
-                </ul>
-                <div class="software-mention">
-                    <strong>Software:</strong> TOAST (reference-free deconvolution) and InfiniumPurity (tumor purity estimation).
-                </div>
-            </div>
-        </div>
-
-        <!-- Area 3: Differential Analysis -->
-        <div class="research-area">
-            <div class="area-image">
-                <img src="assets/images/differential.png" alt="Differential Analysis">
-            </div>
-            <div class="area-content">
-                <h2>Differential Analysis for Bulk Omics Data</h2>
-                <p class="description">
-                    We develop rigorous statistical methods for detecting differential signals in bulk sequencing data:
-                </p>
-                <ul>
-                    <li><strong>BS-seq</strong>: DSS uses hierarchical beta-binomial models for differential methylation analysis (20,000+ annual downloads).</li>
-                    <li><strong>RNA-seq</strong>: Methods accounting for overdispersion and small sample sizes.</li>
-                    <li><strong>ChIP-seq</strong>: Differential peak detection for protein-DNA binding sites.</li>
-                </ul>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Related Links -->
-    <section class="related-links">
-        <h2>Related Resources</h2>
-        <div class="links-grid">
-            <a href="publications.html" class="link-card">
-                <strong>All Publications</strong>
-                <span>Complete list of papers</span>
-            </a>
-            <a href="software.html" class="link-card">
-                <strong>Software</strong>
-                <span>Bioconductor packages</span>
-            </a>
-            <a href="https://scholar.google.com/citations?user=tZuI7loAAAAJ" class="link-card" target="_blank">
-                <strong>Google Scholar</strong>
-                <span>Citation metrics</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <div class="logo-mark">W</div>
-                    <div class="logo-text">
-                        <div class="main">吴浩实验室</div>
-                        <div class="sub">Wu Lab | SUAT</div>
-                    </div>
-                </a>
-                <p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Research</h4>
-                <ul>
-                    <li><a href="research.html">Single-cell</a></li>
-                    <li><a href="research.html">Spatial Omics</a></li>
-                    <li><a href="research.html">Epigenomics</a></li>
-                    <li><a href="software.html">Software</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Resources</h4>
-                <ul>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
-                    <li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
-                    <li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Contact</h4>
-                <ul>
-                    <li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
-                    <li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
-                    <li><a href="contact.html">Shenzhen, China</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
-            <div class="footer-social">
-                <a href="https://github.com/haowulab" target="_blank" aria-label="GitHub">GH</a>
-                <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">GS</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script>
+  
+    .selected-pubs { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(0,0,0,.10); }
+    .selected-pubs h4 { margin: 0 0 .75rem; font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; opacity: .65; }
+    .selected-pub { display: block; padding: .55rem 0; color: inherit; text-decoration: none; }
+    .selected-pub:hover .pub-title { text-decoration: underline; }
+    .pub-title { font-weight: 600; line-height: 1.35; }
+    .pub-meta { margin-top: .18rem; font-size: .86rem; opacity: .62; }
+</style>
+</head><body>
+<!-- Top Bar -->
+<div class="top-bar"></div>
+<!-- Navigation -->
+<nav>
+<a class="logo" href="index.html">
+<div class="logo-mark">W</div>
+<div class="logo-text">
+<div class="main">吴浩实验室</div>
+<div class="sub">Wu Lab | SUAT</div>
+</div>
+</a>
+<ul class="nav-links">
+<li><a href="research.html">Research</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="software.html">Software</a></li>
+<li><a href="people.html">People</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button aria-label="Toggle menu" class="menu-toggle" onclick="toggleMenu()">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</nav>
+<!-- Mobile Navigation -->
+<div class="mobile-nav" id="mobileNav">
+<button aria-label="Close menu" class="close-menu" onclick="toggleMenu()">×</button>
+<a href="research.html">Research</a>
+<a href="publications.html">Publications</a>
+<a href="software.html">Software</a>
+<a href="people.html">People</a>
+<a href="teaching.html">Teaching</a>
+<a href="contact.html">Contact</a>
+</div>
+<!-- Research Hero -->
+<section class="research-hero">
+<h1>Learning, Modeling, and Simulating Biological Systems</h1>
+<p class="lead">
+            Biological systems are complex, dynamic, and spatially organized. Our research develops
+            computational methods and AI models to understand how biological systems are organized,
+            evolve, and respond to perturbations across molecular, cellular, spatial, and temporal scales.
+        </p>
+<p class="vision">
+            We seek to move beyond static measurements toward computational models that can represent
+            biological organization, reconstruct tissue structure, and ultimately predict how biological
+            systems change over time.
+        </p>
+</section>
+<section class="research-areas-container">
+<div class="section-kicker">Research Programs</div>
+<div class="research-program">
+<div class="program-header">
+<div class="program-number">01</div>
+<div>
+<h2>Spatial &amp; Single-Cell Biology</h2>
+<div class="program-tagline">Understanding how cells are organized and interact within tissues</div>
+</div>
+</div>
+<p class="description">
+                We develop computational methods for extracting biological structure from single-cell and
+                spatially resolved molecular measurements. Our work addresses cell identity, cellular
+                heterogeneity, spatial organization, and molecular variation across tissues and biological conditions.
+            </p>
+<ul>
+<li><strong>Cellular states and cell types:</strong> statistical methods for cell-type annotation,
+                    clustering, rare-cell detection, and cell type-specific inference.</li>
+<li><strong>Spatial representation learning:</strong> learning representations that capture
+                    local molecular context and spatial organization in tissue.</li>
+<li><strong>Spatial molecular prediction:</strong> integrating histology and spatial omics to
+                    recover and predict molecular features of tissue.</li>
+</ul>
+<div class="selected-pubs"><h4>Selected work</h4><a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-025-03614-6" rel="noopener" target="_blank"><div class="pub-title">TORC</div><div class="pub-meta">Target-oriented reference construction for supervised cell-type identification · Genome Biology, 2025</div></a><a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-024-03410-8" rel="noopener" target="_blank"><div class="pub-title">scCTS</div><div class="pub-meta">Cell-type-specific analysis of single-cell transcriptomic data · Genome Biology, 2024</div></a><a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-025-03748-7" rel="noopener" target="_blank"><div class="pub-title">SIGEL</div><div class="pub-meta">Context-aware genomic representation learning for spatial genomics · Genome Biology, 2025</div></a></div></div>
+<div class="research-program">
+<div class="program-header">
+<div class="program-number">02</div>
+<div>
+<h2>Biological Representation &amp; AI</h2>
+<div class="program-tagline">Learning representations that capture biological context</div>
+</div>
+</div>
+<p class="description">
+                Biological measurements are high-dimensional observations of underlying cellular and molecular
+                systems. We develop representation learning approaches that capture relationships among genes,
+                cells, tissues, and biological contexts, with the goal of building more generalizable models of biology.
+            </p>
+<ul>
+<li><strong>Gene representation learning:</strong> learning distributed representations of genes
+                    from their molecular and biological context.</li>
+<li><strong>Context-aware biological representations:</strong> modeling how the meaning and behavior
+                    of genes and cells depend on cellular, spatial, and tissue context.</li>
+<li><strong>Multimodal biological AI:</strong> integrating molecular measurements, imaging, and
+                    other biomedical data to build richer representations of biological systems.</li>
+</ul>
+<div class="selected-pubs"><h4>Selected work</h4><a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-025-03748-7" rel="noopener" target="_blank"><div class="pub-title">SIGEL</div><div class="pub-meta">Context-aware genomic representation learning for spatial genomics · Genome Biology, 2025</div></a><a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/40591483/" rel="noopener" target="_blank"><div class="pub-title">LEGEND</div><div class="pub-meta">Learning gene relationships from multimodal transcriptomic data</div></a></div></div>
+<div class="research-program">
+<div class="program-header">
+<div class="program-number">03</div>
+<div>
+<h2>Spatial-Temporal Biology</h2>
+<div class="program-tagline">Modeling how tissues evolve across space and time</div>
+</div>
+</div>
+<p class="description">
+                Most molecular assays provide snapshots of biological systems, while biological processes unfold
+                continuously through space and time. We aim to develop computational models that reconstruct
+                spatial organization and infer how cells and tissues transition between biological states.
+            </p>
+<ul>
+<li><strong>3D tissue reconstruction:</strong> reconstructing continuous tissue organization from
+                    serial spatial measurements and histological observations.</li>
+<li><strong>Spatial field modeling:</strong> learning continuous representations of tissue structure
+                    and its spatial variation.</li>
+<li><strong>Cell and tissue fate prediction:</strong> predicting how cellular states and tissue
+                    organization evolve over time, including processes such as tissue remodeling and cancer progression.</li>
+</ul>
+<div class="selected-pubs"><h4>Emerging work</h4><div class="pub-meta" style="font-size:.95rem; line-height:1.7; opacity:.8;">3D tissue reconstruction · spatial field modeling · cell and tissue fate prediction</div></div></div>
+<div class="research-program">
+<div class="program-header">
+<div class="program-number">04</div>
+<div>
+<h2>Clinical Trial Design &amp; Real-World Evidence</h2>
+<div class="program-tagline">Using computation to improve how clinical evidence is generated</div>
+</div>
+</div>
+<p class="description">
+                We are exploring computational approaches that connect biomedical data with clinical development.
+                A central goal is to build models and simulators that can use real-world evidence and prior clinical
+                knowledge to understand trial populations, treatment effects, and sources of trial failure.
+            </p>
+<ul>
+<li><strong>Clinical trial simulation:</strong> computationally modeling trial populations, endpoints,
+                    treatment effects, and sources of uncertainty to support trial design.</li>
+<li><strong>Real-world evidence:</strong> integrating heterogeneous clinical data to characterize
+                    patient populations and inform clinical development.</li>
+<li><strong>Learning from failed trials:</strong> developing computational frameworks to analyze
+                    why trials succeed or fail and to explore alternative design strategies before costly prospective studies.</li>
+</ul>
+</div>
+<section class="future-section">
+<div class="section-kicker">Long-term Vision</div>
+<h2>Toward Biological World Models</h2>
+<p>
+                Our long-term goal is to build computational models of biological systems that can reconstruct,
+                simulate, and predict biological states across space and time.
+            </p>
+<p>
+                We envision models that integrate molecular measurements, cellular organization, tissue architecture,
+                and temporal dynamics to create computational representations of biological systems. Such models could
+                provide a foundation for simulating biological processes and exploring how tissues respond to perturbations.
+            </p>
+<div class="trajectory">
+<span>Statistical Genomics</span>
+<span>Spatial Biology</span>
+<span>Representation Learning</span>
+<span>3D Tissue Modeling</span>
+<span>Temporal Dynamics</span>
+<span>Biological Simulation</span>
+</div>
+</section>
+<section class="foundation-section">
+<div class="section-kicker">Scientific Foundation</div>
+<h2>Foundations in Statistical Genomics</h2>
+<p>
+                Our current work builds on a long-standing foundation in statistical genomics. Earlier research
+                established statistical frameworks for differential analysis, signal deconvolution, and modeling
+                heterogeneous molecular data, providing methodological foundations for modern computational biology.
+            </p>
+<div class="foundation-links">
+<a class="selected-pub" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8171293/" rel="noopener" target="_blank"><strong>DSS</strong> — Differential analysis of sequencing data</a>
+<a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-019-1778-0" rel="noopener" target="_blank"><strong>TOAST</strong> — Cell-type-specific analysis of bulk omics data</a>
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25682068/" rel="noopener" target="_blank"><strong>ChIPComp</strong> — Statistical analysis of ChIP-seq data</a>
+<a class="selected-pub" href="https://link.springer.com/article/10.1186/s13059-016-1143-5" rel="noopener" target="_blank"><strong>InfiniumPurify</strong> — Cell-type deconvolution for DNA methylation data</a>
+<a class="selected-pub" href="https://pubmed.ncbi.nlm.nih.gov/25273110/" rel="noopener" target="_blank"><strong>PROPER</strong> — Benchmarking and evaluation of RNA-seq differential expression methods</a>
+</div>
+</section>
+</section>
+<!-- Related Links -->
+<section class="related-links">
+<h2>Explore Our Work</h2>
+<div class="links-grid">
+<a class="link-card" href="publications.html">
+<strong>Publications</strong>
+<span>Selected and complete publications</span>
+</a>
+<a class="link-card" href="software.html">
+<strong>Software</strong>
+<span>Open-source computational tools</span>
+</a>
+<a class="link-card" href="https://scholar.google.com/citations?user=tZuI7loAAAAJ" target="_blank">
+<strong>Google Scholar</strong>
+<span>Publication record</span>
+</a>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="footer-content">
+<div class="footer-brand">
+<a class="logo" href="index.html">
+<div class="logo-mark">W</div>
+<div class="logo-text">
+<div class="main">吴浩实验室</div>
+<div class="sub">Wu Lab | SUAT</div>
+</div>
+</a>
+<p>Wu Lab at Shenzhen University of Advanced Technology. Developing statistical methods and computational tools for biomedical big data analysis.</p>
+</div>
+<div class="footer-links">
+<h4>Research</h4>
+<ul>
+<li><a href="research.html">Single-cell</a></li>
+<li><a href="research.html">Spatial Omics</a></li>
+<li><a href="research.html">Epigenomics</a></li>
+<li><a href="software.html">Software</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4>Resources</h4>
+<ul>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="https://bioconductor.org" target="_blank">Bioconductor</a></li>
+<li><a href="https://github.com/haowulab" target="_blank">GitHub</a></li>
+<li><a href="assets/pdf/wu-cv.pdf">CV</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4>Contact</h4>
+<ul>
+<li><a href="mailto:wuhao@suat-sz.edu.cn">wuhao@suat-sz.edu.cn</a></li>
+<li><a href="https://csce.suat-sz.edu.cn" target="_blank">SUAT</a></li>
+<li><a href="contact.html">Shenzhen, China</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Wu Lab | 吴浩实验室. All rights reserved.</p>
+<div class="footer-social">
+<a aria-label="GitHub" href="https://github.com/haowulab" target="_blank">GH</a>
+<a aria-label="Google Scholar" href="https://scholar.google.com" target="_blank">GS</a>
+</div>
+</div>
+</footer>
+<!-- JavaScript -->
+<script>
         function toggleMenu() {
             const mobileNav = document.getElementById('mobileNav');
             mobileNav.classList.toggle('active');
