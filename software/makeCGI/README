@@ -1,0 +1,41 @@
+This is a readme file for using makeCGI package to annotate
+CpG island given sequence. 
+
+I. Input:
+The makeCGI package takes two types of input for sequence: 
+text file or BSgenome package. The type is specified in
+the configuration file by setting .CGIoptions$rawdat.type
+to be "txt" (for text file) or "BSgenome" (for BSgenome package).
+
+II. Steps to annotate CGI:
+0. Specify the parameters for CGI finding. For details 
+please look at the sample configuration file. 
+
+1. Call "count.CG" function to count the numbers of C,G
+and CG in each L bp window.
+
+2. call "calc.postprob" to calculate the posterior probabilities
+of being in CGI for each L bp window. Result from the function
+is a data frame of four columns for chromosome, position, 
+posterior probabilities for CpG chain and posterior probabilities
+for GC content chain. The result will be saved as rda files 
+(one per chromosome) to designated locations.
+
+3. With the posterior probabilities and a threshold for 
+CGI, call "makeCGI" function to annotate CGI. 
+
+Note that steps 1, 2 and 3 are sequential and can run separately.
+For example, to annotate CGI for another threshold, one can 
+rerun step 3 without rerunning  steps 1 and 2.
+
+This program requires a lot of memory, depending on
+the size of the genome being analyzed. The computational time
+could be substantial. Computer clusters should be used if
+available. A parallizable version of the package is under
+development.
+
+There are two examples available for C. elegans (sequence in BSgenome)
+and E. coli (sequence saved in text file). Go to the test 
+directories and run "script.R" to annotate CGI for them.
+
+
