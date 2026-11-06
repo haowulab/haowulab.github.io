@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>week2</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 2% auto; padding: 0 5%; line-height: 1.5; color: #333; }
+h1, h2, h3, h4 { color: #1a1a2e; line-height: 1.3; }
+a { color: #2c5f8a; }
+code, pre { background: #f5f5f5; padding: 2px 4px; font-size: 0.95em; }
+pre { padding: 10px; overflow-x: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 1.5em 0; }
+</style>
+</head>
+<body>
+<h3 id="homework">Homework</h3>
+<p>For the homework, you need to submit two files: a markdown file named
+homework2.md, and an R file named homework2.R.</p>
+<p>In <strong>homework2.md</strong>, answer following questions:</p>
+<ul>
+<li>Describe the meaning of median and variance, using your own
+word.</li>
+<li>What’s the difference between list and data frame in R?</li>
+<li>Show the R codes and figures you generated for histogram, boxplot,
+barplot, and scatter plot.</li>
+<li>Provide a brief summary of the COVID-19 data set.
+<ul>
+<li>What information does it contain?</li>
+<li>How many rows and columns are there?</li>
+<li>How many countries does it have?</li>
+<li>How many days does it have?</li>
+</ul></li>
+</ul>
+<p>In <strong>homework2.R</strong>:</p>
+<ol type="1">
+<li><p>Compute the mean, median, variance, and standard deviation of
+integers from 1 to 10.</p></li>
+<li><p>Take a look at the <code>mtcars</code> data in R. It is a dataset
+came with R. Just type <code>mtcars</code> in R. Type
+<code>?mtcars</code> in R to read the description of the data. Then do
+the following</p>
+<ul>
+<li>What is the class of <code>mtcars</code>, i.e., is it a data frame
+or matrix?</li>
+<li>Convert <code>mtcars</code> into a matrix.</li>
+<li>Take out all the numbers for <code>Lincoln Continental</code> from
+the matrix.</li>
+<li>How many horsepowers does <code>Honda Civic</code> have?</li>
+<li>How many cars have horsepowers greater than 100? What are they?</li>
+<li>How many cars have automatic transmission? What are they?</li>
+</ul></li>
+<li><p>Run following code to create a list</p>
+<pre><code>family1 = list(husband=&quot;Fred&quot;, wife=&quot;Wilma&quot;, numofchildren=3,
+                agesofkids=c(8,11,14))</code></pre>
+<ul>
+<li>How many fields are there in the list?</li>
+<li>What are the names of the fields?</li>
+<li>Take out the <code>agesofkids</code> field from the list, using at
+least 2 different methods.</li>
+<li>Produce a vector out of the list, using <code>unlist</code>
+function.</li>
+<li>Add the following two new fields to the list:
+<code>numofcar=2</code>, <code>ageofcar=c(5, 10)</code>. Note you cannot
+recreate the list, rather you need to append these fields to the
+existing list.</li>
+</ul></li>
+<li><p>Practice using R base graphics to generate histogram, boxplot,
+barplot, and scatter plot. We will use the <code>mtcars</code> data in R
+for these tasks.</p>
+<ul>
+<li>Make histogram for horsepowers for all cars. Use different numbers
+of breaks to see the difference in appearences. Use a meaningful figure
+title.</li>
+<li>Make side-by-side boxplot for horsepowers vs. number of
+cylinders.</li>
+<li>Make side-by-side boxplot for mpg vs. number of cylinders.</li>
+<li>Compute the number of cars with different number of cylinders. Hint:
+you need to use the <code>table</code> function. Use barplot to show the
+results.</li>
+<li>Make scatterplot between mpg and horsepowers. Use meaningful figure
+title and x-/y-axis labels. Try to play with different styles of figures
+by changing point types, colors, etc.</li>
+<li>In the above scatterplot between mpg and horsepowers, use different
+colors and point type for cars with different number of cylinders. Can
+you see any pattern from the figure?</li>
+<li>Save all figures you made in pdf of size 5x5 inches.</li>
+</ul></li>
+<li><p>Read the <a href="data/covid_19_clean_complete.csv">COVID-19
+data</a> into R as a data frame. Conduct explorative analysis of the
+data, and answer questions listed for homework2.md.</p></li>
+</ol>
+<hr />
+<h3
+id="a-small-project---to-analyze-the-match-results-for-the-big-three-tennis-players">A
+small project - to analyze the match results for the “Big three” tennis
+players</h3>
+<p>The Wimbledon final will be played tomorrow (July 11, 2021). Novak
+Djokovic will chase his 20th Grand Slam title, tying Rafeal Nadal and
+Roger Federer. With the continous debate on who’s the GOAT tennis
+player, we will analyze the career tennis match results from these big
+three.</p>
+<p>First, obtain the career match results for the three players from the
+links below. These are csv files I downloaded from <a
+href="https://www.ultimatetennisstatistics.com">https://www.ultimatetennisstatistics.com</a>.
+These are results until July 7, 2021.</p>
+<ul>
+<li><a href="data/Federer_career_results.csv">Federer career
+results</a></li>
+<li><a href="data/Nadal_career_results.csv">Nadal career
+results</a></li>
+<li><a href="data/Djokovic_career_results.csv">Djokovic career
+results</a></li>
+</ul>
+<p>Secondly, read these files into R as data frames (using the
+<code>read.csv</code> function). Carefully examine the data frame to get
+familiar with the content of the data, such as the column names and
+their meanings.</p>
+<p>Write codes to answer following questions, from easy to difficult</p>
+<ol type="1">
+<li>Compute the career winning percentage for each player.</li>
+<li>Compute the career winning percentage for each player at the grand
+slams. <strong>Note</strong>: you need to first extract the rows for
+grand slam matches.</li>
+<li>Compute the career winning percentage for each player at the grand
+slams for each year. <strong>Note</strong>: This can be tricky. You can
+do it for each year seperately (the lazy approach), or write a loop (a
+little better). More advanced and cleaner way is to use functions in
+<code>dplyr</code> package. You can google
+<code>conditional means dplyr</code> for that if interested.<br />
+</li>
+<li>Compute the head-to-head winning percentage among the big
+three.</li>
+<li>Compute the head-to-head winning percentage among the big three in
+each year. There might be years that they don’t play each other. Maybe a
+better way to do this is to compute their head-to-head winning
+percentage at every 5-year interval.</li>
+<li>Compute the head-to-head winning percentage among the big three in
+grand slams.</li>
+<li>Compute the head-to-head winning percentage among the big three in
+grand slams at every 5-year interval.</li>
+<li>I’m also interested in their records against other players.
+Summarize and compare that in some interesting and intuitive way. For
+example, by some manual search on atptour.com, I found that against Stan
+Wawarinka, Nadal is 19-3, Federer is 23-3, Djokovic is 19-6. You can
+generate these numbers for all their opponents.</li>
+</ol>
+<p>After obtaining all these results, interpret them in an intuitive
+way. Present the results using tables, figures, and language. Write an
+article about your analyses.</p>
+<hr />
+<h3 id="day-1-review-basic-statistics">Day 1: Review, basic
+statistics</h3>
+<ul>
+<li><a
+href="https://www.guru99.com/r-data-types-operator.html">https://www.guru99.com/r-data-types-operator.html</a></li>
+<li><a
+href="http://www.sthda.com/english/wiki/easy-r-programming-basics">http://www.sthda.com/english/wiki/easy-r-programming-basics</a>,
+the first 7 sections (up to <strong>Factors</strong>)</li>
+<li>Review R matrix <a
+href="https://www.guru99.com/r-matrix-tutorial.html">https://www.guru99.com/r-matrix-tutorial.html</a>.</li>
+<li>Learn to use the row and column names for matrix: <a
+href="https://www.c-sharpcorner.com/article/matrix-in-r-naming-cloumn-using-colames-function-and-accessing-matrix-elemen/">https://www.c-sharpcorner.com/article/matrix-in-r-naming-cloumn-using-colames-function-and-accessing-matrix-elemen/</a>.</li>
+<li>Understand the meaning of important statistics quatities: mean,
+median, variance, and standard deviation. Google the internet for these
+definition. You can read wikipedia, the beginning section for each. In
+addition, <a
+href="https://www.mathsisfun.com/mean.html">https://www.mathsisfun.com</a>
+seems to be easier to read.</li>
+<li>Learn to use R to compute the important statistics: functions are
+<code>mean</code>, <code>median</code>, <code>var</code>,
+<code>sd</code>. Read the function helps and play with the
+examples.</li>
+</ul>
+<hr />
+<h3 id="day-2-r-coding-style-r-package-and-markdown">Day 2: R coding
+style, R package, and markdown</h3>
+<ul>
+<li>Learn good R coding style. Read <a
+href="http://adv-r.had.co.nz/Style.html">http://adv-r.had.co.nz/Style.html</a>.
+A longer, more detailed version of this is at <a
+href="https://style.tidyverse.org/index.html">https://style.tidyverse.org/index.html</a>.
+Read the long version too if you have time.</li>
+<li>Read <a
+href="https://www.datacamp.com/community/tutorials/r-packages-guide">https://www.datacamp.com/community/tutorials/r-packages-guide</a>.</li>
+<li>Install following packages in your R: <strong>ggplot2</strong>,
+<strong>vioplot</strong>, <strong>dplyr</strong>,
+<strong>data.table</strong>.</li>
+<li>Check what packages have vignette, by using the
+<code>vignette()</code> function.</li>
+<li>Open some vignette to take a look, by using
+<code>browseVignettes</code> and <code>vignette</code> functions. For
+example, do <code>browseVignettes("dplyr")</code> and
+<code>vignette("dplyr")</code>. Remember, a package “vignette” is the
+package manual. You’ll learn how to write one later using
+Rmarkdown.</li>
+<li>Review how to insert figure in markdown <a
+href="https://www.markdowntutorial.com/lesson/4/">https://www.markdowntutorial.com/lesson/4/</a>.</li>
+</ul>
+<hr />
+<h3 id="day-3-r-data-frame-and-list">Day 3: R data frame and list</h3>
+<p><strong>List</strong>:</p>
+<ul>
+<li>Read <a
+href="http://www.sthda.com/english/wiki/easy-r-programming-basics#lists">http://www.sthda.com/english/wiki/easy-r-programming-basics#lists</a>.</li>
+<li>Read <a
+href="https://www.guru99.com/r-lists-create-select.html">https://www.guru99.com/r-lists-create-select.html</a>.</li>
+</ul>
+<p><strong>Data frame</strong>:</p>
+<ul>
+<li>Read <a
+href="http://www.sthda.com/english/wiki/easy-r-programming-basics#data-frames">http://www.sthda.com/english/wiki/easy-r-programming-basics#data-frames</a>,</li>
+<li>Read <a
+href="https://www.guru99.com/r-data-frames.html">https://www.guru99.com/r-data-frames.html</a>.</li>
+</ul>
+<hr />
+<h3 id="day-4-r-file-io">Day 4: R file I/O</h3>
+<ul>
+<li>Understand the tab-delimited and csv file format: read <a
+href="https://en.wikipedia.org/wiki/Delimiter-separated_values">https://en.wikipedia.org/wiki/Delimiter-separated_values</a>.</li>
+<li>Learn to read in files to R: <a
+href="https://www.guru99.com/r-import-data.html">https://www.guru99.com/r-import-data.html</a>.</li>
+<li>Read the <a href="data/covid_19_clean_complete.csv">COVID-19
+data</a> into R.</li>
+<li>Learn to save and load objects in R <a
+href="http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata">http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata</a>.</li>
+</ul>
+<hr />
+<h3 id="day-5-basic-r-graphics">Day 5: Basic R graphics</h3>
+<ul>
+<li><p>Learn to use R to create <a
+href="https://www.statmethods.net/graphs/density.html">histogram</a>, <a
+href="https://www.statmethods.net/graphs/boxplot.html">boxplot</a>, <a
+href="https://www.statmethods.net/graphs/scatterplot.html">scatter
+plot</a>, <a href="https://www.statmethods.net/graphs/bar.html">bar
+plot</a>.</p></li>
+<li><p>Learn to save R plots in files: <a
+href="http://www.sthda.com/english/wiki/creating-and-saving-graphs-r-base-graphs">http://www.sthda.com/english/wiki/creating-and-saving-graphs-r-base-graphs</a>.</p></li>
+<li><p>Understand the meaning of each figure. Read the function helps
+for these functions, and play with the examples. Have a rough idea of
+the function parameters (what you can control for the figures).</p></li>
+<li><p>Browse <a
+href="https://www.r-graph-gallery.com">https://www.r-graph-gallery.com</a>
+to see what type of figures R can generate.</p></li>
+<li><p>Play with the plot functions by looking at the examples. Run
+following in R to see what R can plot:</p>
+<pre><code>example(plot)
+example(barplot)
+example(hist)
+example(points)</code></pre></li>
+</ul>
+</body>
+</html>

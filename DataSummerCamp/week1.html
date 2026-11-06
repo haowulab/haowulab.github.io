@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>week1</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 2% auto; padding: 0 5%; line-height: 1.5; color: #333; }
+h1, h2, h3, h4 { color: #1a1a2e; line-height: 1.3; }
+a { color: #2c5f8a; }
+code, pre { background: #f5f5f5; padding: 2px 4px; font-size: 0.95em; }
+pre { padding: 10px; overflow-x: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 1.5em 0; }
+</style>
+</head>
+<body>
+<h3 id="homework">Homework</h3>
+<p>I will list the homework at the begining of each weekly schedule, so
+that you have a better idea of what you need to do.</p>
+<p>For the homework, you need to submit two files: a markdown file named
+homework1.md, and an R file named homework1.R.</p>
+<p>In <strong>homework1.md</strong>, answer following questions:</p>
+<ol type="1">
+<li>What Markdown editor did you choose, and why?</li>
+<li>Write a summary of what you learned this week, using markdown. Name
+the file homework1.md. Using different type of fonts, and
+ordered/unordered list.</li>
+</ol>
+<p>In <strong>homework1.R</strong>:</p>
+<p>Write R program to do the following. <em>NOTE: if you haven’t
+learned, the functions for computing sum and mean of vector/matrix is
+<code>sum</code> and <code>mean</code>. Look at their function helps if
+needed.</em></p>
+<ol type="1">
+<li><p>Compute the sum and mean of integers from 1 to 10.</p></li>
+<li><p>Create a vector of 5 elements, you can put in some random numbers
+in the vector. Take out the 2nd <strong>to</strong> 4th elements, and
+compute their sum and mean.</p></li>
+<li><p>Create a vector of 5 elements, you can put in some random numbers
+in the vector. Take out the 2nd <strong>and</strong> 4th elements, and
+compute their sum and mean.</p></li>
+<li><p>Create a 3x3 matrix, you can put in some random numbers in the
+matrix. Compute the sum and mean of each row and column.</p></li>
+<li><p>Create two vectors, each with 3 elements. Compute the sum and
+difference of each element in the vector.</p></li>
+<li><p>Create two vectors, each with 3 elements, combine them into one
+vector of 6 elements.</p></li>
+<li><p>Create two vectors, each with 3 elements, (1) combine them into a
+2x3 matrix; (2) combine them into a 3x2 matrix.</p></li>
+<li><p>Run following code to create a string:
+<code>string = "This is a string"</code></p>
+<ul>
+<li>How many characters are there in the string?</li>
+<li>Return the first 10 characters in the string.</li>
+<li>how many words are there in the string?</li>
+<li>Return the first two words in the string.</li>
+<li>Replace <code>This</code> by <code>That</code> in the string.</li>
+<li>Remove all spaces in the string.</li>
+</ul></li>
+<li><p>Run following code to create a vector of strings
+<code>sample(c("car", "truck", "plane"), 100, replace=TRUE)</code></p>
+<ul>
+<li>Convert the string vector to factors.</li>
+<li>How many levels are there in the factor?</li>
+<li>How many items are there for each level?</li>
+<li>Replace all <code>car</code> by <code>bike</code> in the vector, by
+changing the level of the factor.</li>
+<li>After above step, change the factor back to string vector. See what
+you get.<br />
+</li>
+</ul></li>
+<li><p>Initialize the vector x using the following commands. Present a
+one line R statement that will count the total numbers that are evenly
+divisible by 15 and 25. The answer will be a single number.</p>
+<pre><code>set.seed(222)
+x = floor(rnorm(300, 200, 90))</code></pre></li>
+<li><p>Given the following vector provide a one line command that
+computes the sum of all element values that are within 5 of the maximum
+number of this vector. The correct answer is 599.0835. You must present
+a one line R statement that issues this response. Hint, using the
+absolute function will be useful.</p>
+<pre><code>set.seed(123)
+x = rnorm(100, 100, 10)</code></pre>
+<hr /></li>
+</ol>
+<h3 id="extra-practices">Extra practices</h3>
+<h4 id="vector-and-matrix-indexing">Vector and matrix indexing</h4>
+<ol type="1">
+<li>Create a 4x3 matrix, you can put in some random numbers in the
+matrix (for example, simply use 1 to 12).
+<ul>
+<li>Return the first and third row</li>
+<li>Return the first and second column</li>
+<li>Return a submatrix containing the first and third row and the first
+and second column.</li>
+</ul></li>
+<li><code>seq</code> is a useful function to create a sequence of
+numbers in a vector. Read the function help for <code>seq</code>.
+<ul>
+<li>Create a sequence of even numbers from 1 to 50.<br />
+</li>
+<li>Create a sequence of add numbers from 1 to 50.</li>
+</ul></li>
+</ol>
+<h4 id="comparison">Comparison</h4>
+<p>Read the section for logical operators again at <a
+href="https://www.guru99.com/r-data-types-operator.html#5">https://www.guru99.com/r-data-types-operator.html#5</a>.
+Note, R has ability to compare a vector or matrix to a single element.
+In that case, each elemenet in the vector or matrix will be compared to
+the single element, and the return will be a logical vector/matrix.</p>
+<ol type="1">
+<li><p>How many numbers in 1:100 can be evenly divided by 3?</p></li>
+<li><p>The comparison can be performed on characters too. Run following
+code to create a vector of strings
+<code>sample(c("car", "truck", "plane"), 100, replace=TRUE)</code></p>
+<ul>
+<li>How many items are “car” in this vector of string?</li>
+<li>How many items are <strong>NOT</strong> “truck” in this vector of
+string?</li>
+</ul></li>
+<li><p>How many numbers in 1:100 are greater than 20?</p></li>
+<li><p>How many numbers in 1:100 are greater than 20
+<strong>AND</strong> smaller than 50?</p></li>
+<li><p>How many numbers in 1:100 are smaller than 20 <strong>OR</strong>
+or greater than 50?</p></li>
+</ol>
+<h4 id="combination-of-comparison-and-indexing">Combination of
+comparison and indexing</h4>
+<p>Use a combination of comparison and indexing can extract uesful
+information from a large dataset. Here let’s do something a little
+interesting. I obtained the career regular season statistics for
+Shaquille O’Neal. You can read them into R using</p>
+<pre><code>shaqStat = read.csv(&quot;http://www.haowulab.org/DataSummerCamp/data/shaqStat.csv&quot;)</code></pre>
+<p>What you read in is a <code>data frame</code>, similar to a matrix.
+We will learn it next week. Take a look at <code>shaqStat</code> in R.
+Let’s do some simple practice</p>
+<ul>
+<li>Return the statistics for Shaq when he played at ORL.</li>
+<li>Return the following statistics for Shaq when he plays at ORL: G,
+FG, FGA</li>
+<li>Can you compute the overall FG% when Shaq played at Orlando?</li>
+<li>Repeat the above, but only for the statsitics when Shaq played at
+LAL.</li>
+</ul>
+<hr />
+<h3 id="day-1-r-and-r-studio">Day 1: R and R studio</h3>
+<ul>
+<li>Read <a
+href="https://www.guru99.com/r-programming-introduction-basics.html">https://www.guru99.com/r-programming-introduction-basics.html</a>.</li>
+<li>Install R and Rstuido, following <a
+href="http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming">http://www.sthda.com/english/wiki/installing-r-and-rstudio-easy-r-programming</a>.
+And watch <a
+href="https://www.youtube.com/watch?v=lVKMsaWju8w">https://www.youtube.com/watch?v=lVKMsaWju8w</a>.</li>
+<li>Play with Rstudio to get to know the menu items.</li>
+</ul>
+<hr />
+<h3 id="day-2-markdown-day">Day 2: Markdown day</h3>
+<ul>
+<li>Install a Markdown editor. I use MacDown on Mac, not sure about on
+Windows. Do some search, try different ones, and pick the one your
+like.</li>
+<li>Watch <a
+href="https://www.youtube.com/watch?v=6A5EpqqDOdk">https://www.youtube.com/watch?v=6A5EpqqDOdk</a>
+for markdown.</li>
+<li>Start to learn markdown at <a
+href="https://www.markdowntutorial.com/">https://www.markdowntutorial.com/</a>.</li>
+<li>Write a simple markdown document.</li>
+</ul>
+<hr />
+<h3 id="day-3-r-and-r-studio">Day 3: R and R studio</h3>
+<ul>
+<li>Understand the “directory” on computer. Setup your R working
+directory by reading <a
+href="http://www.sthda.com/english/wiki/running-rstudio-and-setting-up-your-working-directory-easy-r-programming">http://www.sthda.com/english/wiki/running-rstudio-and-setting-up-your-working-directory-easy-r-programming</a>.</li>
+<li>Start to learn R programming language: <a
+href="https://www.guru99.com/r-data-types-operator.html">https://www.guru99.com/r-data-types-operator.html</a>.
+Play the examples in R by copying/pasting the command into R and see the
+results.</li>
+<li>Learn how to get function helps in R by reading <a
+href="http://www.sthda.com/english/wiki/getting-help-with-functions-in-r-programming">http://www.sthda.com/english/wiki/getting-help-with-functions-in-r-programming</a>.</li>
+</ul>
+<hr />
+<h3 id="day-4-r-programming">Day 4: R programming</h3>
+<!-- - Review basic R programming: read [http://www.sthda.com/english/wiki/easy-r-programming-basics](http://www.sthda.com/english/wiki/easy-r-programming-basics), the first 5 sections (up to **Vectors**). Play with the examples. -->
+<ul>
+<li>Understand the concept of matrix. If you don’t know it, google
+“matrix” and look it up.</li>
+<li>Learn R matrix at <a
+href="https://www.guru99.com/r-matrix-tutorial.html">https://www.guru99.com/r-matrix-tutorial.html</a>.</li>
+<li>Watch the first quarter of <a
+href="https://www.youtube.com/watch?v=lL0s1coNtRk">https://www.youtube.com/watch?v=lL0s1coNtRk</a>.</li>
+<li>Under stand R characters: read <a
+href="http://www.r-tutor.com/r-introduction/basic-data-types/character">http://www.r-tutor.com/r-introduction/basic-data-types/character</a>,
+and <a
+href="https://data-flair.training/blogs/r-string-manipulation/">https://data-flair.training/blogs/r-string-manipulation/</a>.</li>
+</ul>
+<hr />
+<h3 id="day-5-r-programming-review-and-homework">Day 5: R programming,
+review and homework</h3>
+<ul>
+<li>Understand factors: read <a
+href="http://www.sthda.com/english/wiki/easy-r-programming-basics#factors">http://www.sthda.com/english/wiki/easy-r-programming-basics#factors</a>,
+and <a
+href="https://www.guru99.com/r-factor-categorical-continuous.html">https://www.guru99.com/r-factor-categorical-continuous.html</a>.</li>
+<li>Review all materials learned this week.</li>
+<li>Do homework.</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#### process data
+data = read.csv("data_CRISP_eGFR.csv")
+## compute age at visit
+bday = as.Date(data[,2], tryFormats = c("%m/%d/%Y"))
+vday = as.Date(data[,3], tryFormats = c("%m/%d/%Y"))
+age_vday = as.numeric(difftime(vday, bday, units="days")/365)
+
+## remake data
+data = data.frame(data, vday=vday, bday=bday, age_vday=age_vday)
+## remove NA entries
+data = data[!is.na(data$ckd_epi),]
+
+## do Spaghetti plot
+require(ggplot2)
+id = as.factor(data$pkdid)
+basecols = c("black", "blue", "red", "green")
+basecol = sample(basecols, nlevels(id), replace=TRUE)
+levels(id) = basecol
+cols = as.character(id)
+
+pdf("eGFR_age.pdf", width=7, height=5)
+ggplot(data = data, aes(x = age_vday, y = ckd_epi, group = pkdid)) +
+    xlab("Age") + ylab("eGFR") +
+    geom_line(aes(color=cols))	+
+    geom_point(color=1, size=0.5) +
+    theme(legend.position="none")
+dev.off()
+
+
+##### use the date
+ggplot(data = data, aes(x = vday, y = ckd_epi, group = pkdid)) +
+    xlab("Visit date") + ylab("eGFR") +
+    geom_line(aes(color=cols))  +
+    geom_point(color=1, size=0.5) +
+    theme(legend.position="none")
+
+## Redesign colors, to make them according to different age
+
+
+#### draw in a loop
+xlims = range(data$vday)
+ylims = range(data$ckd_epi, na.rm=T)
+plot(0, xlim=xlims, ylim=ylims, type="n")
+allID = unique(data$pkdid)
+par(ask=TRUE)
+for (i in 1:length(allID)) {
+    ix = data$pkdid == allID[i]
+    plot(ckd_epi~vday, data=data, subset=ix, type="b", pch=19, cex=0.5)
+
+}
+
+

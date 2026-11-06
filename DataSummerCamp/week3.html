@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>week3</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 2% auto; padding: 0 5%; line-height: 1.5; color: #333; }
+h1, h2, h3, h4 { color: #1a1a2e; line-height: 1.3; }
+a { color: #2c5f8a; }
+code, pre { background: #f5f5f5; padding: 2px 4px; font-size: 0.95em; }
+pre { padding: 10px; overflow-x: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 1.5em 0; }
+</style>
+</head>
+<body>
+<h3 id="homework">Homework</h3>
+<ul>
+<li><p>Create a Latex file <strong>homework3.tex</strong>:</p>
+<ul>
+<li><p>Make a latex document with subsections and subsection. Put in
+some random text.</p></li>
+<li><p>Type up the following equations in the tex file:</p>
+<p><img src="quad-root.png" style="width:200px;"/></p></li>
+</ul></li>
+<li><p>Create an R markdown file <strong>homework3.Rmd</strong>, and
+answer following questions. Pay attention to the format.</p>
+<ol type="1">
+<li><p>Make scatterplot between mpg and horsepowers for
+<code>mtcars</code> data, using the <code>plot</code> function. For the
+figure, please:</p>
+<ul>
+<li>Use different colors and point types for cars with differnt number
+of cylinders.</li>
+<li>Add a legend to indicate the meaning of the point type/color.</li>
+</ul>
+<p><strong>Hint</strong>:</p>
+<ul>
+<li>check the <code>type="n"</code> option in the <code>plot</code>
+function, and the <code>points</code> function.</li>
+<li>For the <code>legend</code> function, I used <code>"topright"</code>
+as location instead of giving the x and y coordinates. I think it’s
+easier. You can try other similar options, such as
+<code>"bottomleft"</code>.</li>
+</ul>
+<p>I expect to see a figure similar to the following:</p>
+<p><img src="mtcars-scatter.png" style="width:300px;"/></p></li>
+<li><p>Create a random matrix with 3 rows and 4 columns.</p>
+<ul>
+<li>Compute the sum and mean of each row and each column, using
+loop.</li>
+<li>Check out the following functions: <code>rowMeans</code>,
+<code>colMeans</code>, <code>rowSums</code>, <code>colSums</code>. Use
+these functions to repeat the above calculation.</li>
+</ul></li>
+<li><p>For the <code>mtcars</code> data,</p>
+<ul>
+<li>compute the average horse power for cars with 6 cylinders, using
+loop and <code>if-else</code>. Can you do this more efficiently (with
+fewer lines code)?</li>
+<li>compute the average mpg for cars with horse power greater less than
+120, between 120 and 200, and greater than 200, using loop and
+<code>if-else</code>. Again, can you do this more efficiently?</li>
+</ul></li>
+<li><p>Include the equation required for homework3.tex in
+homework3.Rmd.</p></li>
+<li><p>Type up the distribution density function for normal distribution
+(the oft-seen bell-shaped curve) in <strong>homework3.Rmd</strong>. The
+density function is</p>
+<p><img src="normal-pdf.png" alt="" style="width:200px;"/></p></li>
+</ol></li>
+<li><p>Create an <strong>example.Rmd</strong> to reproduce everything in
+<a
+href="http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html">http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html</a>,
+follow the same style. You can just copy/paste the text so that you
+don’t have to retype them. What you need to do is to correctly format
+it.</p></li>
+</ul>
+<hr />
+<h3 id="day-1-review-on-file-io-data-frame-list-and-r-base-graphics">Day
+1: Review on file I/O, data frame, list, and R base graphics</h3>
+<ul>
+<li>Reread <a
+href="https://www.guru99.com/r-import-data.html">https://www.guru99.com/r-import-data.html</a>,
+<a
+href="https://www.guru99.com/r-data-frames.html">https://www.guru99.com/r-data-frames.html</a>,
+and <a
+href="https://www.guru99.com/r-lists-create-select.html">https://www.guru99.com/r-lists-create-select.html</a>.</li>
+<li>Review the functions for <a
+href="https://www.statmethods.net/graphs/density.html">histogram</a>, <a
+href="https://www.statmethods.net/graphs/boxplot.html">boxplot</a>, <a
+href="https://www.statmethods.net/graphs/scatterplot.html">scatter
+plot</a>, <a href="https://www.statmethods.net/graphs/bar.html">bar
+plot</a>.</li>
+<li>Learn how to add figure legends in the R base graphics: <a
+href="http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way">http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way</a>.</li>
+<li>Do homework question 1.</li>
+</ul>
+<h3 id="day-2-r-control-statement">Day 2: R control statement</h3>
+<ul>
+<li>Read <a
+href="https://www.guru99.com/r-if-else-elif-statement.html">https://www.guru99.com/r-if-else-elif-statement.html</a></li>
+<li>Read <a
+href="https://www.guru99.com/r-for-loop.html">https://www.guru99.com/r-for-loop.html</a>.</li>
+<li>Read <a
+href="https://www.guru99.com/r-while-loop.html">https://www.guru99.com/r-while-loop.html</a>.</li>
+<li>Do questions 2-3 in homework.</li>
+</ul>
+<h3 id="day-3-basic-latex">Day 3: Basic Latex</h3>
+<ul>
+<li>Read <a
+href="https://www.latex-tutorial.com/tutorials/">https://www.latex-tutorial.com/tutorials/</a>,
+up to <code>04 Math</code>.</li>
+<li>Follow the instructions to install the Latex system.</li>
+<li>Work on homework3.tex.</li>
+</ul>
+<h3 id="day-4-r-markdown">Day 4: R markdown</h3>
+<p>You have learned some R, some markdown, and some Latex. Now it’s time
+to put them together. From now on, I want a homework submitted in
+Rmarkdown format, so that the text and R code will be blended
+together.</p>
+<ul>
+<li>Read <a
+href="https://rmarkdown.rstudio.com/authoring_quick_tour.html">https://rmarkdown.rstudio.com/authoring_quick_tour.html</a>.
+Since you already know markdown syntax, pay special attention to the
+parts to include R codes with markdown.</li>
+<li>Learn to include equations in Rmarkdown. The equation syntax is
+exactly the same as in Latex: <a
+href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html</a>.</li>
+<li>Work on <strong>example.Rmd</strong> as listed in the homework.</li>
+</ul>
+<h3 id="day-5-more-latex-and-rmarkdown">Day 5: More latex and
+Rmarkdown</h3>
+<ul>
+<li>Latex math is powerfull. I am still learning it. Read <a
+href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">https://en.wikibooks.org/wiki/LaTeX/Mathematics</a>.
+This is pretty long and comprehensive. Just read through it to get a
+taste of what Latex can do.<br />
+</li>
+<li>Review Rmarkdown, read <a
+href="http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html">http://www.math.mcgill.ca/yyang/regression/RMarkdown/example.html</a>.</li>
+<li>Work on homework questions 4-5.</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <style type="text/css">
+  ADDRESS {font-family: Arial, Helvetica;}
+  BODY {margin-top:5%; margin-left:10%;margin-right:10%;margin-bottom:10%;
+  font-family: Arial, Helvetica; line-height:130%}
+  H1{line-height:120%}
+  TD {font-family: Arial, Helvetica;}
+  P {font-family: Arial, Helvetica; text-align: justify;}
+  A:link {text-decoration:none;}
+  A:vlink {text-decoration:none;}
+  </style>
+  
+  
+  <title>Introduction to Large-Scale Biomedical Data Analysis</title>
+
+  </head>
+<body width="80%">
+<a name="Outline"></a>
+<h1><center>Introduction to Large-Scale Biomedical Data Analysis</h1>
+
+<br><hr size="5" width="100%">
+<!--
+<table width="100%">
+  <tbody>
+    <tr>
+      <th width="20%"><a href="#info">Class Info</a></th>
+      <th width="20%"><a href="#announcements">Reading materials</a></th>
+      <th width="20%"><a href="#class">Class schedule and notes</a></th>
+    </tr>
+  </tbody>
+</table>
+
+<br><hr size="5" width="100%"><br>
+<a name="info">
+-->
+
+<h3>Class Information</h3>
+</a>
+<ul>
+  <li><b>Course title</b>: Introduction to Large-Scale Biomedical Data Analysis</li>
+  <li><b>Instructors</b>: Ying Guo, Yijuan Hu, Zhaohui Qin, Ben Risk, Hao Wu, Jingjing Yang.
+	Questions and concerns please address to 
+	Hao Wu (hao.wu at emory dot edu),
+  </li><li><b>Class time and location</b>: Aug 31-Oct 19 2021, Tuesday 3:10-5:00PM at CNR 1051.
+  </li><li><b>Office hour</b>: By appointment.
+</ul>
+
+<center><hr size="5" width="100%"></center>
+<h3>Summary</h3>
+This is an overview course for the Bioinformatics, Imaging and Genetics (BIG) concentration 
+in the PhD program of the Department of Biostatistics and Bioinformatics. 
+It aims to introduce students to modern high-dimensional biomedical data, 
+including data in bioinformatics and computational biology, biomedical imaging, and statistical genetics. 
+<p>
+This course will be co-taught by several BIG core faculty members, 
+with each faculty member giving one or two lectures.  The focus of 
+the course will be on the data characteristics, opportunities 
+and challenges for statisticians, as well as current developments and active areas of the research 
+fields of bioinformatics, biomedical imaging and statistical genetics.
+
+<p>
+<b>Prerequisites</b>: BIOS 501 or equivalent, or permission from the instructor.
+
+<p>
+<b>Evaluation</b>: 
+<ul>
+<li><b>Participation</b> (10%). The students are expected to attend all classes and actively 
+participate in in-class discussions on various topics of biomedical research. 
+<li><b>Reading assignments</b> (90%). There are two reading assignments.
+  For each, students will choose one of the assigned papers and 
+  write a report to briefly summarize the main points of the paper.
+  
+<!--  <p style="color:red;">
+	<b> NOTE: Due to the policy change in 2021, we MUST enter the students' grades in OPUS by 10/26.
+	  So all the writing assignment MUST be submitted before 10/22.
+	  We appreciate if you can submit them earlier,
+	  which will relieve our stresses to grade 40+ writing assignments in a few days.</b>
+	-->
+	
+</ul>
+
+
+<!-- <center><hr size="5" width="100%"></center>
+
+announcements 
+<h3>Recommended books:</h3> </a><p>
+<ol>
+<li>Lange, K., <a href="http://www.amazon.com/Numerical-Analysis-Statisticians-Statistics-Computing/dp/1441959440/ref=sr_1_1?ie=UTF8&qid=1345654374&sr=8-1&keywords=Numerical+Analysis+for+Statisticians"><i>Numerical Analysis for Statisticians</i></a>.
+<li>Gilks W. R. et al., <a href="http://www.amazon.com/Markov-Practice-Chapman-Interdisciplinary-Statistics/dp/0412055511"><i>Markov chain Monte Carlo in Practice</i></a>.
+<li>Press WH, et al., <a href="http://www.nr.com/"><i>Numerical Recipes in C</i></a>. 
+<li>Durbin, R. et al., <a href="http://www.amazon.com/Biological-Sequence-Analysis-Probabilistic-Proteins/dp/0521629713/ref=sr_1_1?s=books&ie=UTF8&qid=1346348980&sr=1-1"><i>Biological sequence analysis</i></a>.
+</ol>
+
+-->
+
+<center><hr size="5" width="100%"></center>
+<p><a name="class"><h3>Class schedule and notes</h3> </a>
+<table cellpadding=3 cellspacing=3 border=1>
+<tr>
+<td>Date</td>
+<td>Lecture Title</td>
+<td>Description</td>
+<td>Homework</td>
+</tr>
+
+<tr>
+  <td>8/31</td>
+  <td><b>Lecture 1: Introduction to high-throughput data analysis </b> (Wu) 
+	[<a href="IntroBDA_FeatureSelection.pdf">Notes</a>]</td>
+  <td>Course information. 
+	Introduction to high-throughput data. Feature selection from high-throughput data. 
+  </td>
+  <td>
+  </td>
+</tr>
+
+<tr>
+  <td>9/7</td>
+  <td><b>Lecture 2: What genomics bigdata are available and what are their utility? </b> (Qin)
+	[<a href="516 Fall21 lecture 2.pdf">Notes</a>]
+  <td>
+	Review existing genomics big data resources including ENCODE, 1000 genomes, GWAS catalog,
+	GTEx and TCGA. Discuss how to use them to extract biological insights.
+	<!--  An overview of capture-based assays that use next generation sequencing technologies, including ChIP-seq, ATAC-seq and Hi-C, with examples of statistical methods for analyzing data produced from such experiments -->
+  </td>
+  <td>
+<!--	<b>Reading assignment 1</b>:
+	(a) <a href="https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-016-0927-y.pdf">
+	  single cell RNA-seq review</a>,
+	(b) Select a paper of your interest from the 
+	<a href="https://academic.oup.com/nar/article/49/D1/D1/6059975"> 2021 NAR database issue</a>. -->
+  </td>
+</tr>
+
+<tr>
+  <td>9/14</td>
+  <td><b>Lecture 3: Introduction to single cell genomics</b> (Wu)
+	[<a href="scRNA-seq.pdf">Notes</a>]
+  <td> Biological motivation, technologies, and data analysis methods for single cell RNA-seq,
+	including cell clustering, differential expression, and cell type identification.</td>
+  <td>
+  	<b>Reading assignment 1</b>:
+	(a) <a href="https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-016-0927-y.pdf">
+	  single cell RNA-seq review</a>,
+	(b) Select a paper of your interest from the 
+	<a href="https://academic.oup.com/nar/article/49/D1/D1/6059975"> 2021 NAR database issue</a>.
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>9/21 </td>
+  <td><b>Lecture 4: Introduction to biomedical imaging</b> (Guo)
+	[<a href="lect4-imaging1.pdf">Notes</a>]
+  <td>Introduction of imaging techniques, various imaging modalities and data acquisition and structure.</td> 
+  <!-- An overview of imaging techniques, acquisition methods and data structures/characteristics 
+	   for different imaging modalities. </td> -->
+  <td>
+  </td>
+</tr>
+
+
+<tr>
+  <td>9/28</td>
+  <td><b>Lecture 5: Statistical Analysis of Neuroimaging Data</b> (Risk)
+	[<a href="lect5-imaging2.pdf">Notes</a>]
+  <td>An overview of the analysis of neuroimaging data with a focus on functional magnetic resonance imaging (fMRI),
+	including experimental design, data processing, and statistical analysis. 
+	We will also discuss accelerated acquisition techniques and the statistical implications. </td>
+  <td>
+	<b>Reading assignment 2</b>:
+	<a href="Lindquist_StatisticalAnalysisfMRI_2008.pdf">paper 1</a>,
+	<a href="Bowman_2014.pdf">paper 2</a>,
+	<a href="BzdokNicholsSmith_TowardsAlgorithmicAnalyticsLargeScale_2019.pdf">paper 3</a>
+  </td>
+</tr>
+
+<tr>
+  <td>10/5</td>
+  <td><b>Lecture 6: Introduction to Genome-wide Association Studies </b> (Yang)
+	[<a href="lect6_GWAS.pdf">Notes</a>]
+  <td>An overview of linkage disequilibrium, single variant GWAS methods,
+	population stratification, and meta-analysis. </td>
+  <td>
+<!--	<b>Reading assignment 3</b>: <a href="Montana_2006_PopAssocReview.pdf">paper 1</a>, 
+	<a href="Lin_2010_GenEpid_Meta-anal.pdf">paper 2</a>,
+	<a href="Xia_2017_ScienceDirect_MicroStat.pdf">paper 3</a>,
+	<a href="JianYang2012_joint_analysis_summary_stat.pdf">paper 4</a> -->
+  </td>
+</tr>
+
+<tr>
+  <td>10/12</td>
+  <td>Fall break, no class</td>
+  <td></td>
+  <td></td>
+</tr>
+
+<tr>
+  <td>10/19</td>
+  <td><b>Lecture 7: Microbiome</b> (Hu)
+	[<a href="BIOS516_Microbiome.pdf">Notes</a>]
+  <td>Statistical method and data analysis for microbiome data.</td>
+  <td>
+  </td>
+</tr>
+
+</table>
+<p>
+<center><hr size="5" width="100%"></center>
+
+<!--
+<h3>Additinal readings and resource:</h3><p>
+<ul><b>Papers</b>:
+-->
+
+</body></html>

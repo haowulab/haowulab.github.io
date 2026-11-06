@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>week6</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 2% auto; padding: 0 5%; line-height: 1.5; color: #333; }
+h1, h2, h3, h4 { color: #1a1a2e; line-height: 1.3; }
+a { color: #2c5f8a; }
+code, pre { background: #f5f5f5; padding: 2px 4px; font-size: 0.95em; }
+pre { padding: 10px; overflow-x: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 1.5em 0; }
+</style>
+</head>
+<body>
+<h3 id="homework">Homework</h3>
+<p>Submit a single file <strong>homework6.Rmd</strong> for all
+questions.</p>
+<ol type="1">
+<li><p>Basic Linux command and operation. Perform following operations
+(all using Linux command in the Linux shell), answer questions and
+provide Linux commands used for these operations.</p>
+<ul>
+<li><p>When you start the Linux shell window, how to get the current
+directory (provide the Linux command used)?</p></li>
+<li><p>Create a folder at your root directory, provide the
+command.</p></li>
+<li><p>Change directory to the folder you just created. Provide the
+command.</p></li>
+<li><p>You have downloaded the <a
+href="http://www.haowulab.org/DataSummerCamp/data/covid_19_clean_complete.csv">COVID-19
+file</a> in Week 2. If you can’t find it, download again. Copy the
+COVID-19 file to the folder you just created in Linux. Provide the Linux
+command for that. <strong>For Windows user</strong>: I’m not sure how
+the the file system works for WSL. You can try the following command to
+download the file in Linux. If it doesn’t work, talk to me and we’ll
+figure out.</p>
+<pre><code>wget http://www.haowulab.org/DataSummerCamp/data/covid_19_clean_complete.csv</code></pre></li>
+<li><p>How many lines, words, and bytes are there for the COVID-19 file?
+Provide the command.</p></li>
+<li><p>Look at the first 10 lines of the COVID-19 file in the Linux
+shell. Provide the command.</p></li>
+<li><p>Look at the bottom 10 lines of the COVID-19 file in the Linux
+shell. Provide the command.</p></li>
+<li><p>Show the disk usage on your system available. Show the command
+and the results.</p></li>
+<li><p>Show the disk usage of the folder you just created. Show the
+command and the results.</p></li>
+</ul></li>
+<li><p>More advanced Linux command and operation. Perform following
+operations (all using Linux command in the Linux shell), answer
+questions and provide Linux commands used for these operations.</p>
+<ul>
+<li>Go to the folder you had for other homeworks.
+<ul>
+<li>Provide a command to list all the Rmarkdown files.</li>
+<li>Provide a command to list all the Rmarkdown files, with detailed
+information (size, date, etc.), sort the files by date.</li>
+<li>Provide a command to list all the Rmarkdown files, with detailed
+information (size, date, etc.), sort the files by file size.</li>
+<li>Provide a command to list all files with file names <strong>starting
+with</strong> “homework”.</li>
+<li>Provide a command to list all files with file names
+<strong>containing</strong> “homework”.</li>
+<li>Provide a command to list all the Rmarkdown files, with detailed
+information (size, date, etc.), sort the files by date, and redirect the
+list to another file named <code>allRmd</code>. Show the
+<code>allRmd</code> file.</li>
+</ul></li>
+<li>In the COVID-19 data file
+(<code>covid_19_clean_complete.csv</code>), provide commands for the
+following:
+<ul>
+<li>Provide one line command to take out the lines contain string
+“<code>China</code>” and output to another file. <strong>Hint</strong>:
+use <code>grep</code> with file piping and redirection.</li>
+<li>Provide one line command to get the number of lines in the file
+contain string “<code>China</code>”. <strong>Hint</strong>: use a
+combination of <code>grep</code> and <code>wc</code>.</li>
+<li>Do the above two tasks in R. Provide the R codes.</li>
+</ul></li>
+</ul></li>
+<li><p>Read in the COVID-19 data, provide R codes and results for the
+following questions:</p>
+<ul>
+<li><p>What is the range of date for the data?</p></li>
+<li><p>How many days are there in the data?</p></li>
+<li><p>Take the data for US only, and plot the number of confirmed and
+death cases along the date. Generate two panels in the same figure, one
+uses original scale and one uses logrithm scale for the number of cases.
+Use proper axis labels and legends. I expect to see a figure similar to
+the following. <strong>Hint 1</strong>: use the <code>matplot</code>
+function. <strong>Hint 2</strong>: look at the <code>log</code>
+parameters in <code>plot</code> function to plot data in logrithm
+scale.</p>
+<p><img src="covid19_1.png" style="width:500px;"/></p></li>
+<li><p>Take the data for the US, compute the numbers for new confirmed
+and death cases for each day (using the <code>diff</code> function).
+Visualize the results in a figure similar to the above.</p></li>
+</ul></li>
+<li><p>Here is a <a href="bios545_homework_3.pdf">set of homework for
+the R programming class at Emory University</a>. Do the questions as
+much as you can.</p></li>
+</ol>
+<hr />
+<h3 id="day-1-linux-system-and-basic-commands">Day 1: Linux system and
+basic commands</h3>
+<p>Linux is cool. The oft-used commands in <code>Linux shell</code> or
+<code>Terminal</code> are fundamental skills to have for data
+scientists. Once you get used to it and know it well, you’ll find this
+command-line driven operation is much more efficient and convenient than
+the operation in a point-click graphical interface.</p>
+<p>Today, we will learn some basic linux operation and commands.</p>
+<ul>
+<li><p>Read <a
+href="https://www.guru99.com/introduction-linux.html">Introduction to
+Linux system</a>, and watch <a
+href="https://www.youtube.com/watch?v=I8ik8pDTgJE">https://www.youtube.com/watch?v=I8ik8pDTgJE</a>.
+It is <strong>important to note</strong> that we are not going to learn
+the whole Linux system, but only focus on Linux <strong>shell
+commands</strong>.</p></li>
+<li><p>Read <a
+href="https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/">Introduction
+to Linux Shell and Shell Scripting</a>. <strong>Note</strong>: read this
+to get the general concepts of kernel and shell. You don’t have to read
+the <strong>Shell Scripting</strong> section.<br />
+</p></li>
+<li><p>Get Linux system on your computer. Most likely, you are not using
+a computer running linux system.</p>
+<ul>
+<li>If you are using Mac, Linux kernel is available on MacOS by default.
+Search and start the <code>Terminal</code>, which is an Linux shell
+interface.</li>
+<li>If you are using Windows, Microsoft has a <strong>Windows Subsystem
+for Linux (WSL)</strong> to simulate the Linux environment. This needs
+to be installed. See <a
+href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL
+installation page</a> for more details.</li>
+</ul></li>
+<li><p>Once you have the Linux system setup, start the terminal.
+Optionally you can customize the font/color to make it look comfortable.
+This can be important if you use the terminal a lot. For example, the
+Mac Terminal on my laptop looks like the following. These are the colors
+and fonts I feel comfortable with.</p>
+<p><img src="myTerminal.png"></p></li>
+<li><p>Watch <a
+href="https://www.youtube.com/watch?v=IVquJh3DXUA">Introduction to Linux
+and Basic Linux Commands for Beginners</a>, and try them in your own
+shell window.</p></li>
+<li><p>Read my summary of <a
+href="http://www.haowulab.org//computing/basic_linux.html">a list of
+oft-used Linux command</a>. Try them in your shell window.</p></li>
+<li><p>Read <a
+href="https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners">https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners</a>.</p></li>
+<li><p>Do homework question 1.</p></li>
+</ul>
+<hr />
+<h3 id="day-2-more-advanced-linux-commands">Day 2: More advanced Linux
+commands</h3>
+<p>Today we will learn some more advanced Linux commands, including
+Linux piping and redirection, and regular expression.</p>
+<ul>
+<li><p><a href="https://www.guru99.com/linux-pipe-grep.html">A quick
+introduction</a>. When reading this, use the COVID-19 file to try out
+the examples.</p></li>
+<li><p><a
+href="https://alvinalexander.com/blog/post/linux-unix/linux-unix-command-mashups/">Another
+brief introduction</a>.</p></li>
+<li><p><a href="https://ryanstutorials.net/linuxtutorial/piping.php">A
+more detailed tutorial</a>. This contains pretty much all you need to
+know. Carefully read it and play with the examples.</p></li>
+<li><p>Regular expression:</p>
+<ul>
+<li>Read <a
+href="https://www.guru99.com/linux-regular-expressions.html">Basic
+regular expression</a>. Watch the video in that page.</li>
+<li>Note that regular expression can be used in many Linux commands. The
+above link focuses on <code>grep</code>. Read <a
+href="http://www.interlude.org.uk/unix/Unix%20Reg%20exp%20stuff.htm">http://www.interlude.org.uk/unix/Unix%20Reg%20exp%20stuff.htm</a>
+for using regular expression in other commands.</li>
+</ul></li>
+<li><p>Do homework question 2.</p></li>
+</ul>
+<hr />
+<h3 id="day-3-miscellaneous-r-functions-r-base-graphics">Day 3:
+Miscellaneous R functions, R base graphics</h3>
+<p>Today we will first learn some R functions useful for the analysis of
+COVID-19 data.</p>
+<ul>
+<li>The <code>Date</code> class in R: <a
+href="https://www.statmethods.net/input/dates.html">https://www.statmethods.net/input/dates.html)</a>,
+<a
+href="https://riptutorial.com/r/topic/9015/the-date-class">https://riptutorial.com/r/topic/9015/the-date-class</a>.</li>
+<li>The <code>diff</code> function: read the function help and play with
+the examples. In the meantime, you can also play with the
+<code>cumsum</code> function.</li>
+<li>The <code>matplot</code> function. You have used this before. Read
+the function help and play with the examples to reinforce the
+memory.</li>
+</ul>
+<p>Next, we will do a systematic and comprehensive review of the R base
+graphics functionalities, even though you have learned and used some of
+them before. Read the following two lecture notes. They are for a
+Master’s level R programming class at Emory. If you understand all
+these, congratulation, because you are as good as a Biostatistics MS
+student.</p>
+<ul>
+<li><a href="R_Plot-intro.html">A high-level overview of R
+graphics</a></li>
+<li><a href="R_base_graphics.html">R base graphics</a></li>
+</ul>
+<p>Do homework question 3.</p>
+<hr />
+<h3 id="day-4-5-r-graphics-ggplot2">Day 4 &amp; 5: R graphics:
+ggplot2</h3>
+<p>We learned R base graphics yesterday. A new R graphics system,
+ggplot2, is more advanced and powerful. For today and tomorrow, we’ll
+learn ggplot2. Below is, again, the lecture notes for the Master’s level
+R programming class at Emory. Read the slides and play with the codes.
+Skip the contents for maps (<code>ggmap</code>, the last 20 or so
+pages). Some of the content can be difficult. Do what you can.</p>
+<ul>
+<li><a href="R_graphics_GGplot.pdf">Introduction to R graphics:
+ggplot2</a></li>
+</ul>
+<p>Do homework question 4. This is a real homework set for the R
+programming class. Talk to me if some of the questions are
+difficult.</p>
+</body>
+</html>
